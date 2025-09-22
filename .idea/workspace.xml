@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85d7beb6-87b0-487b-91c3-85fb207247ee" name="Changes" comment="Deleted file from main">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/items/pie_strawberry.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/models/item/pie_strawberry.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/food_bumsblech_salad.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/pie_strawberry.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
+    <list default="true" id="85d7beb6-87b0-487b-91c3-85fb207247ee" name="Changes" comment="Added Bumsblech Salad and Strawberry Pie">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/399fd572fbf4b1506166b148f656972ed2be6a35" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/399fd572fbf4b1506166b148f656972ed2be6a35" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModModelProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModFoodComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModFoodComponents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/de_de.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/de_de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/es_mx.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/es_mx.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/pt_br.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/pt_br.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/tastyvanilla/items/food_bumsblech_stew.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/tastyvanilla/models/item/food_bumsblech_stew.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/pie_strawberry.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/pie_strawberry.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +77,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Minecraft Client.executor": "Run",
+    "Gradle.Build Tasty Vanilla.executor": "Run",
     "Gradle.Tasty Vanilla [runDatagen].executor": "Run",
     "git-widget-placeholder": "1.21.4",
     "last_opened_file_path": "/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/Tasty Vanilla/src/main/resources/assets/tastyvanilla/items"
@@ -99,7 +91,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/models/item" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tasty Vanilla [runDatagen]">
+  <component name="RunManager" selected="Application.Minecraft Client">
     <configuration name="Tasty Vanilla [runDatagen]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -134,6 +126,36 @@
     </recent_temporary>
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Added Bumsblech Salad and Strawberry Pie&#10;&#10;(cherry picked from commit f8827283ba144c8a1d530e8b51bf67a7c1f17be9)">
+      <option name="closed" value="true" />
+      <created>1758581851849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758581851849</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Bumsblech Salad and Strawberry Pie">
+      <option name="closed" value="true" />
+      <created>1758583138773</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758583138773</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Bumsblech Salad and Strawberry Pie">
+      <option name="closed" value="true" />
+      <created>1758583265235</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758583265235</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Bumsblech Salad and Strawberry Pie&#10;&#10;(cherry picked from commit f8827283ba144c8a1d530e8b51bf67a7c1f17be9)" />
+    <MESSAGE value="Added Bumsblech Salad and Strawberry Pie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Bumsblech Salad and Strawberry Pie" />
   </component>
 </project>
