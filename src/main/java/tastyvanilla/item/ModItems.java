@@ -81,6 +81,7 @@ public class ModItems {
     public static final Item PIE_MUSHROOM = registerItem("pie_mushroom", new Item(new Item.Settings().food(ModFoodComponents.PIE_MUSHROOM).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_mushroom")))));
     public static final Item PIE_SHEPHERDS = registerItem("pie_shepherds", new Item(new Item.Settings().food(ModFoodComponents.PIE_SHEPHERDS).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_shepherds")))));
     public static final Item PIE_SWEET_BERRY = registerItem("pie_sweet_berry", new Item(new Item.Settings().food(ModFoodComponents.PIE_SWEET_BERRY).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_sweet_berry")))));
+    public static final Item PIE_STRAWBERRY = registerItem("pie_strawberry", new Item(new Item.Settings().food(ModFoodComponents.PIE_STRAWBERRY).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_strawberry")))));
     public static final Item PIE_VEGETABLE = registerItem("pie_vegetable", new Item(new Item.Settings().food(ModFoodComponents.PIE_VEGETABLE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_vegetable")))));
 
     //CROPS
@@ -118,6 +119,7 @@ public class ModItems {
     public static final Item FOOD_POTATO_FRIES = registerItem("food_potato_fries", new Item(new Item.Settings().food(ModFoodComponents.FOOD_POTATO_FRIES).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "food_potato_fries")))));
     public static final Item FOOD_COLESLAW = registerItem("food_coleslaw", new Item(new Item.Settings().food(ModFoodComponents.FOOD_COLESLAW).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "food_coleslaw")))));
     public static final Item FOOD_CHILLI_STEW = registerItem("food_chilli_stew", new Item(new Item.Settings().food(ModFoodComponents.FOOD_CHILLI_STEW).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "food_chilli_stew")))));
+    public static final Item FOOD_BUMSBLECH_SALAD = registerItem("food_bumsblech_stew", new Item(new Item.Settings().food(ModFoodComponents.FOOD_BUMSBLECH_SALAD).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "food_bumsblech_salad")))));
 
     public static final Item BREAD_GARLIC = registerItem("bread_garlic", new Item(new Item.Settings().food(ModFoodComponents.BREAD_GARLIC).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "bread_garlic")))));
     public static final Item DOUGH_GARLIC = registerItem("dough_garlic", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "dough_garlic")))));
@@ -211,6 +213,7 @@ public class ModItems {
             fabricItemGroupEntries.add(PIE_MUSHROOM);
             fabricItemGroupEntries.add(PIE_SHEPHERDS);
             fabricItemGroupEntries.add(PIE_SWEET_BERRY);
+            fabricItemGroupEntries.add(PIE_STRAWBERRY);
             fabricItemGroupEntries.add(PIE_VEGETABLE);
 
             //CROPS
@@ -237,6 +240,8 @@ public class ModItems {
             fabricItemGroupEntries.add(FOOD_WRAP_VEGGIE);
             fabricItemGroupEntries.add(FOOD_ONION_SOUP);
             fabricItemGroupEntries.add(FOOD_SWEET_POTATO_FRIES);
+            fabricItemGroupEntries.add(FOOD_BUMSBLECH_SALAD);
+
 
             fabricItemGroupEntries.add(BREAD_GARLIC);
 

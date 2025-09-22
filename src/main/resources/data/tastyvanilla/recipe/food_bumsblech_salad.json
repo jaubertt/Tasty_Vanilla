@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      [
+        "minecraft:bowl"
+      ],
+      [
+        "tastyvanilla:lettuce"
+      ],
+      [
+        "minecraft:cooked_chicken"
+      ],
+      [
+        "tastyvanilla:eggplant"
+      ]
+    ],
+    "result": {
+      "id": "tastyvanilla:food_bumsblech_salad",
+      "components": {
+        "minecraft:max_stack_size": 16
+
+    }
+  }
+}
