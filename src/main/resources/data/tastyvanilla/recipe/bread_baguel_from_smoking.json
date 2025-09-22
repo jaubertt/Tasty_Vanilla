@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": [
+    "tastyvanilla:dough_baguel"
+  ],
+  "result": {
+    "id": "tastyvanilla:bread_baguel"
+  },
+  "experience": 0.35,
+  "cookingtime": 100
+}

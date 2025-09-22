@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": [
+    "tastyvanilla:dough_flatbread"
+  ],
+  "result": {
+    "id": "tastyvanilla:bread_flatbread"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

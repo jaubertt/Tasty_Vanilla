@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": [
+    "tastyvanilla:dough_sourdough"
+  ],
+  "result": {
+    "id": "tastyvanilla:bread_sourdough"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

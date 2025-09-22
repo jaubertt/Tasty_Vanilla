@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"tastyvanilla.TastyVanillaDataGenerator"
+		],
+		"client":[
+			"tastyvanilla.TastyVanillaClient"
 		]
 	},
 	"mixins": [

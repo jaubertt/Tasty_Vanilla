@@ -1,0 +1,188 @@
+{
+  //COOKIES
+  "item.tastyvanilla.cookie_sweet_berry": "Sweet Berry Cookie",
+  "item.tastyvanilla.cookie_glow_berry": "Glow Berry Cookie",
+  "item.tastyvanilla.cookie_honey": "Honey Cookie",
+  "item.tastyvanilla.cookie_poppy_seed": "Poppy Seed Cookie",
+  "item.tastyvanilla.cookie_sunflower_seed": "Sunflower Seed Cookie",
+  "item.tastyvanilla.cookie_carrot": "Carrot Cookie",
+  "item.tastyvanilla.cookie_apple": "Apple Cookie",
+  "item.tastyvanilla.cookie_pumpkin": "Pumpkin Cookie",
+  "item.tastyvanilla.cookie_spider_eye": "Spider Eye Cookie",
+  "item.tastyvanilla.cookie_oatmeal": "Oatmeal Cookie",
+  "item.tastyvanilla.cookie_sugar": "Sugar Cookie",
+
+
+  //BREAD INGREDIENTS
+  "item.tastyvanilla.butter": "Butter",
+  "item.tastyvanilla.flour": "Flour",
+  "item.tastyvanilla.salt": "Salt",
+  "item.tastyvanilla.yeast": "Yeast",
+
+
+  //DOUGHS
+  "item.tastyvanilla.dough_baguel": "Baguel Dough",
+  "item.tastyvanilla.dough_baguette": "Baguette Dough",
+  "item.tastyvanilla.dough_baked_bread": "Baked Bread Dough",
+  "item.tastyvanilla.dough_brownie": "Brownie Dough",
+  "item.tastyvanilla.dough_croissant": "Croissant Dough",
+  "item.tastyvanilla.dough_flatbread": "Flatbread Dough",
+  "item.tastyvanilla.dough_focaccia": "Focaccia Dough",
+  "item.tastyvanilla.dough_honey": "Honey Dough",
+  "item.tastyvanilla.dough_multigrain": "Multigrain Dough",
+  "item.tastyvanilla.dough_pancakes": "Pancakes Dough",
+  "item.tastyvanilla.dough_sourdough": "Sourdough Dough",
+  "item.tastyvanilla.dough_sweet_roll": "Sweet Roll Dough",
+
+
+  //BREAD
+  "item.tastyvanilla.bread_baguel": "Baguel",
+  "item.tastyvanilla.bread_baguette": "Baguette",
+  "item.tastyvanilla.bread_baked": "Baked Bread",
+  "item.tastyvanilla.bread_brownie": "Brownie",
+  "item.tastyvanilla.bread_croissant": "Croissant",
+  "item.tastyvanilla.bread_flatbread": "Flatbread",
+  "item.tastyvanilla.bread_focaccia": "Focaccia",
+  "item.tastyvanilla.bread_honey": "Honey Bread",
+  "item.tastyvanilla.bread_multigrain": "Multigrain Bread",
+  "item.tastyvanilla.bread_pancakes": "Pancakes",
+  "item.tastyvanilla.bread_sourdough": "Sourdough Bread",
+  "item.tastyvanilla.bread_sweet_roll": "Sweet Roll",
+
+
+  //PIES
+  "item.tastyvanilla.pie_apple": "Apple Pie",
+  "item.tastyvanilla.pie_chicken": "Chicken Pie",
+  "item.tastyvanilla.pie_chocolate": "Chocolate Pie",
+  "item.tastyvanilla.pie_chorus_fruit": "Chorus Fruit Pie",
+  "item.tastyvanilla.pie_fish": "Fish Pie",
+  "item.tastyvanilla.pie_fungus": "Fungus Pie",
+  "item.tastyvanilla.pie_glow_berry": "Glow Berry Pie",
+  "item.tastyvanilla.pie_honey": "Honey Pie",
+  "item.tastyvanilla.pie_meat": "Meat Pie",
+  "item.tastyvanilla.pie_melon": "Melon Pie",
+  "item.tastyvanilla.pie_mushroom": "Mushroom Pie",
+  "item.tastyvanilla.pie_shepherds": "Shepherd's Pie",
+  "item.tastyvanilla.pie_sweet_berry": "Sweet Berry Pie",
+  "item.tastyvanilla.pie_vegetable": "Vegetable Pie",
+
+
+  //CROPS
+  "item.tastyvanilla.cabbage": "Cabbage",
+  "block.tastyvanilla.cabbage_crop": "Cabbage Crop" ,
+
+  "item.tastyvanilla.chilli": "Chilli",
+  "item.tastyvanilla.chilli_seeds": "Chilli Seeds",
+  "block.tastyvanilla.chilli_crop": "Chilli Crop" ,
+
+  "item.tastyvanilla.eggplant": "Eggplant",
+  "block.tastyvanilla.eggplant_crop": "Eggplant Crop" ,
+
+  "item.tastyvanilla.garlic": "Garlic",
+  "item.tastyvanilla.garlic_crop": "Garlic Crop",
+
+  "item.tastyvanilla.lettuce": "Lettuce",
+  "item.tastyvanilla.lettuce_seeds": "Lettuce Seeds",
+  "block.tastyvanilla.lettuce_crop": "Lettuce Crop" ,
+
+  "item.tastyvanilla.onion": "Onion",
+  "block.tastyvanilla.onion_crop": "Onion Crop" ,
+
+  "item.tastyvanilla.sweet_potato": "Sweet Potato",
+  "block.tastyvanilla.sweet_potato_crop": "Sweet Potato Crop" ,
+
+  "item.tastyvanilla.tomato": "Tomato",
+  "item.tastyvanilla.tomato_seeds": "Tomato Seeds",
+  "block.tastyvanilla.tomato_crop": "Tomato Crop" ,
+
+  "item.tastyvanilla.rice": "Rice",
+  "item.tastyvanilla.raw_rice": "Raw Rice",
+  "block.tastyvanilla.rice_crop": "Rice Crop",
+
+
+  //FOOD CROPS
+  "item.tastyvanilla.bread_garlic": "Garlic Bread",
+  "item.tastyvanilla.dough_garlic": "Garlic Dough",
+  "item.tastyvanilla.food_baked_sweet_potato": "Baked Sweet Potato",
+  "item.tastyvanilla.food_chilli_stew": "Chilli Stew",
+  "item.tastyvanilla.food_coleslaw": "Coleslaw",
+  "item.tastyvanilla.food_onion_soup": "Onion Soup",
+  "item.tastyvanilla.food_potato_fries": "Potato Fries",
+  "item.tastyvanilla.food_roasted_garlic": "Roasted Garlic",
+  "item.tastyvanilla.food_tomato_soup": "Tomato Soup",
+  "item.tastyvanilla.food_salad": "Salad",
+  "item.tastyvanilla.food_sweet_potato_fries": "Sweet Potato Fries",
+  "item.tastyvanilla.food_wrap": "Wrap",
+  "item.tastyvanilla.food_wrap_veggie": "Veggie Wrap",
+
+
+  //BERRIES & GRAPES
+  "item.tastyvanilla.berry_blackberries": "Blackberries",
+  "block.tastyvanilla.berry_blackberry_bush": "Blackberry Bush" ,
+
+  "item.tastyvanilla.berry_blueberries": "Blueberries",
+  "block.tastyvanilla.berry_blueberry_bush": "Blueberry Bush" ,
+
+  "item.tastyvanilla.berry_elderberries": "Elderberries",
+  "block.tastyvanilla.berry_elderberry_bush": "Elderberry Bush" ,
+
+  "item.tastyvanilla.berry_goji_berries": "Goji Berries",
+  "block.tastyvanilla.berry_goji_berry_bush": "Goji Berry Bush" ,
+
+  "item.tastyvanilla.berry_gooseberries": "Gooseberries",
+  "block.tastyvanilla.berry_gooseberry_bush": "Gooseberry Bush" ,
+
+  "item.tastyvanilla.berry_raspberries": "Raspberries",
+  "block.tastyvanilla.berry_raspberry_bush": "Raspberry Bush" ,
+
+  "item.tastyvanilla.berry_strawberries": "Strawberry",
+  "block.tastyvanilla.berry_strawberry_bush": "strawberry Bush" ,
+
+  "item.tastyvanilla.berry_white_currant_berries": "White Currant Berries",
+  "block.tastyvanilla.berry_white_currant_berry_bush": "White Currant Bush" ,
+
+  //JAMS
+  "item.tastyvanilla.glass_jar": "Glass Jar",
+
+  "item.tastyvanilla.jam_blackberry": "Blackberry Jam",
+  "item.tastyvanilla.jam_blueberry": "Blueberry Jam",
+  "item.tastyvanilla.jam_elderberry": "Elderberry Jam",
+  "item.tastyvanilla.jam_goji_berry": "Goji Berry Jam",
+  "item.tastyvanilla.jam_gooseberry": "Gooseberry Jam",
+  "item.tastyvanilla.jam_raspberry": "Raspberry Jam",
+  "item.tastyvanilla.jam_sweet_berry": "Sweet Berry Jam",
+  "item.tastyvanilla.jam_strawberry": "Strawberry Jam",
+  "item.tastyvanilla.jam_white_currant_berry": "White Currant Jam",
+
+  "item.tastyvanilla.jam_blackberry_mash": "Blackberry Mash",
+  "item.tastyvanilla.jam_blueberry_mash": "Blueberry Mash",
+  "item.tastyvanilla.jam_elderberry_mash": "Elderberry Mash",
+  "item.tastyvanilla.jam_goji_berry_mash": "Goji Berry Mash",
+  "item.tastyvanilla.jam_gooseberry_mash": "Gooseberry Mash",
+  "item.tastyvanilla.jam_raspberry_mash": "Raspberry Mash",
+  "item.tastyvanilla.jam_sweet_berry_mash": "Sweet Berry Mash",
+  "item.tastyvanilla.jam_strawberry_mash": "Strawberry Mash",
+  "item.tastyvanilla.jam_white_currant_berry_mash": "White Currant Mash",
+
+
+  //MILK & CHEESE
+  "item.tastyvanilla.goat_milk_bucket": "Goat Milk Bucket",
+  "item.tastyvanilla.sheep_milk_bucket": "Sheep Milk Bucket",
+
+
+  "item.tastyvanilla.cheese_fresh": "Fresh Cheese",
+  "block.tastyvanilla.cheese_fresh": "Fresh Cheese",
+  "item.tastyvanilla.cheese_soft": "Soft Cheese",
+  "block.tastyvanilla.cheese_soft": "Soft Cheese",
+  "item.tastyvanilla.cheese_semihard": "Semihard Cheese",
+  "block.tastyvanilla.cheese_semihard": "Semihard Cheese",
+  "item.tastyvanilla.cheese_hard": "Hard Cheese",
+  "block.tastyvanilla.cheese_hard": "Hard Cheese",
+
+
+  //BLOCKS
+  "block.tastyvanilla.salt_block": "Block of Salt",
+  "item.tastyvanilla.salt_block": "Block of Salt",
+  "block.tastyvanilla.sugar_block": "Block of Sugar",
+  "item.tastyvanilla.sugar_block": "Block of Sugar"
+}

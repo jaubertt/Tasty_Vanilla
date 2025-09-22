@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": [
+    "tastyvanilla:dough_baguette"
+  ],
+  "result": {
+    "id": "tastyvanilla:bread_baguette"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": [
+    "tastyvanilla:dough_honey"
+  ],
+  "result": {
+    "id": "tastyvanilla:bread_honey"
+  },
+  "experience": 0.35,
+  "cookingtime": 100
+}

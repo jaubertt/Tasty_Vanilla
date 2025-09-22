@@ -11,7 +11,7 @@ classes/
 
 # idea
 
-.idea/
+.idea(not to be used)/
 *.iml
 *.ipr
 *.iws

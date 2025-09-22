@@ -19,7 +19,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import tastyvanilla.item.ModItems;
 
 @Mixin(GoatEntity.class)
-public class GoatMixin extends AnimalEntity {
+public abstract class GoatMixin extends AnimalEntity {
 
     protected GoatMixin(EntityType<? extends AnimalEntity> entityType, World world) {
         super(entityType, world);

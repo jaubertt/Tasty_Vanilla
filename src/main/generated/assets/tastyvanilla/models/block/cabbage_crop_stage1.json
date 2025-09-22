@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "tastyvanilla:block/cabbage_crop_stage1"
+  }
+}

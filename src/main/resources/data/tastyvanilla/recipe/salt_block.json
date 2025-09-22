@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": [
+      "tastyvanilla:salt"
+    ]
+  },
+  "result": {
+    "id": "tastyvanilla:salt_block",
+    "count": 1
+  }
+}

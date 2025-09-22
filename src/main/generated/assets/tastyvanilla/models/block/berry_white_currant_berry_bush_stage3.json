@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "tastyvanilla:block/berry_white_currant_berry_bush_stage3"
+  }
+}

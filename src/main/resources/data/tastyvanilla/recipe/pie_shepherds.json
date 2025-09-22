@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:egg"
+    ],
+    [
+      "tastyvanilla:salt"
+    ],
+    [
+      "minecraft:cooked_mutton"
+    ],
+    [
+      "minecraft:potato"
+    ],
+    [
+      "minecraft:carrot"
+    ]
+  ],
+  "result": {
+    "id": "tastyvanilla:pie_shepherds",
+    "count": 1
+  }
+}

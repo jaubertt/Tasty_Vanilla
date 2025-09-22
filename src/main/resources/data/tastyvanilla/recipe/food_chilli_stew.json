@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:bowl"
+    ],
+    [
+      "minecraft:cooked_chicken",
+      "minecraft:cooked_porkchop",
+      "minecraft:cooked_beef",
+      "minecraft:cooked_rabbit",
+      "minecraft:cooked_mutton"
+    ],
+    [
+      "tastyvanilla:tomato"
+    ],
+    [
+      "tastyvanilla:chilli"
+    ],
+    [
+      "tastyvanilla:salt"
+    ]
+  ],
+  "result": {
+    "id": "tastyvanilla:food_chilli_stew",
+    "components": {
+      "minecraft:max_stack_size": 16
+
+    }
+  }
+}

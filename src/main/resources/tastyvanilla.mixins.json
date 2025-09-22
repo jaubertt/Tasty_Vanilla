@@ -3,12 +3,10 @@
 	"package": "tastyvanilla.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"GoatMixin",
+		"FarmerWorkTaskMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
 	}
 }

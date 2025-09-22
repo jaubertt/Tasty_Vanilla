@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:egg"
+    ],
+    [
+      "minecraft:sugar"
+    ],
+    [
+      "minecraft:chorus_fruit"
+    ]
+  ],
+  "result": {
+    "id": "tastyvanilla:pie_chorus_fruit",
+    "count": 1
+  }
+}

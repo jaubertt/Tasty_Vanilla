@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:egg"
+    ],
+    [
+      "tastyvanilla:salt"
+    ],
+    [
+      "minecraft:crimson_fungus"
+    ],
+    [
+      "minecraft:warped_fungus"
+    ],
+    [
+      "tastyvanilla:butter"
+    ]
+  ],
+  "result": {
+    "id": "tastyvanilla:pie_fungus",
+    "count": 1
+  }
+}
