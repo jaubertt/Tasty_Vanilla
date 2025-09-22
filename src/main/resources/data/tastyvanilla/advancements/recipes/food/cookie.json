@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+
+    "has_wheat": {
+      "conditions": {"items": [{"items": "minecraft:wheat"}]},
+      "trigger": "minecraft:inventory_changed"},
+
+    "has_the_recipe": {
+      "conditions": {"recipe": "minecraft:cookie"},
+      "trigger": "minecraft:recipe_unlocked"}
+  },
+
+
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_wheat"
+    ]
+  ],
+
+  "rewards": {"recipes": [
+      "tastyvanilla:cookie_apple",
+      "tastyvanilla:cookie_carrot",
+      "tastyvanilla:cookie_glow_berry",
+      "tastyvanilla:cookie_honey",
+      "tastyvanilla:cookie_oatmeal",
+      "tastyvanilla:cookie_poppy_seed",
+      "tastyvanilla:cookie_pumpkin",
+      "tastyvanilla:cookie_spider_eye",
+      "tastyvanilla:cookie_sugar",
+      "tastyvanilla:cookie_sunflower_seeds",
+      "tastyvanilla:cookie_sweet_berry"
+    ]}
+}
