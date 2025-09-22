@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": [
+    "tastyvanilla:dough_sweet_roll"
+  ],
+  "result": {
+    "id": "tastyvanilla:bread_sweet_roll"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

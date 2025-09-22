@@ -1,0 +1,14 @@
+// 1.21.4	-999999999-01-01T00:00:00	TastyVanilla/Tags for minecraft:item
+ba6052ad1c352cc778217a0c82bb5a40864830bb data/minecraft/tags/item/chicken_food.json
+14fc61cba94c8b5a75ca30db87d495b7ee45ca43 data/minecraft/tags/item/cow_food.json
+b80c9f615cb15b30023768eaf15359f4fcdec9f3 data/minecraft/tags/item/fox_food.json
+14fc61cba94c8b5a75ca30db87d495b7ee45ca43 data/minecraft/tags/item/goat_food.json
+14fc61cba94c8b5a75ca30db87d495b7ee45ca43 data/minecraft/tags/item/horse_food.json
+ba6052ad1c352cc778217a0c82bb5a40864830bb data/minecraft/tags/item/parrot_food.json
+057a4a61cddbaab1041da15ad313154e2eae42e5 data/minecraft/tags/item/parrot_poisonous_food.json
+2efd0e8980ab97239e9ec18561b4362db07b6afb data/minecraft/tags/item/pig_food.json
+7d0ff7039a5c4a756394e91b8740dba626449a42 data/minecraft/tags/item/rabbit_food.json
+14fc61cba94c8b5a75ca30db87d495b7ee45ca43 data/minecraft/tags/item/sheep_food.json
+1aa5bd926f1f1813c9eef284db3f3a337eee4c66 data/minecraft/tags/item/villager_picks_up.json
+2fc4d13560c206a8c0ffa9e2ce36741a252d2cc1 data/minecraft/tags/item/villager_plantable_seeds.json
+4d090cedd526072261d249e97952ea3f1b51e51b data/tastyvanilla/tags/item/mod_foods.json

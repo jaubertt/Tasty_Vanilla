@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#X#"
+  ],
+  "key": {
+    "#": "minecraft:wheat",
+    "X": "minecraft:glow_berries"
+  },
+  "result": {
+    "id": "tastyvanilla:cookie_glow_berry",
+    "count": 8
+  }
+}

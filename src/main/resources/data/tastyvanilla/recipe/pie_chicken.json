@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:egg"
+    ],
+    [
+      "tastyvanilla:salt"
+    ],
+    [
+      "minecraft:cooked_chicken"
+    ],
+    [
+      "tastyvanilla:butter"
+    ]
+  ],
+  "result": {
+    "id": "tastyvanilla:pie_chicken",
+    "count": 1
+  }
+}

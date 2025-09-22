@@ -1,0 +1,13 @@
+{
+  "values": [
+    "tastyvanilla:cabbage_crop",
+    "tastyvanilla:garlic_crop",
+    "tastyvanilla:lettuce_crop",
+    "tastyvanilla:onion_crop",
+
+    "tastyvanilla:berry_blackberry_bush",
+    "tastyvanilla:berry_goji_berry_bush",
+    "tastyvanilla:berry_elderberry_bush",
+    "tastyvanilla:berry_raspberry_bush"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:egg"
+    ],
+    [
+      "minecraft:sugar"
+    ],
+    [
+      "minecraft:glow_berries"
+    ]
+  ],
+  "result": {
+    "id": "tastyvanilla:pie_glow_berry",
+    "count": 1
+  }
+}

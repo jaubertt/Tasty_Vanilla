@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "tastyvanilla:flour"
+    ],
+    [
+      "minecraft:milk_bucket"
+    ],
+    [
+      "tastyvanilla:butter"
+    ],
+    [
+      "tastyvanilla:yeast"
+    ]
+  ],
+  "result": {
+    "id": "tastyvanilla:dough_croissant",
+    "count": 3
+  }
+}

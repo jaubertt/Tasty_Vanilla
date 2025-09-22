@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": [
+    "tastyvanilla:jam_raspberry_mash"
+  ],
+  "result": {
+    "id": "tastyvanilla:jam_raspberry"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": [
+    "tastyvanilla:jam_white_currant_berry_mash"
+  ],
+  "result": {
+    "id": "tastyvanilla:jam_white_currant_berry"
+  },
+  "experience": 0.35,
+  "cookingtime": 400
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:milk_bucket"
+    ],
+    [
+      "tastyvanilla:salt"
+    ]
+  ],
+  "result": {
+    "id": "tastyvanilla:butter",
+    "count": 3
+  }
+}

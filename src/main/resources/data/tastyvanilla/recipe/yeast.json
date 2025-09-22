@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:brown_mushroom",
+      "minecraft:red_mushroom"
+    ],
+    [
+      "minecraft:sugar"
+    ],
+    [
+      "minecraft:beetroot_seeds",
+      "minecraft:melon_seeds",
+      "minecraft:pumpkin_seeds",
+      "minecraft:wheat_seeds",
+      "tastyvanilla:tomato_seeds",
+      "tastyvanilla:lettuce_seeds",
+      "tastyvanilla:chilli_seeds"
+    ]
+  ],
+  "result": {
+    "id": "tastyvanilla:yeast",
+    "count": 3
+  }
+}

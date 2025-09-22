@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "# #",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": [
+      "minecraft:glass"
+    ]
+  },
+  "result": {
+    "id": "tastyvanilla:glass_jar",
+    "count": 7
+  }
+}

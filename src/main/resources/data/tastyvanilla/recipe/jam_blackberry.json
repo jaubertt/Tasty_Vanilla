@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": [
+    "tastyvanilla:jam_blackberry_mash"
+  ],
+  "result": {
+    "id": "tastyvanilla:jam_blackberry"
+  },
+  "experience": 0.35,
+  "cookingtime": 400
+}

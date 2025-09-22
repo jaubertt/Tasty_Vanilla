@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:egg"
+    ],
+    [
+      "minecraft:sugar"
+    ],
+    [
+      "minecraft:honey_bottle"
+    ]
+  ],
+  "result": {
+    "id": "tastyvanilla:pie_honey",
+    "count": 1
+  }
+}

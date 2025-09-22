@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": [
+    "tastyvanilla:garlic"
+  ],
+  "result": {
+    "id": "tastyvanilla:food_roasted_garlic"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

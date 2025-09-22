@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      [
+        "minecraft:egg"
+      ],
+      [
+        "tastyvanilla:onion"
+      ],
+      [
+        "tastyvanilla:flour"
+      ]
+    ],
+    "result": {
+      "id": "tastyvanilla:food_onion_ring"
+  }
+}
