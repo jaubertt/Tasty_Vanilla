@@ -1,0 +1,94 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"dc4fb4ac-10af-4184-aa13-c3e6b209727b\" name=\"Changes\" comment=\"Deleted file from main\">\n      <change beforePath=\"$PROJECT_DIR$/.gitignore\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanilla.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanilla.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanillaClient.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanillaClient.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanillaDataGenerator.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanillaDataGenerator.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/tastyvanilla/mixin/GoatMixin.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/tastyvanilla/mixin/GoatMixin.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/fabric.mod.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/fabric.mod.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/tastyvanilla.mixins.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/tastyvanilla.mixins.json\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"ExternalProjectsManager\">\n    <system id=\"GRADLE\">\n      <state>\n        <task path=\"$PROJECT_DIR$\">\n          <activation />\n        </task>\n        <projects_view>\n          <tree_state>\n            <expand>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"Tasty Vanilla\" type=\"f1a62948:ProjectNode\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"Tasty Vanilla\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"Tasty Vanilla\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\n                <item name=\"build\" type=\"c8890929:TasksNode$1\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"Tasty Vanilla\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\n                <item name=\"fabric\" type=\"c8890929:TasksNode$1\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"Tasty Vanilla\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\n                <item name=\"other\" type=\"c8890929:TasksNode$1\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"Tasty Vanilla\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"Dependencies\" type=\"6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode\" />\n              </path>\n            </expand>\n            <select />\n          </tree_state>\n        </projects_view>\n      </state>\n    </system>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"1.21.4\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;jaubertt&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/jaubertt/tastyvanilla-1.21.4_Relaunch.git&quot;,\n    &quot;accountId&quot;: &quot;7b38c3fa-70b9-460f-a04e-5aa246725766&quot;\n  }\n}</component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 8\n}</component>\n  <component name=\"ProjectId\" id=\"32yVWFJ3qcWQq0sFR5SMWRE9tKZ\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"Application.Minecraft Client.executor\": \"Run\",\n    \"Gradle.Build Tasty Vanilla.executor\": \"Run\",\n    \"Gradle.Download Sources.executor\": \"Run\",\n    \"Gradle.Load Gradle Dependencies.executor\": \"Run\",\n    \"Gradle.Tasty Vanilla [build].executor\": \"Run\",\n    \"Gradle.Tasty Vanilla [configureClientLaunch].executor\": \"Run\",\n    \"Gradle.Tasty Vanilla [genSources].executor\": \"Run\",\n    \"Gradle.Tasty Vanilla [runClient].executor\": \"Run\",\n    \"Gradle.tastyvanilla-1.21.4_Relaunch [:net.fabricmc.devlaunchinjector.Main.main()].executor\": \"Run\",\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.git.unshallow\": \"true\",\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"git-widget-placeholder\": \"main\",\n    \"last_opened_file_path\": \"/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/Tasty Vanilla\",\n    \"project.structure.last.edited\": \"Libraries\",\n    \"project.structure.proportion\": \"0.0\",\n    \"project.structure.side.proportion\": \"0.2\",\n    \"settings.editor.selected.configurable\": \"project.propVCSSupport.Mappings\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/block\" />\n      <recent name=\"$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item\" />\n      <recent name=\"$PROJECT_DIR$/src/main/resources/data/tastyvanilla\" />\n      <recent name=\"$PROJECT_DIR$/src/main/resources/data/tastyvanilla/loot_table/blocks\" />\n      <recent name=\"$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/block\" />\n      <recent name=\"$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item\" />\n      <recent name=\"$PROJECT_DIR$/src/main/resources/assets\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"tastyvanilla.block.custom\" />\n      <recent name=\"tastyvanilla.mixin\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Gradle.Tasty Vanilla [build]\">\n    <configuration name=\"Tasty Vanilla [build]\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\"build\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <RunAsTest>false</RunAsTest>\n      <method v=\"2\" />\n    </configuration>\n    <list>\n      <item itemvalue=\"Application.Data Generation\" />\n      <item itemvalue=\"Application.Minecraft Client\" />\n      <item itemvalue=\"Application.Minecraft Server\" />\n      <item itemvalue=\"Gradle.Tasty Vanilla [build]\" />\n    </list>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Gradle.Tasty Vanilla [build]\" />\n        <item itemvalue=\"Gradle.Tasty Vanilla [build]\" />\n        <item itemvalue=\"Gradle.Tasty Vanilla [build]\" />\n        <item itemvalue=\"Gradle.Tasty Vanilla [build]\" />\n        <item itemvalue=\"Gradle.Tasty Vanilla [build]\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"dc4fb4ac-10af-4184-aa13-c3e6b209727b\" name=\"Changes\" comment=\"\" />\n      <created>1758392828220</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1758392828220</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Deleted file from main\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1758577248639</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1758577248639</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"1.21.4\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"RELOAD_CONTEXT\" value=\"false\" />\n    <MESSAGE value=\"Deleted file from main\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Deleted file from main\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e2154360916931e0e3239b394d6a7d89501a96e6)
++++ b/.idea/workspace.xml	(date 1758578454551)
+@@ -4,14 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Deleted file from main">
+-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanilla.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanillaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanillaClient.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanillaDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanillaDataGenerator.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/mixin/GoatMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/mixin/GoatMixin.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/tastyvanilla.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tastyvanilla.mixins.json" afterDir="false" />
++    <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/de_de.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/pt_br.json" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/es_mx.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/es_mx.json" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -98,6 +95,9 @@
+     &quot;accountId&quot;: &quot;7b38c3fa-70b9-460f-a04e-5aa246725766&quot;
+   }
+ }</component>
++  <component name="ProblemsViewState">
++    <option name="selectedTabId" value="CurrentFile" />
++  </component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 8
+ }</component>
+@@ -108,30 +108,30 @@
+   <component name="ProjectViewState">
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "Application.Minecraft Client.executor": "Run",
+-    "Gradle.Build Tasty Vanilla.executor": "Run",
+-    "Gradle.Download Sources.executor": "Run",
+-    "Gradle.Load Gradle Dependencies.executor": "Run",
+-    "Gradle.Tasty Vanilla [build].executor": "Run",
+-    "Gradle.Tasty Vanilla [configureClientLaunch].executor": "Run",
+-    "Gradle.Tasty Vanilla [genSources].executor": "Run",
+-    "Gradle.Tasty Vanilla [runClient].executor": "Run",
+-    "Gradle.tastyvanilla-1.21.4_Relaunch [:net.fabricmc.devlaunchinjector.Main.main()].executor": "Run",
+-    "ModuleVcsDetector.initialDetectionPerformed": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "main",
+-    "last_opened_file_path": "/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/Tasty Vanilla",
+-    "project.structure.last.edited": "Libraries",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.2",
+-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;Application.Minecraft Client.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.Build Tasty Vanilla.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.Load Gradle Dependencies.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.Tasty Vanilla [build].executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.Tasty Vanilla [configureClientLaunch].executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.Tasty Vanilla [genSources].executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.Tasty Vanilla [runClient].executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.tastyvanilla-1.21.4_Relaunch [:net.fabricmc.devlaunchinjector.Main.main()].executor&quot;: &quot;Run&quot;,
++    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;last_opened_file_path&quot;: &quot;/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/Tasty Vanilla&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/block" />

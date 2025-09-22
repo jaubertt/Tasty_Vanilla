@@ -1,0 +1,178 @@
+{
+  //COOKIES
+  "item.tastyvanilla.cookie_sweet_berry": "Süßbeeren Keks",
+  "item.tastyvanilla.cookie_glow_berry": "Leuchtbeeren Keks",
+  "item.tastyvanilla.cookie_honey": "Honig Keks",
+  "item.tastyvanilla.cookie_poppy_seed": "Mohnkeks",
+  "item.tastyvanilla.cookie_sunflower_seed": "Sonnenblumen Keks",
+  "item.tastyvanilla.cookie_carrot": "Karotten Keks",
+  "item.tastyvanilla.cookie_apple": "Apfel Keks",
+  "item.tastyvanilla.cookie_pumpkin": "Kürbis Keks",
+  "item.tastyvanilla.cookie_spider_eye": "Spinnenaugen Keks",
+  "item.tastyvanilla.cookie_oatmeal": "Haferkeks",
+  "item.tastyvanilla.cookie_sugar": "Zucker Keks",
+
+  //BREAD INGREDIENTS
+  "item.tastyvanilla.butter": "Butter",
+  "item.tastyvanilla.flour": "Mehl",
+  "item.tastyvanilla.salt": "Salz",
+  "item.tastyvanilla.yeast": "Hefe",
+
+
+  //DOUGHS
+  "item.tastyvanilla.dough_baguel": "Bagelteig",
+  "item.tastyvanilla.dough_baguette": "Baguetteteig",
+  "item.tastyvanilla.dough_baked_bread": "Gebackener Brotteig",
+  "item.tastyvanilla.dough_brownie": "Brownieteig",
+  "item.tastyvanilla.dough_croissant": "Croissantteig",
+  "item.tastyvanilla.dough_flatbread": "Fladenbrotteig",
+  "item.tastyvanilla.dough_focaccia": "Focaccia Teig",
+  "item.tastyvanilla.dough_honey": "Honigteig",
+  "item.tastyvanilla.dough_multigrain": "Mehrkornteig",
+  "item.tastyvanilla.dough_pancakes": "Pfannkuchenteig",
+  "item.tastyvanilla.dough_sourdough": "Sauerteig",
+  "item.tastyvanilla.dough_sweet_roll": "Süßer Brötchenteig",
+
+  //BREAD
+  "item.tastyvanilla.bread_baguel": "Bagel",
+  "item.tastyvanilla.bread_baguette": "Baguette",
+  "item.tastyvanilla.bread_baked": "Gebackenes Brot",
+  "item.tastyvanilla.bread_brownie": "Brownie",
+  "item.tastyvanilla.bread_croissant": "Croissant",
+  "item.tastyvanilla.bread_flatbread": "Fladenbrot",
+  "item.tastyvanilla.bread_focaccia": "Focaccia",
+  "item.tastyvanilla.bread_honey": "Honigbrot",
+  "item.tastyvanilla.bread_multigrain": "Mehrkorn Brot",
+  "item.tastyvanilla.bread_pancakes": "Pfannenkuchen",
+  "item.tastyvanilla.bread_sourdough": "Sauerteigbrot",
+  "item.tastyvanilla.bread_sweet_roll": "Süßes Brötchen",
+
+  //PIES
+  "item.tastyvanilla.pie_apple": "Apfelkuchen",
+  "item.tastyvanilla.pie_chicken": "Chicken-Pie",
+  "item.tastyvanilla.pie_chocolate": "Schokoladenkuchen",
+  "item.tastyvanilla.pie_chorus_fruit": "Chorus Frucht kuchen",
+  "item.tastyvanilla.pie_fish": "Fish-Pie",
+  "item.tastyvanilla.pie_fungus": "Pilzkuchen",
+  "item.tastyvanilla.pie_glow_berry": "Leuchtbeeren Kuchen",
+  "item.tastyvanilla.pie_honey": "Honigkuchen",
+  "item.tastyvanilla.pie_meat": "Meat-Pie",
+  "item.tastyvanilla.pie_melon": "Melonenkuchen",
+  "item.tastyvanilla.pie_mushroom": "Pilz-Kuchen",
+  "item.tastyvanilla.pie_shepherds": "Shepherd's-Pie",
+  "item.tastyvanilla.pie_sweet_berry": "Süßbeeren Kuchen",
+  "item.tastyvanilla.pie_vegetable": "Vegetarischer Kuchen",
+
+  //CROPS
+  "item.tastyvanilla.cabbage": "Kohl",
+  "block.tastyvanilla.cabbage_crop": "Kohl" ,
+
+  "item.tastyvanilla.chilli": "Chilli",
+  "item.tastyvanilla.chilli_seeds": "Chillisamen",
+  "block.tastyvanilla.chilli_crop": "Chilli" ,
+
+  "item.tastyvanilla.eggplant": "Aubergine",
+  "block.tastyvanilla.eggplant_crop": "Aubergine" ,
+
+  "item.tastyvanilla.garlic": "Knoblauch",
+  "item.tastyvanilla.garlic_crop": "Knoblauch",
+
+  "item.tastyvanilla.lettuce": "Kopfsalat",
+  "item.tastyvanilla.lettuce_seeds": "Kopfsalatsamen",
+  "block.tastyvanilla.lettuce_crop": "Kopfsalat" ,
+
+  "item.tastyvanilla.onion": "Zwiebel",
+  "block.tastyvanilla.onion_crop": "Zwiebel" ,
+
+  "item.tastyvanilla.sweet_potato": "Süßkartoffel",
+  "block.tastyvanilla.sweet_potato_crop": "Süßkartoffel" ,
+
+  "item.tastyvanilla.tomato": "Tomate",
+  "item.tastyvanilla.tomato_seeds": "Tomatensamen",
+  "block.tastyvanilla.tomato_crop": "Tomate" ,
+
+  //FOOD CROPS
+  "item.tastyvanilla.bread_garlic": "Zwiebelbrot",
+  "item.tastyvanilla.dough_garlic": "Zwiebel Teig",
+  "item.tastyvanilla.food_baked_sweet_potato": "Gebackene Süßkartoffel",
+  "item.tastyvanilla.food_chilli_stew": "Chilli Eintopf",
+  "item.tastyvanilla.food_coleslaw": "Krautsalat",
+  "item.tastyvanilla.food_onion_soup": "Zwiebelsuppe",
+  "item.tastyvanilla.food_potato_fries": "Pommes",
+  "item.tastyvanilla.food_roasted_garlic": "Gerösteter Knoblauch",
+  "item.tastyvanilla.food_tomato_soup": "Tomatensuppe",
+  "item.tastyvanilla.food_salad": "Salat",
+  "item.tastyvanilla.food_sweet_potato_fries": "Süßkartoffel Pommes",
+  "item.tastyvanilla.food_wrap": "Wrap",
+  "item.tastyvanilla.food_wrap_veggie": "Veggie Wrap",
+
+
+  //BERRIES & GRAPES
+  "item.tastyvanilla.berry_blackberries": "Brombeeren",
+  "block.tastyvanilla.berry_blackberry_bush": "Brombeerstrauch",
+
+  "item.tastyvanilla.berry_blueberries": "Blaubeeren",
+  "block.tastyvanilla.berry_blueberry_bush": "Blaubeerstrauch",
+
+  "item.tastyvanilla.berry_elderberries": "Holunderbeeren",
+  "block.tastyvanilla.berry_elderberry_bush": "Holunderstrauch",
+
+  "item.tastyvanilla.berry_goji_berries": "Gojibeeren",
+  "block.tastyvanilla.berry_goji_berry_bush": "Gojibeerenstrauch",
+
+  "item.tastyvanilla.berry_gooseberries": "Stachelbeeren",
+  "block.tastyvanilla.berry_gooseberry_bush": "Stachelbeerstrauch",
+
+  "item.tastyvanilla.berry_raspberries": "Himbeeren",
+  "block.tastyvanilla.berry_raspberry_bush": "Himbeerstrauch",
+
+  "item.tastyvanilla.berry_strawberries": "Erdbeeren",
+  "block.tastyvanilla.berry_strawberry_bush": "Erdbeerstrauch",
+
+  "item.tastyvanilla.berry_white_currant_berries": "Weiße Johannisbeeren",
+  "block.tastyvanilla.berry_white_currant_berry_bush": "Weißer Johannisbeerstrauch",
+
+
+  //JAMS
+  "item.tastyvanilla.glass_jar": "Einmachglas",
+
+  "item.tastyvanilla.jam_blackberry": "Brombeermarmelade",
+  "item.tastyvanilla.jam_blueberry": "Blaubeermarmelade",
+  "item.tastyvanilla.jam_elderberry": "Holundermarmelade",
+  "item.tastyvanilla.jam_goji_berry": "Gojibeerenmarmelade",
+  "item.tastyvanilla.jam_gooseberry": "Stachelbeermarmelade",
+  "item.tastyvanilla.jam_raspberry": "Himbeermarmelade",
+  "item.tastyvanilla.jam_sweet_berry": "Süßbeerenmarmelade",
+  "item.tastyvanilla.jam_strawberry": "Erdbeermarmelade",
+  "item.tastyvanilla.jam_white_currant_berry": "Weiße Johannisbeermarmelade",
+
+  "item.tastyvanilla.jam_blackberry_mash": "Brombeermus",
+  "item.tastyvanilla.jam_blueberry_mash": "Blaubeermus",
+  "item.tastyvanilla.jam_elderberry_mash": "Holundermus",
+  "item.tastyvanilla.jam_goji_berry_mash": "Gojibeerenmus",
+  "item.tastyvanilla.jam_gooseberry_mash": "Stachelbeermus",
+  "item.tastyvanilla.jam_raspberry_mash": "Himbeermus",
+  "item.tastyvanilla.jam_sweet_berry_mash": "Süßbeerenmus",
+  "item.tastyvanilla.jam_strawberry_mash": "Erdbeermus",
+  "item.tastyvanilla.jam_white_currant_berry_mash": "Weißes Johannisbeermus",
+
+
+  //MILK & CHEESE
+  "item.tastyvanilla.goat_milk_bucket": "Ziegenmilcheimer",
+  "item.tastyvanilla.sheep_milk_bucket": "Schafsmilcheimer",
+
+  "item.tastyvanilla.cheese_fresh": "Frischkäse",
+  "block.tastyvanilla.cheese_fresh": "Frischkäse",
+  "item.tastyvanilla.cheese_soft": "Weichkäse",
+  "block.tastyvanilla.cheese_soft": "Weichkäse",
+  "item.tastyvanilla.cheese_semihard": "Halbhartkäse",
+  "block.tastyvanilla.cheese_semihard": "Halbhartkäse",
+  "item.tastyvanilla.cheese_hard": "Hartkäse",
+  "block.tastyvanilla.cheese_hard": "Hartkäse",
+
+  //BLOCKS
+  "block.tastyvanilla.salt_block": "Salzblock",
+  "item.tastyvanilla.salt_block": "Salzblock",
+  "block.tastyvanilla.sugar_block": "Zuckerblock",
+  "item.tastyvanilla.sugar_block": "Zuckerblock"
+}
