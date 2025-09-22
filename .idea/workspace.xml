@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Added Bumsblech Salad and Strawberry Pie">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/tastyvanilla/items/food_bumsblech_stew.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/assets/tastyvanilla/items/food_bumsblech_stew.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/food_bumsblech_salad.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/food_bumsblech_salad.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/pie_strawberry.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/pie_strawberry.json" afterDir="false" />
-    </list>
+    <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Added Bumsblech Salad and Strawberry Pie" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +118,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/Tasty Vanilla",
+    "last_opened_file_path": "/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/Tasty Vanilla/src/main/resources/assets/tastyvanilla/textures/item",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -132,8 +127,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/block" />
       <recent name="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/block" />
       <recent name="$PROJECT_DIR$/src/main/resources/data/tastyvanilla" />
       <recent name="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/loot_table/blocks" />
       <recent name="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe" />
@@ -219,7 +214,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758581002161</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Bumsblech Salad and Strawberry Pie">
+      <option name="closed" value="true" />
+      <created>1758581648623</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758581648623</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added Bumsblech Salad and Strawberry Pie">
+      <option name="closed" value="true" />
+      <created>1758581658389</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758581658389</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
