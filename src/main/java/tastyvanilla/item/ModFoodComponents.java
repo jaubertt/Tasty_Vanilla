@@ -55,6 +55,7 @@ public class ModFoodComponents {
     public static final FoodComponent PIE_MUSHROOM = new FoodComponent.Builder().nutrition(8).saturationModifier(0.8f).build();
     public static final FoodComponent PIE_SHEPHERDS = new FoodComponent.Builder().nutrition(8).saturationModifier(1.2f).build();
     public static final FoodComponent PIE_SWEET_BERRY = new FoodComponent.Builder().nutrition(8).saturationModifier(0.8f).build();
+    public static final FoodComponent PIE_STRAWBERRY = new FoodComponent.Builder().nutrition(8).saturationModifier(0.8f).build();
     public static final FoodComponent PIE_VEGETABLE = new FoodComponent.Builder().nutrition(8).saturationModifier(1.2f).build();
 
     //CROPS
@@ -81,6 +82,7 @@ public class ModFoodComponents {
     public static final FoodComponent FOOD_POTATO_FRIES = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
     public static final FoodComponent FOOD_COLESLAW = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
     public static final FoodComponent FOOD_CHILLI_STEW = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
+    public static final FoodComponent FOOD_BUMSBLECH_SALAD = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
 
     public static final FoodComponent BREAD_GARLIC = new FoodComponent.Builder().nutrition(8).saturationModifier(0.6f).build();
 
