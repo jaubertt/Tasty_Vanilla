@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+
+    "has_lettuce": {
+      "conditions": {"items": [{"items": "tastyvanilla:lettuce"}]},
+      "trigger": "minecraft:inventory_changed"},
+
+    "has_tomato": {
+      "conditions": {"items": [{"items": "tastyvanilla:tomato"}]},
+      "trigger": "minecraft:inventory_changed"},
+
+    "has_eggplant": {
+      "conditions": {"items": [{"items": "tastyvanilla:eggplant"}]},
+      "trigger": "minecraft:inventory_changed"},
+
+    "has_cooked_chicken": {
+      "conditions": {"items": [{"items": "minecraft:cooked_chicken"}]},
+      "trigger": "minecraft:inventory_changed"},
+
+    "has_the_recipe": {
+      "conditions": {"recipe": "tastyvanilla:food_bumsblech_salad"},
+      "trigger": "minecraft:recipe_unlocked"}
+  },
+
+
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lettuce",
+      "has_tomato"
+    ]
+  ],
+
+  "rewards": {"recipes": ["tastyvanilla:food_bumsblech_salad"]}
+}

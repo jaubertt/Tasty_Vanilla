@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+
+    "has_flatbread": {
+      "conditions": {"items": [{"items": "tastyvanilla:bread_flatbread"}]},
+      "trigger": "minecraft:inventory_changed"},
+
+    "has_lettuce": {
+      "conditions": {"items": [{"items": "tastyvanilla:lettuce"}]},
+      "trigger": "minecraft:inventory_changed"},
+
+    "has_carrot": {
+      "conditions": {"items": [{"items": "minecraft:carrot"}]},
+      "trigger": "minecraft:inventory_changed"},
+
+    "has_tomato": {
+      "conditions": {"items": [{"items": "tastyvanilla:tomato"}]},
+      "trigger": "minecraft:inventory_changed"},
+
+    "has_the_recipe": {
+      "conditions": {"recipe": "tastyvanilla:food_wrap_veggie"},
+      "trigger": "minecraft:recipe_unlocked"}
+  },
+
+
+
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_flatbread",
+      "has_lettuce",
+      "has_carrot",
+      "has_tomato"
+    ]
+  ],
+
+  "rewards": {"recipes": ["tastyvanilla:food_wrap_veggie"]}
+}

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Added Bumsblech Salad and Strawberry Pie" />
+    <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Added Bumsblech Salad and Strawberry Pie">
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/AloeVeraHerbBlock.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +119,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "1.21.5",
     "last_opened_file_path": "/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/Tasty Vanilla/src/main/resources/assets/tastyvanilla/textures/item",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
