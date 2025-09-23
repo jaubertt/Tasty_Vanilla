@@ -9,7 +9,9 @@
       "minecraft:milk_bucket"
     ],
     [
-      "minecraft:egg"
+      "minecraft:egg",
+      "minecraft:brown_egg",
+      "minecraft:blue_egg"
     ],
     [
       "tastyvanilla:butter"

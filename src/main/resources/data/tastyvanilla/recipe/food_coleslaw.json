@@ -6,7 +6,9 @@
       "minecraft:bowl"
     ],
     [
-      "minecraft:egg"
+      "minecraft:egg",
+      "minecraft:brown_egg",
+      "minecraft:blue_egg"
     ],
     [
       "tastyvanilla:cabbage"
