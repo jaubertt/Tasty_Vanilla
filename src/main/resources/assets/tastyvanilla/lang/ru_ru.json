@@ -1,0 +1,191 @@
+{
+  //COOKIES
+  "item.tastyvanilla.cookie_sweet_berry": "Печенье со сладкими ягодами",
+  "item.tastyvanilla.cookie_glow_berry": "Печенье с ягодами света",
+  "item.tastyvanilla.cookie_honey": "Печенье с мёдом",
+  "item.tastyvanilla.cookie_poppy_seed": "Печенье с маком",
+  "item.tastyvanilla.cookie_sunflower_seed": "Печенье с семечками подсолнечника",
+  "item.tastyvanilla.cookie_carrot": "Печенье с морковью",
+  "item.tastyvanilla.cookie_apple": "Печенье с яблоком",
+  "item.tastyvanilla.cookie_pumpkin": "Печенье с тыквой",
+  "item.tastyvanilla.cookie_spider_eye": "Печенье с глазом паука",
+  "item.tastyvanilla.cookie_oatmeal": "Овсяное печенье",
+  "item.tastyvanilla.cookie_sugar": "Сахарное печенье",
+
+
+  //BREAD INGREDIENTS
+  "item.tastyvanilla.butter": "Масло",
+  "item.tastyvanilla.flour": "Мука",
+  "item.tastyvanilla.salt": "Соль",
+  "item.tastyvanilla.yeast": "Дрожжи",
+
+
+  //DOUGHS
+  "item.tastyvanilla.dough_baguel": "Тесто для бэйгла",
+  "item.tastyvanilla.dough_baguette": "Тесто для багета",
+  "item.tastyvanilla.dough_baked_bread": "Тесто для хлеба",
+  "item.tastyvanilla.dough_brownie": "Тесто для брауни",
+  "item.tastyvanilla.dough_croissant": "Тесто для круассана",
+  "item.tastyvanilla.dough_flatbread": "Тесто для лепёшки",
+  "item.tastyvanilla.dough_focaccia": "Тесто для фокаччи",
+  "item.tastyvanilla.dough_honey": "Медовое тесто",
+  "item.tastyvanilla.dough_multigrain": "Зерновое тесто",
+  "item.tastyvanilla.dough_pancakes": "Тесто для блинов",
+  "item.tastyvanilla.dough_sourdough": "Заквасочное тесто",
+  "item.tastyvanilla.dough_sweet_roll": "Тесто для сдобной булочки",
+
+
+  //BREAD
+  "item.tastyvanilla.bread_baguel": "Бэйгл",
+  "item.tastyvanilla.bread_baguette": "Багет",
+  "item.tastyvanilla.bread_baked": "Хлеб",
+  "item.tastyvanilla.bread_brownie": "Брауни",
+  "item.tastyvanilla.bread_croissant": "Круассан",
+  "item.tastyvanilla.bread_flatbread": "Лепёшка",
+  "item.tastyvanilla.bread_focaccia": "Фокачча",
+  "item.tastyvanilla.bread_honey": "Медовый хлеб",
+  "item.tastyvanilla.bread_multigrain": "Зерновой хлеб",
+  "item.tastyvanilla.bread_pancakes": "Блины",
+  "item.tastyvanilla.bread_sourdough": "Хлеб на закваске",
+  "item.tastyvanilla.bread_sweet_roll": "Сдобная булочка",
+
+
+  //PIES
+  "item.tastyvanilla.pie_apple": "Яблочный пирог",
+  "item.tastyvanilla.pie_chicken": "Куриный пирог",
+  "item.tastyvanilla.pie_chocolate": "Шоколадный пирог",
+  "item.tastyvanilla.pie_chorus_fruit": "Пирог с плодами хоруса",
+  "item.tastyvanilla.pie_fish": "Рыбный пирог",
+  "item.tastyvanilla.pie_fungus": "Грибной пирог",
+  "item.tastyvanilla.pie_glow_berry": "Пирог с ягодами света",
+  "item.tastyvanilla.pie_honey": "Медовый пирог",
+  "item.tastyvanilla.pie_meat": "Мясной пирог",
+  "item.tastyvanilla.pie_melon": "Дынный пирог",
+  "item.tastyvanilla.pie_mushroom": "Пирог с грибами",
+  "item.tastyvanilla.pie_shepherds": "Пастуший пирог",
+  "item.tastyvanilla.pie_strawberry": "Клубничный пирог",
+  "item.tastyvanilla.pie_sweet_berry": "Пирог со сладкими ягодами",
+  "item.tastyvanilla.pie_vegetable": "Овощной пирог",
+
+
+  //CROPS
+  "item.tastyvanilla.cabbage": "Капуста",
+  "block.tastyvanilla.cabbage_crop": "Посев капусты" ,
+
+  "item.tastyvanilla.chilli": "Перец чили",
+  "item.tastyvanilla.chilli_seeds": "Семена перца чили",
+  "block.tastyvanilla.chilli_crop": "Посев перца чили" ,
+
+  "item.tastyvanilla.eggplant": "Баклажан",
+  "block.tastyvanilla.eggplant_crop": "Посев баклажана" ,
+
+  "item.tastyvanilla.garlic": "Чеснок",
+  "item.tastyvanilla.garlic_crop": "Посев чеснока",
+
+  "item.tastyvanilla.lettuce": "Салат",
+  "item.tastyvanilla.lettuce_seeds": "Семена салата",
+  "block.tastyvanilla.lettuce_crop": "Посев салата" ,
+
+  "item.tastyvanilla.onion": "Лук",
+  "block.tastyvanilla.onion_crop": "Посев лука" ,
+
+  "item.tastyvanilla.sweet_potato": "Батат",
+  "block.tastyvanilla.sweet_potato_crop": "Посев батата" ,
+
+  "item.tastyvanilla.tomato": "Помидор",
+  "item.tastyvanilla.tomato_seeds": "Семена помидора",
+  "block.tastyvanilla.tomato_crop": "Посев помидора" ,
+
+  "item.tastyvanilla.rice": "Рис",
+  "item.tastyvanilla.raw_rice": "Сырой рис",
+  "block.tastyvanilla.rice_crop": "Посев риса",
+
+
+  //FOOD CROPS
+  "item.tastyvanilla.bread_garlic": "Чесночный хлеб",
+  "item.tastyvanilla.dough_garlic": "Чесночное тесто",
+  "item.tastyvanilla.food_baked_sweet_potato": "Запечённый батат",
+  "item.tastyvanilla.food_chilli_stew": "Рагу с чили",
+  "item.tastyvanilla.food_coleslaw": "Капустный салат",
+  "item.tastyvanilla.food_onion_soup": "Луковый суп",
+  "item.tastyvanilla.food_onion_ring": "Луковые кольца",
+  "item.tastyvanilla.food_potato_fries": "Картофель фри",
+  "item.tastyvanilla.food_roasted_garlic": "Запечённый чеснок",
+  "item.tastyvanilla.food_tomato_soup": "Томатный суп",
+  "item.tastyvanilla.food_salad": "Салат",
+  "item.tastyvanilla.food_bumsblech_salad": "Салат Бумсблех",
+  "item.tastyvanilla.food_sweet_potato_fries": "Фри из батата",
+  "item.tastyvanilla.food_wrap": "Ролл",
+  "item.tastyvanilla.food_wrap_veggie": "Овощной ролл",
+
+
+  //BERRIES & GRAPES
+  "item.tastyvanilla.berry_blackberries": "Ежевика",
+  "block.tastyvanilla.berry_blackberry_bush": "Куст ежевики" ,
+
+  "item.tastyvanilla.berry_blueberries": "Черника",
+  "block.tastyvanilla.berry_blueberry_bush": "Куст черники" ,
+
+  "item.tastyvanilla.berry_elderberries": "Ягоды бузины",
+  "block.tastyvanilla.berry_elderberry_bush": "Куст бузины" ,
+
+  "item.tastyvanilla.berry_goji_berries": "Ягоды годжи",
+  "block.tastyvanilla.berry_goji_berry_bush": "Куст ягод годжи" ,
+
+  "item.tastyvanilla.berry_gooseberries": "Крыжовник",
+  "block.tastyvanilla.berry_gooseberry_bush": "Куст крыжовника" ,
+
+  "item.tastyvanilla.berry_raspberries": "Малина",
+  "block.tastyvanilla.berry_raspberry_bush": "Куст малины" ,
+
+  "item.tastyvanilla.berry_strawberries": "Клубника",
+  "block.tastyvanilla.berry_strawberry_bush": "Куст клубники" ,
+
+  "item.tastyvanilla.berry_white_currant_berries": "Белая смородина",
+  "block.tastyvanilla.berry_white_currant_berry_bush": "Куст белой смородины" ,
+
+
+  //JAMS
+  "item.tastyvanilla.glass_jar": "Стеклянная банка",
+
+  "item.tastyvanilla.jam_blackberry": "Ежевичное варенье",
+  "item.tastyvanilla.jam_blueberry": "Черничное варенье",
+  "item.tastyvanilla.jam_elderberry": "Варенье из бузины",
+  "item.tastyvanilla.jam_goji_berry": "Варенье из ягод годжи",
+  "item.tastyvanilla.jam_gooseberry": "Крыжовенное варенье",
+  "item.tastyvanilla.jam_raspberry": "Малиновое варенье",
+  "item.tastyvanilla.jam_sweet_berry": "Варенье из сладких ягод",
+  "item.tastyvanilla.jam_strawberry": "Клубничное варенье",
+  "item.tastyvanilla.jam_white_currant_berry": "Варенье из белой смородины",
+
+  "item.tastyvanilla.jam_blackberry_mash": "Ежевичное пюре",
+  "item.tastyvanilla.jam_blueberry_mash": "Черничное пюре",
+  "item.tastyvanilla.jam_elderberry_mash": "Пюре из бузины",
+  "item.tastyvanilla.jam_goji_berry_mash": "Пюре из ягод годжи",
+  "item.tastyvanilla.jam_gooseberry_mash": "Крыжовенное пюре",
+  "item.tastyvanilla.jam_raspberry_mash": "Малиновое пюре",
+  "item.tastyvanilla.jam_sweet_berry_mash": "Пюре из сладких ягод",
+  "item.tastyvanilla.jam_strawberry_mash": "Клубничное пюре",
+  "item.tastyvanilla.jam_white_currant_berry_mash": "Пюре из белой смородины",
+
+
+  //MILK & CHEESE
+  "item.tastyvanilla.goat_milk_bucket": "Ведро козьего молока",
+  "item.tastyvanilla.sheep_milk_bucket": "Ведро овечьего молока",
+
+  "item.tastyvanilla.cheese_fresh": "Свежий сыр",
+  "block.tastyvanilla.cheese_fresh": "Свежий сыр",
+  "item.tastyvanilla.cheese_soft": "Мягкий сыр",
+  "block.tastyvanilla.cheese_soft": "Мягкий сыр",
+  "item.tastyvanilla.cheese_semihard": "Полутвёрдый сыр",
+  "block.tastyvanilla.cheese_semihard": "Полутвёрдый сыр",
+  "item.tastyvanilla.cheese_hard": "Твёрдый сыр",
+  "block.tastyvanilla.cheese_hard": "Твёрдый сыр",
+
+
+  //BLOCKS
+  "block.tastyvanilla.salt_block": "Блок соли",
+  "item.tastyvanilla.salt_block": "Блок соли",
+  "block.tastyvanilla.sugar_block": "Блок сахара",
+  "item.tastyvanilla.sugar_block": "Блок сахара"
+}

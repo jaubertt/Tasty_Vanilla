@@ -1,0 +1,181 @@
+{
+  //COOKIES
+  "item.tastyvanilla.cookie_sweet_berry": "Galleta de bayas dulces",
+  "item.tastyvanilla.cookie_glow_berry": "Galleta de bayas luminosas",
+  "item.tastyvanilla.cookie_honey": "Galleta de miel",
+  "item.tastyvanilla.cookie_poppy_seed": "Galleta de semilla de adormidera",
+  "item.tastyvanilla.cookie_sunflower_seed": "Galleta de semilla de girasol",
+  "item.tastyvanilla.cookie_carrot": "Galleta de zanahoria",
+  "item.tastyvanilla.cookie_apple": "Galleta de manzana",
+  "item.tastyvanilla.cookie_pumpkin": "Galleta de calabaza",
+  "item.tastyvanilla.cookie_spider_eye": "Galleta de ojo de araña",
+  "item.tastyvanilla.cookie_oatmeal": "Galleta de avena",
+  "item.tastyvanilla.cookie_sugar": "Galleta de azúcar",
+
+  //BREAD INGREDIENTS
+  "item.tastyvanilla.butter": "Mantequilla",
+  "item.tastyvanilla.flour": "Harina",
+  "item.tastyvanilla.salt": "Sal",
+  "item.tastyvanilla.yeast": "Levadura",
+
+  //DOUGHS
+  "item.tastyvanilla.dough_baguel": "Masa de bagel",
+  "item.tastyvanilla.dough_baguette": "Masa de baguette",
+  "item.tastyvanilla.dough_baked_bread": "Masa de pan",
+  "item.tastyvanilla.dough_brownie": "Masa de brownie",
+  "item.tastyvanilla.dough_croissant": "Masa de cruasán",
+  "item.tastyvanilla.dough_flatbread": "Masa de pan plano",
+  "item.tastyvanilla.dough_focaccia": "Masa de focaccia",
+  "item.tastyvanilla.dough_honey": "Masa de miel",
+  "item.tastyvanilla.dough_multigrain": "Masa integral",
+  "item.tastyvanilla.dough_pancakes": "Masa de tortitas",
+  "item.tastyvanilla.dough_sourdough": "Masa madre",
+  "item.tastyvanilla.dough_sweet_roll": "Masa de bollos dulces",
+
+  //BREAD
+  "item.tastyvanilla.bread_baguel": "Bagel",
+  "item.tastyvanilla.bread_baguette": "Baguette",
+  "item.tastyvanilla.bread_baked": "Pan",
+  "item.tastyvanilla.bread_brownie": "Brownie",
+  "item.tastyvanilla.bread_croissant": "Cruasán",
+  "item.tastyvanilla.bread_flatbread": "Pan plano",
+  "item.tastyvanilla.bread_focaccia": "Focaccia",
+  "item.tastyvanilla.bread_honey": "Pan de miel",
+  "item.tastyvanilla.bread_multigrain": "Pan integral",
+  "item.tastyvanilla.bread_pancakes": "Tortitas",
+  "item.tastyvanilla.bread_sourdough": "Pan de masa madre",
+  "item.tastyvanilla.bread_sweet_roll": "Bollos dulces",
+
+  //PIES
+  "item.tastyvanilla.pie_apple": "Tarta de manzana",
+  "item.tastyvanilla.pie_chicken": "Tarta de pollo",
+  "item.tastyvanilla.pie_chocolate": "Tarta de chocolate",
+  "item.tastyvanilla.pie_chorus_fruit": "Tarta de fruta chorus",
+  "item.tastyvanilla.pie_fish": "Tarta de pescado",
+  "item.tastyvanilla.pie_fungus": "Tarta de setas",
+  "item.tastyvanilla.pie_glow_berry": "Tarta de bayas luminosas",
+  "item.tastyvanilla.pie_honey": "Tarta de miel",
+  "item.tastyvanilla.pie_meat": "Tarta de carne",
+  "item.tastyvanilla.pie_melon": "Tarta de melón",
+  "item.tastyvanilla.pie_mushroom": "Tarta de champiñones",
+  "item.tastyvanilla.pie_shepherds": "Pastel de pastor",
+  "item.tastyvanilla.pie_sweet_berry": "Tarta de bayas dulces",
+  "item.tastyvanilla.pie_strawberry": "Tarta de fresas",
+  "item.tastyvanilla.pie_vegetable": "Tarta de verduras",
+
+  //CROPS
+  "item.tastyvanilla.cabbage": "Col",
+  "block.tastyvanilla.cabbage_crop": "Cultivo de col" ,
+
+  "item.tastyvanilla.chilli": "Guindilla",
+  "item.tastyvanilla.chilli_seeds": "Semillas de guindilla",
+  "block.tastyvanilla.chilli_crop": "Cultivo de guindilla" ,
+
+  "item.tastyvanilla.eggplant": "Berenjena",
+  "block.tastyvanilla.eggplant_crop": "Cultivo de berenjena" ,
+
+  "item.tastyvanilla.garlic": "Ajo",
+  "item.tastyvanilla.garlic_crop": "Cultivo de ajo",
+
+  "item.tastyvanilla.lettuce": "Lechuga",
+  "item.tastyvanilla.lettuce_seeds": "Semillas de lechuga",
+  "block.tastyvanilla.lettuce_crop": "Cultivo de lechuga" ,
+
+  "item.tastyvanilla.onion": "Cebolla",
+  "block.tastyvanilla.onion_crop": "Cultivo de cebolla" ,
+
+  "item.tastyvanilla.sweet_potato": "Boniato",
+  "block.tastyvanilla.sweet_potato_crop": "Cultivo de boniato" ,
+
+  "item.tastyvanilla.tomato": "Tomate",
+  "item.tastyvanilla.tomato_seeds": "Semillas de tomate",
+  "block.tastyvanilla.tomato_crop": "Cultivo de tomate" ,
+
+  "item.tastyvanilla.rice": "Arroz",
+  "item.tastyvanilla.raw_rice": "Arroz crudo",
+  "block.tastyvanilla.rice_crop": "Cultivo de arroz",
+
+  //FOOD CROPS
+  "item.tastyvanilla.bread_garlic": "Pan de ajo",
+  "item.tastyvanilla.dough_garlic": "Masa de ajo",
+  "item.tastyvanilla.food_baked_sweet_potato": "Boniato cocido",
+  "item.tastyvanilla.food_chilli_stew": "Estofado de guindilla",
+  "item.tastyvanilla.food_coleslaw": "Ensalada de col",
+  "item.tastyvanilla.food_onion_soup": "Sopa de cebolla",
+  "item.tastyvanilla.food_onion_ring": "Aros de cebolla",
+  "item.tastyvanilla.food_potato_fries": "Patatas fritas",
+  "item.tastyvanilla.food_roasted_garlic": "Ajo asado",
+  "item.tastyvanilla.food_tomato_soup": "Sopa de tomate",
+  "item.tastyvanilla.food_salad": "Ensalada",
+  "item.tastyvanilla.food_bumsblech_salad": "Ensalada Bumsblech",
+  "item.tastyvanilla.food_sweet_potato_fries": "Patatas fritas de boniato",
+  "item.tastyvanilla.food_wrap": "Wrap",
+  "item.tastyvanilla.food_wrap_veggie": "Wrap vegetal",
+
+  //BERRIES & GRAPES
+  "item.tastyvanilla.berry_blackberries": "Moras",
+  "block.tastyvanilla.berry_blackberry_bush": "Cespuglio de moras" ,
+
+  "item.tastyvanilla.berry_blueberries": "Arándanos",
+  "block.tastyvanilla.berry_blueberry_bush": "Cespuglio de arándanos" ,
+
+  "item.tastyvanilla.berry_elderberries": "Bayas de saúco",
+  "block.tastyvanilla.berry_elderberry_bush": "Cespuglio de saúco" ,
+
+  "item.tastyvanilla.berry_goji_berries": "Bayas de goji",
+  "block.tastyvanilla.berry_goji_berry_bush": "Cespuglio de bayas de goji" ,
+
+  "item.tastyvanilla.berry_gooseberries": "Grosellas espinosas",
+  "block.tastyvanilla.berry_gooseberry_bush": "Cespuglio de grosellas espinosas" ,
+
+  "item.tastyvanilla.berry_raspberries": "Frambuesas",
+  "block.tastyvanilla.berry_raspberry_bush": "Cespuglio de frambuesas" ,
+
+  "item.tastyvanilla.berry_strawberries": "Fresas",
+  "block.tastyvanilla.berry_strawberry_bush": "Cespuglio de fresas" ,
+
+  "item.tastyvanilla.berry_white_currant_berries": "Grosellas blancas",
+  "block.tastyvanilla.berry_white_currant_berry_bush": "Cespuglio de grosellas blancas" ,
+
+  //JAMS
+  "item.tastyvanilla.glass_jar": "Tarro de cristal",
+
+  "item.tastyvanilla.jam_blackberry": "Mermelada de moras",
+  "item.tastyvanilla.jam_blueberry": "Mermelada de arándanos",
+  "item.tastyvanilla.jam_elderberry": "Mermelada de saúco",
+  "item.tastyvanilla.jam_goji_berry": "Mermelada de goji",
+  "item.tastyvanilla.jam_gooseberry": "Mermelada de grosellas espinosas",
+  "item.tastyvanilla.jam_raspberry": "Mermelada de frambuesas",
+  "item.tastyvanilla.jam_sweet_berry": "Mermelada de bayas dulces",
+  "item.tastyvanilla.jam_strawberry": "Mermelada de fresas",
+  "item.tastyvanilla.jam_white_currant_berry": "Mermelada de grosellas blancas",
+
+  "item.tastyvanilla.jam_blackberry_mash": "Puré de moras",
+  "item.tastyvanilla.jam_blueberry_mash": "Puré de arándanos",
+  "item.tastyvanilla.jam_elderberry_mash": "Puré de saúco",
+  "item.tastyvanilla.jam_goji_berry_mash": "Puré de goji",
+  "item.tastyvanilla.jam_gooseberry_mash": "Puré de grosellas espinosas",
+  "item.tastyvanilla.jam_raspberry_mash": "Puré de frambuesas",
+  "item.tastyvanilla.jam_sweet_berry_mash": "Puré de bayas dulces",
+  "item.tastyvanilla.jam_strawberry_mash": "Puré de fresas",
+  "item.tastyvanilla.jam_white_currant_berry_mash": "Puré de grosellas blancas",
+
+  //MILK & CHEESE
+  "item.tastyvanilla.goat_milk_bucket": "Cubo de leche de cabra",
+  "item.tastyvanilla.sheep_milk_bucket": "Cubo de leche de oveja",
+
+  "item.tastyvanilla.cheese_fresh": "Queso fresco",
+  "block.tastyvanilla.cheese_fresh": "Queso fresco",
+  "item.tastyvanilla.cheese_soft": "Queso blando",
+  "block.tastyvanilla.cheese_soft": "Queso blando",
+  "item.tastyvanilla.cheese_semihard": "Queso semicurado",
+  "block.tastyvanilla.cheese_semihard": "Queso semicurado",
+  "item.tastyvanilla.cheese_hard": "Queso curado",
+  "block.tastyvanilla.cheese_hard": "Queso curado",
+
+  //BLOCKS
+  "block.tastyvanilla.salt_block": "Bloque de sal",
+  "item.tastyvanilla.salt_block": "Bloque de sal",
+  "block.tastyvanilla.sugar_block": "Bloque de azúcar",
+  "item.tastyvanilla.sugar_block": "Bloque de azúcar"
+}
