@@ -15,8 +15,8 @@ classes/
 *.iml
 *.ipr
 *.iws
+
 .idea/runConfigurations/
-Minecraft_Sever.xml
 
 # vscode
 
