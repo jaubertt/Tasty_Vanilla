@@ -1,0 +1,191 @@
+{
+  //COOKIES
+  "item.tastyvanilla.cookie_sweet_berry": "Cookie aux baies sucrées",
+  "item.tastyvanilla.cookie_glow_berry": "Cookie aux baies lumineuses",
+  "item.tastyvanilla.cookie_honey": "Cookie au miel",
+  "item.tastyvanilla.cookie_poppy_seed": "Cookie aux graines de pavot",
+  "item.tastyvanilla.cookie_sunflower_seed": "Cookie aux graines de tournesol",
+  "item.tastyvanilla.cookie_carrot": "Cookie à la carotte",
+  "item.tastyvanilla.cookie_apple": "Cookie à la pomme",
+  "item.tastyvanilla.cookie_pumpkin": "Cookie à la citrouille",
+  "item.tastyvanilla.cookie_spider_eye": "Cookie à l’œil d’araignée",
+  "item.tastyvanilla.cookie_oatmeal": "Cookie à l’avoine",
+  "item.tastyvanilla.cookie_sugar": "Cookie au sucre",
+
+
+  //BREAD INGREDIENTS
+  "item.tastyvanilla.butter": "Beurre",
+  "item.tastyvanilla.flour": "Farine",
+  "item.tastyvanilla.salt": "Sel",
+  "item.tastyvanilla.yeast": "Levure",
+
+
+  //DOUGHS
+  "item.tastyvanilla.dough_baguel": "Pâte à bagel",
+  "item.tastyvanilla.dough_baguette": "Pâte à baguette",
+  "item.tastyvanilla.dough_baked_bread": "Pâte à pain",
+  "item.tastyvanilla.dough_brownie": "Pâte à brownie",
+  "item.tastyvanilla.dough_croissant": "Pâte à croissant",
+  "item.tastyvanilla.dough_flatbread": "Pâte à pain plat",
+  "item.tastyvanilla.dough_focaccia": "Pâte à focaccia",
+  "item.tastyvanilla.dough_honey": "Pâte au miel",
+  "item.tastyvanilla.dough_multigrain": "Pâte aux céréales",
+  "item.tastyvanilla.dough_pancakes": "Pâte à crêpes",
+  "item.tastyvanilla.dough_sourdough": "Pâte au levain",
+  "item.tastyvanilla.dough_sweet_roll": "Pâte à brioche",
+
+
+  //BREAD
+  "item.tastyvanilla.bread_baguel": "Bagel",
+  "item.tastyvanilla.bread_baguette": "Baguette",
+  "item.tastyvanilla.bread_baked": "Pain cuit",
+  "item.tastyvanilla.bread_brownie": "Brownie",
+  "item.tastyvanilla.bread_croissant": "Croissant",
+  "item.tastyvanilla.bread_flatbread": "Pain plat",
+  "item.tastyvanilla.bread_focaccia": "Focaccia",
+  "item.tastyvanilla.bread_honey": "Pain au miel",
+  "item.tastyvanilla.bread_multigrain": "Pain aux céréales",
+  "item.tastyvanilla.bread_pancakes": "Crêpes",
+  "item.tastyvanilla.bread_sourdough": "Pain au levain",
+  "item.tastyvanilla.bread_sweet_roll": "Brioche",
+
+
+  //PIES
+  "item.tastyvanilla.pie_apple": "Tarte aux pommes",
+  "item.tastyvanilla.pie_chicken": "Tarte au poulet",
+  "item.tastyvanilla.pie_chocolate": "Tarte au chocolat",
+  "item.tastyvanilla.pie_chorus_fruit": "Tarte aux fruits chorus",
+  "item.tastyvanilla.pie_fish": "Tarte au poisson",
+  "item.tastyvanilla.pie_fungus": "Tarte aux champignons",
+  "item.tastyvanilla.pie_glow_berry": "Tarte aux baies lumineuses",
+  "item.tastyvanilla.pie_honey": "Tarte au miel",
+  "item.tastyvanilla.pie_meat": "Tarte à la viande",
+  "item.tastyvanilla.pie_melon": "Tarte au melon",
+  "item.tastyvanilla.pie_mushroom": "Tarte aux champignons",
+  "item.tastyvanilla.pie_shepherds": "Hachis parmentier",
+  "item.tastyvanilla.pie_strawberry": "Tarte aux fraises",
+  "item.tastyvanilla.pie_sweet_berry": "Tarte aux baies sucrées",
+  "item.tastyvanilla.pie_vegetable": "Tarte aux légumes",
+
+
+  //CROPS
+  "item.tastyvanilla.cabbage": "Chou",
+  "block.tastyvanilla.cabbage_crop": "Culture de chou" ,
+
+  "item.tastyvanilla.chilli": "Piment",
+  "item.tastyvanilla.chilli_seeds": "Graines de piment",
+  "block.tastyvanilla.chilli_crop": "Culture de piment" ,
+
+  "item.tastyvanilla.eggplant": "Aubergine",
+  "block.tastyvanilla.eggplant_crop": "Culture d’aubergine" ,
+
+  "item.tastyvanilla.garlic": "Ail",
+  "item.tastyvanilla.garlic_crop": "Culture d’ail",
+
+  "item.tastyvanilla.lettuce": "Laitue",
+  "item.tastyvanilla.lettuce_seeds": "Graines de laitue",
+  "block.tastyvanilla.lettuce_crop": "Culture de laitue" ,
+
+  "item.tastyvanilla.onion": "Oignon",
+  "block.tastyvanilla.onion_crop": "Culture d’oignon" ,
+
+  "item.tastyvanilla.sweet_potato": "Patate douce",
+  "block.tastyvanilla.sweet_potato_crop": "Culture de patate douce" ,
+
+  "item.tastyvanilla.tomato": "Tomate",
+  "item.tastyvanilla.tomato_seeds": "Graines de tomate",
+  "block.tastyvanilla.tomato_crop": "Culture de tomate" ,
+
+  "item.tastyvanilla.rice": "Riz",
+  "item.tastyvanilla.raw_rice": "Riz cru",
+  "block.tastyvanilla.rice_crop": "Culture de riz",
+
+
+  //FOOD CROPS
+  "item.tastyvanilla.bread_garlic": "Pain à l’ail",
+  "item.tastyvanilla.dough_garlic": "Pâte à l’ail",
+  "item.tastyvanilla.food_baked_sweet_potato": "Patate douce cuite",
+  "item.tastyvanilla.food_chilli_stew": "Ragoût de piment",
+  "item.tastyvanilla.food_coleslaw": "Salade de chou",
+  "item.tastyvanilla.food_onion_soup": "Soupe à l’oignon",
+  "item.tastyvanilla.food_onion_ring": "Beignets d’oignon",
+  "item.tastyvanilla.food_potato_fries": "Frites",
+  "item.tastyvanilla.food_roasted_garlic": "Ail rôti",
+  "item.tastyvanilla.food_tomato_soup": "Soupe à la tomate",
+  "item.tastyvanilla.food_salad": "Salade",
+  "item.tastyvanilla.food_bumsblech_salad": "Salade Bumsblech",
+  "item.tastyvanilla.food_sweet_potato_fries": "Frites de patate douce",
+  "item.tastyvanilla.food_wrap": "Wrap",
+  "item.tastyvanilla.food_wrap_veggie": "Wrap végétarien",
+
+
+  //BERRIES & GRAPES
+  "item.tastyvanilla.berry_blackberries": "Mûres",
+  "block.tastyvanilla.berry_blackberry_bush": "Buisson de mûres" ,
+
+  "item.tastyvanilla.berry_blueberries": "Myrtilles",
+  "block.tastyvanilla.berry_blueberry_bush": "Buisson de myrtilles" ,
+
+  "item.tastyvanilla.berry_elderberries": "Baies de sureau",
+  "block.tastyvanilla.berry_elderberry_bush": "Buisson de sureau" ,
+
+  "item.tastyvanilla.berry_goji_berries": "Baies de goji",
+  "block.tastyvanilla.berry_goji_berry_bush": "Buisson de baies de goji" ,
+
+  "item.tastyvanilla.berry_gooseberries": "Groseilles à maquereau",
+  "block.tastyvanilla.berry_gooseberry_bush": "Buisson de groseilles à maquereau" ,
+
+  "item.tastyvanilla.berry_raspberries": "Framboises",
+  "block.tastyvanilla.berry_raspberry_bush": "Buisson de framboises" ,
+
+  "item.tastyvanilla.berry_strawberries": "Fraises",
+  "block.tastyvanilla.berry_strawberry_bush": "Buisson de fraises" ,
+
+  "item.tastyvanilla.berry_white_currant_berries": "Groseilles blanches",
+  "block.tastyvanilla.berry_white_currant_berry_bush": "Buisson de groseilles blanches" ,
+
+
+  //JAMS
+  "item.tastyvanilla.glass_jar": "Bocal en verre",
+
+  "item.tastyvanilla.jam_blackberry": "Confiture de mûres",
+  "item.tastyvanilla.jam_blueberry": "Confiture de myrtilles",
+  "item.tastyvanilla.jam_elderberry": "Confiture de sureau",
+  "item.tastyvanilla.jam_goji_berry": "Confiture de baies de goji",
+  "item.tastyvanilla.jam_gooseberry": "Confiture de groseilles à maquereau",
+  "item.tastyvanilla.jam_raspberry": "Confiture de framboises",
+  "item.tastyvanilla.jam_sweet_berry": "Confiture de baies sucrées",
+  "item.tastyvanilla.jam_strawberry": "Confiture de fraises",
+  "item.tastyvanilla.jam_white_currant_berry": "Confiture de groseilles blanches",
+
+  "item.tastyvanilla.jam_blackberry_mash": "Purée de mûres",
+  "item.tastyvanilla.jam_blueberry_mash": "Purée de myrtilles",
+  "item.tastyvanilla.jam_elderberry_mash": "Purée de sureau",
+  "item.tastyvanilla.jam_goji_berry_mash": "Purée de baies de goji",
+  "item.tastyvanilla.jam_gooseberry_mash": "Purée de groseilles à maquereau",
+  "item.tastyvanilla.jam_raspberry_mash": "Purée de framboises",
+  "item.tastyvanilla.jam_sweet_berry_mash": "Purée de baies sucrées",
+  "item.tastyvanilla.jam_strawberry_mash": "Purée de fraises",
+  "item.tastyvanilla.jam_white_currant_berry_mash": "Purée de groseilles blanches",
+
+
+  //MILK & CHEESE
+  "item.tastyvanilla.goat_milk_bucket": "Seau de lait de chèvre",
+  "item.tastyvanilla.sheep_milk_bucket": "Seau de lait de brebis",
+
+  "item.tastyvanilla.cheese_fresh": "Fromage frais",
+  "block.tastyvanilla.cheese_fresh": "Fromage frais",
+  "item.tastyvanilla.cheese_soft": "Fromage à pâte molle",
+  "block.tastyvanilla.cheese_soft": "Fromage à pâte molle",
+  "item.tastyvanilla.cheese_semihard": "Fromage à pâte demi-dure",
+  "block.tastyvanilla.cheese_semihard": "Fromage à pâte demi-dure",
+  "item.tastyvanilla.cheese_hard": "Fromage à pâte dure",
+  "block.tastyvanilla.cheese_hard": "Fromage à pâte dure",
+
+
+  //BLOCKS
+  "block.tastyvanilla.salt_block": "Bloc de sel",
+  "item.tastyvanilla.salt_block": "Bloc de sel",
+  "block.tastyvanilla.sugar_block": "Bloc de sucre",
+  "item.tastyvanilla.sugar_block": "Bloc de sucre"
+}
