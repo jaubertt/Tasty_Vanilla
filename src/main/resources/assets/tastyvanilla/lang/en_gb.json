@@ -1,16 +1,16 @@
 {
   //COOKIES
-  "item.tastyvanilla.cookie_sweet_berry": "Sweet Berry Cookie",
-  "item.tastyvanilla.cookie_glow_berry": "Glow Berry Cookie",
-  "item.tastyvanilla.cookie_honey": "Honey Cookie",
-  "item.tastyvanilla.cookie_poppy_seed": "Poppy Seed Cookie",
-  "item.tastyvanilla.cookie_sunflower_seed": "Sunflower Seed Cookie",
-  "item.tastyvanilla.cookie_carrot": "Carrot Cookie",
-  "item.tastyvanilla.cookie_apple": "Apple Cookie",
-  "item.tastyvanilla.cookie_pumpkin": "Pumpkin Cookie",
-  "item.tastyvanilla.cookie_spider_eye": "Spider Eye Cookie",
-  "item.tastyvanilla.cookie_oatmeal": "Oatmeal Cookie",
-  "item.tastyvanilla.cookie_sugar": "Sugar Cookie",
+  "item.tastyvanilla.cookie_sweet_berry": "Sweet Berry Biscuit",
+  "item.tastyvanilla.cookie_glow_berry": "Glow Berry Biscuit",
+  "item.tastyvanilla.cookie_honey": "Honey Biscuit",
+  "item.tastyvanilla.cookie_poppy_seed": "Poppy Seed Biscuit",
+  "item.tastyvanilla.cookie_sunflower_seed": "Sunflower Seed Biscuit",
+  "item.tastyvanilla.cookie_carrot": "Carrot Biscuit",
+  "item.tastyvanilla.cookie_apple": "Apple Biscuit",
+  "item.tastyvanilla.cookie_pumpkin": "Pumpkin Biscuit",
+  "item.tastyvanilla.cookie_spider_eye": "Spider Eye Biscuit",
+  "item.tastyvanilla.cookie_oatmeal": "Oat Biscuit",
+  "item.tastyvanilla.cookie_sugar": "Sugar Biscuit",
 
 
   //BREAD INGREDIENTS
@@ -21,22 +21,22 @@
 
 
   //DOUGHS
-  "item.tastyvanilla.dough_baguel": "Baguel Dough",
+  "item.tastyvanilla.dough_baguel": "Bagel Dough",
   "item.tastyvanilla.dough_baguette": "Baguette Dough",
-  "item.tastyvanilla.dough_baked_bread": "Baked Bread Dough",
+  "item.tastyvanilla.dough_baked_bread": "Bread Dough",
   "item.tastyvanilla.dough_brownie": "Brownie Dough",
   "item.tastyvanilla.dough_croissant": "Croissant Dough",
   "item.tastyvanilla.dough_flatbread": "Flatbread Dough",
   "item.tastyvanilla.dough_focaccia": "Focaccia Dough",
   "item.tastyvanilla.dough_honey": "Honey Dough",
   "item.tastyvanilla.dough_multigrain": "Multigrain Dough",
-  "item.tastyvanilla.dough_pancakes": "Pancakes Dough",
-  "item.tastyvanilla.dough_sourdough": "Sourdough Dough",
+  "item.tastyvanilla.dough_pancakes": "Pancake Batter",
+  "item.tastyvanilla.dough_sourdough": "Sourdough",
   "item.tastyvanilla.dough_sweet_roll": "Sweet Roll Dough",
 
 
   //BREAD
-  "item.tastyvanilla.bread_baguel": "Bagel",
+  "item.tastyvanilla.bread_baguel": "Baguel",
   "item.tastyvanilla.bread_baguette": "Baguette",
   "item.tastyvanilla.bread_baked": "Baked Bread",
   "item.tastyvanilla.bread_brownie": "Brownie",
@@ -76,8 +76,8 @@
   "item.tastyvanilla.chilli_seeds": "Chilli Seeds",
   "block.tastyvanilla.chilli_crop": "Chilli Crop" ,
 
-  "item.tastyvanilla.eggplant": "Eggplant",
-  "block.tastyvanilla.eggplant_crop": "Eggplant Crop" ,
+  "item.tastyvanilla.eggplant": "Aubergine",
+  "block.tastyvanilla.eggplant_crop": "Aubergine Crop",
 
   "item.tastyvanilla.garlic": "Garlic",
   "item.tastyvanilla.garlic_crop": "Garlic Crop",
@@ -109,14 +109,14 @@
   "item.tastyvanilla.food_coleslaw": "Coleslaw",
   "item.tastyvanilla.food_onion_soup": "Onion Soup",
   "item.tastyvanilla.food_onion_ring": "Onion Rings",
-  "item.tastyvanilla.food_potato_fries": "Potato Fries",
-  "item.tastyvanilla.food_roasted_garlic": "Roasted Garlic",
+  "item.tastyvanilla.food_potato_fries": "Chips",
+  "item.tastyvanilla.food_roasted_garlic": "Roast Garlic",
   "item.tastyvanilla.food_tomato_soup": "Tomato Soup",
   "item.tastyvanilla.food_salad": "Salad",
   "item.tastyvanilla.food_bumsblech_salad": "Bumsblech Salad",
-  "item.tastyvanilla.food_sweet_potato_fries": "Sweet Potato Fries",
+  "item.tastyvanilla.food_sweet_potato_fries": "Sweet Potato Chips",
   "item.tastyvanilla.food_wrap": "Wrap",
-  "item.tastyvanilla.food_wrap_veggie": "Veggie Wrap",
+  "item.tastyvanilla.food_wrap_veggie": "Vegetable Wrap",
 
 
   //BERRIES & GRAPES
@@ -141,8 +141,8 @@
   "item.tastyvanilla.berry_strawberries": "Strawberry",
   "block.tastyvanilla.berry_strawberry_bush": "Strawberry Bush" ,
 
-  "item.tastyvanilla.berry_white_currant_berries": "White Currant Berries",
-  "block.tastyvanilla.berry_white_currant_berry_bush": "White Currant Bush" ,
+  "item.tastyvanilla.berry_white_currant_berries": "Whitecurrant Berries",
+  "block.tastyvanilla.berry_white_currant_berry_bush": "Whitecurrant Bush" ,
 
   //JAMS
   "item.tastyvanilla.glass_jar": "Glass Jar",
@@ -157,15 +157,15 @@
   "item.tastyvanilla.jam_strawberry": "Strawberry Jam",
   "item.tastyvanilla.jam_white_currant_berry": "White Currant Jam",
 
-  "item.tastyvanilla.jam_blackberry_mash": "Blackberry Mash",
-  "item.tastyvanilla.jam_blueberry_mash": "Blueberry Mash",
-  "item.tastyvanilla.jam_elderberry_mash": "Elderberry Mash",
-  "item.tastyvanilla.jam_goji_berry_mash": "Goji Berry Mash",
-  "item.tastyvanilla.jam_gooseberry_mash": "Gooseberry Mash",
-  "item.tastyvanilla.jam_raspberry_mash": "Raspberry Mash",
-  "item.tastyvanilla.jam_sweet_berry_mash": "Sweet Berry Mash",
-  "item.tastyvanilla.jam_strawberry_mash": "Strawberry Mash",
-  "item.tastyvanilla.jam_white_currant_berry_mash": "White Currant Mash",
+  "item.tastyvanilla.jam_blackberry_mash": "Blackberry Purée",
+  "item.tastyvanilla.jam_blueberry_mash": "Blueberry Purée",
+  "item.tastyvanilla.jam_elderberry_mash": "Elderberry Purée",
+  "item.tastyvanilla.jam_goji_berry_mash": "Goji Berry Purée",
+  "item.tastyvanilla.jam_gooseberry_mash": "Gooseberry Purée",
+  "item.tastyvanilla.jam_raspberry_mash": "Raspberry Purée",
+  "item.tastyvanilla.jam_sweet_berry_mash": "Sweet Berry Purée",
+  "item.tastyvanilla.jam_strawberry_mash": "Strawberry Purée",
+  "item.tastyvanilla.jam_white_currant_berry_mash": "White Currant Purée",
 
 
   //MILK & CHEESE
