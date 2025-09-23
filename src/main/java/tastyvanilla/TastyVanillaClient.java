@@ -3,7 +3,6 @@ package tastyvanilla;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.BlockRenderLayer;
-import net.minecraft.client.render.RenderLayer;
 import tastyvanilla.block.ModBlocks;
 import tastyvanilla.item.ModItems;
 
