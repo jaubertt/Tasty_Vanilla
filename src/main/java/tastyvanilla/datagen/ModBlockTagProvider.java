@@ -17,7 +17,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
 
         //VILLAGERS
-        getOrCreateTagBuilder(BlockTags.CROPS)
+        valueLookupBuilder(BlockTags.CROPS)
                 .add(ModBlocks.CABBAGE_CROP)
                 .add(ModBlocks.CHILLI_CROP)
                 .add(ModBlocks.EGGPLANT_CROP)
@@ -28,7 +28,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.TOMATO_CROP)
         ;
 
-        getOrCreateTagBuilder(BlockTags.MAINTAINS_FARMLAND)
+        valueLookupBuilder(BlockTags.MAINTAINS_FARMLAND)
                 .add(ModBlocks.CABBAGE_CROP)
                 .add(ModBlocks.CHILLI_CROP)
                 .add(ModBlocks.EGGPLANT_CROP)
@@ -41,7 +41,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
 
         //TOOLS
-        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+        valueLookupBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.CABBAGE_CROP)
                 .add(ModBlocks.CHILLI_CROP)
                 .add(ModBlocks.EGGPLANT_CROP)
@@ -54,7 +54,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SUGAR_BLOCK)
         ;
 
-        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.CABBAGE_CROP)
                 .add(ModBlocks.CHILLI_CROP)
                 .add(ModBlocks.EGGPLANT_CROP)
@@ -67,7 +67,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SUGAR_BLOCK)
         ;
 
-        getOrCreateTagBuilder(BlockTags.BEE_GROWABLES)
+        valueLookupBuilder(BlockTags.BEE_GROWABLES)
                 .add(ModBlocks.BERRY_BLACKBERRY_BUSH)
                 .add(ModBlocks.BERRY_BLUEBERRY_BUSH)
                 .add(ModBlocks.BERRY_ELDERBERRY_BUSH)

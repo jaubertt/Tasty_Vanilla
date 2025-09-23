@@ -1,7 +1,6 @@
 package tastyvanilla.item;
 
 import net.minecraft.component.type.ConsumableComponent;
-import net.minecraft.component.type.ConsumableComponent.Builder;
 import net.minecraft.component.type.ConsumableComponents;
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.entity.effect.StatusEffectInstance;
