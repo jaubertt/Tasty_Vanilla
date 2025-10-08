@@ -60,7 +60,7 @@ public class RaspberryBushBlock extends SweetBerryBushBlock {
         if (entity instanceof LivingEntity && entity.getType() != EntityType.FOX && entity.getType() != EntityType.BEE) {
             entity.slowMovement(state, new Vec3d(0.8F, 0.75, 0.8F));
             if (world instanceof ServerWorld serverWorld && (Integer)state.get(AGE) != 0) {
-                Vec3d vec3d = entity.isControlledByPlayer() ? entity.getMovement() : entity.getLastRenderPos().subtract(entity.getPos());
+                Vec3d vec3d = entity.isControlledByPlayer() ? entity.getMovement() : entity.getLastRenderPos().subtract(entity.getEntityPos());
                 if (vec3d.horizontalLengthSquared() > 0.0) {
                     double d = Math.abs(vec3d.getX());
                     double e = Math.abs(vec3d.getZ());
