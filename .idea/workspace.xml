@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Minecraft_Server.xml">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_09_25__15_05__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/BlackberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/BlackberryBushBlock.java" afterDir="false" />
@@ -88,7 +87,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1.21.8" />
+        <entry key="$PROJECT_DIR$" value="1.21.10" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -132,7 +131,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "1.21.9",
+    "git-widget-placeholder": "1.21.11",
     "last_opened_file_path": "/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/Tasty Vanilla/src/main/resources/assets/tastyvanilla/textures/item",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
@@ -158,7 +157,7 @@
       <recent name="tastyvanilla.mixin" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tasty Vanilla [build]">
+  <component name="RunManager" selected="Gradle.Tasty Vanilla [runClient]">
     <configuration name="Tasty Vanilla [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -212,8 +211,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tasty Vanilla [build]" />
         <item itemvalue="Gradle.Tasty Vanilla [runClient]" />
+        <item itemvalue="Gradle.Tasty Vanilla [build]" />
         <item itemvalue="Gradle.Tasty Vanilla [build]" />
         <item itemvalue="Gradle.Tasty Vanilla [build]" />
         <item itemvalue="Gradle.Tasty Vanilla [build]" />
@@ -268,7 +267,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758581658389</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Minecraft_Server.xml">
+      <option name="closed" value="true" />
+      <created>1759882039323</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759882039323</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Minecraft_Server.xml">
+      <option name="closed" value="true" />
+      <created>1759882046828</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759882046828</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,6 +313,7 @@
     <option name="RELOAD_CONTEXT" value="false" />
     <MESSAGE value="Deleted file from main" />
     <MESSAGE value="Added Bumsblech Salad and Strawberry Pie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Bumsblech Salad and Strawberry Pie" />
+    <MESSAGE value="Minecraft_Server.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minecraft_Server.xml" />
   </component>
 </project>
