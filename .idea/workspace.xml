@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Minecraft_Server.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_09_25__15_05__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/BlackberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/BlackberryBushBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/BlueberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/BlueberryBushBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/ElderberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/ElderberryBushBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/GojiBerryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/GojiBerryBushBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/GooseberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/GooseberryBushBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/RaspberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/RaspberryBushBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/StrawberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/StrawberryBushBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/WhiteCurrantBerryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/WhiteCurrantBerryBushBlock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +120,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "1.21.9",
+    "git-widget-placeholder": "1.21.10",
     "last_opened_file_path": "/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/Tasty Vanilla/src/main/resources/assets/tastyvanilla/textures/item",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
@@ -268,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758581658389</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Minecraft_Server.xml">
+      <option name="closed" value="true" />
+      <created>1770570515170</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770570515170</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,6 +294,7 @@
     <option name="RELOAD_CONTEXT" value="false" />
     <MESSAGE value="Deleted file from main" />
     <MESSAGE value="Added Bumsblech Salad and Strawberry Pie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Bumsblech Salad and Strawberry Pie" />
+    <MESSAGE value="Minecraft_Server.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minecraft_Server.xml" />
   </component>
 </project>

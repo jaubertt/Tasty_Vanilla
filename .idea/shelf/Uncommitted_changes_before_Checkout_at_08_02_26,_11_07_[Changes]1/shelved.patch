@@ -1,0 +1,658 @@
+Index: src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage0.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage0.json b/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage0.json
+deleted file mode 100644
+--- a/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage0.json	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ /dev/null	(revision 314a400880a60a0adebd844734f90f14839c7346)
+@@ -1,6 +0,0 @@
+-{
+-  "parent": "minecraft:block/crop",
+-  "textures": {
+-    "crop": "tastyvanilla:block/rice_crop_stage0"
+-  }
+-}
+\ No newline at end of file
+Index: src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage7.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage7.json b/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage7.json
+deleted file mode 100644
+--- a/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage7.json	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ /dev/null	(revision 314a400880a60a0adebd844734f90f14839c7346)
+@@ -1,6 +0,0 @@
+-{
+-  "parent": "minecraft:block/crop",
+-  "textures": {
+-    "crop": "tastyvanilla:block/rice_crop_stage7"
+-  }
+-}
+\ No newline at end of file
+Index: src/main/generated/assets/tastyvanilla/items/salt_block.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/generated/assets/tastyvanilla/items/salt_block.json b/src/main/generated/assets/tastyvanilla/items/salt_block.json
+deleted file mode 100644
+--- a/src/main/generated/assets/tastyvanilla/items/salt_block.json	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ /dev/null	(revision 314a400880a60a0adebd844734f90f14839c7346)
+@@ -1,6 +0,0 @@
+-{
+-  "model": {
+-    "type": "minecraft:model",
+-    "model": "tastyvanilla:block/salt_block"
+-  }
+-}
+\ No newline at end of file
+Index: src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage6.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage6.json b/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage6.json
+deleted file mode 100644
+--- a/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage6.json	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ /dev/null	(revision 314a400880a60a0adebd844734f90f14839c7346)
+@@ -1,6 +0,0 @@
+-{
+-  "parent": "minecraft:block/crop",
+-  "textures": {
+-    "crop": "tastyvanilla:block/rice_crop_stage6"
+-  }
+-}
+\ No newline at end of file
+Index: src/main/generated/assets/tastyvanilla/items/sugar_block.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/generated/assets/tastyvanilla/items/sugar_block.json b/src/main/generated/assets/tastyvanilla/items/sugar_block.json
+deleted file mode 100644
+--- a/src/main/generated/assets/tastyvanilla/items/sugar_block.json	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ /dev/null	(revision 314a400880a60a0adebd844734f90f14839c7346)
+@@ -1,6 +0,0 @@
+-{
+-  "model": {
+-    "type": "minecraft:model",
+-    "model": "tastyvanilla:block/sugar_block"
+-  }
+-}
+\ No newline at end of file
+Index: src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage3.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage3.json b/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage3.json
+deleted file mode 100644
+--- a/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage3.json	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ /dev/null	(revision 314a400880a60a0adebd844734f90f14839c7346)
+@@ -1,6 +0,0 @@
+-{
+-  "parent": "minecraft:block/crop",
+-  "textures": {
+-    "crop": "tastyvanilla:block/rice_crop_stage3"
+-  }
+-}
+\ No newline at end of file
+Index: src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage4.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage4.json b/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage4.json
+deleted file mode 100644
+--- a/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage4.json	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ /dev/null	(revision 314a400880a60a0adebd844734f90f14839c7346)
+@@ -1,6 +0,0 @@
+-{
+-  "parent": "minecraft:block/crop",
+-  "textures": {
+-    "crop": "tastyvanilla:block/rice_crop_stage4"
+-  }
+-}
+\ No newline at end of file
+Index: src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage5.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage5.json b/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage5.json
+deleted file mode 100644
+--- a/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage5.json	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ /dev/null	(revision 314a400880a60a0adebd844734f90f14839c7346)
+@@ -1,6 +0,0 @@
+-{
+-  "parent": "minecraft:block/crop",
+-  "textures": {
+-    "crop": "tastyvanilla:block/rice_crop_stage5"
+-  }
+-}
+\ No newline at end of file
+Index: src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage2.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage2.json b/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage2.json
+deleted file mode 100644
+--- a/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage2.json	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ /dev/null	(revision 314a400880a60a0adebd844734f90f14839c7346)
+@@ -1,6 +0,0 @@
+-{
+-  "parent": "minecraft:block/crop",
+-  "textures": {
+-    "crop": "tastyvanilla:block/rice_crop_stage2"
+-  }
+-}
+\ No newline at end of file
+Index: src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage1.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage1.json b/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage1.json
+deleted file mode 100644
+--- a/src/main/generated/assets/tastyvanilla/models/block/rice_crop_stage1.json	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ /dev/null	(revision 314a400880a60a0adebd844734f90f14839c7346)
+@@ -1,6 +0,0 @@
+-{
+-  "parent": "minecraft:block/crop",
+-  "textures": {
+-    "crop": "tastyvanilla:block/rice_crop_stage1"
+-  }
+-}
+\ No newline at end of file
+Index: src/main/generated/data/minecraft/tags/item/cow_food.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n  \"values\": [\n    \"tastyvanilla:lettuce\"\n  ]\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/generated/data/minecraft/tags/item/cow_food.json b/src/main/generated/data/minecraft/tags/item/cow_food.json
+--- a/src/main/generated/data/minecraft/tags/item/cow_food.json	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ b/src/main/generated/data/minecraft/tags/item/cow_food.json	(date 1767852301571)
+@@ -1,5 +1,6 @@
+ {
+   "values": [
+-    "tastyvanilla:lettuce"
++    "tastyvanilla:lettuce",
++    "tastyvanilla:kale"
+   ]
+ }
+\ No newline at end of file
+Index: src/main/generated/data/minecraft/tags/item/sheep_food.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n  \"values\": [\n    \"tastyvanilla:lettuce\"\n  ]\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/generated/data/minecraft/tags/item/sheep_food.json b/src/main/generated/data/minecraft/tags/item/sheep_food.json
+--- a/src/main/generated/data/minecraft/tags/item/sheep_food.json	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ b/src/main/generated/data/minecraft/tags/item/sheep_food.json	(date 1767852301571)
+@@ -1,5 +1,6 @@
+ {
+   "values": [
+-    "tastyvanilla:lettuce"
++    "tastyvanilla:lettuce",
++    "tastyvanilla:kale"
+   ]
+ }
+\ No newline at end of file
+Index: src/main/generated/data/minecraft/tags/item/horse_food.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n  \"values\": [\n    \"tastyvanilla:lettuce\"\n  ]\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/generated/data/minecraft/tags/item/horse_food.json b/src/main/generated/data/minecraft/tags/item/horse_food.json
+--- a/src/main/generated/data/minecraft/tags/item/horse_food.json	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ b/src/main/generated/data/minecraft/tags/item/horse_food.json	(date 1767852301571)
+@@ -1,5 +1,6 @@
+ {
+   "values": [
+-    "tastyvanilla:lettuce"
++    "tastyvanilla:lettuce",
++    "tastyvanilla:kale"
+   ]
+ }
+\ No newline at end of file
+Index: src/main/java/tastyvanilla/block/ModBlocks.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package tastyvanilla.block;\n\nimport net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;\nimport net.minecraft.block.*;\nimport net.minecraft.block.enums.NoteBlockInstrument;\nimport net.minecraft.block.piston.PistonBehavior;\nimport net.minecraft.item.BlockItem;\nimport net.minecraft.item.Item;\nimport net.minecraft.item.ItemGroups;\nimport net.minecraft.registry.Registries;\nimport net.minecraft.registry.Registry;\nimport net.minecraft.registry.RegistryKey;\nimport net.minecraft.registry.RegistryKeys;\nimport net.minecraft.sound.BlockSoundGroup;\nimport net.minecraft.util.Identifier;\nimport tastyvanilla.TastyVanilla;\nimport tastyvanilla.block.custom.*;\n\nimport java.util.function.Function;\n\npublic class ModBlocks {\n\n    //NEW BLOCKS\n    public static final Block SALT_BLOCK = registerBlock(\"salt_block\",\n            new Block(AbstractBlock.Settings.create()\n                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,\"salt_block\")))\n                    .strength(0.75f)\n                    .sounds(BlockSoundGroup.CALCITE)\n                    .instrument(NoteBlockInstrument.BASEDRUM)\n                    .mapColor(MapColor.WHITE_GRAY)\n                    .allowsSpawning(Blocks::never)));\n\n    public static final Block SUGAR_BLOCK = registerBlock(\"sugar_block\",\n            new Block(AbstractBlock.Settings.create()\n                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,\"sugar_block\")))\n                    .strength(0.75f)\n                    .sounds(BlockSoundGroup.CALCITE)\n                    .instrument(NoteBlockInstrument.BASEDRUM)\n                    .mapColor(MapColor.TERRACOTTA_WHITE)\n                    .allowsSpawning(Blocks::never)));\n\n    //--------------------------//\n\n    //NEW CROPS\n    public static final Block CABBAGE_CROP = registerBlockWithoutBlockItem(\"cabbage_crop\",\n            new CabbageCropBlock(AbstractBlock.Settings.create()\n                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,\"cabbage_crop\")))\n                    .noCollision()\n                    .ticksRandomly()\n                    .breakInstantly()\n                    .sounds(BlockSoundGroup.CROP)\n                    .pistonBehavior(PistonBehavior.DESTROY)\n                    .mapColor(MapColor.DARK_GREEN)));\n\n    public static final Block CHILLI_CROP = registerBlockWithoutBlockItem(\"chilli_crop\",\n            new ChilliCropBlock(AbstractBlock.Settings.create()\n                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,\"chilli_crop\")))\n                    .noCollision()\n                    .ticksRandomly()\n                    .breakInstantly()\n                    .sounds(BlockSoundGroup.CROP)\n                    .pistonBehavior(PistonBehavior.DESTROY)\n                    .mapColor(MapColor.DARK_GREEN)));\n\n    public static final Block EGGPLANT_CROP = registerBlockWithoutBlockItem(\"eggplant_crop\",\n            new EggplantCropBlock(AbstractBlock.Settings.create()\n                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,\"eggplant_crop\")))\n                    .noCollision()\n                    .ticksRandomly()\n                    .breakInstantly()\n                    .sounds(BlockSoundGroup.CROP)\n                    .pistonBehavior(PistonBehavior.DESTROY)\n                    .mapColor(MapColor.DARK_GREEN)));\n\n    public static final Block GARLIC_CROP = registerBlockWithoutBlockItem(\"garlic_crop\",\n            new GarlicCropBlock(AbstractBlock.Settings.create()\n                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,\"garlic_crop\")))\n                    .noCollision()\n                    .ticksRandomly()\n                    .breakInstantly()\n                    .sounds(BlockSoundGroup.CROP)\n                    .pistonBehavior(PistonBehavior.DESTROY)\n                    .mapColor(MapColor.DARK_GREEN)));\n\n    public static final Block LETTUCE_CROP = registerBlockWithoutBlockItem(\"lettuce_crop\",\n            new LettuceCropBlock(AbstractBlock.Settings.create()\n                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,\"lettuce_crop\")))\n                    .noCollision()\n                    .ticksRandomly()\n                    .breakInstantly()\n                    .sounds(BlockSoundGroup.CROP)\n                    .pistonBehavior(PistonBehavior.DESTROY)\n                    .mapColor(MapColor.DARK_GREEN)));\n\n    public static final Block ONION_CROP = registerBlockWithoutBlockItem(\"onion_crop\",\n            new OnionCropBlock(AbstractBlock.Settings.create()\n                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,\"onion_crop\")))\n                    .noCollision()\n                    .ticksRandomly()\n                    .breakInstantly()\n                    .sounds(BlockSoundGroup.CROP)\n                    .pistonBehavior(PistonBehavior.DESTROY)\n                    .mapColor(MapColor.DARK_GREEN)));\n\n\n    public static final Block SWEET_POTATO_CROP = registerBlockWithoutBlockItem(\"sweet_potato_crop\",\n            new SweetPotatoCropBlock(AbstractBlock.Settings.create()\n                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,\"sweet_potato_crop\")))\n                    .noCollision()\n                    .ticksRandomly()\n                    .breakInstantly()\n                    .sounds(BlockSoundGroup.CROP)\n                    .pistonBehavior(PistonBehavior.DESTROY)\n                    .mapColor(MapColor.DARK_GREEN)));\n\n    public static final Block TOMATO_CROP = registerBlockWithoutBlockItem(\"tomato_crop\",\n            new TomatoCropBlock(AbstractBlock.Settings.create()\n                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,\"tomato_crop\")))\n                    .noCollision()\n                    .ticksRandomly()\n                    .breakInstantly()\n                    .sounds(BlockSoundGroup.CROP)\n                    .pistonBehavior(PistonBehavior.DESTROY)\n                    .mapColor(MapColor.DARK_GREEN)));\n\n    //BERRIES\n    public static final Block BERRY_BLACKBERRY_BUSH = registerBlockWithoutBlockItem(\"berry_blackberry_bush\",\n            new BlackberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)\n                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,\"berry_blackberry_bush\")))\n            )\n    );\n    public static final Block BERRY_BLUEBERRY_BUSH = registerBlockWithoutBlockItem(\"berry_blueberry_bush\",\n            new BlueberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)\n                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,\"berry_blueberry_bush\")))\n            )\n    );\n    public static final Block BERRY_ELDERBERRY_BUSH = registerBlockWithoutBlockItem(\"berry_elderberry_bush\",\n            new ElderberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)\n                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,\"berry_elderberry_bush\")))\n            )\n    );\n    public static final Block BERRY_GOJI_BERRY_BUSH = registerBlockWithoutBlockItem(\"berry_goji_berry_bush\",\n            new GojiBerryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)\n                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,\"berry_goji_berry_bush\")))\n            )\n    );\n    public static final Block BERRY_GOOSEBERRY_BUSH = registerBlockWithoutBlockItem(\"berry_gooseberry_bush\",\n            new GooseberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)\n                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,\"berry_gooseberry_bush\")))\n            )\n    );\n    public static final Block BERRY_RASPBERRY_BUSH = registerBlockWithoutBlockItem(\"berry_raspberry_bush\",\n            new RaspberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)\n                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,\"berry_raspberry_bush\")))\n            )\n    );\n    public static final Block BERRY_STRAWBERRY_BUSH = registerBlockWithoutBlockItem(\"berry_strawberry_bush\",\n            new StrawberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)\n                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,\"berry_strawberry_bush\")))\n            )\n    );\n    public static final Block BERRY_WHITE_CURRANT_BERRY_BUSH = registerBlockWithoutBlockItem(\"berry_white_currant_berry_bush\",\n            new WhiteCurrantBerryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)\n                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,\"berry_white_currant_berry_bush\")))\n            )\n    );\n\n\n\n    //--------------------------//\n\n\n    public static Block register(RegistryKey<Block> key, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings) {\n        Block block = (Block)factory.apply(settings.registryKey(key));\n        return Registry.register(Registries.BLOCK, key, block);\n    }\n\n    private static RegistryKey<Block> keyOf(String id) {\n        return RegistryKey.of(RegistryKeys.BLOCK, Identifier.ofVanilla(id));\n    }\n\n    private static Block registerBlockVanillaMethod(String id, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings) {\n        return register(keyOf(id), factory, settings);\n    }\n\n\n\n    //Register Block Method\n\n    private static Block registerBlockWithoutBlockItem(String name,Block block){\n        return Registry.register(Registries.BLOCK, Identifier.of(TastyVanilla.MOD_ID,name),block);\n    }\n\n    private static Block registerBlock(String name,Block block){\n        registerBlockItem(name,block);\n        return Registry.register(Registries.BLOCK, Identifier.of(TastyVanilla.MOD_ID,name),block);\n    }\n\n    //Register Block Item Method\n    private static void registerBlockItem(String name, Block block){\n        Registry.register(Registries.ITEM, Identifier.of(TastyVanilla.MOD_ID,name),\n                new BlockItem(block, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM,Identifier.of(TastyVanilla.MOD_ID, name)))));\n    }\n\n    //--------------------------//\n\n    //Register Block Initializer\n    public static void registerModBlocks() {\n        TastyVanilla.LOGGER.info(\"Registering Mod Blocks for\" + TastyVanilla.MOD_ID);\n\n        //--------------------------//\n\n        //NEW BLOCK IN BUILDING BLOCKS\n        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries ->\n                fabricItemGroupEntries.add(ModBlocks.SALT_BLOCK));\n        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries ->\n                fabricItemGroupEntries.add(ModBlocks.SUGAR_BLOCK));\n\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/tastyvanilla/block/ModBlocks.java b/src/main/java/tastyvanilla/block/ModBlocks.java
+--- a/src/main/java/tastyvanilla/block/ModBlocks.java	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ b/src/main/java/tastyvanilla/block/ModBlocks.java	(date 1767850607419)
+@@ -123,6 +123,76 @@
+                     .pistonBehavior(PistonBehavior.DESTROY)
+                     .mapColor(MapColor.DARK_GREEN)));
+ 
++    public static final Block BELL_PEPPER_CROP = registerBlockWithoutBlockItem("bell_pepper_crop",
++            new TomatoCropBlock(AbstractBlock.Settings.create()
++                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,"bell_pepper_crop")))
++                    .noCollision()
++                    .ticksRandomly()
++                    .breakInstantly()
++                    .sounds(BlockSoundGroup.CROP)
++                    .pistonBehavior(PistonBehavior.DESTROY)
++                    .mapColor(MapColor.DARK_GREEN)));
++
++    public static final Block CUCUMBER_CROP = registerBlockWithoutBlockItem("cucumber_crop",
++            new TomatoCropBlock(AbstractBlock.Settings.create()
++                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,"cucumber_crop")))
++                    .noCollision()
++                    .ticksRandomly()
++                    .breakInstantly()
++                    .sounds(BlockSoundGroup.CROP)
++                    .pistonBehavior(PistonBehavior.DESTROY)
++                    .mapColor(MapColor.DARK_GREEN)));
++
++    public static final Block GINGER_CROP = registerBlockWithoutBlockItem("ginger_crop",
++            new TomatoCropBlock(AbstractBlock.Settings.create()
++                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,"ginger_crop")))
++                    .noCollision()
++                    .ticksRandomly()
++                    .breakInstantly()
++                    .sounds(BlockSoundGroup.CROP)
++                    .pistonBehavior(PistonBehavior.DESTROY)
++                    .mapColor(MapColor.DARK_GREEN)));
++
++    public static final Block KALE_CROP = registerBlockWithoutBlockItem("kale_crop",
++            new TomatoCropBlock(AbstractBlock.Settings.create()
++                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,"kale_crop")))
++                    .noCollision()
++                    .ticksRandomly()
++                    .breakInstantly()
++                    .sounds(BlockSoundGroup.CROP)
++                    .pistonBehavior(PistonBehavior.DESTROY)
++                    .mapColor(MapColor.DARK_GREEN)));
++
++    public static final Block LEEK_CROP = registerBlockWithoutBlockItem("leek_crop",
++            new TomatoCropBlock(AbstractBlock.Settings.create()
++                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,"leek_crop")))
++                    .noCollision()
++                    .ticksRandomly()
++                    .breakInstantly()
++                    .sounds(BlockSoundGroup.CROP)
++                    .pistonBehavior(PistonBehavior.DESTROY)
++                    .mapColor(MapColor.DARK_GREEN)));
++
++    public static final Block PEAS_CROP = registerBlockWithoutBlockItem("peas_crop",
++            new TomatoCropBlock(AbstractBlock.Settings.create()
++                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,"peas_crop")))
++                    .noCollision()
++                    .ticksRandomly()
++                    .breakInstantly()
++                    .sounds(BlockSoundGroup.CROP)
++                    .pistonBehavior(PistonBehavior.DESTROY)
++                    .mapColor(MapColor.DARK_GREEN)));
++
++    public static final Block TUMERIC_CROP = registerBlockWithoutBlockItem("tumeric_crop",
++            new TomatoCropBlock(AbstractBlock.Settings.create()
++                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,"tumeric_crop")))
++                    .noCollision()
++                    .ticksRandomly()
++                    .breakInstantly()
++                    .sounds(BlockSoundGroup.CROP)
++                    .pistonBehavior(PistonBehavior.DESTROY)
++                    .mapColor(MapColor.DARK_GREEN)));
++
+     //BERRIES
+     public static final Block BERRY_BLACKBERRY_BUSH = registerBlockWithoutBlockItem("berry_blackberry_bush",
+             new BlackberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)
+Index: src/main/java/tastyvanilla/item/ModCompostableItems.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package tastyvanilla.item;\n\nimport net.fabricmc.fabric.api.registry.CompostingChanceRegistry;\nimport tastyvanilla.TastyVanilla;\n\npublic class ModCompostableItems {\n\n    //ITEM INITIALIZER\n    public static void registerModCompostableItems(){\n        TastyVanilla.LOGGER.info(\"Registering Mod Compostable Items for \" + TastyVanilla.MOD_ID);\n\n\t\t//COOKIES\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.COOKIE_APPLE,0.85f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.COOKIE_CARROT,0.85f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.COOKIE_GLOW_BERRY,0.85f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.COOKIE_HONEY,0.85f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.COOKIE_OATMEAL,0.85f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.COOKIE_POPPY_SEED,0.85f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.COOKIE_PUMPKIN,0.85f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.COOKIE_SPIDER_EYE,0.85f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.COOKIE_SUGAR,0.85f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.COOKIE_SUNFLOWER_SEED,0.85f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.COOKIE_SWEET_BERRY,0.85f);\n\n\t\t//PIES\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.PIE_APPLE,1.0f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.PIE_CHICKEN,1.0f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.PIE_CHOCOLATE,1.0f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.PIE_CHORUS_FRUIT,1.0f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.PIE_FISH,1.0f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.PIE_FUNGUS,1.0f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.PIE_GLOW_BERRY,1.0f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.PIE_HONEY,1.0f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.PIE_MEAT,1.0f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.PIE_MELON,1.0f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.PIE_MUSHROOM,1.0f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.PIE_SHEPHERDS,1.0f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.PIE_SWEET_BERRY,1.0f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.PIE_VEGETABLE,1.0f);\n\n\t\t//BAKED BREAD\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BREAD_BAGUEL,0.5f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BREAD_BAGUETTE,0.5f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BREAD_BAKED,0.5f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BREAD_BROWNIE,0.5f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BREAD_CROISSANT,0.5f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BREAD_FLATBREAD,0.5f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BREAD_FOCACCIA,0.5f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BREAD_HONEY,0.5f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BREAD_MULTIGRAIN,0.5f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BREAD_PANCAKES,0.5f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BREAD_SOURDOUGH,0.5f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BREAD_SWEET_ROLL,0.5f);\n\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BREAD_GARLIC,0.5f);\n\n\n\t\t//DOUGHS\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.DOUGH_BAGUEL,0.65f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.DOUGH_BAGUETTE,0.65f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.DOUGH_BAKED_BREAD,0.65f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.DOUGH_BROWNIE,0.65f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.DOUGH_CROISSANT,0.65f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.DOUGH_FLATBREAD,0.65f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.DOUGH_FOCACCIA,0.65f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.DOUGH_HONEY,0.65f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.DOUGH_MULTIGRAIN,0.65f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.DOUGH_PANCAKES,0.65f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.DOUGH_SOURDOUGH,0.65f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.DOUGH_SWEET_ROLL,0.65f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.DOUGH_GARLIC,0.65f);\n\n\n\t\t//CROPS\n        CompostingChanceRegistry.INSTANCE.add(ModItems.CABBAGE,0.5f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.CHILLI,0.5f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.CHILLI_SEEDS,0.25f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.EGGPLANT,0.5f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.GARLIC,05f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.LETTUCE,0.25f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.LETTUCE_SEEDS,0.5f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.ONION,0.5f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.SWEET_POTATO,0.25f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.TOMATO,0.5f);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.TOMATO_SEEDS,0.25f);\n\n\t\t//BERRIES\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BERRY_BLACKBERRIES, 0.3F);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BERRY_BLUEBERRIES, 0.3F);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BERRY_ELDERBERRIES, 0.3F);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BERRY_GOJI_BERRIES, 0.3F);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BERRY_GOOSEBERRIES, 0.3F);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BERRY_RASPBERRIES, 0.3F);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BERRY_STRAWBERRIES, 0.3F);\n\t\tCompostingChanceRegistry.INSTANCE.add(ModItems.BERRY_WHITE_CURRANT_BERRIES, 0.3F);\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/tastyvanilla/item/ModCompostableItems.java b/src/main/java/tastyvanilla/item/ModCompostableItems.java
+--- a/src/main/java/tastyvanilla/item/ModCompostableItems.java	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ b/src/main/java/tastyvanilla/item/ModCompostableItems.java	(date 1767851598524)
+@@ -83,6 +83,17 @@
+ 		CompostingChanceRegistry.INSTANCE.add(ModItems.SWEET_POTATO,0.25f);
+ 		CompostingChanceRegistry.INSTANCE.add(ModItems.TOMATO,0.5f);
+ 		CompostingChanceRegistry.INSTANCE.add(ModItems.TOMATO_SEEDS,0.25f);
++		CompostingChanceRegistry.INSTANCE.add(ModItems.BELL_PEPPER,0.5f);
++		CompostingChanceRegistry.INSTANCE.add(ModItems.BELL_PEPPER_SEEDS,0.25f);
++		CompostingChanceRegistry.INSTANCE.add(ModItems.CUCUMBER,0.5f);
++		CompostingChanceRegistry.INSTANCE.add(ModItems.CUCUMBER_SEEDS,0.25f);
++		CompostingChanceRegistry.INSTANCE.add(ModItems.GINGER,0.5f);
++		CompostingChanceRegistry.INSTANCE.add(ModItems.KALE,0.5f);
++		CompostingChanceRegistry.INSTANCE.add(ModItems.KALE_SEEDS,0.25f);
++		CompostingChanceRegistry.INSTANCE.add(ModItems.LEEK,0.5f);
++		CompostingChanceRegistry.INSTANCE.add(ModItems.PEAS,0.5f);
++		CompostingChanceRegistry.INSTANCE.add(ModItems.PEAS_SEEDS,0.25f);
++		CompostingChanceRegistry.INSTANCE.add(ModItems.TUMERIC,0.5f);
+ 
+ 		//BERRIES
+ 		CompostingChanceRegistry.INSTANCE.add(ModItems.BERRY_BLACKBERRIES, 0.3F);
+Index: src/main/java/tastyvanilla/datagen/ModModelProvider.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package tastyvanilla.datagen;\n\nimport net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;\nimport net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;\nimport net.minecraft.client.data.BlockStateModelGenerator;\nimport net.minecraft.client.data.ItemModelGenerator;\nimport net.minecraft.client.data.Models;\nimport tastyvanilla.block.ModBlocks;\nimport tastyvanilla.block.custom.*;\nimport tastyvanilla.item.ModItems;\n\npublic class ModModelProvider extends FabricModelProvider {\n    public ModModelProvider(FabricDataOutput output) { super(output);}\n\n    //BLOCKS\n    @Override\n    public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {\n\n        //CROPS\n        blockStateModelGenerator.registerCrop(ModBlocks.CABBAGE_CROP, CabbageCropBlock.AGE, 0,1,2,3,4,5,6,7);\n        blockStateModelGenerator.registerCrop(ModBlocks.CHILLI_CROP, ChilliCropBlock.AGE, 0,1,2,3,4,5,6,7);\n        blockStateModelGenerator.registerCrop(ModBlocks.EGGPLANT_CROP, EggplantCropBlock.AGE, 0,1,2,3,4,5,6,7);\n        blockStateModelGenerator.registerCrop(ModBlocks.GARLIC_CROP, GarlicCropBlock.AGE, 0,1,2,3,4,5,6,7);\n        blockStateModelGenerator.registerCrop(ModBlocks.LETTUCE_CROP,LettuceCropBlock.AGE, 0,1,2,3,4,5,6,7);\n        blockStateModelGenerator.registerCrop(ModBlocks.ONION_CROP,OnionCropBlock.AGE, 0,1,2,3,4,5,6,7);\n        blockStateModelGenerator.registerCrop(ModBlocks.SWEET_POTATO_CROP,SweetPotatoCropBlock.AGE, 0,1,2,3,4,5,6,7);\n        blockStateModelGenerator.registerCrop(ModBlocks.TOMATO_CROP,TomatoCropBlock.AGE, 0,1,2,3,4,5,6,7);\n\n       //BERRIES\n        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_BLACKBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});\n        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_BLUEBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});\n        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_ELDERBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});\n        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_GOJI_BERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});\n        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_GOOSEBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});\n        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_RASPBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});\n        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_STRAWBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});\n        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});\n\n    }\n\n\n    //ITEMS\n\n    @Override\n    public void generateItemModels(ItemModelGenerator itemModelGenerator) {\n\n        //FOOD CROPS\n        itemModelGenerator.register(ModItems.FOOD_CHILLI_STEW, Models.GENERATED);\n        itemModelGenerator.register(ModItems.FOOD_ROASTED_GARLIC, Models.GENERATED);\n        itemModelGenerator.register(ModItems.FOOD_WRAP, Models.GENERATED);\n        itemModelGenerator.register(ModItems.FOOD_WRAP_VEGGIE, Models.GENERATED);\n        itemModelGenerator.register(ModItems.FOOD_BAKED_SWEET_POTATO, Models.GENERATED);\n        itemModelGenerator.register(ModItems.FOOD_ONION_RING, Models.GENERATED);\n        itemModelGenerator.register(ModItems.FOOD_ONION_SOUP, Models.GENERATED);\n        itemModelGenerator.register(ModItems.FOOD_POTATO_FRIES, Models.GENERATED);\n        itemModelGenerator.register(ModItems.FOOD_SWEET_POTATO_FRIES, Models.GENERATED);\n        itemModelGenerator.register(ModItems.FOOD_COLESLAW, Models.GENERATED);\n        itemModelGenerator.register(ModItems.FOOD_SALAD, Models.GENERATED);\n        itemModelGenerator.register(ModItems.FOOD_BUMSBLECH_SALAD, Models.GENERATED);\n        itemModelGenerator.register(ModItems.FOOD_TOMATO_SOUP, Models.GENERATED);\n\n        itemModelGenerator.register(ModItems.BREAD_GARLIC, Models.GENERATED);\n        itemModelGenerator.register(ModItems.DOUGH_GARLIC, Models.GENERATED);\n\n        //BERRIES\n        itemModelGenerator.register(ModItems.GLASS_JAR, Models.GENERATED);\n        itemModelGenerator.register(ModItems.JAM_BLACKBERRY, Models.GENERATED);\n        itemModelGenerator.register(ModItems.JAM_BLUEBERRY, Models.GENERATED);\n        itemModelGenerator.register(ModItems.JAM_ELDERBERRY, Models.GENERATED);\n        itemModelGenerator.register(ModItems.JAM_GOJI_BERRY, Models.GENERATED);\n        itemModelGenerator.register(ModItems.JAM_GOOSEBERRY, Models.GENERATED);\n        itemModelGenerator.register(ModItems.JAM_RASPBERRY, Models.GENERATED);\n        itemModelGenerator.register(ModItems.JAM_SWEET_BERRY, Models.GENERATED);\n        itemModelGenerator.register(ModItems.JAM_STRAWBERRY, Models.GENERATED);\n        itemModelGenerator.register(ModItems.JAM_WHITE_CURRANT_BERRY, Models.GENERATED);\n        itemModelGenerator.register(ModItems.JAM_BLACKBERRY_MASH, Models.GENERATED);\n        itemModelGenerator.register(ModItems.JAM_BLUEBERRY_MASH, Models.GENERATED);\n        itemModelGenerator.register(ModItems.JAM_ELDERERRY_MASH, Models.GENERATED);\n        itemModelGenerator.register(ModItems.JAM_GOJI_BERRY_MASH, Models.GENERATED);\n        itemModelGenerator.register(ModItems.JAM_GOOSEBERRY_MASH, Models.GENERATED);\n        itemModelGenerator.register(ModItems.JAM_RASPBERRY_MASH, Models.GENERATED);\n        itemModelGenerator.register(ModItems.JAM_SWEET_BERRY_MASH, Models.GENERATED);\n        itemModelGenerator.register(ModItems.JAM_STRAWBERRY_MASH, Models.GENERATED);\n        itemModelGenerator.register(ModItems.JAM_WHITE_CURRANT_BERRY_MASH, Models.GENERATED);\n\n        //CHEESE\n        itemModelGenerator.register(ModItems.GOAT_MILK_BUCKET, Models.GENERATED);\n\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/tastyvanilla/datagen/ModModelProvider.java b/src/main/java/tastyvanilla/datagen/ModModelProvider.java
+--- a/src/main/java/tastyvanilla/datagen/ModModelProvider.java	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ b/src/main/java/tastyvanilla/datagen/ModModelProvider.java	(date 1767851598518)
+@@ -25,6 +25,13 @@
+         blockStateModelGenerator.registerCrop(ModBlocks.ONION_CROP,OnionCropBlock.AGE, 0,1,2,3,4,5,6,7);
+         blockStateModelGenerator.registerCrop(ModBlocks.SWEET_POTATO_CROP,SweetPotatoCropBlock.AGE, 0,1,2,3,4,5,6,7);
+         blockStateModelGenerator.registerCrop(ModBlocks.TOMATO_CROP,TomatoCropBlock.AGE, 0,1,2,3,4,5,6,7);
++        blockStateModelGenerator.registerCrop(ModBlocks.BELL_PEPPER_CROP,TomatoCropBlock.AGE, 0,1,2,3,4,5,6,7);
++        blockStateModelGenerator.registerCrop(ModBlocks.CUCUMBER_CROP,TomatoCropBlock.AGE, 0,1,2,3,4,5,6,7);
++        blockStateModelGenerator.registerCrop(ModBlocks.GINGER_CROP,TomatoCropBlock.AGE, 0,1,2,3,4,5,6,7);
++        blockStateModelGenerator.registerCrop(ModBlocks.KALE_CROP,TomatoCropBlock.AGE, 0,1,2,3,4,5,6,7);
++        blockStateModelGenerator.registerCrop(ModBlocks.LEEK_CROP,TomatoCropBlock.AGE, 0,1,2,3,4,5,6,7);
++        blockStateModelGenerator.registerCrop(ModBlocks.PEAS_CROP,TomatoCropBlock.AGE, 0,1,2,3,4,5,6,7);
++        blockStateModelGenerator.registerCrop(ModBlocks.TUMERIC_CROP,TomatoCropBlock.AGE, 0,1,2,3,4,5,6,7);
+ 
+        //BERRIES
+         blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_BLACKBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+Index: src/main/java/tastyvanilla/datagen/ModItemTagProvider.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package tastyvanilla.datagen;\n\n\nimport net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;\nimport net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;\nimport net.minecraft.registry.RegistryWrapper;\nimport net.minecraft.registry.tag.ItemTags;\nimport tastyvanilla.item.ModItems;\nimport tastyvanilla.util.ModTags;\n\nimport java.util.concurrent.CompletableFuture;\n\npublic class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {\n\n    public ModItemTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> completableFuture) {\n        super(output, completableFuture);\n    }\n\n    @Override\n    protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {\n\n        //MOD TAGS\n\n        valueLookupBuilder(ModTags.Items.MOD_CROPS)\n                .add(ModItems.CHILLI)\n                .add(ModItems.TOMATO)\n                .add(ModItems.LETTUCE)\n                .add(ModItems.CABBAGE)\n                .add(ModItems.EGGPLANT)\n                .add(ModItems.GARLIC)\n                .add(ModItems.ONION)\n                .add(ModItems.SWEET_POTATO);\n\n        //VANILLA TAGS\n        valueLookupBuilder(ItemTags.VILLAGER_PICKS_UP)\n                .add(ModItems.CHILLI)\n                .add(ModItems.CHILLI_SEEDS)\n                .add(ModItems.TOMATO)\n                .add(ModItems.TOMATO_SEEDS)\n                .add(ModItems.LETTUCE)\n                .add(ModItems.LETTUCE_SEEDS)\n                .add(ModItems.CABBAGE)\n                .add(ModItems.EGGPLANT)\n                .add(ModItems.GARLIC)\n                .add(ModItems.ONION)\n                .add(ModItems.SWEET_POTATO);\n\n\n        valueLookupBuilder(ItemTags.VILLAGER_PLANTABLE_SEEDS)\n                .add(ModItems.CHILLI_SEEDS)\n                .add(ModItems.TOMATO_SEEDS)\n                .add(ModItems.LETTUCE_SEEDS)\n                .add(ModItems.CABBAGE)\n                .add(ModItems.EGGPLANT)\n                .add(ModItems.GARLIC)\n                .add(ModItems.ONION)\n                .add(ModItems.SWEET_POTATO);\n\n\n        valueLookupBuilder(ItemTags.COW_FOOD)\n                .add(ModItems.LETTUCE)\n\n        ;\n\n        valueLookupBuilder(ItemTags.SHEEP_FOOD)\n                .add(ModItems.LETTUCE)\n\n        ;\n\n        valueLookupBuilder(ItemTags.GOAT_FOOD)\n                .add(ModItems.LETTUCE)\n\n        ;\n\n        valueLookupBuilder(ItemTags.HORSE_FOOD)\n                .add(ModItems.LETTUCE)\n\n        ;\n\n\n        valueLookupBuilder(ItemTags.PIG_FOOD)\n                .add(ModItems.CABBAGE)\n                .add(ModItems.EGGPLANT)\n                .add(ModItems.SWEET_POTATO);\n        ;\n\n\n        valueLookupBuilder(ItemTags.CHICKEN_FOOD)\n                .add(ModItems.CHILLI_SEEDS)\n                .add(ModItems.TOMATO_SEEDS)\n                .add(ModItems.LETTUCE_SEEDS)\n        ;\n\n        valueLookupBuilder(ItemTags.PARROT_FOOD)\n                .add(ModItems.CHILLI_SEEDS)\n                .add(ModItems.TOMATO_SEEDS)\n                .add(ModItems.LETTUCE_SEEDS)\n        ;\n\n        valueLookupBuilder(ItemTags.PARROT_POISONOUS_FOOD)\n                .add(ModItems.COOKIE_APPLE)\n                .add(ModItems.COOKIE_CARROT)\n                .add(ModItems.COOKIE_GLOW_BERRY)\n                .add(ModItems.COOKIE_OATMEAL)\n                .add(ModItems.COOKIE_HONEY)\n                .add(ModItems.COOKIE_PUMPKIN)\n                .add(ModItems.COOKIE_POPPY_SEED)\n                .add(ModItems.COOKIE_SPIDER_EYE)\n                .add(ModItems.COOKIE_SUNFLOWER_SEED)\n                .add(ModItems.COOKIE_SWEET_BERRY)\n                .add(ModItems.COOKIE_SUGAR)\n        ;\n\n        valueLookupBuilder(ItemTags.RABBIT_FOOD)\n                .add(ModItems.TOMATO)\n        ;\n\n        valueLookupBuilder(ItemTags.FOX_FOOD)\n                .add(ModItems.BERRY_BLUEBERRIES)\n                .add(ModItems.BERRY_GOOSEBERRIES)\n                .add(ModItems.BERRY_BLACKBERRIES)\n\n        ;\n\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/tastyvanilla/datagen/ModItemTagProvider.java b/src/main/java/tastyvanilla/datagen/ModItemTagProvider.java
+--- a/src/main/java/tastyvanilla/datagen/ModItemTagProvider.java	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ b/src/main/java/tastyvanilla/datagen/ModItemTagProvider.java	(date 1767852256909)
+@@ -43,7 +43,23 @@
+                 .add(ModItems.EGGPLANT)
+                 .add(ModItems.GARLIC)
+                 .add(ModItems.ONION)
+-                .add(ModItems.SWEET_POTATO);
++                .add(ModItems.SWEET_POTATO)
++                .add(ModItems.BELL_PEPPER)
++                .add(ModItems.BELL_PEPPER_SEEDS)
++                .add(ModItems.CUCUMBER)
++                .add(ModItems.CUCUMBER_SEEDS)
++                .add(ModItems.GINGER)
++                .add(ModItems.KALE)
++                .add(ModItems.KALE_SEEDS)
++                .add(ModItems.LEEK)
++                .add(ModItems.PEAS)
++                .add(ModItems.PEAS_SEEDS)
++                .add(ModItems.TUMERIC)
++        ;
++
++
++
++
+ 
+ 
+         valueLookupBuilder(ItemTags.VILLAGER_PLANTABLE_SEEDS)
+@@ -54,34 +70,43 @@
+                 .add(ModItems.EGGPLANT)
+                 .add(ModItems.GARLIC)
+                 .add(ModItems.ONION)
+-                .add(ModItems.SWEET_POTATO);
++                .add(ModItems.BELL_PEPPER_SEEDS)
++                .add(ModItems.CUCUMBER_SEEDS)
++                .add(ModItems.GINGER)
++                .add(ModItems.KALE_SEEDS)
++                .add(ModItems.LEEK)
++                .add(ModItems.PEAS_SEEDS)
++                .add(ModItems.TUMERIC)
++        ;
++
+ 
+ 
+         valueLookupBuilder(ItemTags.COW_FOOD)
+                 .add(ModItems.LETTUCE)
+-
++                .add(ModItems.KALE)
+         ;
+ 
+         valueLookupBuilder(ItemTags.SHEEP_FOOD)
+                 .add(ModItems.LETTUCE)
+-
++                .add(ModItems.KALE)
+         ;
+ 
+         valueLookupBuilder(ItemTags.GOAT_FOOD)
+                 .add(ModItems.LETTUCE)
+-
++                .add(ModItems.KALE)
+         ;
+ 
+         valueLookupBuilder(ItemTags.HORSE_FOOD)
+                 .add(ModItems.LETTUCE)
+-
++                .add(ModItems.KALE)
+         ;
+ 
+ 
+         valueLookupBuilder(ItemTags.PIG_FOOD)
+                 .add(ModItems.CABBAGE)
+                 .add(ModItems.EGGPLANT)
+-                .add(ModItems.SWEET_POTATO);
++                .add(ModItems.SWEET_POTATO)
++                .add(ModItems.CUCUMBER)
+         ;
+ 
+ 
+@@ -89,7 +114,12 @@
+                 .add(ModItems.CHILLI_SEEDS)
+                 .add(ModItems.TOMATO_SEEDS)
+                 .add(ModItems.LETTUCE_SEEDS)
++                .add(ModItems.BELL_PEPPER_SEEDS)
++                .add(ModItems.CUCUMBER_SEEDS)
++                .add(ModItems.KALE_SEEDS)
++                .add(ModItems.PEAS_SEEDS)
+         ;
++
+ 
+         valueLookupBuilder(ItemTags.PARROT_FOOD)
+                 .add(ModItems.CHILLI_SEEDS)
+@@ -97,6 +127,7 @@
+                 .add(ModItems.LETTUCE_SEEDS)
+         ;
+ 
++
+         valueLookupBuilder(ItemTags.PARROT_POISONOUS_FOOD)
+                 .add(ModItems.COOKIE_APPLE)
+                 .add(ModItems.COOKIE_CARROT)
+@@ -111,8 +142,11 @@
+                 .add(ModItems.COOKIE_SUGAR)
+         ;
+ 
++
+         valueLookupBuilder(ItemTags.RABBIT_FOOD)
+                 .add(ModItems.TOMATO)
++                .add(ModItems.LETTUCE)
++                .add(ModItems.KALE)
+         ;
+ 
+         valueLookupBuilder(ItemTags.FOX_FOOD)
+Index: src/main/java/tastyvanilla/datagen/ModBlockTagProvider.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package tastyvanilla.datagen;\n\nimport net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;\nimport net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;\nimport net.minecraft.registry.RegistryWrapper;\nimport net.minecraft.registry.tag.BlockTags;\nimport tastyvanilla.block.ModBlocks;\n\nimport java.util.concurrent.CompletableFuture;\n\npublic class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {\n    public ModBlockTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {\n        super(output, registriesFuture);\n    }\n\n    @Override\n    protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {\n\n        //VILLAGERS\n        valueLookupBuilder(BlockTags.CROPS)\n                .add(ModBlocks.CABBAGE_CROP)\n                .add(ModBlocks.CHILLI_CROP)\n                .add(ModBlocks.EGGPLANT_CROP)\n                .add(ModBlocks.GARLIC_CROP)\n                .add(ModBlocks.LETTUCE_CROP)\n                .add(ModBlocks.ONION_CROP)\n                .add(ModBlocks.SWEET_POTATO_CROP)\n                .add(ModBlocks.TOMATO_CROP)\n        ;\n\n        valueLookupBuilder(BlockTags.MAINTAINS_FARMLAND)\n                .add(ModBlocks.CABBAGE_CROP)\n                .add(ModBlocks.CHILLI_CROP)\n                .add(ModBlocks.EGGPLANT_CROP)\n                .add(ModBlocks.GARLIC_CROP)\n                .add(ModBlocks.LETTUCE_CROP)\n                .add(ModBlocks.ONION_CROP)\n                .add(ModBlocks.SWEET_POTATO_CROP)\n                .add(ModBlocks.TOMATO_CROP)\n        ;\n\n\n        //TOOLS\n        valueLookupBuilder(BlockTags.AXE_MINEABLE)\n                .add(ModBlocks.CABBAGE_CROP)\n                .add(ModBlocks.CHILLI_CROP)\n                .add(ModBlocks.EGGPLANT_CROP)\n                .add(ModBlocks.GARLIC_CROP)\n                .add(ModBlocks.LETTUCE_CROP)\n                .add(ModBlocks.ONION_CROP)\n                .add(ModBlocks.SWEET_POTATO_CROP)\n                .add(ModBlocks.TOMATO_CROP)\n                .add(ModBlocks.SALT_BLOCK)\n                .add(ModBlocks.SUGAR_BLOCK)\n        ;\n\n        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE)\n                .add(ModBlocks.CABBAGE_CROP)\n                .add(ModBlocks.CHILLI_CROP)\n                .add(ModBlocks.EGGPLANT_CROP)\n                .add(ModBlocks.GARLIC_CROP)\n                .add(ModBlocks.LETTUCE_CROP)\n                .add(ModBlocks.ONION_CROP)\n                .add(ModBlocks.SWEET_POTATO_CROP)\n                .add(ModBlocks.TOMATO_CROP)\n                .add(ModBlocks.SALT_BLOCK)\n                .add(ModBlocks.SUGAR_BLOCK)\n        ;\n\n        valueLookupBuilder(BlockTags.BEE_GROWABLES)\n                .add(ModBlocks.BERRY_BLACKBERRY_BUSH)\n                .add(ModBlocks.BERRY_BLUEBERRY_BUSH)\n                .add(ModBlocks.BERRY_ELDERBERRY_BUSH)\n                .add(ModBlocks.BERRY_GOJI_BERRY_BUSH)\n                .add(ModBlocks.BERRY_GOOSEBERRY_BUSH)\n                .add(ModBlocks.BERRY_RASPBERRY_BUSH)\n                .add(ModBlocks.BERRY_STRAWBERRY_BUSH)\n                .add(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH);\n        ;\n\n\n\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/tastyvanilla/datagen/ModBlockTagProvider.java b/src/main/java/tastyvanilla/datagen/ModBlockTagProvider.java
+--- a/src/main/java/tastyvanilla/datagen/ModBlockTagProvider.java	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ b/src/main/java/tastyvanilla/datagen/ModBlockTagProvider.java	(date 1767852256905)
+@@ -26,6 +26,14 @@
+                 .add(ModBlocks.ONION_CROP)
+                 .add(ModBlocks.SWEET_POTATO_CROP)
+                 .add(ModBlocks.TOMATO_CROP)
++                .add(ModBlocks.BELL_PEPPER_CROP)
++                .add(ModBlocks.CUCUMBER_CROP)
++                .add(ModBlocks.GINGER_CROP)
++                .add(ModBlocks.KALE_CROP)
++                .add(ModBlocks.LEEK_CROP)
++                .add(ModBlocks.PEAS_CROP)
++                .add(ModBlocks.TUMERIC_CROP)
++
+         ;
+ 
+         valueLookupBuilder(BlockTags.MAINTAINS_FARMLAND)
+@@ -37,6 +45,14 @@
+                 .add(ModBlocks.ONION_CROP)
+                 .add(ModBlocks.SWEET_POTATO_CROP)
+                 .add(ModBlocks.TOMATO_CROP)
++                .add(ModBlocks.BELL_PEPPER_CROP)
++                .add(ModBlocks.CUCUMBER_CROP)
++                .add(ModBlocks.GINGER_CROP)
++                .add(ModBlocks.KALE_CROP)
++                .add(ModBlocks.LEEK_CROP)
++                .add(ModBlocks.PEAS_CROP)
++                .add(ModBlocks.TUMERIC_CROP)
++
+         ;
+ 
+ 
+@@ -50,6 +66,14 @@
+                 .add(ModBlocks.ONION_CROP)
+                 .add(ModBlocks.SWEET_POTATO_CROP)
+                 .add(ModBlocks.TOMATO_CROP)
++                .add(ModBlocks.BELL_PEPPER_CROP)
++                .add(ModBlocks.CUCUMBER_CROP)
++                .add(ModBlocks.GINGER_CROP)
++                .add(ModBlocks.KALE_CROP)
++                .add(ModBlocks.LEEK_CROP)
++                .add(ModBlocks.PEAS_CROP)
++                .add(ModBlocks.TUMERIC_CROP)
++
+                 .add(ModBlocks.SALT_BLOCK)
+                 .add(ModBlocks.SUGAR_BLOCK)
+         ;
+@@ -63,11 +87,33 @@
+                 .add(ModBlocks.ONION_CROP)
+                 .add(ModBlocks.SWEET_POTATO_CROP)
+                 .add(ModBlocks.TOMATO_CROP)
++                .add(ModBlocks.BELL_PEPPER_CROP)
++                .add(ModBlocks.CUCUMBER_CROP)
++                .add(ModBlocks.GINGER_CROP)
++                .add(ModBlocks.KALE_CROP)
++                .add(ModBlocks.LEEK_CROP)
++                .add(ModBlocks.PEAS_CROP)
++                .add(ModBlocks.TUMERIC_CROP)
+                 .add(ModBlocks.SALT_BLOCK)
+                 .add(ModBlocks.SUGAR_BLOCK)
+         ;
+ 
+         valueLookupBuilder(BlockTags.BEE_GROWABLES)
++                .add(ModBlocks.CABBAGE_CROP)
++                .add(ModBlocks.CHILLI_CROP)
++                .add(ModBlocks.EGGPLANT_CROP)
++                .add(ModBlocks.GARLIC_CROP)
++                .add(ModBlocks.LETTUCE_CROP)
++                .add(ModBlocks.ONION_CROP)
++                .add(ModBlocks.SWEET_POTATO_CROP)
++                .add(ModBlocks.TOMATO_CROP)
++                .add(ModBlocks.BELL_PEPPER_CROP)
++                .add(ModBlocks.CUCUMBER_CROP)
++                .add(ModBlocks.GINGER_CROP)
++                .add(ModBlocks.KALE_CROP)
++                .add(ModBlocks.LEEK_CROP)
++                .add(ModBlocks.PEAS_CROP)
++                .add(ModBlocks.TUMERIC_CROP)
+                 .add(ModBlocks.BERRY_BLACKBERRY_BUSH)
+                 .add(ModBlocks.BERRY_BLUEBERRY_BUSH)
+                 .add(ModBlocks.BERRY_ELDERBERRY_BUSH)
+Index: src/main/java/tastyvanilla/item/ModItems.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package tastyvanilla.item;\n\nimport net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;\nimport net.minecraft.component.DataComponentTypes;\nimport net.minecraft.component.type.ConsumableComponents;\nimport net.minecraft.component.type.FoodComponents;\nimport net.minecraft.item.BlockItem;\nimport net.minecraft.item.Item;\nimport net.minecraft.item.ItemGroups;\nimport net.minecraft.registry.Registries;\nimport net.minecraft.registry.Registry;\nimport net.minecraft.registry.RegistryKey;\nimport net.minecraft.registry.RegistryKeys;\nimport net.minecraft.util.Identifier;\nimport tastyvanilla.TastyVanilla;\nimport tastyvanilla.block.ModBlocks;\n\nimport static net.minecraft.item.Items.BOWL;\nimport static net.minecraft.item.Items.BUCKET;\n\npublic class ModItems {\n\n    //COOKIES\n    public static final Item COOKIE_APPLE = registerItem(\"cookie_apple\", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_APPLE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"cookie_apple\")))));\n    public static final Item COOKIE_CARROT = registerItem(\"cookie_carrot\", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_CARROT).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"cookie_carrot\")))));\n    public static final Item COOKIE_GLOW_BERRY = registerItem(\"cookie_glow_berry\", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_GLOW_BERRY).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"cookie_glow_berry\")))));\n    public static final Item COOKIE_HONEY = registerItem(\"cookie_honey\", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_HONEY).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"cookie_honey\")))));\n    public static final Item COOKIE_OATMEAL = registerItem(\"cookie_oatmeal\", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_OATMEAL).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"cookie_oatmeal\")))));\n    public static final Item COOKIE_POPPY_SEED = registerItem(\"cookie_poppy_seed\", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_POPPY_SEED).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"cookie_poppy_seed\")))));\n    public static final Item COOKIE_PUMPKIN = registerItem(\"cookie_pumpkin\", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_PUMPKIN).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"cookie_pumpkin\")))));\n    public static final Item COOKIE_SPIDER_EYE = registerItem(\"cookie_spider_eye\", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_SPIDER_EYE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"cookie_spider_eye\")))));\n    public static final Item COOKIE_SUGAR = registerItem(\"cookie_sugar\", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_SUGAR).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"cookie_sugar\")))));\n    public static final Item COOKIE_SUNFLOWER_SEED = registerItem(\"cookie_sunflower_seed\", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_SUNFLOWER_SEED).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"cookie_sunflower_seed\")))));\n    public static final Item COOKIE_SWEET_BERRY = registerItem(\"cookie_sweet_berry\", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_SWEET_BERRY).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"cookie_sweet_berry\")))));\n\n    //BREAD INGREDIENTS\n    public static final Item BUTTER = registerItem(\"butter\", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"butter\")))));\n    public static final Item FLOUR = registerItem(\"flour\", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"flour\")))));\n    public static final Item SALT = registerItem(\"salt\", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"salt\")))));\n    public static final Item YEAST = registerItem(\"yeast\", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"yeast\")))));\n\n    //BREAD DOUGHS\n    public static final Item DOUGH_BAGUEL = registerItem(\"dough_baguel\", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"dough_baguel\")))));\n    public static final Item DOUGH_BAGUETTE = registerItem(\"dough_baguette\", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"dough_baguette\")))));\n    public static final Item DOUGH_BAKED_BREAD = registerItem(\"dough_baked_bread\", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"dough_baked_bread\")))));\n    public static final Item DOUGH_BROWNIE = registerItem(\"dough_brownie\", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"dough_brownie\")))));\n    public static final Item DOUGH_CROISSANT = registerItem(\"dough_croissant\", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"dough_croissant\")))));\n    public static final Item DOUGH_FLATBREAD = registerItem(\"dough_flatbread\", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"dough_flatbread\")))));\n    public static final Item DOUGH_FOCACCIA = registerItem(\"dough_focaccia\", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"dough_focaccia\")))));\n    public static final Item DOUGH_HONEY = registerItem(\"dough_honey\", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"dough_honey\")))));\n    public static final Item DOUGH_MULTIGRAIN = registerItem(\"dough_multigrain\", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"dough_multigrain\")))));\n    public static final Item DOUGH_PANCAKES = registerItem(\"dough_pancakes\", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"dough_pancakes\")))));\n    public static final Item DOUGH_SOURDOUGH = registerItem(\"dough_sourdough\", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"dough_sourdough\")))));\n    public static final Item DOUGH_SWEET_ROLL = registerItem(\"dough_sweet_roll\", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"dough_sweet_roll\")))));\n\n    //BAKED BREAD\n    public static final Item BREAD_BAGUEL = registerItem(\"bread_baguel\", new Item(new Item.Settings().food(ModFoodComponents.BREAD_BAGUEL).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"bread_baguel\")))));\n    public static final Item BREAD_BAGUETTE = registerItem(\"bread_baguette\", new Item(new Item.Settings().food(ModFoodComponents.BREAD_BAGUETTE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"bread_baguette\")))));\n    public static final Item BREAD_BAKED = registerItem(\"bread_baked\", new Item(new Item.Settings().food(ModFoodComponents.BREAD_BAKED).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"bread_baked\")))));\n    public static final Item BREAD_BROWNIE = registerItem(\"bread_brownie\", new Item(new Item.Settings().food(ModFoodComponents.BREAD_BROWNIE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"bread_brownie\")))));\n    public static final Item BREAD_CROISSANT = registerItem(\"bread_croissant\", new Item(new Item.Settings().food(ModFoodComponents.BREAD_CROISSANT).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"bread_croissant\")))));\n    public static final Item BREAD_FLATBREAD = registerItem(\"bread_flatbread\", new Item(new Item.Settings().food(ModFoodComponents.BREAD_FLATBREAD).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"bread_flatbread\")))));\n    public static final Item BREAD_FOCACCIA = registerItem(\"bread_focaccia\", new Item(new Item.Settings().food(ModFoodComponents.BREAD_FOCACCIA).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"bread_focaccia\")))));\n    public static final Item BREAD_HONEY = registerItem(\"bread_honey\", new Item(new Item.Settings().food(ModFoodComponents.BREAD_HONEY).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"bread_honey\")))));\n    public static final Item BREAD_MULTIGRAIN = registerItem(\"bread_multigrain\", new Item(new Item.Settings().food(ModFoodComponents.BREAD_MULTIGRAIN).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"bread_multigrain\")))));\n    public static final Item BREAD_PANCAKES = registerItem(\"bread_pancakes\", new Item(new Item.Settings().food(ModFoodComponents.BREAD_PANCAKES).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"bread_pancakes\")))));\n    public static final Item BREAD_SOURDOUGH = registerItem(\"bread_sourdough\", new Item(new Item.Settings().food(ModFoodComponents.BREAD_SOURDOUGH).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"bread_sourdough\")))));\n    public static final Item BREAD_SWEET_ROLL = registerItem(\"bread_sweet_roll\", new Item(new Item.Settings().food(ModFoodComponents.BREAD_SWEET_ROLL).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"bread_sweet_roll\")))));\n\n    //PIES\n    public static final Item PIE_APPLE = registerItem(\"pie_apple\", new Item(new Item.Settings().food(ModFoodComponents.PIE_APPLE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"pie_apple\")))));\n    public static final Item PIE_CHICKEN = registerItem(\"pie_chicken\", new Item(new Item.Settings().food(ModFoodComponents.PIE_CHICKEN).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"pie_chicken\")))));\n    public static final Item PIE_CHOCOLATE = registerItem(\"pie_chocolate\", new Item(new Item.Settings().food(ModFoodComponents.PIE_CHOCOLATE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"pie_chocolate\")))));\n    public static final Item PIE_CHORUS_FRUIT = registerItem(\"pie_chorus_fruit\", new Item(new Item.Settings().food(ModFoodComponents.PIE_CHORUS_FRUIT,ConsumableComponents.CHORUS_FRUIT).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"pie_chorus_fruit\"))).food(FoodComponents.CHORUS_FRUIT)));\n    public static final Item PIE_FISH = registerItem(\"pie_fish\", new Item(new Item.Settings().food(ModFoodComponents.PIE_FISH).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"pie_fish\")))));\n    public static final Item PIE_FUNGUS = registerItem(\"pie_fungus\", new Item(new Item.Settings().food(ModFoodComponents.PIE_FUNGUS).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"pie_fungus\")))));\n    public static final Item PIE_GLOW_BERRY = registerItem(\"pie_glow_berry\", new Item(new Item.Settings().food(ModFoodComponents.PIE_GLOW_BERRY).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"pie_glow_berry\")))));\n    public static final Item PIE_HONEY = registerItem(\"pie_honey\", new Item(new Item.Settings().food(ModFoodComponents.PIE_HONEY).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"pie_honey\")))));\n    public static final Item PIE_MEAT = registerItem(\"pie_meat\", new Item(new Item.Settings().food(ModFoodComponents.PIE_MEAT).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"pie_meat\")))));\n    public static final Item PIE_MELON = registerItem(\"pie_melon\", new Item(new Item.Settings().food(ModFoodComponents.PIE_MELON).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"pie_melon\")))));\n    public static final Item PIE_MUSHROOM = registerItem(\"pie_mushroom\", new Item(new Item.Settings().food(ModFoodComponents.PIE_MUSHROOM).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"pie_mushroom\")))));\n    public static final Item PIE_SHEPHERDS = registerItem(\"pie_shepherds\", new Item(new Item.Settings().food(ModFoodComponents.PIE_SHEPHERDS).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"pie_shepherds\")))));\n    public static final Item PIE_SWEET_BERRY = registerItem(\"pie_sweet_berry\", new Item(new Item.Settings().food(ModFoodComponents.PIE_SWEET_BERRY).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"pie_sweet_berry\")))));\n    public static final Item PIE_STRAWBERRY = registerItem(\"pie_strawberry\", new Item(new Item.Settings().food(ModFoodComponents.PIE_STRAWBERRY).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"pie_strawberry\")))));\n    public static final Item PIE_VEGETABLE = registerItem(\"pie_vegetable\", new Item(new Item.Settings().food(ModFoodComponents.PIE_VEGETABLE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"pie_vegetable\")))));\n\n    //CROPS\n\n    public static final Item CABBAGE = registerItem(\"cabbage\", new BlockItem(ModBlocks.CABBAGE_CROP, new Item.Settings().food(ModFoodComponents.CABBAGE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"cabbage\")))));\n\n    public static final Item CHILLI = registerItem(\"chilli\", new Item(new Item.Settings().food(ModFoodComponents.CHILLI).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"chilli\")))));\n    public static final Item CHILLI_SEEDS = registerItem(\"chilli_seeds\", new BlockItem(ModBlocks.CHILLI_CROP, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"chilli_seeds\")))));\n\n    public static final Item EGGPLANT = registerItem(\"eggplant\", new BlockItem(ModBlocks.EGGPLANT_CROP, new Item.Settings().food(ModFoodComponents.EGGPLANT).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"eggplant\")))));\n\n    public static final Item GARLIC = registerItem(\"garlic\", new BlockItem(ModBlocks.GARLIC_CROP, new Item.Settings().food(ModFoodComponents.GARLIC).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"garlic\")))));\n\n    public static final Item LETTUCE = registerItem(\"lettuce\", new Item(new Item.Settings().food(ModFoodComponents.LETTUCE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"lettuce\")))));\n    public static final Item LETTUCE_SEEDS = registerItem(\"lettuce_seeds\", new BlockItem(ModBlocks.LETTUCE_CROP, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"lettuce_seeds\")))));\n\n    public static final Item ONION = registerItem(\"onion\", new BlockItem(ModBlocks.ONION_CROP, new Item.Settings().food(ModFoodComponents.ONION).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"onion\")))));\n\n    public static final Item SWEET_POTATO = registerItem(\"sweet_potato\", new BlockItem(ModBlocks.SWEET_POTATO_CROP, new Item.Settings().food(ModFoodComponents.SWEET_POTATO).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"sweet_potato\")))));\n\n    public static final Item TOMATO = registerItem(\"tomato\", new Item(new Item.Settings().food(ModFoodComponents.TOMATO).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"tomato\")))));\n    public static final Item TOMATO_SEEDS = registerItem(\"tomato_seeds\", new BlockItem(ModBlocks.TOMATO_CROP, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"tomato_seeds\")))));\n\n\n    //CROP FOODS\n    public static final Item FOOD_TOMATO_SOUP = registerItem(\"food_tomato_soup\", new Item(new Item.Settings().food(ModFoodComponents.FOOD_TOMATO_SOUP).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"food_tomato_soup\")))));\n    public static final Item FOOD_SALAD = registerItem(\"food_salad\", new Item(new Item.Settings().food(ModFoodComponents.FOOD_SALAD).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"food_salad\")))));\n    public static final Item FOOD_WRAP_VEGGIE = registerItem(\"food_wrap_veggie\", new Item(new Item.Settings().food(ModFoodComponents.FOOD_WRAP_VEGGIE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"food_wrap_veggie\")))));\n    public static final Item FOOD_WRAP = registerItem(\"food_wrap\", new Item(new Item.Settings().food(ModFoodComponents.FOOD_WRAP).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"food_wrap\")))));\n    public static final Item FOOD_ONION_SOUP = registerItem(\"food_onion_soup\", new Item(new Item.Settings().food(ModFoodComponents.FOOD_ONION_SOUP).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"food_onion_soup\")))));\n    public static final Item FOOD_ONION_RING = registerItem(\"food_onion_ring\", new Item(new Item.Settings().food(ModFoodComponents.FOOD_ONION_RING).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"food_onion_ring\")))));\n    public static final Item FOOD_ROASTED_GARLIC = registerItem(\"food_roasted_garlic\", new Item(new Item.Settings().food(ModFoodComponents.FOOD_ROASTED_GARLIC).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"food_roasted_garlic\")))));\n    public static final Item FOOD_BAKED_SWEET_POTATO = registerItem(\"food_baked_sweet_potato\", new Item(new Item.Settings().food(ModFoodComponents.FOOD_BAKED_SWEET_POTATO).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"food_baked_sweet_potato\")))));\n    public static final Item FOOD_SWEET_POTATO_FRIES = registerItem(\"food_sweet_potato_fries\", new Item(new Item.Settings().food(ModFoodComponents.FOOD_SWEET_POTATO_FRIES).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"food_sweet_potato_fries\")))));\n    public static final Item FOOD_POTATO_FRIES = registerItem(\"food_potato_fries\", new Item(new Item.Settings().food(ModFoodComponents.FOOD_POTATO_FRIES).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"food_potato_fries\")))));\n    public static final Item FOOD_COLESLAW = registerItem(\"food_coleslaw\", new Item(new Item.Settings().food(ModFoodComponents.FOOD_COLESLAW).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"food_coleslaw\")))));\n    public static final Item FOOD_CHILLI_STEW = registerItem(\"food_chilli_stew\", new Item(new Item.Settings().food(ModFoodComponents.FOOD_CHILLI_STEW).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"food_chilli_stew\")))));\n    public static final Item FOOD_BUMSBLECH_SALAD = registerItem(\"food_bumsblech_salad\", new Item(new Item.Settings().food(ModFoodComponents.FOOD_BUMSBLECH_SALAD).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"food_bumsblech_salad\")))));\n\n    public static final Item BREAD_GARLIC = registerItem(\"bread_garlic\", new Item(new Item.Settings().food(ModFoodComponents.BREAD_GARLIC).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"bread_garlic\")))));\n    public static final Item DOUGH_GARLIC = registerItem(\"dough_garlic\", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"dough_garlic\")))));\n\n    //MILK & CHEESE\n    public static final Item GOAT_MILK_BUCKET = registerItem(\"goat_milk_bucket\", new Item (new Item.Settings().recipeRemainder(BUCKET).component(DataComponentTypes.CONSUMABLE, ConsumableComponents.MILK_BUCKET).useRemainder(BUCKET).maxCount(1).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"goat_milk_bucket\")))));\n\n    //BERRIES & JAMS\n\n    public static final Item BERRY_BLACKBERRIES = registerItem(\"berry_blackberries\", new BlockItem(ModBlocks.BERRY_BLACKBERRY_BUSH,new Item.Settings().food(ModFoodComponents.BERRY_BLACKBERRIES).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"berry_blackberries\")))));\n    public static final Item BERRY_BLUEBERRIES = registerItem(\"berry_blueberries\", new BlockItem(ModBlocks.BERRY_BLUEBERRY_BUSH,new Item.Settings().food(ModFoodComponents.BERRY_BLUEBERRIES).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"berry_blueberries\")))));\n    public static final Item BERRY_ELDERBERRIES = registerItem(\"berry_elderberries\", new BlockItem(ModBlocks.BERRY_ELDERBERRY_BUSH,new Item.Settings().food(ModFoodComponents.BERRY_ELDERBERRIES).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"berry_elderberries\")))));\n    public static final Item BERRY_GOJI_BERRIES = registerItem(\"berry_goji_berries\", new BlockItem(ModBlocks.BERRY_GOJI_BERRY_BUSH,new Item.Settings().food(ModFoodComponents.BERRY_GOJI_BERRIES).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"berry_goji_berries\")))));\n    public static final Item BERRY_GOOSEBERRIES = registerItem(\"berry_gooseberries\", new BlockItem(ModBlocks.BERRY_GOOSEBERRY_BUSH,new Item.Settings().food(ModFoodComponents.BERRY_GOOSEBERRIES).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"berry_gooseberries\")))));\n    public static final Item BERRY_RASPBERRIES = registerItem(\"berry_raspberries\", new BlockItem(ModBlocks.BERRY_RASPBERRY_BUSH,new Item.Settings().food(ModFoodComponents.BERRY_RASPBERRIES).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"berry_raspberries\")))));\n    public static final Item BERRY_STRAWBERRIES = registerItem(\"berry_strawberries\", new BlockItem(ModBlocks.BERRY_STRAWBERRY_BUSH,new Item.Settings().food(ModFoodComponents.BERRY_STRAWBERRIES).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"berry_strawberries\")))));\n    public static final Item BERRY_WHITE_CURRANT_BERRIES = registerItem(\"berry_white_currant_berries\", new BlockItem(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH,new Item.Settings().food(ModFoodComponents.BERRY_WHITE_CURRANT_BERRIES).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"berry_white_currant_berries\")))));\n\n    public static final Item GLASS_JAR = registerItem(\"glass_jar\", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,\"glass_jar\")))));\n\n    \n    public static final Item JAM_BLACKBERRY = registerItem(\"jam_blackberry\", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_BLACKBERRY, ModFoodComponents.JAMS).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"jam_blackberry\")))));\n    public static final Item JAM_BLUEBERRY = registerItem(\"jam_blueberry\", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_BLUEBERRY, ModFoodComponents.JAMS).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"jam_blueberry\")))));\n    public static final Item JAM_ELDERBERRY = registerItem(\"jam_elderberry\", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_ELDERBERRY, ModFoodComponents.JAMS).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"jam_elderberry\")))));\n    public static final Item JAM_GOJI_BERRY = registerItem(\"jam_goji_berry\", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_GOJI_BERRY, ModFoodComponents.JAMS).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"jam_goji_berry\")))));\n    public static final Item JAM_GOOSEBERRY = registerItem(\"jam_gooseberry\", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_GOOSEBERRY, ModFoodComponents.JAMS).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"jam_gooseberry\")))));\n    public static final Item JAM_RASPBERRY = registerItem(\"jam_raspberry\", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_RASPBERRY, ModFoodComponents.JAMS).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"jam_raspberry\")))));\n    public static final Item JAM_STRAWBERRY = registerItem(\"jam_strawberry\", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_STRAWBERRY, ModFoodComponents.JAMS).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"jam_strawberry\")))));\n    public static final Item JAM_WHITE_CURRANT_BERRY = registerItem(\"jam_white_currant_berry\", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_WHITE_CURRANT_BERRY, ModFoodComponents.JAMS).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"jam_white_currant_berry\")))));\n    public static final Item JAM_SWEET_BERRY = registerItem(\"jam_sweet_berry\", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_SWEET_BERRY, ModFoodComponents.JAMS).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"jam_sweet_berry\")))));\n    public static final Item JAM_BLACKBERRY_MASH = registerItem(\"jam_blackberry_mash\", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_BLACKBERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"jam_blackberry_mash\")))));\n    public static final Item JAM_BLUEBERRY_MASH = registerItem(\"jam_blueberry_mash\", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_BLUEBERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"jam_blueberry_mash\")))));\n    public static final Item JAM_ELDERERRY_MASH = registerItem(\"jam_elderberry_mash\", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_ELDERBERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"jam_elderberry_mash\")))));\n    public static final Item JAM_GOJI_BERRY_MASH = registerItem(\"jam_goji_berry_mash\", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_GOJI_BERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"jam_goji_berry_mash\")))));\n    public static final Item JAM_GOOSEBERRY_MASH = registerItem(\"jam_gooseberry_mash\", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_GOOSEBERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"jam_gooseberry_mash\")))));\n    public static final Item JAM_RASPBERRY_MASH = registerItem(\"jam_raspberry_mash\", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_RASPBERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"jam_raspberry_mash\")))));\n    public static final Item JAM_STRAWBERRY_MASH = registerItem(\"jam_strawberry_mash\", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_STRAWBERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"jam_raspberry_mash\")))));\n    public static final Item JAM_WHITE_CURRANT_BERRY_MASH = registerItem(\"jam_white_currant_berry_mash\", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_WHITE_CURRANT_BERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"jam_white_currant_berry_mash\")))));\n    public static final Item JAM_SWEET_BERRY_MASH = registerItem(\"jam_sweet_berry_mash\", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_SWEET_BERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, \"jam_sweet_berry_mash\")))));\n\n    //TUTORIAL CODE REGISTER\n    private static Item registerItem (String name, Item item){\n        return Registry.register(Registries.ITEM, Identifier.of(TastyVanilla.MOD_ID, name), item);\n    }\n\n    //ITEM INITIALIZER\n    public static void registerModItems(){\n        TastyVanilla.LOGGER.info(\"Registering Mod Items for \" + TastyVanilla.MOD_ID);\n\n        //NEW ITEM IN FOOD AND DRINK\n        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(fabricItemGroupEntries -> {\n\n            //COOKIES\n            fabricItemGroupEntries.add(COOKIE_APPLE);\n            fabricItemGroupEntries.add(COOKIE_CARROT);\n            fabricItemGroupEntries.add(COOKIE_GLOW_BERRY);\n            fabricItemGroupEntries.add(COOKIE_HONEY);\n            fabricItemGroupEntries.add(COOKIE_OATMEAL);\n            fabricItemGroupEntries.add(COOKIE_POPPY_SEED);\n            fabricItemGroupEntries.add(COOKIE_PUMPKIN);\n            fabricItemGroupEntries.add(COOKIE_SPIDER_EYE);\n            fabricItemGroupEntries.add(COOKIE_SUGAR);\n            fabricItemGroupEntries.add(COOKIE_SUNFLOWER_SEED);\n            fabricItemGroupEntries.add(COOKIE_SWEET_BERRY);\n\n            //BAKED BREAD\n            fabricItemGroupEntries.add(BREAD_BAGUEL);\n            fabricItemGroupEntries.add(BREAD_BAGUETTE);\n            fabricItemGroupEntries.add(BREAD_BAKED);\n            fabricItemGroupEntries.add(BREAD_BROWNIE);\n            fabricItemGroupEntries.add(BREAD_CROISSANT);\n            fabricItemGroupEntries.add(BREAD_FLATBREAD);\n            fabricItemGroupEntries.add(BREAD_FOCACCIA);\n            fabricItemGroupEntries.add(BREAD_HONEY);\n            fabricItemGroupEntries.add(BREAD_MULTIGRAIN);\n            fabricItemGroupEntries.add(BREAD_PANCAKES);\n            fabricItemGroupEntries.add(BREAD_SOURDOUGH);\n            fabricItemGroupEntries.add(BREAD_SWEET_ROLL);\n\n            //PIES\n            fabricItemGroupEntries.add(PIE_APPLE);\n            fabricItemGroupEntries.add(PIE_CHICKEN);\n            fabricItemGroupEntries.add(PIE_CHOCOLATE);\n            fabricItemGroupEntries.add(PIE_CHORUS_FRUIT);\n            fabricItemGroupEntries.add(PIE_FISH);\n            fabricItemGroupEntries.add(PIE_FUNGUS);\n            fabricItemGroupEntries.add(PIE_GLOW_BERRY);\n            fabricItemGroupEntries.add(PIE_HONEY);\n            fabricItemGroupEntries.add(PIE_MEAT);\n            fabricItemGroupEntries.add(PIE_MELON);\n            fabricItemGroupEntries.add(PIE_MUSHROOM);\n            fabricItemGroupEntries.add(PIE_SHEPHERDS);\n            fabricItemGroupEntries.add(PIE_SWEET_BERRY);\n            fabricItemGroupEntries.add(PIE_STRAWBERRY);\n            fabricItemGroupEntries.add(PIE_VEGETABLE);\n\n            //CROPS\n            fabricItemGroupEntries.add(CABBAGE);\n            fabricItemGroupEntries.add(CHILLI);\n            fabricItemGroupEntries.add(GARLIC);\n            fabricItemGroupEntries.add(EGGPLANT);\n            fabricItemGroupEntries.add(LETTUCE);\n            fabricItemGroupEntries.add(ONION);\n            fabricItemGroupEntries.add(SWEET_POTATO);\n            fabricItemGroupEntries.add(TOMATO);\n\n            //CROPFOODS\n\n            fabricItemGroupEntries.add(FOOD_ONION_RING);\n            fabricItemGroupEntries.add(FOOD_POTATO_FRIES);\n            fabricItemGroupEntries.add(FOOD_CHILLI_STEW);\n            fabricItemGroupEntries.add(FOOD_COLESLAW);\n            fabricItemGroupEntries.add(FOOD_BAKED_SWEET_POTATO);\n            fabricItemGroupEntries.add(FOOD_ROASTED_GARLIC);\n            fabricItemGroupEntries.add(FOOD_SALAD);\n            fabricItemGroupEntries.add(FOOD_TOMATO_SOUP);\n            fabricItemGroupEntries.add(FOOD_WRAP);\n            fabricItemGroupEntries.add(FOOD_WRAP_VEGGIE);\n            fabricItemGroupEntries.add(FOOD_ONION_SOUP);\n            fabricItemGroupEntries.add(FOOD_SWEET_POTATO_FRIES);\n            fabricItemGroupEntries.add(FOOD_BUMSBLECH_SALAD);\n\n\n            fabricItemGroupEntries.add(BREAD_GARLIC);\n\n\n\n            //MILK & CHEESE\n            fabricItemGroupEntries.add(GOAT_MILK_BUCKET);\n\n            //BERRIES & JAMS\n            fabricItemGroupEntries.add(BERRY_BLACKBERRIES);\n            fabricItemGroupEntries.add(BERRY_BLUEBERRIES);\n            fabricItemGroupEntries.add(BERRY_ELDERBERRIES);\n            fabricItemGroupEntries.add(BERRY_GOJI_BERRIES);\n            fabricItemGroupEntries.add(BERRY_GOOSEBERRIES);\n            fabricItemGroupEntries.add(BERRY_RASPBERRIES);\n            fabricItemGroupEntries.add(BERRY_STRAWBERRIES);\n            fabricItemGroupEntries.add(BERRY_WHITE_CURRANT_BERRIES);\n\n            fabricItemGroupEntries.add(JAM_BLACKBERRY);\n            fabricItemGroupEntries.add(JAM_BLUEBERRY);\n            fabricItemGroupEntries.add(JAM_ELDERBERRY);\n            fabricItemGroupEntries.add(JAM_GOJI_BERRY);\n            fabricItemGroupEntries.add(JAM_GOOSEBERRY);\n            fabricItemGroupEntries.add(JAM_RASPBERRY);\n            fabricItemGroupEntries.add(JAM_SWEET_BERRY);\n            fabricItemGroupEntries.add(JAM_STRAWBERRY);\n            fabricItemGroupEntries.add(JAM_WHITE_CURRANT_BERRY);\n\n            fabricItemGroupEntries.add(JAM_BLACKBERRY_MASH);\n            fabricItemGroupEntries.add(JAM_BLUEBERRY_MASH);\n            fabricItemGroupEntries.add(JAM_ELDERERRY_MASH);\n            fabricItemGroupEntries.add(JAM_GOJI_BERRY_MASH);\n            fabricItemGroupEntries.add(JAM_GOOSEBERRY_MASH);\n            fabricItemGroupEntries.add(JAM_RASPBERRY_MASH);\n            fabricItemGroupEntries.add(JAM_SWEET_BERRY_MASH);\n            fabricItemGroupEntries.add(JAM_STRAWBERRY_MASH);\n            fabricItemGroupEntries.add(JAM_WHITE_CURRANT_BERRY_MASH);\n\n\n        });\n\n        //NEW ITEM IN INGREDIENTS\n        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {\n\n            //BREAD INGREDIENTS\n            fabricItemGroupEntries.add(BUTTER);\n            fabricItemGroupEntries.add(FLOUR);\n            fabricItemGroupEntries.add(SALT);\n            fabricItemGroupEntries.add(YEAST);\n\n            //DOUGHS\n            fabricItemGroupEntries.add(DOUGH_BAGUEL);\n            fabricItemGroupEntries.add(DOUGH_BAGUETTE);\n            fabricItemGroupEntries.add(DOUGH_BAKED_BREAD);\n            fabricItemGroupEntries.add(DOUGH_BROWNIE);\n            fabricItemGroupEntries.add(DOUGH_CROISSANT);\n            fabricItemGroupEntries.add(DOUGH_FLATBREAD);\n            fabricItemGroupEntries.add(DOUGH_FOCACCIA);\n            fabricItemGroupEntries.add(DOUGH_HONEY);\n            fabricItemGroupEntries.add(DOUGH_MULTIGRAIN);\n            fabricItemGroupEntries.add(DOUGH_PANCAKES);\n            fabricItemGroupEntries.add(DOUGH_SOURDOUGH);\n            fabricItemGroupEntries.add(DOUGH_SWEET_ROLL);\n\n            fabricItemGroupEntries.add(DOUGH_GARLIC);\n\n\n        });\n\n        //NEW ITEM IN NATURAL\n        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries -> {\n\n            //CROPS\n            fabricItemGroupEntries.add(CHILLI_SEEDS);\n            fabricItemGroupEntries.add(LETTUCE_SEEDS);\n            fabricItemGroupEntries.add(TOMATO_SEEDS);\n\n\n        });\n\n        //NEW ITEM IN INGREDIENTS\n        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(fabricItemGroupEntries -> {\n\n            fabricItemGroupEntries.add(GOAT_MILK_BUCKET);\n            fabricItemGroupEntries.add(GLASS_JAR);\n\n        });\n\n\n        }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/tastyvanilla/item/ModItems.java b/src/main/java/tastyvanilla/item/ModItems.java
+--- a/src/main/java/tastyvanilla/item/ModItems.java	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ b/src/main/java/tastyvanilla/item/ModItems.java	(date 1767852366383)
+@@ -105,6 +105,24 @@
+     public static final Item TOMATO = registerItem("tomato", new Item(new Item.Settings().food(ModFoodComponents.TOMATO).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "tomato")))));
+     public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", new BlockItem(ModBlocks.TOMATO_CROP, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "tomato_seeds")))));
+ 
++    public static final Item BELL_PEPPER = registerItem("bell_pepper", new Item(new Item.Settings().food(ModFoodComponents.BELL_PEPPER).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "bell_pepper")))));
++    public static final Item BELL_PEPPER_SEEDS = registerItem("bell_pepper_seeds", new BlockItem(ModBlocks.BELL_PEPPER_CROP, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "bell_pepper_seeds")))));
++
++    public static final Item CUCUMBER = registerItem("cucumber", new Item(new Item.Settings().food(ModFoodComponents.CUCUMBER).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "cucumber")))));
++    public static final Item CUCUMBER_SEEDS = registerItem("cucumber_seeds", new BlockItem(ModBlocks.CUCUMBER_CROP, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "cucumber_seeds")))));
++
++    public static final Item GINGER = registerItem("ginger", new BlockItem(ModBlocks.GINGER_CROP, new Item.Settings().food(ModFoodComponents.GINGER).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "ginger")))));
++
++    public static final Item KALE = registerItem("kale", new Item(new Item.Settings().food(ModFoodComponents.KALE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "kale")))));
++    public static final Item KALE_SEEDS = registerItem("kale_seeds", new BlockItem(ModBlocks.KALE_CROP, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "kale_seeds")))));
++
++    public static final Item LEEK = registerItem("leek", new BlockItem(ModBlocks.LEEK_CROP, new Item.Settings().food(ModFoodComponents.LEEK).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "leek")))));
++
++    public static final Item PEAS = registerItem("peas", new Item(new Item.Settings().food(ModFoodComponents.PEAS).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "peas")))));
++    public static final Item PEAS_SEEDS = registerItem("peas_seeds", new BlockItem(ModBlocks.PEAS_CROP, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "peas_seeds")))));
++
++    public static final Item TUMERIC = registerItem("tumeric", new BlockItem(ModBlocks.TUMERIC_CROP, new Item.Settings().food(ModFoodComponents.TUMERIC).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "tumeric")))));
++
+ 
+     //CROP FOODS
+     public static final Item FOOD_TOMATO_SOUP = registerItem("food_tomato_soup", new Item(new Item.Settings().food(ModFoodComponents.FOOD_TOMATO_SOUP).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "food_tomato_soup")))));
+@@ -225,6 +243,13 @@
+             fabricItemGroupEntries.add(ONION);
+             fabricItemGroupEntries.add(SWEET_POTATO);
+             fabricItemGroupEntries.add(TOMATO);
++            fabricItemGroupEntries.add(BELL_PEPPER);
++            fabricItemGroupEntries.add(CUCUMBER);
++            fabricItemGroupEntries.add(GINGER);
++            fabricItemGroupEntries.add(KALE);
++            fabricItemGroupEntries.add(LEEK);
++            fabricItemGroupEntries.add(PEAS);
++            fabricItemGroupEntries.add(TUMERIC);
+ 
+             //CROPFOODS
+ 
+@@ -318,6 +343,10 @@
+             fabricItemGroupEntries.add(CHILLI_SEEDS);
+             fabricItemGroupEntries.add(LETTUCE_SEEDS);
+             fabricItemGroupEntries.add(TOMATO_SEEDS);
++            fabricItemGroupEntries.add(BELL_PEPPER_SEEDS);
++            fabricItemGroupEntries.add(CUCUMBER_SEEDS);
++            fabricItemGroupEntries.add(KALE_SEEDS);
++            fabricItemGroupEntries.add(PEAS_SEEDS);
+ 
+ 
+         });
+Index: src/main/java/tastyvanilla/item/ModFoodComponents.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package tastyvanilla.item;\n\nimport net.minecraft.component.type.ConsumableComponent;\nimport net.minecraft.component.type.ConsumableComponents;\nimport net.minecraft.component.type.FoodComponent;\nimport net.minecraft.entity.effect.StatusEffectInstance;\nimport net.minecraft.entity.effect.StatusEffects;\nimport net.minecraft.item.consume.ApplyEffectsConsumeEffect;\nimport net.minecraft.item.consume.RemoveEffectsConsumeEffect;\nimport net.minecraft.sound.SoundEvents;\n\nimport static net.minecraft.component.type.ConsumableComponents.drink;\n\npublic class ModFoodComponents {\n\n    //COOKIES\n    public static final FoodComponent COOKIE_APPLE = new FoodComponent.Builder().nutrition(4).saturationModifier(0.3f).build();\n    public static final FoodComponent COOKIE_CARROT = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent COOKIE_GLOW_BERRY = new FoodComponent.Builder().nutrition(3).saturationModifier(0.1f).build();\n    public static final FoodComponent COOKIE_HONEY = new FoodComponent.Builder().nutrition(4).saturationModifier(0.1f).build();\n    public static final FoodComponent COOKIE_OATMEAL = new FoodComponent.Builder().nutrition(4).saturationModifier(0.6f).build();\n    public static final FoodComponent COOKIE_POPPY_SEED = new FoodComponent.Builder().nutrition(2).saturationModifier(0.1f).build();\n    public static final FoodComponent COOKIE_PUMPKIN = new FoodComponent.Builder().nutrition(3).saturationModifier(0.2f).build();\n    public static final FoodComponent COOKIE_SPIDER_EYE = new FoodComponent.Builder().nutrition(2).saturationModifier(0.8f).build();\n    public static final FoodComponent COOKIE_SUNFLOWER_SEED = new FoodComponent.Builder().nutrition(2).saturationModifier(0.1f).build();\n    public static final FoodComponent COOKIE_SUGAR = new FoodComponent.Builder().nutrition(2).saturationModifier(0.1f).build();\n    public static final FoodComponent COOKIE_SWEET_BERRY = new FoodComponent.Builder().nutrition(3).saturationModifier(0.1f).build();\n\n    //BAKED BREAD\n    public static final FoodComponent BREAD_BAGUEL = new FoodComponent.Builder().nutrition(6).saturationModifier(0.3f).build();\n    public static final FoodComponent BREAD_BAGUETTE = new FoodComponent.Builder().nutrition(6).saturationModifier(0.6f).build();\n    public static final FoodComponent BREAD_BAKED = new FoodComponent.Builder().nutrition(6).saturationModifier(0.6f).build();\n    public static final FoodComponent BREAD_BROWNIE = new FoodComponent.Builder().nutrition(8).saturationModifier(0.3f).build();\n    public static final FoodComponent BREAD_CROISSANT = new FoodComponent.Builder().nutrition(6).saturationModifier(0.3f).build();\n    public static final FoodComponent BREAD_FLATBREAD = new FoodComponent.Builder().nutrition(5).saturationModifier(0.1f).build();\n    public static final FoodComponent BREAD_FOCACCIA = new FoodComponent.Builder().nutrition(8).saturationModifier(0.6f).build();\n    public static final FoodComponent BREAD_HONEY = new FoodComponent.Builder().nutrition(6).saturationModifier(0.3f).build();\n    public static final FoodComponent BREAD_MULTIGRAIN = new FoodComponent.Builder().nutrition(8).saturationModifier(0.6f).build();\n    public static final FoodComponent BREAD_PANCAKES = new FoodComponent.Builder().nutrition(6).saturationModifier(0.3f).build();\n    public static final FoodComponent BREAD_SOURDOUGH = new FoodComponent.Builder().nutrition(6).saturationModifier(0.6f).build();\n    public static final FoodComponent BREAD_SWEET_ROLL = new FoodComponent.Builder().nutrition(8).saturationModifier(0.3f).build();\n\n    //PIES\n    public static final FoodComponent PIE_APPLE = new FoodComponent.Builder().nutrition(8).saturationModifier(0.8f).build();\n    public static final FoodComponent PIE_CHICKEN = new FoodComponent.Builder().nutrition(8).saturationModifier(1.2f).build();\n    public static final FoodComponent PIE_CHOCOLATE = new FoodComponent.Builder().nutrition(8).saturationModifier(0.8f).build();\n    public static final FoodComponent PIE_CHORUS_FRUIT = new FoodComponent.Builder().nutrition(8).saturationModifier(0.8f).alwaysEdible().build();\n    public static final FoodComponent PIE_FISH = new FoodComponent.Builder().nutrition(8).saturationModifier(1.2f).build();\n    public static final FoodComponent PIE_FUNGUS = new FoodComponent.Builder().nutrition(8).saturationModifier(1.8f).build();\n    public static final FoodComponent PIE_GLOW_BERRY = new FoodComponent.Builder().nutrition(8).saturationModifier(0.8f).build();\n    public static final FoodComponent PIE_HONEY = new FoodComponent.Builder().nutrition(8).saturationModifier(1.2f).build();\n    public static final FoodComponent PIE_MEAT = new FoodComponent.Builder().nutrition(8).saturationModifier(1.2f).build();\n    public static final FoodComponent PIE_MELON = new FoodComponent.Builder().nutrition(8).saturationModifier(0.8f).build();\n    public static final FoodComponent PIE_MUSHROOM = new FoodComponent.Builder().nutrition(8).saturationModifier(0.8f).build();\n    public static final FoodComponent PIE_SHEPHERDS = new FoodComponent.Builder().nutrition(8).saturationModifier(1.2f).build();\n    public static final FoodComponent PIE_SWEET_BERRY = new FoodComponent.Builder().nutrition(8).saturationModifier(0.8f).build();\n    public static final FoodComponent PIE_STRAWBERRY = new FoodComponent.Builder().nutrition(8).saturationModifier(0.8f).build();\n    public static final FoodComponent PIE_VEGETABLE = new FoodComponent.Builder().nutrition(8).saturationModifier(1.2f).build();\n\n    //CROPS\n    public static final FoodComponent CABBAGE = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent CHILLI = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent EGGPLANT = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent GARLIC = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent LETTUCE = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent ONION = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent RICE = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent SWEET_POTATO = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent TOMATO = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n\n    //FOOD FROM CROPS\n    public static final FoodComponent FOOD_TOMATO_SOUP = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent FOOD_SALAD = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent FOOD_WRAP_VEGGIE = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent FOOD_WRAP = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent FOOD_ONION_SOUP = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent FOOD_ONION_RING = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent FOOD_ROASTED_GARLIC = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent FOOD_BAKED_SWEET_POTATO = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent FOOD_SWEET_POTATO_FRIES = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent FOOD_POTATO_FRIES = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent FOOD_COLESLAW = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent FOOD_CHILLI_STEW = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n    public static final FoodComponent FOOD_BUMSBLECH_SALAD = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();\n\n    public static final FoodComponent BREAD_GARLIC = new FoodComponent.Builder().nutrition(8).saturationModifier(0.6f).build();\n\n    public static final FoodComponent BERRY_BLACKBERRIES = (new FoodComponent.Builder()).nutrition(2).saturationModifier(0.1F).build();\n    public static final FoodComponent BERRY_BLUEBERRIES = (new FoodComponent.Builder()).nutrition(2).saturationModifier(0.1F).build();\n    public static final FoodComponent BERRY_ELDERBERRIES = (new FoodComponent.Builder()).nutrition(2).saturationModifier(0.1F).build();\n    public static final FoodComponent BERRY_GOJI_BERRIES = (new FoodComponent.Builder()).nutrition(2).saturationModifier(0.1F).build();\n    public static final FoodComponent BERRY_GOOSEBERRIES = (new FoodComponent.Builder()).nutrition(2).saturationModifier(0.1F).build();\n    public static final FoodComponent BERRY_RASPBERRIES = (new FoodComponent.Builder()).nutrition(2).saturationModifier(0.1F).build();\n    public static final FoodComponent BERRY_STRAWBERRIES = (new FoodComponent.Builder()).nutrition(2).saturationModifier(0.1F).build();\n    public static final FoodComponent BERRY_WHITE_CURRANT_BERRIES = (new FoodComponent.Builder()).nutrition(2).saturationModifier(0.1F).build();\n    public static final FoodComponent JAM_BLACKBERRY = (new FoodComponent.Builder()).nutrition(8).saturationModifier(0.1F).build();\n    public static final FoodComponent JAM_BLUEBERRY = (new FoodComponent.Builder()).nutrition(8).saturationModifier(0.1F).build();\n    public static final FoodComponent JAM_ELDERBERRY = (new FoodComponent.Builder()).nutrition(8).saturationModifier(0.1F).build();\n    public static final FoodComponent JAM_GOJI_BERRY = (new FoodComponent.Builder()).nutrition(8).saturationModifier(0.1F).build();\n    public static final FoodComponent JAM_GOOSEBERRY = (new FoodComponent.Builder()).nutrition(8).saturationModifier(0.1F).build();\n    public static final FoodComponent JAM_RASPBERRY = (new FoodComponent.Builder()).nutrition(8).saturationModifier(0.1F).build();\n    public static final FoodComponent JAM_STRAWBERRY = (new FoodComponent.Builder()).nutrition(8).saturationModifier(0.1F).build();\n    public static final FoodComponent JAM_SWEET_BERRY = (new FoodComponent.Builder()).nutrition(8).saturationModifier(0.1F).build();\n    public static final FoodComponent JAM_WHITE_CURRANT_BERRY = (new FoodComponent.Builder()).nutrition(8).saturationModifier(0.1F).build();\n    public static final FoodComponent JAM_BLACKBERRY_MASH = (new FoodComponent.Builder()).nutrition(3).saturationModifier(0.1F).alwaysEdible().build();\n    public static final FoodComponent JAM_BLUEBERRY_MASH = (new FoodComponent.Builder()).nutrition(3).saturationModifier(0.1F).alwaysEdible().build();\n    public static final FoodComponent JAM_ELDERBERRY_MASH = (new FoodComponent.Builder()).nutrition(3).saturationModifier(0.1F).alwaysEdible().build();\n    public static final FoodComponent JAM_GOJI_BERRY_MASH = (new FoodComponent.Builder()).nutrition(3).saturationModifier(0.1F).alwaysEdible().build();\n    public static final FoodComponent JAM_GOOSEBERRY_MASH = (new FoodComponent.Builder()).nutrition(3).saturationModifier(0.1F).alwaysEdible().build();\n    public static final FoodComponent JAM_RASPBERRY_MASH = (new FoodComponent.Builder()).nutrition(3).saturationModifier(0.1F).alwaysEdible().build();\n    public static final FoodComponent JAM_SWEET_BERRY_MASH = (new FoodComponent.Builder()).nutrition(3).saturationModifier(0.1F).alwaysEdible().build();\n    public static final FoodComponent JAM_STRAWBERRY_MASH = (new FoodComponent.Builder()).nutrition(3).saturationModifier(0.1F).alwaysEdible().build();\n    public static final FoodComponent JAM_WHITE_CURRANT_BERRY_MASH = (new FoodComponent.Builder()).nutrition(3).saturationModifier(0.1F).alwaysEdible().build();\n    public static final ConsumableComponent JAMS = drink().consumeSeconds(2.0F).sound(SoundEvents.ITEM_HONEY_BOTTLE_DRINK).consumeEffect(new RemoveEffectsConsumeEffect(StatusEffects.POISON)).build();\n\n    //EFFECTS\n    public static final ConsumableComponent PIE_CHORUS_FRUIT_EFFECT = ConsumableComponents.food()\n            .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST,200),1f)).build();\n\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/tastyvanilla/item/ModFoodComponents.java b/src/main/java/tastyvanilla/item/ModFoodComponents.java
+--- a/src/main/java/tastyvanilla/item/ModFoodComponents.java	(revision 314a400880a60a0adebd844734f90f14839c7346)
++++ b/src/main/java/tastyvanilla/item/ModFoodComponents.java	(date 1767851598540)
+@@ -67,6 +67,14 @@
+     public static final FoodComponent RICE = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
+     public static final FoodComponent SWEET_POTATO = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
+     public static final FoodComponent TOMATO = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
++    public static final FoodComponent BELL_PEPPER = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
++    public static final FoodComponent CUCUMBER = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
++    public static final FoodComponent GINGER = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
++    public static final FoodComponent KALE = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
++    public static final FoodComponent LEEK = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
++    public static final FoodComponent PEAS = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
++    public static final FoodComponent TUMERIC = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
++
+ 
+     //FOOD FROM CROPS
+     public static final FoodComponent FOOD_TOMATO_SOUP = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
