@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Minor Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/ModBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/BlackberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/BlackberryBushBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/BlueberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/BlueberryBushBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/ElderberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/ElderberryBushBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/GojiBerryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/GojiBerryBushBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/GooseberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/GooseberryBushBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/RaspberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/RaspberryBushBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/StrawberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/StrawberryBushBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/WhiteCurrantBerryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/WhiteCurrantBerryBushBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModBlockTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModBlockTagProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModRegistryDataGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModCompostableItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModCompostableItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModFoodComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/food/ModFoods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModItems.java" afterDir="false" />
-    </list>
+    <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Minor Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -290,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779464656182</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Minor Commit">
+      <option name="closed" value="true" />
+      <created>1779471323664</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1779471323664</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
