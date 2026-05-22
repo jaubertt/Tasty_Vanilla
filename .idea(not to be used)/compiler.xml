@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="21" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="&quot;-AoutRefMapFile=$PROJECT_DIR$/build/classes/java/main/tastyvanilla-refmap.json&quot; -AdefaultObfuscationEnv=named:intermediary -Aquiet=true &quot;-AoutMapFileNamedIntermediary=$PROJECT_DIR$/build/loom-cache/mixin-map-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.main.tiny&quot; -AinMapFileNamedIntermediary=$USER_HOME$/.gradle/caches/fabric-loom/1.21.4/net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2/mappings.tiny" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Tasty_Vanilla.test" options="&quot;-AoutRefMapFile=$PROJECT_DIR$/build/classes/java/test/test-tastyvanilla-refmap.json&quot; -AdefaultObfuscationEnv=named:intermediary -Aquiet=true &quot;-AoutMapFileNamedIntermediary=$PROJECT_DIR$/build/loom-cache/mixin-map-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.test.tiny&quot; -AinMapFileNamedIntermediary=$USER_HOME$/.gradle/caches/fabric-loom/1.21.4/net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2/mappings.tiny" />
+      <module name="tastyvanilla-1.21.4_Relaunch.test" options="&quot;-AoutRefMapFile=$PROJECT_DIR$/build/classes/java/test/test-tastyvanilla-refmap.json&quot; -AdefaultObfuscationEnv=named:intermediary -Aquiet=true &quot;-AoutMapFileNamedIntermediary=$PROJECT_DIR$/build/loom-cache/mixin-map-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.test.tiny&quot; -AinMapFileNamedIntermediary=$USER_HOME$/.gradle/caches/fabric-loom/1.21.4/net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2/mappings.tiny" />
+    </option>
+  </component>
+</project>

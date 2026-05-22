@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" factoryName="Application" name="Data Generation" type="Application">
+    <option name="MAIN_CLASS_NAME" value="net.fabricmc.devlaunchinjector.Main"/>
+    <module name="Tasty_Vanilla.main"/>
+    <option name="PROGRAM_PARAMETERS" value=""/>
+    <option name="VM_PARAMETERS" value="-Dfabric.dli.config=/Users/ismaelrivera/Documents/Minecraft/Fabric@@0020Modding/Tasty@@0020Vanilla/tastyvanilla-1.21.4_Relaunch/.gradle/loom-cache/launch.cfg -Dfabric.dli.env=client -Dfabric-api.datagen &quot;-Dfabric-api.datagen.output-dir=/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/tastyvanilla-1.21.4_Relaunch/src/main/generated&quot; -XstartOnFirstThread -XstartOnFirstThread -XstartOnFirstThread -XstartOnFirstThread -Dfabric.dli.main=net.fabricmc.loader.impl.launch.knot.KnotClient"/>
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/build/datagen/"/>
+    <method v="2">
+      <option enabled="true" name="Make"/>
+    </method>
+    <envs>
+      
+    </envs>
+    <shortenClasspath name="ARGS_FILE"/>
+  <classpathModifications/></configuration>
+</component>
