@@ -5,6 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import tastyvanilla.block.ModBlocks;
 import tastyvanilla.entity.ModEntities;
+import tastyvanilla.entity.ModVillagerTrades;
 import tastyvanilla.item.ModCompostableItems;
 import tastyvanilla.item.ModItems;
 import tastyvanilla.world.gen.ModWorldGeneration;
@@ -21,6 +22,7 @@ public class TastyVanilla implements ModInitializer {
 		ModCompostableItems.registerModCompostableItems();
 		ModEntities.registerModEntities();
 		ModWorldGeneration.GenerateWorldGen();
+		ModVillagerTrades.registerModVillagerTrades();
 
 	}
 }

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/crop",
-  "textures": {
-    "crop": "tastyvanilla:block/tumeric_crop_stage2"
-  }
-}
