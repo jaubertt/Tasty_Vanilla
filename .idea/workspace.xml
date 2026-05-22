@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Added Bumsblech Salad and Strawberry Pie">
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/AloeVeraHerbBlock.java" beforeDir="false" />
-    </list>
+    <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Added Bumsblech Salad and Strawberry Pie" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,13 +48,12 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Tasty Vanilla" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Tasty Vanilla" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -75,7 +72,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1.21.4" />
+        <entry key="$PROJECT_DIR$" value="1.21.8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -119,7 +116,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "1.21.5",
+    "git-widget-placeholder": "1.21.7",
     "last_opened_file_path": "/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/Tasty Vanilla/src/main/resources/assets/tastyvanilla/textures/item",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
@@ -145,7 +142,7 @@
       <recent name="tastyvanilla.mixin" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Minecraft Client">
+  <component name="RunManager" selected="Gradle.Tasty Vanilla [runClient]">
     <configuration name="Tasty Vanilla [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -168,15 +165,38 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Tasty Vanilla [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Data Generation" />
       <item itemvalue="Application.Minecraft Client" />
       <item itemvalue="Application.Minecraft Server" />
+      <item itemvalue="Gradle.Tasty Vanilla [runClient]" />
       <item itemvalue="Gradle.Tasty Vanilla [build]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tasty Vanilla [build]" />
+        <item itemvalue="Gradle.Tasty Vanilla [runClient]" />
         <item itemvalue="Gradle.Tasty Vanilla [build]" />
         <item itemvalue="Gradle.Tasty Vanilla [build]" />
         <item itemvalue="Gradle.Tasty Vanilla [build]" />
@@ -232,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758581658389</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated code and added missing villager trades">
+      <option name="closed" value="true" />
+      <created>1779459065228</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1779459065228</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,6 +290,7 @@
     <option name="RELOAD_CONTEXT" value="false" />
     <MESSAGE value="Deleted file from main" />
     <MESSAGE value="Added Bumsblech Salad and Strawberry Pie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Bumsblech Salad and Strawberry Pie" />
+    <MESSAGE value="Updated code and added missing villager trades" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated code and added missing villager trades" />
   </component>
 </project>
