@@ -4,21 +4,33 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.block.piston.PistonBehavior;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.item.ItemGroups;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.sound.BlockSoundGroup;
-import net.minecraft.util.Identifier;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 import tastyvanilla.TastyVanilla;
 import tastyvanilla.block.custom.*;
 
 import java.util.function.Function;
 
 public class ModBlocks {
+
+
+
+
+
 
     //NEW BLOCKS
     public static final Block SALT_BLOCK = registerBlock("salt_block",
@@ -124,89 +136,62 @@ public class ModBlocks {
                     .mapColor(MapColor.DARK_GREEN)));
 
     //BERRIES
+
+
     public static final Block BERRY_BLACKBERRY_BUSH = registerBlockWithoutBlockItem("berry_blackberry_bush",
-            new BlackberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)
-                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,"berry_blackberry_bush")))
-            )
-    );
+            properties -> new BlackberryBushBlock(properties.mapColor(MapColor.COLOR_GREEN).randomTicks()
+                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
     public static final Block BERRY_BLUEBERRY_BUSH = registerBlockWithoutBlockItem("berry_blueberry_bush",
-            new BlueberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)
-                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,"berry_blueberry_bush")))
-            )
-    );
+            properties -> new BlackberryBushBlock(properties.mapColor(MapColor.COLOR_GREEN).randomTicks()
+                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
     public static final Block BERRY_ELDERBERRY_BUSH = registerBlockWithoutBlockItem("berry_elderberry_bush",
-            new ElderberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)
-                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,"berry_elderberry_bush")))
-            )
-    );
+            properties -> new BlackberryBushBlock(properties.mapColor(MapColor.COLOR_GREEN).randomTicks()
+                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
     public static final Block BERRY_GOJI_BERRY_BUSH = registerBlockWithoutBlockItem("berry_goji_berry_bush",
-            new GojiBerryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)
-                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,"berry_goji_berry_bush")))
-            )
-    );
+            properties -> new BlackberryBushBlock(properties.mapColor(MapColor.COLOR_GREEN).randomTicks()
+                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
     public static final Block BERRY_GOOSEBERRY_BUSH = registerBlockWithoutBlockItem("berry_gooseberry_bush",
-            new GooseberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)
-                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,"berry_gooseberry_bush")))
-            )
-    );
+            properties -> new BlackberryBushBlock(properties.mapColor(MapColor.COLOR_GREEN).randomTicks()
+                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
     public static final Block BERRY_RASPBERRY_BUSH = registerBlockWithoutBlockItem("berry_raspberry_bush",
-            new RaspberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)
-                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,"berry_raspberry_bush")))
-            )
-    );
+            properties -> new BlackberryBushBlock(properties.mapColor(MapColor.COLOR_GREEN).randomTicks()
+                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
     public static final Block BERRY_STRAWBERRY_BUSH = registerBlockWithoutBlockItem("berry_strawberry_bush",
-            new StrawberryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)
-                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,"berry_strawberry_bush")))
-            )
-    );
+            properties -> new BlackberryBushBlock(properties.mapColor(MapColor.COLOR_GREEN).randomTicks()
+                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
     public static final Block BERRY_WHITE_CURRANT_BERRY_BUSH = registerBlockWithoutBlockItem("berry_white_currant_berry_bush",
-            new WhiteCurrantBerryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)
-                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID,"berry_white_currant_berry_bush")))
-            )
-    );
-
-
+            properties -> new BlackberryBushBlock(properties.mapColor(MapColor.COLOR_GREEN).randomTicks()
+                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
 
     //--------------------------//
-
-
-    public static Block register(RegistryKey<Block> key, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings) {
-        Block block = (Block)factory.apply(settings.registryKey(key));
-        return Registry.register(Registries.BLOCK, key, block);
-    }
-
-    private static RegistryKey<Block> keyOf(String id) {
-        return RegistryKey.of(RegistryKeys.BLOCK, Identifier.ofVanilla(id));
-    }
-
-    private static Block registerBlockVanillaMethod(String id, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings) {
-        return register(keyOf(id), factory, settings);
-    }
-
-
 
     //Register Block Method
 
-    private static Block registerBlockWithoutBlockItem(String name,Block block){
-        return Registry.register(Registries.BLOCK, Identifier.of(TastyVanilla.MOD_ID,name),block);
+    private static Block registerBlockWithoutBlockItem(String name, Function<BlockBehaviour.Properties, Block> function) {
+        return Registry.register(BuiltInRegistries.BLOCK, Identifier.fromNamespaceAndPath(TastyVanilla.MOD_ID, name), function.apply(BlockBehaviour.Properties.of()
+                .setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(TastyVanilla.MOD_ID, name)))));
     }
 
-    private static Block registerBlock(String name,Block block){
-        registerBlockItem(name,block);
-        return Registry.register(Registries.BLOCK, Identifier.of(TastyVanilla.MOD_ID,name),block);
+    private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function) {
+        Block toRegister = function.apply(BlockBehaviour.Properties.of()
+                .setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(TastyVanilla.MOD_ID, name))));
+        registerBlockItem(name, toRegister);
+        return Registry.register(BuiltInRegistries.BLOCK, Identifier.fromNamespaceAndPath(TastyVanilla.MOD_ID, name), toRegister);
     }
 
     //Register Block Item Method
-    private static void registerBlockItem(String name, Block block){
-        Registry.register(Registries.ITEM, Identifier.of(TastyVanilla.MOD_ID,name),
-                new BlockItem(block, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM,Identifier.of(TastyVanilla.MOD_ID, name)))));
+    private static void registerBlockItem(String name, Block block) {
+        Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(TastyVanilla.MOD_ID, name),
+                new BlockItem(block, new Item.Properties().useBlockDescriptionPrefix()
+                        .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(TastyVanilla.MOD_ID, name)))));
     }
-
     //--------------------------//
 
     //Register Block Initializer
+
     public static void registerModBlocks() {
-        TastyVanilla.LOGGER.info("Registering Mod Blocks for" + TastyVanilla.MOD_ID);
+        TastyVanilla.LOGGER.info("Registering Mod Blocks for " + TastyVanilla.MOD_ID);
+
 
         //--------------------------//
 

@@ -4,21 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Minecraft_Server.xml">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Minor Commit">
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/ModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/BlackberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/BlackberryBushBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/BlueberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/BlueberryBushBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/ElderberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/ElderberryBushBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/GojiBerryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/GojiBerryBushBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/GooseberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/GooseberryBushBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/RaspberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/RaspberryBushBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/StrawberryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/StrawberryBushBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/WhiteCurrantBerryBushBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/custom/WhiteCurrantBerryBushBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModBlockTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModBlockTagProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModRegistryDataGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModCompostableItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModCompostableItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModFoodComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/food/ModFoods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,9 +133,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/gradle/wrapper" />
-      <recent name="$PROJECT_DIR$/gradle" />
       <recent name="$PROJECT_DIR$/.gradle" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/gradle" />
       <recent name="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -271,7 +274,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759882046828</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Minor Commit">
+      <option name="closed" value="true" />
+      <created>1779464650304</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1779464650304</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Minor Commit">
+      <option name="closed" value="true" />
+      <created>1779464656182</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1779464656182</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -305,6 +324,7 @@
     <MESSAGE value="Deleted file from main" />
     <MESSAGE value="Added Bumsblech Salad and Strawberry Pie" />
     <MESSAGE value="Minecraft_Server.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minecraft_Server.xml" />
+    <MESSAGE value="Minor Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor Commit" />
   </component>
 </project>

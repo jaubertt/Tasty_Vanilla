@@ -1,20 +1,20 @@
 package tastyvanilla.datagen;
 
-import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.minecraft.registry.RegistryWrapper;
-import net.minecraft.registry.tag.BlockTags;
+import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.tags.BlockTags;
 import tastyvanilla.block.ModBlocks;
 
 import java.util.concurrent.CompletableFuture;
 
-public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
-    public ModBlockTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
-        super(output, registriesFuture);
+public class ModBlockTagProvider extends FabricTagsProvider.BlockTagsProvider {
+    public ModBlockTagProvider(FabricPackOutput output, CompletableFuture<HolderLookup.Provider> registryLookupFuture) {
+        super(output, registryLookupFuture);
     }
 
     @Override
-    protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
+    protected void addTags(HolderLookup.Provider registries) {
 
         //VILLAGERS
         valueLookupBuilder(BlockTags.CROPS)
@@ -41,7 +41,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
 
         //TOOLS
-        valueLookupBuilder(BlockTags.AXE_MINEABLE)
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_AXE)
                 .add(ModBlocks.CABBAGE_CROP)
                 .add(ModBlocks.CHILLI_CROP)
                 .add(ModBlocks.EGGPLANT_CROP)
@@ -54,7 +54,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SUGAR_BLOCK)
         ;
 
-        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE)
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.CABBAGE_CROP)
                 .add(ModBlocks.CHILLI_CROP)
                 .add(ModBlocks.EGGPLANT_CROP)
@@ -75,10 +75,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BERRY_GOOSEBERRY_BUSH)
                 .add(ModBlocks.BERRY_RASPBERRY_BUSH)
                 .add(ModBlocks.BERRY_STRAWBERRY_BUSH)
-                .add(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH);
-        ;
-
-
+                .add(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH)
+                .add(ModBlocks.CABBAGE_CROP)
+                .add(ModBlocks.CHILLI_CROP)
+                .add(ModBlocks.EGGPLANT_CROP)
+                .add(ModBlocks.GARLIC_CROP)
+                .add(ModBlocks.LETTUCE_CROP)
+                .add(ModBlocks.ONION_CROP)
+                .add(ModBlocks.SWEET_POTATO_CROP)
+                .add(ModBlocks.TOMATO_CROP);
 
     }
 }

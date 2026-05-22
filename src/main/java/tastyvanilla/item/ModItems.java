@@ -1,345 +1,341 @@
 package tastyvanilla.item;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.component.DataComponentTypes;
-import net.minecraft.component.type.ConsumableComponents;
-import net.minecraft.component.type.FoodComponents;
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
+import net.minecraft.core.Registry;
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.util.Identifier;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.component.Consumables;
 import tastyvanilla.TastyVanilla;
 import tastyvanilla.block.ModBlocks;
+import tastyvanilla.food.ModFoods;
 
 
-import static net.minecraft.item.Items.BOWL;
-import static net.minecraft.item.Items.BUCKET;
+import java.util.function.Function;
+
+import static net.minecraft.world.item.Items.BOWL;
 
 public class ModItems {
 
-    //ITEM INITIALIZER
-    public static void registerModItems() {
-        TastyVanilla.LOGGER.info("Registering Mod Items for " + TastyVanilla.MOD_ID);
-    }
 
     //TUTORIAL CODE REGISTER
-    private static Item registerItem (String name, Item item){
-        return Registry.register(Registries.ITEM, Identifier.of(TastyVanilla.MOD_ID, name), item);
-    }
+
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {
         return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(TastyVanilla.MOD_ID, name),
                 function.apply(new Item.Properties().setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(TastyVanilla.MOD_ID, name)))));
     }
 
-
-
-
     //COOKIES
-    public static final Item COOKIE_APPLE = registerItem("cookie_apple", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_APPLE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"cookie_apple")))));
-    public static final Item COOKIE_CARROT = registerItem("cookie_carrot", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_CARROT).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"cookie_carrot")))));
-    public static final Item COOKIE_GLOW_BERRY = registerItem("cookie_glow_berry", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_GLOW_BERRY).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"cookie_glow_berry")))));
-    public static final Item COOKIE_HONEY = registerItem("cookie_honey", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_HONEY).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"cookie_honey")))));
-    public static final Item COOKIE_OATMEAL = registerItem("cookie_oatmeal", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_OATMEAL).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"cookie_oatmeal")))));
-    public static final Item COOKIE_POPPY_SEED = registerItem("cookie_poppy_seed", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_POPPY_SEED).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"cookie_poppy_seed")))));
-    public static final Item COOKIE_PUMPKIN = registerItem("cookie_pumpkin", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_PUMPKIN).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"cookie_pumpkin")))));
-    public static final Item COOKIE_SPIDER_EYE = registerItem("cookie_spider_eye", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_SPIDER_EYE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"cookie_spider_eye")))));
-    public static final Item COOKIE_SUGAR = registerItem("cookie_sugar", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_SUGAR).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"cookie_sugar")))));
-    public static final Item COOKIE_SUNFLOWER_SEED = registerItem("cookie_sunflower_seed", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_SUNFLOWER_SEED).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"cookie_sunflower_seed")))));
-    public static final Item COOKIE_SWEET_BERRY = registerItem("cookie_sweet_berry", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_SWEET_BERRY).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"cookie_sweet_berry")))));
+    public static final Item COOKIE_APPLE = registerItem("cookie_apple", properties -> new Item(properties.food(ModFoods.COOKIE_APPLE)));
+    public static final Item COOKIE_CARROT = registerItem("cookie_carrot", properties -> new Item(properties.food(ModFoods.COOKIE_CARROT)));
+    public static final Item COOKIE_GLOW_BERRY = registerItem("cookie_glow_berry", properties -> new Item(properties.food(ModFoods.COOKIE_GLOW_BERRY)));
+    public static final Item COOKIE_HONEY = registerItem("cookie_honey", properties -> new Item(properties.food(ModFoods.COOKIE_HONEY)));
+    public static final Item COOKIE_OATMEAL = registerItem("cookie_oatmeal", properties -> new Item(properties.food(ModFoods.COOKIE_OATMEAL)));
+    public static final Item COOKIE_POPPY_SEED = registerItem("cookie_poppy_seed", properties -> new Item(properties.food(ModFoods.COOKIE_POPPY_SEED)));
+    public static final Item COOKIE_PUMPKIN = registerItem("cookie_pumpkin", properties -> new Item(properties.food(ModFoods.COOKIE_PUMPKIN)));
+    public static final Item COOKIE_SPIDER_EYE = registerItem("cookie_spider_eye", properties -> new Item(properties.food(ModFoods.COOKIE_SPIDER_EYE)));
+    public static final Item COOKIE_SUGAR = registerItem("cookie_sugar", properties -> new Item(properties.food(ModFoods.COOKIE_SUGAR)));
+    public static final Item COOKIE_SUNFLOWER_SEED = registerItem("cookie_sunflower_seed", properties -> new Item(properties.food(ModFoods.COOKIE_SUNFLOWER_SEED)));
+    public static final Item COOKIE_SWEET_BERRY = registerItem("cookie_sweet_berry", properties -> new Item(properties.food(ModFoods.COOKIE_SWEET_BERRY)));
 
     //BREAD INGREDIENTS
-    public static final Item BUTTER = registerItem("butter", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"butter")))));
-    public static final Item FLOUR = registerItem("flour", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"flour")))));
-    public static final Item SALT = registerItem("salt", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"salt")))));
-    public static final Item YEAST = registerItem("yeast", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"yeast")))));
+    public static final Item BUTTER = registerItem("butter", Item::new);
+    public static final Item FLOUR = registerItem("flour", Item::new);
+    public static final Item SALT = registerItem("salt", Item::new);
+    public static final Item YEAST = registerItem("yeast", Item::new);
 
     //BREAD DOUGHS
-    public static final Item DOUGH_BAGUEL = registerItem("dough_baguel", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"dough_baguel")))));
-    public static final Item DOUGH_BAGUETTE = registerItem("dough_baguette", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"dough_baguette")))));
-    public static final Item DOUGH_BAKED_BREAD = registerItem("dough_baked_bread", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"dough_baked_bread")))));
-    public static final Item DOUGH_BROWNIE = registerItem("dough_brownie", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"dough_brownie")))));
-    public static final Item DOUGH_CROISSANT = registerItem("dough_croissant", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"dough_croissant")))));
-    public static final Item DOUGH_FLATBREAD = registerItem("dough_flatbread", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"dough_flatbread")))));
-    public static final Item DOUGH_FOCACCIA = registerItem("dough_focaccia", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"dough_focaccia")))));
-    public static final Item DOUGH_HONEY = registerItem("dough_honey", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"dough_honey")))));
-    public static final Item DOUGH_MULTIGRAIN = registerItem("dough_multigrain", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"dough_multigrain")))));
-    public static final Item DOUGH_PANCAKES = registerItem("dough_pancakes", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"dough_pancakes")))));
-    public static final Item DOUGH_SOURDOUGH = registerItem("dough_sourdough", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"dough_sourdough")))));
-    public static final Item DOUGH_SWEET_ROLL = registerItem("dough_sweet_roll", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"dough_sweet_roll")))));
+    public static final Item DOUGH_BAGUEL = registerItem("dough_baguel", properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
+    public static final Item DOUGH_BAGUETTE = registerItem("dough_baguette", properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
+    public static final Item DOUGH_BAKED_BREAD = registerItem("dough_baked_bread", properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
+    public static final Item DOUGH_BROWNIE = registerItem("dough_brownie",properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
+    public static final Item DOUGH_CROISSANT = registerItem("dough_croissant",properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
+    public static final Item DOUGH_FLATBREAD = registerItem("dough_flatbread", properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
+    public static final Item DOUGH_FOCACCIA = registerItem("dough_focaccia", properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
+    public static final Item DOUGH_HONEY = registerItem("dough_honey", properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
+    public static final Item DOUGH_MULTIGRAIN = registerItem("dough_multigrain", properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
+    public static final Item DOUGH_PANCAKES = registerItem("dough_pancakes", properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
+    public static final Item DOUGH_SOURDOUGH = registerItem("dough_sourdough", properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
+    public static final Item DOUGH_SWEET_ROLL = registerItem("dough_sweet_roll", properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
 
     //BAKED BREAD
-    public static final Item BREAD_BAGUEL = registerItem("bread_baguel", new Item(new Item.Settings().food(ModFoodComponents.BREAD_BAGUEL).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"bread_baguel")))));
-    public static final Item BREAD_BAGUETTE = registerItem("bread_baguette", new Item(new Item.Settings().food(ModFoodComponents.BREAD_BAGUETTE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"bread_baguette")))));
-    public static final Item BREAD_BAKED = registerItem("bread_baked", new Item(new Item.Settings().food(ModFoodComponents.BREAD_BAKED).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"bread_baked")))));
-    public static final Item BREAD_BROWNIE = registerItem("bread_brownie", new Item(new Item.Settings().food(ModFoodComponents.BREAD_BROWNIE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"bread_brownie")))));
-    public static final Item BREAD_CROISSANT = registerItem("bread_croissant", new Item(new Item.Settings().food(ModFoodComponents.BREAD_CROISSANT).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"bread_croissant")))));
-    public static final Item BREAD_FLATBREAD = registerItem("bread_flatbread", new Item(new Item.Settings().food(ModFoodComponents.BREAD_FLATBREAD).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"bread_flatbread")))));
-    public static final Item BREAD_FOCACCIA = registerItem("bread_focaccia", new Item(new Item.Settings().food(ModFoodComponents.BREAD_FOCACCIA).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"bread_focaccia")))));
-    public static final Item BREAD_HONEY = registerItem("bread_honey", new Item(new Item.Settings().food(ModFoodComponents.BREAD_HONEY).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"bread_honey")))));
-    public static final Item BREAD_MULTIGRAIN = registerItem("bread_multigrain", new Item(new Item.Settings().food(ModFoodComponents.BREAD_MULTIGRAIN).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"bread_multigrain")))));
-    public static final Item BREAD_PANCAKES = registerItem("bread_pancakes", new Item(new Item.Settings().food(ModFoodComponents.BREAD_PANCAKES).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"bread_pancakes")))));
-    public static final Item BREAD_SOURDOUGH = registerItem("bread_sourdough", new Item(new Item.Settings().food(ModFoodComponents.BREAD_SOURDOUGH).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"bread_sourdough")))));
-    public static final Item BREAD_SWEET_ROLL = registerItem("bread_sweet_roll", new Item(new Item.Settings().food(ModFoodComponents.BREAD_SWEET_ROLL).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"bread_sweet_roll")))));
+    public static final Item BREAD_BAGUEL = registerItem("bread_baguel", properties -> new Item(properties.food(ModFoods.BREAD_BAGUEL)));
+    public static final Item BREAD_BAGUETTE = registerItem("bread_baguette", properties -> new Item(properties.food(ModFoods.BREAD_BAGUETTE)));
+    public static final Item BREAD_BAKED = registerItem("bread_baked", properties -> new Item(properties.food(ModFoods.BREAD_BAKED)));
+    public static final Item BREAD_BROWNIE = registerItem("bread_brownie", properties -> new Item(properties.food(ModFoods.BREAD_BROWNIE)));
+    public static final Item BREAD_CROISSANT = registerItem("bread_croissant", properties -> new Item(properties.food(ModFoods.BREAD_CROISSANT)));
+    public static final Item BREAD_FLATBREAD = registerItem("bread_flatbread", properties -> new Item(properties.food(ModFoods.BREAD_FLATBREAD)));
+    public static final Item BREAD_FOCACCIA = registerItem("bread_focaccia", properties -> new Item(properties.food(ModFoods.BREAD_FOCACCIA)));
+    public static final Item BREAD_HONEY = registerItem("bread_honey", properties -> new Item(properties.food(ModFoods.BREAD_HONEY)));
+    public static final Item BREAD_MULTIGRAIN = registerItem("bread_multigrain", properties -> new Item(properties.food(ModFoods.BREAD_MULTIGRAIN)));
+    public static final Item BREAD_PANCAKES = registerItem("bread_pancakes", properties -> new Item(properties.food(ModFoods.BREAD_PANCAKES)));
+    public static final Item BREAD_SOURDOUGH = registerItem("bread_sourdough", properties -> new Item(properties.food(ModFoods.BREAD_SOURDOUGH)));
+    public static final Item BREAD_SWEET_ROLL = registerItem("bread_sweet_roll", properties -> new Item(properties.food(ModFoods.BREAD_SWEET_ROLL)));
 
     //PIES
-    public static final Item PIE_APPLE = registerItem("pie_apple", new Item(new Item.Settings().food(ModFoodComponents.PIE_APPLE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_apple")))));
-    public static final Item PIE_CHICKEN = registerItem("pie_chicken", new Item(new Item.Settings().food(ModFoodComponents.PIE_CHICKEN).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_chicken")))));
-    public static final Item PIE_CHOCOLATE = registerItem("pie_chocolate", new Item(new Item.Settings().food(ModFoodComponents.PIE_CHOCOLATE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_chocolate")))));
-    public static final Item PIE_CHORUS_FRUIT = registerItem("pie_chorus_fruit", new Item(new Item.Settings().food(ModFoodComponents.PIE_CHORUS_FRUIT,ConsumableComponents.CHORUS_FRUIT).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_chorus_fruit"))).food(FoodComponents.CHORUS_FRUIT)));
-    public static final Item PIE_FISH = registerItem("pie_fish", new Item(new Item.Settings().food(ModFoodComponents.PIE_FISH).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_fish")))));
-    public static final Item PIE_FUNGUS = registerItem("pie_fungus", new Item(new Item.Settings().food(ModFoodComponents.PIE_FUNGUS).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_fungus")))));
-    public static final Item PIE_GLOW_BERRY = registerItem("pie_glow_berry", new Item(new Item.Settings().food(ModFoodComponents.PIE_GLOW_BERRY).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_glow_berry")))));
-    public static final Item PIE_HONEY = registerItem("pie_honey", new Item(new Item.Settings().food(ModFoodComponents.PIE_HONEY).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_honey")))));
-    public static final Item PIE_MEAT = registerItem("pie_meat", new Item(new Item.Settings().food(ModFoodComponents.PIE_MEAT).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_meat")))));
-    public static final Item PIE_MELON = registerItem("pie_melon", new Item(new Item.Settings().food(ModFoodComponents.PIE_MELON).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_melon")))));
-    public static final Item PIE_MUSHROOM = registerItem("pie_mushroom", new Item(new Item.Settings().food(ModFoodComponents.PIE_MUSHROOM).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_mushroom")))));
-    public static final Item PIE_SHEPHERDS = registerItem("pie_shepherds", new Item(new Item.Settings().food(ModFoodComponents.PIE_SHEPHERDS).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_shepherds")))));
-    public static final Item PIE_SWEET_BERRY = registerItem("pie_sweet_berry", new Item(new Item.Settings().food(ModFoodComponents.PIE_SWEET_BERRY).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_sweet_berry")))));
-    public static final Item PIE_STRAWBERRY = registerItem("pie_strawberry", new Item(new Item.Settings().food(ModFoodComponents.PIE_STRAWBERRY).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_strawberry")))));
-    public static final Item PIE_VEGETABLE = registerItem("pie_vegetable", new Item(new Item.Settings().food(ModFoodComponents.PIE_VEGETABLE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"pie_vegetable")))));
+    public static final Item PIE_APPLE = registerItem("pie_apple", properties -> new Item(properties.food(ModFoods.PIE_APPLE)));
+    public static final Item PIE_CHICKEN = registerItem("pie_chicken", properties -> new Item(properties.food(ModFoods.PIE_CHICKEN)));
+    public static final Item PIE_CHOCOLATE = registerItem("pie_chocolate", properties -> new Item(properties.food(ModFoods.PIE_CHOCOLATE)));
+    public static final Item PIE_CHORUS_FRUIT = registerItem("pie_chorus_fruit", properties -> new Item(properties.food(ModFoods.PIE_CHORUS_FRUIT)));
+    public static final Item PIE_FISH = registerItem("pie_fish", properties -> new Item(properties.food(ModFoods.PIE_FISH)));
+    public static final Item PIE_FUNGUS = registerItem("pie_fungus", properties -> new Item(properties.food(ModFoods.PIE_FUNGUS)));
+    public static final Item PIE_GLOW_BERRY = registerItem("pie_glow_berry", properties -> new Item(properties.food(ModFoods.PIE_GLOW_BERRY)));
+    public static final Item PIE_HONEY = registerItem("pie_honey", properties -> new Item(properties.food(ModFoods.PIE_HONEY)));
+    public static final Item PIE_MEAT = registerItem("pie_meat", properties -> new Item(properties.food(ModFoods.PIE_MEAT)));
+    public static final Item PIE_MELON = registerItem("pie_melon", properties -> new Item(properties.food(ModFoods.PIE_MELON)));
+    public static final Item PIE_MUSHROOM = registerItem("pie_mushroom", properties -> new Item(properties.food(ModFoods.PIE_MUSHROOM)));
+    public static final Item PIE_SHEPHERDS = registerItem("pie_shepherds", properties -> new Item(properties.food(ModFoods.PIE_SHEPHERDS)));
+    public static final Item PIE_SWEET_BERRY = registerItem("pie_sweet_berry", properties -> new Item(properties.food(ModFoods.PIE_SWEET_BERRY)));
+    public static final Item PIE_STRAWBERRY = registerItem("pie_strawberry", properties -> new Item(properties.food(ModFoods.PIE_STRAWBERRY)));
+    public static final Item PIE_VEGETABLE = registerItem("pie_vegetable", properties -> new Item(properties.food(ModFoods.PIE_VEGETABLE)));
 
     //CROPS
 
-    public static final Item CABBAGE = registerItem("cabbage", new BlockItem(ModBlocks.CABBAGE_CROP, new Item.Settings().food(ModFoodComponents.CABBAGE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "cabbage")))));
+    public static final Item CABBAGE = registerItem("cabbage", new BlockItem(ModBlocks.CABBAGE_CROP, new Item.Settings().food(ModFoods.CABBAGE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "cabbage")))));
 
-    public static final Item CHILLI = registerItem("chilli", new Item(new Item.Settings().food(ModFoodComponents.CHILLI).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "chilli")))));
+    public static final Item CHILLI = registerItem("chilli", properties -> new Item(properties.food(ModFoods.CHILLI).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "chilli")))));
     public static final Item CHILLI_SEEDS = registerItem("chilli_seeds", new BlockItem(ModBlocks.CHILLI_CROP, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "chilli_seeds")))));
 
-    public static final Item EGGPLANT = registerItem("eggplant", new BlockItem(ModBlocks.EGGPLANT_CROP, new Item.Settings().food(ModFoodComponents.EGGPLANT).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "eggplant")))));
+    public static final Item EGGPLANT = registerItem("eggplant", new BlockItem(ModBlocks.EGGPLANT_CROP, new Item.Settings().food(ModFoods.EGGPLANT).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "eggplant")))));
 
-    public static final Item GARLIC = registerItem("garlic", new BlockItem(ModBlocks.GARLIC_CROP, new Item.Settings().food(ModFoodComponents.GARLIC).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "garlic")))));
+    public static final Item GARLIC = registerItem("garlic", new BlockItem(ModBlocks.GARLIC_CROP, new Item.Settings().food(ModFoods.GARLIC).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "garlic")))));
 
-    public static final Item LETTUCE = registerItem("lettuce", new Item(new Item.Settings().food(ModFoodComponents.LETTUCE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "lettuce")))));
+    public static final Item LETTUCE = registerItem("lettuce", properties -> new Item(properties.food(ModFoods.LETTUCE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "lettuce")))));
     public static final Item LETTUCE_SEEDS = registerItem("lettuce_seeds", new BlockItem(ModBlocks.LETTUCE_CROP, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "lettuce_seeds")))));
 
-    public static final Item ONION = registerItem("onion", new BlockItem(ModBlocks.ONION_CROP, new Item.Settings().food(ModFoodComponents.ONION).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "onion")))));
+    public static final Item ONION = registerItem("onion", new BlockItem(ModBlocks.ONION_CROP, new Item.Settings().food(ModFoods.ONION).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "onion")))));
 
-    public static final Item SWEET_POTATO = registerItem("sweet_potato", new BlockItem(ModBlocks.SWEET_POTATO_CROP, new Item.Settings().food(ModFoodComponents.SWEET_POTATO).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "sweet_potato")))));
+    public static final Item SWEET_POTATO = registerItem("sweet_potato", new BlockItem(ModBlocks.SWEET_POTATO_CROP, new Item.Settings().food(ModFoods.SWEET_POTATO).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "sweet_potato")))));
 
-    public static final Item TOMATO = registerItem("tomato", new Item(new Item.Settings().food(ModFoodComponents.TOMATO).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "tomato")))));
+    public static final Item TOMATO = registerItem("tomato", properties -> new Item(properties.food(ModFoods.TOMATO).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "tomato")))));
     public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", new BlockItem(ModBlocks.TOMATO_CROP, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "tomato_seeds")))));
 
 
     //CROP FOODS
-    public static final Item FOOD_TOMATO_SOUP = registerItem("food_tomato_soup", new Item(new Item.Settings().food(ModFoodComponents.FOOD_TOMATO_SOUP).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "food_tomato_soup")))));
-    public static final Item FOOD_SALAD = registerItem("food_salad", new Item(new Item.Settings().food(ModFoodComponents.FOOD_SALAD).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "food_salad")))));
-    public static final Item FOOD_WRAP_VEGGIE = registerItem("food_wrap_veggie", new Item(new Item.Settings().food(ModFoodComponents.FOOD_WRAP_VEGGIE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "food_wrap_veggie")))));
-    public static final Item FOOD_WRAP = registerItem("food_wrap", new Item(new Item.Settings().food(ModFoodComponents.FOOD_WRAP).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "food_wrap")))));
-    public static final Item FOOD_ONION_SOUP = registerItem("food_onion_soup", new Item(new Item.Settings().food(ModFoodComponents.FOOD_ONION_SOUP).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "food_onion_soup")))));
-    public static final Item FOOD_ONION_RING = registerItem("food_onion_ring", new Item(new Item.Settings().food(ModFoodComponents.FOOD_ONION_RING).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "food_onion_ring")))));
-    public static final Item FOOD_ROASTED_GARLIC = registerItem("food_roasted_garlic", new Item(new Item.Settings().food(ModFoodComponents.FOOD_ROASTED_GARLIC).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "food_roasted_garlic")))));
-    public static final Item FOOD_BAKED_SWEET_POTATO = registerItem("food_baked_sweet_potato", new Item(new Item.Settings().food(ModFoodComponents.FOOD_BAKED_SWEET_POTATO).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "food_baked_sweet_potato")))));
-    public static final Item FOOD_SWEET_POTATO_FRIES = registerItem("food_sweet_potato_fries", new Item(new Item.Settings().food(ModFoodComponents.FOOD_SWEET_POTATO_FRIES).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "food_sweet_potato_fries")))));
-    public static final Item FOOD_POTATO_FRIES = registerItem("food_potato_fries", new Item(new Item.Settings().food(ModFoodComponents.FOOD_POTATO_FRIES).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "food_potato_fries")))));
-    public static final Item FOOD_COLESLAW = registerItem("food_coleslaw", new Item(new Item.Settings().food(ModFoodComponents.FOOD_COLESLAW).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "food_coleslaw")))));
-    public static final Item FOOD_CHILLI_STEW = registerItem("food_chilli_stew", new Item(new Item.Settings().food(ModFoodComponents.FOOD_CHILLI_STEW).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "food_chilli_stew")))));
-    public static final Item FOOD_BUMSBLECH_SALAD = registerItem("food_bumsblech_salad", new Item(new Item.Settings().food(ModFoodComponents.FOOD_BUMSBLECH_SALAD).useRemainder(BOWL).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "food_bumsblech_salad")))));
 
-    public static final Item BREAD_GARLIC = registerItem("bread_garlic", new Item(new Item.Settings().food(ModFoodComponents.BREAD_GARLIC).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "bread_garlic")))));
-    public static final Item DOUGH_GARLIC = registerItem("dough_garlic", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "dough_garlic")))));
+    public static final Item FOOD_TOMATO_SOUP = registerItem("food_tomato_soup", properties -> new Item(properties.food(ModFoods.FOOD_TOMATO_SOUP).stacksTo(16).usingConvertsTo(BOWL)));
+    public static final Item FOOD_SALAD = registerItem("food_salad", properties -> new Item(properties.food(ModFoods.FOOD_SALAD).stacksTo(16).usingConvertsTo(BOWL)));
+    public static final Item FOOD_WRAP_VEGGIE = registerItem("food_wrap_veggie", properties -> new Item(properties.food(ModFoods.FOOD_WRAP_VEGGIE)));
+    public static final Item FOOD_WRAP = registerItem("food_wrap", properties -> new Item(properties.food(ModFoods.FOOD_WRAP)));
+    public static final Item FOOD_ONION_SOUP = registerItem("food_onion_soup", properties -> new Item(properties.food(ModFoods.FOOD_ONION_SOUP).stacksTo(16).usingConvertsTo(BOWL)));
+    public static final Item FOOD_ONION_RING = registerItem("food_onion_ring", properties -> new Item(properties.food(ModFoods.FOOD_ONION_RING)));
+    public static final Item FOOD_ROASTED_GARLIC = registerItem("food_roasted_garlic", properties -> new Item(properties.food(ModFoods.FOOD_ROASTED_GARLIC)));
+    public static final Item FOOD_BAKED_SWEET_POTATO = registerItem("food_baked_sweet_potato", properties -> new Item(properties.food(ModFoods.FOOD_BAKED_SWEET_POTATO)));
+    public static final Item FOOD_SWEET_POTATO_FRIES = registerItem("food_sweet_potato_fries", properties -> new Item(properties.food(ModFoods.FOOD_SWEET_POTATO_FRIES)));
+    public static final Item FOOD_POTATO_FRIES = registerItem("food_potato_fries", properties -> new Item(properties.food(ModFoods.FOOD_POTATO_FRIES).stacksTo(16).usingConvertsTo(BOWL)));
+    public static final Item FOOD_COLESLAW = registerItem("food_coleslaw", properties -> new Item(properties.food(ModFoods.FOOD_COLESLAW).stacksTo(16).usingConvertsTo(BOWL)));
+    public static final Item FOOD_CHILLI_STEW = registerItem("food_chilli_stew", properties -> new Item(properties.food(ModFoods.FOOD_CHILLI_STEW).stacksTo(16).usingConvertsTo(BOWL)));
+    public static final Item FOOD_BUMSBLECH_SALAD = registerItem("food_bumsblech_salad", properties -> new Item(properties.food(ModFoods.FOOD_BUMSBLECH_SALAD).stacksTo(16).usingConvertsTo(BOWL)));
+
+    public static final Item BREAD_GARLIC = registerItem("bread_garlic", properties -> new Item(properties.food(ModFoods.BREAD_GARLIC)));
+    public static final Item DOUGH_GARLIC = registerItem("dough_garlic", properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
 
     //MILK & CHEESE
-    public static final Item GOAT_MILK_BUCKET = registerItem("goat_milk_bucket", new Item (new Item.Settings().recipeRemainder(BUCKET).component(DataComponentTypes.CONSUMABLE, ConsumableComponents.MILK_BUCKET).useRemainder(BUCKET).maxCount(1).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "goat_milk_bucket")))));
+    public static final Item GOAT_MILK_BUCKET = registerItem("goat_milk_bucket",properties -> new Item(properties.craftRemainder(Items.BUCKET).component(DataComponents.CONSUMABLE,Consumables.MILK_BUCKET).usingConvertsTo(Items.BUCKET).stacksTo(1)));
 
     //BERRIES & JAMS
 
-    public static final Item BERRY_BLACKBERRIES = registerItem("berry_blackberries", new BlockItem(ModBlocks.BERRY_BLACKBERRY_BUSH,new Item.Settings().food(ModFoodComponents.BERRY_BLACKBERRIES).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "berry_blackberries")))));
-    public static final Item BERRY_BLUEBERRIES = registerItem("berry_blueberries", new BlockItem(ModBlocks.BERRY_BLUEBERRY_BUSH,new Item.Settings().food(ModFoodComponents.BERRY_BLUEBERRIES).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "berry_blueberries")))));
-    public static final Item BERRY_ELDERBERRIES = registerItem("berry_elderberries", new BlockItem(ModBlocks.BERRY_ELDERBERRY_BUSH,new Item.Settings().food(ModFoodComponents.BERRY_ELDERBERRIES).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "berry_elderberries")))));
-    public static final Item BERRY_GOJI_BERRIES = registerItem("berry_goji_berries", new BlockItem(ModBlocks.BERRY_GOJI_BERRY_BUSH,new Item.Settings().food(ModFoodComponents.BERRY_GOJI_BERRIES).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "berry_goji_berries")))));
-    public static final Item BERRY_GOOSEBERRIES = registerItem("berry_gooseberries", new BlockItem(ModBlocks.BERRY_GOOSEBERRY_BUSH,new Item.Settings().food(ModFoodComponents.BERRY_GOOSEBERRIES).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "berry_gooseberries")))));
-    public static final Item BERRY_RASPBERRIES = registerItem("berry_raspberries", new BlockItem(ModBlocks.BERRY_RASPBERRY_BUSH,new Item.Settings().food(ModFoodComponents.BERRY_RASPBERRIES).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "berry_raspberries")))));
-    public static final Item BERRY_STRAWBERRIES = registerItem("berry_strawberries", new BlockItem(ModBlocks.BERRY_STRAWBERRY_BUSH,new Item.Settings().food(ModFoodComponents.BERRY_STRAWBERRIES).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "berry_strawberries")))));
-    public static final Item BERRY_WHITE_CURRANT_BERRIES = registerItem("berry_white_currant_berries", new BlockItem(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH,new Item.Settings().food(ModFoodComponents.BERRY_WHITE_CURRANT_BERRIES).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "berry_white_currant_berries")))));
-
-    public static final Item GLASS_JAR = registerItem("glass_jar", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"glass_jar")))));
-
+    public static final Item BERRY_BLACKBERRIES = registerItem("berry_blackberries", properties -> new BlockItem(ModBlocks.BERRY_BLACKBERRY_BUSH,properties.useItemDescriptionPrefix()));
+    public static final Item BERRY_BLUEBERRIES = registerItem("berry_blueberries", properties -> new BlockItem(ModBlocks.BERRY_BLUEBERRY_BUSH,properties.useItemDescriptionPrefix()));
+    public static final Item BERRY_ELDERBERRIES = registerItem("berry_elderberries",properties -> new BlockItem(ModBlocks.BERRY_ELDERBERRY_BUSH,properties.useItemDescriptionPrefix()));
+    public static final Item BERRY_GOJI_BERRIES = registerItem("berry_goji_berries", properties -> new BlockItem(ModBlocks.BERRY_ELDERBERRY_BUSH,properties.useItemDescriptionPrefix()));
+    public static final Item BERRY_GOOSEBERRIES = registerItem("berry_gooseberries", properties -> new BlockItem(ModBlocks.BERRY_GOOSEBERRY_BUSH,properties.useItemDescriptionPrefix()));
+    public static final Item BERRY_RASPBERRIES = registerItem("berry_raspberries", properties -> new BlockItem(ModBlocks.BERRY_RASPBERRY_BUSH,properties.useItemDescriptionPrefix()));
+    public static final Item BERRY_STRAWBERRIES = registerItem("berry_strawberries", properties -> new BlockItem(ModBlocks.BERRY_STRAWBERRY_BUSH,properties.useItemDescriptionPrefix()));
+    public static final Item BERRY_WHITE_CURRANT_BERRIES = registerItem("berry_white_currant_berries", properties -> new BlockItem(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH,properties.useItemDescriptionPrefix()));
     
-    public static final Item JAM_BLACKBERRY = registerItem("jam_blackberry", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_BLACKBERRY, ModFoodComponents.JAMS).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_blackberry")))));
-    public static final Item JAM_BLUEBERRY = registerItem("jam_blueberry", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_BLUEBERRY, ModFoodComponents.JAMS).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_blueberry")))));
-    public static final Item JAM_ELDERBERRY = registerItem("jam_elderberry", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_ELDERBERRY, ModFoodComponents.JAMS).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_elderberry")))));
-    public static final Item JAM_GOJI_BERRY = registerItem("jam_goji_berry", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_GOJI_BERRY, ModFoodComponents.JAMS).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_goji_berry")))));
-    public static final Item JAM_GOOSEBERRY = registerItem("jam_gooseberry", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_GOOSEBERRY, ModFoodComponents.JAMS).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_gooseberry")))));
-    public static final Item JAM_RASPBERRY = registerItem("jam_raspberry", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_RASPBERRY, ModFoodComponents.JAMS).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_raspberry")))));
-    public static final Item JAM_STRAWBERRY = registerItem("jam_strawberry", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_STRAWBERRY, ModFoodComponents.JAMS).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_strawberry")))));
-    public static final Item JAM_WHITE_CURRANT_BERRY = registerItem("jam_white_currant_berry", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_WHITE_CURRANT_BERRY, ModFoodComponents.JAMS).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_white_currant_berry")))));
-    public static final Item JAM_SWEET_BERRY = registerItem("jam_sweet_berry", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_SWEET_BERRY, ModFoodComponents.JAMS).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_sweet_berry")))));
-    public static final Item JAM_BLACKBERRY_MASH = registerItem("jam_blackberry_mash", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_BLACKBERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_blackberry_mash")))));
-    public static final Item JAM_BLUEBERRY_MASH = registerItem("jam_blueberry_mash", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_BLUEBERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_blueberry_mash")))));
-    public static final Item JAM_ELDERERRY_MASH = registerItem("jam_elderberry_mash", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_ELDERBERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_elderberry_mash")))));
-    public static final Item JAM_GOJI_BERRY_MASH = registerItem("jam_goji_berry_mash", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_GOJI_BERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_goji_berry_mash")))));
-    public static final Item JAM_GOOSEBERRY_MASH = registerItem("jam_gooseberry_mash", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_GOOSEBERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_gooseberry_mash")))));
-    public static final Item JAM_RASPBERRY_MASH = registerItem("jam_raspberry_mash", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_RASPBERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_raspberry_mash")))));
-    public static final Item JAM_STRAWBERRY_MASH = registerItem("jam_strawberry_mash", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_STRAWBERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_raspberry_mash")))));
-    public static final Item JAM_WHITE_CURRANT_BERRY_MASH = registerItem("jam_white_currant_berry_mash", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_WHITE_CURRANT_BERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_white_currant_berry_mash")))));
-    public static final Item JAM_SWEET_BERRY_MASH = registerItem("jam_sweet_berry_mash", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_SWEET_BERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_sweet_berry_mash")))));
+    public static final Item GLASS_JAR = registerItem("glass_jar", Item::new);
+
+    public static final Item JAM = registerItem("glass_jar",properties -> new Item(properties.craftRemainder(Items.BUCKET).component(DataComponents.CONSUMABLE,Consumables.MILK_BUCKET).usingConvertsTo(Items.BUCKET).stacksTo(1)));
+
+    public static final Item JAM_BLACKBERRY = registerItem("jam_blackberry", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_BLACKBERRY, ModFoods.JAMS_CONSUMABLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
+    public static final Item JAM_BLUEBERRY = registerItem("jam_blueberry", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_BLUEBERRY, ModFoods.JAMS_CONSUMABLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
+    public static final Item JAM_ELDERBERRY = registerItem("jam_elderberry", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_ELDERBERRY, ModFoods.JAMS_CONSUMABLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
+    public static final Item JAM_GOJI_BERRY = registerItem("jam_goji_berry", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_GOJI_BERRY, ModFoods.JAMS_CONSUMABLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
+    public static final Item JAM_GOOSEBERRY = registerItem("jam_gooseberry", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_GOOSEBERRY, ModFoods.JAMS_CONSUMABLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
+    public static final Item JAM_RASPBERRY = registerItem("jam_raspberry", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_RASPBERRY, ModFoods.JAMS_CONSUMABLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
+    public static final Item JAM_STRAWBERRY = registerItem("jam_strawberry", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_STRAWBERRY, ModFoods.JAMS_CONSUMABLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
+    public static final Item JAM_WHITE_CURRANT_BERRY = registerItem("jam_white_currant_berry", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_WHITE_CURRANT_BERRY, ModFoods.JAMS_CONSUMABLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
+    public static final Item JAM_SWEET_BERRY = registerItem("jam_sweet_berry", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_SWEET_BERRY, ModFoods.JAMS_CONSUMABLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
+    public static final Item JAM_BLACKBERRY_MASH = registerItem("jam_blackberry_mash", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_BLACKBERRY_MASH, Consumables.HONEY_BOTTLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
+    public static final Item JAM_BLUEBERRY_MASH = registerItem("jam_blueberry_mash", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_BLUEBERRY_MASH, Consumables.HONEY_BOTTLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
+    public static final Item JAM_ELDERERRY_MASH = registerItem("jam_elderberry_mash", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_ELDERBERRY_MASH, Consumables.HONEY_BOTTLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
+    public static final Item JAM_GOJI_BERRY_MASH = registerItem("jam_goji_berry_mash", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_GOJI_BERRY_MASH, Consumables.HONEY_BOTTLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
+    public static final Item JAM_GOOSEBERRY_MASH = registerItem("jam_gooseberry_mash", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_GOOSEBERRY_MASH, Consumables.HONEY_BOTTLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
+    public static final Item JAM_RASPBERRY_MASH = registerItem("jam_raspberry_mash", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_RASPBERRY_MASH, Consumables.HONEY_BOTTLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
+    public static final Item JAM_STRAWBERRY_MASH = registerItem("jam_strawberry_mash", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_STRAWBERRY_MASH, Consumables.HONEY_BOTTLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
+    public static final Item JAM_WHITE_CURRANT_BERRY_MASH = registerItem("jam_white_currant_berry_mash", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_WHITE_CURRANT_BERRY_MASH, Consumables.HONEY_BOTTLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
+    public static final Item JAM_SWEET_BERRY_MASH = registerItem("jam_sweet_berry_mash", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_SWEET_BERRY_MASH, Consumables.HONEY_BOTTLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
 
 
+    //ITEM INITIALIZER
+    public static void registerModItems() {
+        TastyVanilla.LOGGER.info("Registering Mod Items for " + TastyVanilla.MOD_ID);
 
-        //NEW ITEM IN FOOD AND DRINK
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(fabricItemGroupEntries -> {
+    //NEW ITEM IN FOOD AND DRINK
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FOOD_AND_DRINKS).register(output -> {
 
             //COOKIES
-            fabricItemGroupEntries.add(COOKIE_APPLE);
-            fabricItemGroupEntries.add(COOKIE_CARROT);
-            fabricItemGroupEntries.add(COOKIE_GLOW_BERRY);
-            fabricItemGroupEntries.add(COOKIE_HONEY);
-            fabricItemGroupEntries.add(COOKIE_OATMEAL);
-            fabricItemGroupEntries.add(COOKIE_POPPY_SEED);
-            fabricItemGroupEntries.add(COOKIE_PUMPKIN);
-            fabricItemGroupEntries.add(COOKIE_SPIDER_EYE);
-            fabricItemGroupEntries.add(COOKIE_SUGAR);
-            fabricItemGroupEntries.add(COOKIE_SUNFLOWER_SEED);
-            fabricItemGroupEntries.add(COOKIE_SWEET_BERRY);
+            output.accept(COOKIE_APPLE);
+            output.accept(COOKIE_CARROT);
+            output.accept(COOKIE_GLOW_BERRY);
+            output.accept(COOKIE_HONEY);
+            output.accept(COOKIE_OATMEAL);
+            output.accept(COOKIE_POPPY_SEED);
+            output.accept(COOKIE_PUMPKIN);
+            output.accept(COOKIE_SPIDER_EYE);
+            output.accept(COOKIE_SUGAR);
+            output.accept(COOKIE_SUNFLOWER_SEED);
+            output.accept(COOKIE_SWEET_BERRY);
 
             //BAKED BREAD
-            fabricItemGroupEntries.add(BREAD_BAGUEL);
-            fabricItemGroupEntries.add(BREAD_BAGUETTE);
-            fabricItemGroupEntries.add(BREAD_BAKED);
-            fabricItemGroupEntries.add(BREAD_BROWNIE);
-            fabricItemGroupEntries.add(BREAD_CROISSANT);
-            fabricItemGroupEntries.add(BREAD_FLATBREAD);
-            fabricItemGroupEntries.add(BREAD_FOCACCIA);
-            fabricItemGroupEntries.add(BREAD_HONEY);
-            fabricItemGroupEntries.add(BREAD_MULTIGRAIN);
-            fabricItemGroupEntries.add(BREAD_PANCAKES);
-            fabricItemGroupEntries.add(BREAD_SOURDOUGH);
-            fabricItemGroupEntries.add(BREAD_SWEET_ROLL);
+            output.accept(BREAD_BAGUEL);
+            output.accept(BREAD_BAGUETTE);
+            output.accept(BREAD_BAKED);
+            output.accept(BREAD_BROWNIE);
+            output.accept(BREAD_CROISSANT);
+            output.accept(BREAD_FLATBREAD);
+            output.accept(BREAD_FOCACCIA);
+            output.accept(BREAD_HONEY);
+            output.accept(BREAD_MULTIGRAIN);
+            output.accept(BREAD_PANCAKES);
+            output.accept(BREAD_SOURDOUGH);
+            output.accept(BREAD_SWEET_ROLL);
 
             //PIES
-            fabricItemGroupEntries.add(PIE_APPLE);
-            fabricItemGroupEntries.add(PIE_CHICKEN);
-            fabricItemGroupEntries.add(PIE_CHOCOLATE);
-            fabricItemGroupEntries.add(PIE_CHORUS_FRUIT);
-            fabricItemGroupEntries.add(PIE_FISH);
-            fabricItemGroupEntries.add(PIE_FUNGUS);
-            fabricItemGroupEntries.add(PIE_GLOW_BERRY);
-            fabricItemGroupEntries.add(PIE_HONEY);
-            fabricItemGroupEntries.add(PIE_MEAT);
-            fabricItemGroupEntries.add(PIE_MELON);
-            fabricItemGroupEntries.add(PIE_MUSHROOM);
-            fabricItemGroupEntries.add(PIE_SHEPHERDS);
-            fabricItemGroupEntries.add(PIE_SWEET_BERRY);
-            fabricItemGroupEntries.add(PIE_STRAWBERRY);
-            fabricItemGroupEntries.add(PIE_VEGETABLE);
+            output.accept(PIE_APPLE);
+            output.accept(PIE_CHICKEN);
+            output.accept(PIE_CHOCOLATE);
+            output.accept(PIE_CHORUS_FRUIT);
+            output.accept(PIE_FISH);
+            output.accept(PIE_FUNGUS);
+            output.accept(PIE_GLOW_BERRY);
+            output.accept(PIE_HONEY);
+            output.accept(PIE_MEAT);
+            output.accept(PIE_MELON);
+            output.accept(PIE_MUSHROOM);
+            output.accept(PIE_SHEPHERDS);
+            output.accept(PIE_SWEET_BERRY);
+            output.accept(PIE_STRAWBERRY);
+            output.accept(PIE_VEGETABLE);
 
             //CROPS
-            fabricItemGroupEntries.add(CABBAGE);
-            fabricItemGroupEntries.add(CHILLI);
-            fabricItemGroupEntries.add(GARLIC);
-            fabricItemGroupEntries.add(EGGPLANT);
-            fabricItemGroupEntries.add(LETTUCE);
-            fabricItemGroupEntries.add(ONION);
-            fabricItemGroupEntries.add(SWEET_POTATO);
-            fabricItemGroupEntries.add(TOMATO);
+            output.accept(CABBAGE);
+            output.accept(CHILLI);
+            output.accept(GARLIC);
+            output.accept(EGGPLANT);
+            output.accept(LETTUCE);
+            output.accept(ONION);
+            output.accept(SWEET_POTATO);
+            output.accept(TOMATO);
 
             //CROPFOODS
 
-            fabricItemGroupEntries.add(FOOD_ONION_RING);
-            fabricItemGroupEntries.add(FOOD_POTATO_FRIES);
-            fabricItemGroupEntries.add(FOOD_CHILLI_STEW);
-            fabricItemGroupEntries.add(FOOD_COLESLAW);
-            fabricItemGroupEntries.add(FOOD_BAKED_SWEET_POTATO);
-            fabricItemGroupEntries.add(FOOD_ROASTED_GARLIC);
-            fabricItemGroupEntries.add(FOOD_SALAD);
-            fabricItemGroupEntries.add(FOOD_TOMATO_SOUP);
-            fabricItemGroupEntries.add(FOOD_WRAP);
-            fabricItemGroupEntries.add(FOOD_WRAP_VEGGIE);
-            fabricItemGroupEntries.add(FOOD_ONION_SOUP);
-            fabricItemGroupEntries.add(FOOD_SWEET_POTATO_FRIES);
-            fabricItemGroupEntries.add(FOOD_BUMSBLECH_SALAD);
+            output.accept(FOOD_ONION_RING);
+            output.accept(FOOD_POTATO_FRIES);
+            output.accept(FOOD_CHILLI_STEW);
+            output.accept(FOOD_COLESLAW);
+            output.accept(FOOD_BAKED_SWEET_POTATO);
+            output.accept(FOOD_ROASTED_GARLIC);
+            output.accept(FOOD_SALAD);
+            output.accept(FOOD_TOMATO_SOUP);
+            output.accept(FOOD_WRAP);
+            output.accept(FOOD_WRAP_VEGGIE);
+            output.accept(FOOD_ONION_SOUP);
+            output.accept(FOOD_SWEET_POTATO_FRIES);
+            output.accept(FOOD_BUMSBLECH_SALAD);
 
 
-            fabricItemGroupEntries.add(BREAD_GARLIC);
+            output.accept(BREAD_GARLIC);
 
 
 
             //MILK & CHEESE
-            fabricItemGroupEntries.add(GOAT_MILK_BUCKET);
+            output.accept(GOAT_MILK_BUCKET);
 
             //BERRIES & JAMS
-            fabricItemGroupEntries.add(BERRY_BLACKBERRIES);
-            fabricItemGroupEntries.add(BERRY_BLUEBERRIES);
-            fabricItemGroupEntries.add(BERRY_ELDERBERRIES);
-            fabricItemGroupEntries.add(BERRY_GOJI_BERRIES);
-            fabricItemGroupEntries.add(BERRY_GOOSEBERRIES);
-            fabricItemGroupEntries.add(BERRY_RASPBERRIES);
-            fabricItemGroupEntries.add(BERRY_STRAWBERRIES);
-            fabricItemGroupEntries.add(BERRY_WHITE_CURRANT_BERRIES);
+            output.accept(BERRY_BLACKBERRIES);
+            output.accept(BERRY_BLUEBERRIES);
+            output.accept(BERRY_ELDERBERRIES);
+            output.accept(BERRY_GOJI_BERRIES);
+            output.accept(BERRY_GOOSEBERRIES);
+            output.accept(BERRY_RASPBERRIES);
+            output.accept(BERRY_STRAWBERRIES);
+            output.accept(BERRY_WHITE_CURRANT_BERRIES);
 
-            fabricItemGroupEntries.add(JAM_BLACKBERRY);
-            fabricItemGroupEntries.add(JAM_BLUEBERRY);
-            fabricItemGroupEntries.add(JAM_ELDERBERRY);
-            fabricItemGroupEntries.add(JAM_GOJI_BERRY);
-            fabricItemGroupEntries.add(JAM_GOOSEBERRY);
-            fabricItemGroupEntries.add(JAM_RASPBERRY);
-            fabricItemGroupEntries.add(JAM_SWEET_BERRY);
-            fabricItemGroupEntries.add(JAM_STRAWBERRY);
-            fabricItemGroupEntries.add(JAM_WHITE_CURRANT_BERRY);
+            output.accept(JAM_BLACKBERRY);
+            output.accept(JAM_BLUEBERRY);
+            output.accept(JAM_ELDERBERRY);
+            output.accept(JAM_GOJI_BERRY);
+            output.accept(JAM_GOOSEBERRY);
+            output.accept(JAM_RASPBERRY);
+            output.accept(JAM_SWEET_BERRY);
+            output.accept(JAM_STRAWBERRY);
+            output.accept(JAM_WHITE_CURRANT_BERRY);
 
-            fabricItemGroupEntries.add(JAM_BLACKBERRY_MASH);
-            fabricItemGroupEntries.add(JAM_BLUEBERRY_MASH);
-            fabricItemGroupEntries.add(JAM_ELDERERRY_MASH);
-            fabricItemGroupEntries.add(JAM_GOJI_BERRY_MASH);
-            fabricItemGroupEntries.add(JAM_GOOSEBERRY_MASH);
-            fabricItemGroupEntries.add(JAM_RASPBERRY_MASH);
-            fabricItemGroupEntries.add(JAM_SWEET_BERRY_MASH);
-            fabricItemGroupEntries.add(JAM_STRAWBERRY_MASH);
-            fabricItemGroupEntries.add(JAM_WHITE_CURRANT_BERRY_MASH);
+            output.accept(JAM_BLACKBERRY_MASH);
+            output.accept(JAM_BLUEBERRY_MASH);
+            output.accept(JAM_ELDERERRY_MASH);
+            output.accept(JAM_GOJI_BERRY_MASH);
+            output.accept(JAM_GOOSEBERRY_MASH);
+            output.accept(JAM_RASPBERRY_MASH);
+            output.accept(JAM_SWEET_BERRY_MASH);
+            output.accept(JAM_STRAWBERRY_MASH);
+            output.accept(JAM_WHITE_CURRANT_BERRY_MASH);
 
 
         });
 
         //NEW ITEM IN INGREDIENTS
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
 
             //BREAD INGREDIENTS
-            fabricItemGroupEntries.add(BUTTER);
-            fabricItemGroupEntries.add(FLOUR);
-            fabricItemGroupEntries.add(SALT);
-            fabricItemGroupEntries.add(YEAST);
+            output.accept(BUTTER);
+            output.accept(FLOUR);
+            output.accept(SALT);
+            output.accept(YEAST);
 
             //DOUGHS
-            fabricItemGroupEntries.add(DOUGH_BAGUEL);
-            fabricItemGroupEntries.add(DOUGH_BAGUETTE);
-            fabricItemGroupEntries.add(DOUGH_BAKED_BREAD);
-            fabricItemGroupEntries.add(DOUGH_BROWNIE);
-            fabricItemGroupEntries.add(DOUGH_CROISSANT);
-            fabricItemGroupEntries.add(DOUGH_FLATBREAD);
-            fabricItemGroupEntries.add(DOUGH_FOCACCIA);
-            fabricItemGroupEntries.add(DOUGH_HONEY);
-            fabricItemGroupEntries.add(DOUGH_MULTIGRAIN);
-            fabricItemGroupEntries.add(DOUGH_PANCAKES);
-            fabricItemGroupEntries.add(DOUGH_SOURDOUGH);
-            fabricItemGroupEntries.add(DOUGH_SWEET_ROLL);
+            output.accept(DOUGH_BAGUEL);
+            output.accept(DOUGH_BAGUETTE);
+            output.accept(DOUGH_BAKED_BREAD);
+            output.accept(DOUGH_BROWNIE);
+            output.accept(DOUGH_CROISSANT);
+            output.accept(DOUGH_FLATBREAD);
+            output.accept(DOUGH_FOCACCIA);
+            output.accept(DOUGH_HONEY);
+            output.accept(DOUGH_MULTIGRAIN);
+            output.accept(DOUGH_PANCAKES);
+            output.accept(DOUGH_SOURDOUGH);
+            output.accept(DOUGH_SWEET_ROLL);
 
-            fabricItemGroupEntries.add(DOUGH_GARLIC);
+            output.accept(DOUGH_GARLIC);
 
 
         });
 
         //NEW ITEM IN NATURAL
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries -> {
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.NATURAL_BLOCKS).register(output -> {
 
             //CROPS
-            fabricItemGroupEntries.add(CHILLI_SEEDS);
-            fabricItemGroupEntries.add(LETTUCE_SEEDS);
-            fabricItemGroupEntries.add(TOMATO_SEEDS);
+            output.accept(CHILLI_SEEDS);
+            output.accept(LETTUCE_SEEDS);
+            output.accept(TOMATO_SEEDS);
 
 
         });
 
         //NEW ITEM IN INGREDIENTS
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(fabricItemGroupEntries -> {
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(output -> {
 
-            fabricItemGroupEntries.add(GOAT_MILK_BUCKET);
-            fabricItemGroupEntries.add(GLASS_JAR);
+            output.accept(GOAT_MILK_BUCKET);
+            output.accept(GLASS_JAR);
 
         });
 
