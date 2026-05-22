@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85d7beb6-87b0-487b-91c3-85fb207247ee" name="Changes" comment="Added Bumsblech Salad and Strawberry Pie">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/399fd572fbf4b1506166b148f656972ed2be6a35" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/399fd572fbf4b1506166b148f656972ed2be6a35" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/tastyvanilla/items/food_bumsblech_stew.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/tastyvanilla/models/item/food_bumsblech_stew.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/pie_strawberry.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/pie_strawberry.json" afterDir="false" />
-    </list>
+    <list default="true" id="85d7beb6-87b0-487b-91c3-85fb207247ee" name="Changes" comment="Added Bumsblech Salad and Strawberry Pie" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,13 +48,12 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Tasty Vanilla" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Tasty Vanilla" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -75,15 +68,15 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Minecraft Client.executor": "Run",
-    "Gradle.Build Tasty Vanilla.executor": "Run",
-    "Gradle.Tasty Vanilla [runDatagen].executor": "Run",
-    "git-widget-placeholder": "1.21.4",
-    "last_opened_file_path": "/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/Tasty Vanilla/src/main/resources/assets/tastyvanilla/items"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Minecraft Client.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build Tasty Vanilla.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tasty Vanilla [runDatagen].executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;1.21.4&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/Tasty Vanilla/src/main/resources/assets/tastyvanilla/items&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/items" />
@@ -91,7 +84,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/models/item" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tasty Vanilla [build]">
+  <component name="RunManager" selected="Gradle.Tasty Vanilla [runClient]">
     <configuration name="Tasty Vanilla [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -104,6 +97,28 @@
         <option name="taskNames">
           <list>
             <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tasty Vanilla [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -137,13 +152,16 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Data Generation" />
       <item itemvalue="Application.Minecraft Client" />
       <item itemvalue="Application.Minecraft Server" />
+      <item itemvalue="Gradle.Tasty Vanilla [runClient]" />
       <item itemvalue="Gradle.Tasty Vanilla [build]" />
       <item itemvalue="Gradle.Tasty Vanilla [runDatagen]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tasty Vanilla [runClient]" />
         <item itemvalue="Gradle.Tasty Vanilla [build]" />
         <item itemvalue="Gradle.Tasty Vanilla [runDatagen]" />
       </list>
@@ -174,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758583265235</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Bumsblech Salad and Strawberry Pie">
+      <option name="closed" value="true" />
+      <created>1779459981871</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779459981871</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
