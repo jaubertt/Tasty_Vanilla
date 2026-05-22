@@ -1,4 +1,4 @@
-// 1.21.4	-999999999-01-01T00:00:00	TastyVanilla/Model Definitions
+// 1.21.9	-999999999-01-01T00:00:00	TastyVanilla/Model Definitions
 d1e3155e1f1d0f7c72ead687405a24af729524f7 assets/tastyvanilla/blockstates/berry_blackberry_bush.json
 ab85dde19865d1709ec731483e0e570ff704b399 assets/tastyvanilla/blockstates/berry_blueberry_bush.json
 c8aabcf18b3eeb94a7db1ab06482bb6794b52322 assets/tastyvanilla/blockstates/berry_elderberry_bush.json
@@ -64,8 +64,6 @@ e2f90e88381e49e189b39119a903384acad095b6 assets/tastyvanilla/items/jam_white_cur
 1c03243a59071390ce2c2d042d91d5938adb8170 assets/tastyvanilla/items/jam_white_currant_berry_mash.json
 9dade7948dfbc27e68988d1de6ddd670db4f8853 assets/tastyvanilla/items/lettuce_seeds.json
 9a0479945e45e0ceb80e64cef7c3ba9417fb93e8 assets/tastyvanilla/items/onion.json
-f69ba09677cb53148939b2fe6a52b33f0f1b424a assets/tastyvanilla/items/salt_block.json
-f735faf637cbc6ac3576839d20f78a33f6e3dc9b assets/tastyvanilla/items/sugar_block.json
 b8a7d294f4dbe24d0a5409f77f2ae8a1d8c41c8d assets/tastyvanilla/items/sweet_potato.json
 86c217b6b11c0d1067a1c0d0a976e6ea5298beb0 assets/tastyvanilla/items/tomato_seeds.json
 bcce171e032fb6dbabb7e2ab56a2798a88bf2364 assets/tastyvanilla/models/block/berry_blackberry_bush_stage0.json
