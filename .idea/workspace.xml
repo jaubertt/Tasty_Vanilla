@@ -231,7 +231,7 @@
       <recent name="tastyvanilla.mixin" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tasty Vanilla [runClient]">
+  <component name="RunManager" selected="Gradle.Tasty Vanilla [build]">
     <configuration name="Tasty Vanilla [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -285,8 +285,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tasty Vanilla [runClient]" />
         <item itemvalue="Gradle.Tasty Vanilla [build]" />
+        <item itemvalue="Gradle.Tasty Vanilla [runClient]" />
         <item itemvalue="Gradle.Tasty Vanilla [build]" />
         <item itemvalue="Gradle.Tasty Vanilla [build]" />
         <item itemvalue="Gradle.Tasty Vanilla [build]" />
