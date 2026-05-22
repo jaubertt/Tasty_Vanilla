@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0":"tastyvanilla:item/sugar"
+    "layer0":"tastyvanilla:item/sugar_block"
   }
 }

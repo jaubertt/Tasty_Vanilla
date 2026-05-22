@@ -59,7 +59,7 @@
         {
           "type": "minecraft:item",
           "functions": [{"add": false, "count": {"type": "minecraft:uniform", "max": 2.0, "min": 8.0}, "function": "minecraft:set_count"}],
-          "name": "tastyvanilla:chilli",
+          "name": "tastyvanilla:chilli_seeds",
           "weight": 6
         },
 
@@ -101,7 +101,7 @@
         {
           "type": "minecraft:item",
           "functions": [{"add": false, "count": {"type": "minecraft:uniform", "max": 2.0, "min": 8.0}, "function": "minecraft:set_count"}],
-          "name": "tastyvanilla:tomato",
+          "name": "tastyvanilla:tomato_seeds",
           "weight": 6
         },
 
