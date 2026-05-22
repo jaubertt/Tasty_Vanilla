@@ -4,21 +4,41 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.ConsumableComponents;
 import net.minecraft.component.type.FoodComponents;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.util.Identifier;
+import net.minecraft.world.item.Item;
 import tastyvanilla.TastyVanilla;
 import tastyvanilla.block.ModBlocks;
+
 
 import static net.minecraft.item.Items.BOWL;
 import static net.minecraft.item.Items.BUCKET;
 
 public class ModItems {
+
+    //ITEM INITIALIZER
+    public static void registerModItems() {
+        TastyVanilla.LOGGER.info("Registering Mod Items for " + TastyVanilla.MOD_ID);
+    }
+
+    //TUTORIAL CODE REGISTER
+    private static Item registerItem (String name, Item item){
+        return Registry.register(Registries.ITEM, Identifier.of(TastyVanilla.MOD_ID, name), item);
+    }
+    private static Item registerItem(String name, Function<Item.Properties, Item> function) {
+        return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(TastyVanilla.MOD_ID, name),
+                function.apply(new Item.Properties().setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(TastyVanilla.MOD_ID, name)))));
+    }
+
+
+
 
     //COOKIES
     public static final Item COOKIE_APPLE = registerItem("cookie_apple", new Item(new Item.Settings().food(ModFoodComponents.COOKIE_APPLE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID,"cookie_apple")))));
@@ -160,14 +180,7 @@ public class ModItems {
     public static final Item JAM_WHITE_CURRANT_BERRY_MASH = registerItem("jam_white_currant_berry_mash", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_WHITE_CURRANT_BERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_white_currant_berry_mash")))));
     public static final Item JAM_SWEET_BERRY_MASH = registerItem("jam_sweet_berry_mash", new Item (new Item.Settings().recipeRemainder(GLASS_JAR).food(ModFoodComponents.JAM_SWEET_BERRY_MASH, ConsumableComponents.HONEY_BOTTLE).useRemainder(GLASS_JAR).maxCount(16).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "jam_sweet_berry_mash")))));
 
-    //TUTORIAL CODE REGISTER
-    private static Item registerItem (String name, Item item){
-        return Registry.register(Registries.ITEM, Identifier.of(TastyVanilla.MOD_ID, name), item);
-    }
 
-    //ITEM INITIALIZER
-    public static void registerModItems(){
-        TastyVanilla.LOGGER.info("Registering Mod Items for " + TastyVanilla.MOD_ID);
 
         //NEW ITEM IN FOOD AND DRINK
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(fabricItemGroupEntries -> {

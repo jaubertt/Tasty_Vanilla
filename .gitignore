@@ -1,4 +1,4 @@
-
+# gradle
 
 .gradle/
 build/
@@ -11,12 +11,10 @@ classes/
 
 # idea
 
-.idea(not to be used)/
+.idea/
 *.iml
 *.ipr
 *.iws
-
-.idea/runConfigurations/
 
 # vscode
 

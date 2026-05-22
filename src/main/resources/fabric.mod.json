@@ -9,9 +9,9 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/tasty-vanilla",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/jaubertt/Tasty_Vanilla"
 	},
-	"license": "MIT",
+	"license": "ARR",
 	"icon": "assets/tastyvanilla/icon.png",
 	"environment": "*",
 	"entrypoints": {
