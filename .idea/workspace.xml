@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Fix iCloud duplicate files, clean up resources">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/entity/ModVillagerTrades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanilla.java" afterDir="false" />
-    </list>
+    <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Fix iCloud duplicate files, clean up resources" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,13 +48,12 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Tasty Vanilla" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Tasty Vanilla" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
