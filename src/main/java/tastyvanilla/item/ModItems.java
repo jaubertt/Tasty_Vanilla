@@ -176,7 +176,7 @@ public class ModItems {
     public static void registerModItems() {
         TastyVanilla.LOGGER.info("Registering Mod Items for " + TastyVanilla.MOD_ID);
 
-    //NEW ITEM IN FOOD AND DRINK
+    //NEW ITEM IN FOOD AND DRINKS
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FOOD_AND_DRINKS).register(output -> {
 
             //COOKIES
@@ -249,9 +249,7 @@ public class ModItems {
             output.accept(FOOD_SWEET_POTATO_FRIES);
             output.accept(FOOD_BUMSBLECH_SALAD);
 
-
             output.accept(BREAD_GARLIC);
-
 
 
             //MILK & CHEESE
@@ -318,7 +316,7 @@ public class ModItems {
 
         });
 
-        //NEW ITEM IN NATURAL
+        //NEW ITEM IN NATURAL BLOCKS
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.NATURAL_BLOCKS).register(output -> {
 
             //CROPS
@@ -329,7 +327,7 @@ public class ModItems {
 
         });
 
-        //NEW ITEM IN INGREDIENTS
+        //NEW ITEM IN TOOLS AND UTILITIES
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(output -> {
 
             output.accept(GOAT_MILK_BUCKET);
@@ -337,6 +335,5 @@ public class ModItems {
 
         });
 
-
-        }
+    }
 }
