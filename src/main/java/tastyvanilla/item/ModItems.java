@@ -82,7 +82,7 @@ public class ModItems {
     public static final Item PIE_APPLE = registerItem("pie_apple", properties -> new Item(properties.food(ModFoods.PIE_APPLE)));
     public static final Item PIE_CHICKEN = registerItem("pie_chicken", properties -> new Item(properties.food(ModFoods.PIE_CHICKEN)));
     public static final Item PIE_CHOCOLATE = registerItem("pie_chocolate", properties -> new Item(properties.food(ModFoods.PIE_CHOCOLATE)));
-    public static final Item PIE_CHORUS_FRUIT = registerItem("pie_chorus_fruit", properties -> new Item(properties.food(ModFoods.PIE_CHORUS_FRUIT)));
+    public static final Item PIE_CHORUS_FRUIT = registerItem("pie_chorus_fruit", properties -> new Item(properties.food(ModFoods.PIE_CHORUS_FRUIT,ModFoods.PIE_CHORUS_FRUIT_CONSUMABLE)));
     public static final Item PIE_FISH = registerItem("pie_fish", properties -> new Item(properties.food(ModFoods.PIE_FISH)));
     public static final Item PIE_FUNGUS = registerItem("pie_fungus", properties -> new Item(properties.food(ModFoods.PIE_FUNGUS)));
     public static final Item PIE_GLOW_BERRY = registerItem("pie_glow_berry", properties -> new Item(properties.food(ModFoods.PIE_GLOW_BERRY)));
@@ -97,21 +97,21 @@ public class ModItems {
 
     //CROPS
 
-    public static final Item CABBAGE = registerItem("cabbage", properties -> new BlockItem(ModBlocks.CABBAGE_CROP, properties.useItemDescriptionPrefix()));
+    public static final Item CABBAGE = registerItem("cabbage", properties -> new BlockItem(ModBlocks.CABBAGE_CROP, properties.food(ModFoods.CABBAGE).useItemDescriptionPrefix()));
 
     public static final Item CHILLI = registerItem("chilli", properties -> new Item(properties.food(ModFoods.CHILLI)));
     public static final Item CHILLI_SEEDS = registerItem("chilli_seeds",properties -> new BlockItem(ModBlocks.CHILLI_CROP, properties.useItemDescriptionPrefix()));
 
-    public static final Item EGGPLANT = registerItem("eggplant", properties -> new BlockItem(ModBlocks.EGGPLANT_CROP, properties.useItemDescriptionPrefix()));
+    public static final Item EGGPLANT = registerItem("eggplant", properties -> new BlockItem(ModBlocks.EGGPLANT_CROP, properties.food(ModFoods.EGGPLANT).useItemDescriptionPrefix()));
 
-    public static final Item GARLIC = registerItem("garlic", properties -> new BlockItem(ModBlocks.GARLIC_CROP, properties.useItemDescriptionPrefix()));
+    public static final Item GARLIC = registerItem("garlic", properties -> new BlockItem(ModBlocks.GARLIC_CROP, properties.food(ModFoods.GARLIC).useItemDescriptionPrefix()));
 
     public static final Item LETTUCE = registerItem("lettuce", properties -> new Item(properties.food(ModFoods.LETTUCE)));
     public static final Item LETTUCE_SEEDS = registerItem("lettuce_seeds", properties -> new BlockItem(ModBlocks.LETTUCE_CROP, properties.useItemDescriptionPrefix()));
 
-    public static final Item ONION = registerItem("onion",properties -> new BlockItem(ModBlocks.ONION_CROP, properties.useItemDescriptionPrefix()));
+    public static final Item ONION = registerItem("onion",properties -> new BlockItem(ModBlocks.ONION_CROP, properties.food(ModFoods.ONION).useItemDescriptionPrefix()));
 
-    public static final Item SWEET_POTATO = registerItem("sweet_potato", properties -> new BlockItem(ModBlocks.SWEET_POTATO_CROP, properties.useItemDescriptionPrefix()));
+    public static final Item SWEET_POTATO = registerItem("sweet_potato", properties -> new BlockItem(ModBlocks.SWEET_POTATO_CROP, properties.food(ModFoods.SWEET_POTATO).useItemDescriptionPrefix()));
 
     public static final Item TOMATO = registerItem("tomato", properties -> new Item(properties.food(ModFoods.TOMATO)));
     public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", properties -> new BlockItem(ModBlocks.TOMATO_CROP, properties.useItemDescriptionPrefix()));
@@ -170,6 +170,8 @@ public class ModItems {
     public static final Item JAM_STRAWBERRY_MASH = registerItem("jam_strawberry_mash", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_STRAWBERRY_MASH, Consumables.HONEY_BOTTLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
     public static final Item JAM_WHITE_CURRANT_BERRY_MASH = registerItem("jam_white_currant_berry_mash", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_WHITE_CURRANT_BERRY_MASH, Consumables.HONEY_BOTTLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
     public static final Item JAM_SWEET_BERRY_MASH = registerItem("jam_sweet_berry_mash", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_SWEET_BERRY_MASH, Consumables.HONEY_BOTTLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
+
+    //GOLDEN FOODS
 
 
     //ITEM INITIALIZER
