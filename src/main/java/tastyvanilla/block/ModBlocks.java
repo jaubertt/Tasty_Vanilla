@@ -92,25 +92,25 @@ public class ModBlocks {
             properties -> new BlackberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
                     .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
     public static final Block BERRY_BLUEBERRY_BUSH = registerBlockWithoutBlockItem("berry_blueberry_bush",
-            properties -> new BlackberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
+            properties -> new BlueberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
                     .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
     public static final Block BERRY_ELDERBERRY_BUSH = registerBlockWithoutBlockItem("berry_elderberry_bush",
-            properties -> new BlackberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
+            properties -> new ElderberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
                     .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
     public static final Block BERRY_GOJI_BERRY_BUSH = registerBlockWithoutBlockItem("berry_goji_berry_bush",
-            properties -> new BlackberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
+            properties -> new GojiBerryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
                     .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
     public static final Block BERRY_GOOSEBERRY_BUSH = registerBlockWithoutBlockItem("berry_gooseberry_bush",
-            properties -> new BlackberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
+            properties -> new GooseberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
                     .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
     public static final Block BERRY_RASPBERRY_BUSH = registerBlockWithoutBlockItem("berry_raspberry_bush",
-            properties -> new BlackberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
+            properties -> new RaspberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
                     .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
     public static final Block BERRY_STRAWBERRY_BUSH = registerBlockWithoutBlockItem("berry_strawberry_bush",
-            properties -> new BlackberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
+            properties -> new StrawberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
                     .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
     public static final Block BERRY_WHITE_CURRANT_BERRY_BUSH = registerBlockWithoutBlockItem("berry_white_currant_berry_bush",
-            properties -> new BlackberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
+            properties -> new WhiteCurrantBerryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
                     .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
 
     //--------------------------//

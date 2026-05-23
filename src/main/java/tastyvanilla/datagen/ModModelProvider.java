@@ -28,13 +28,13 @@ public class ModModelProvider extends FabricModelProvider {
 
        //BERRIES
         blockModelGenerators.createCrossBlock(ModBlocks.BERRY_BLACKBERRY_BUSH, BlockModelGenerators.PlantType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockModelGenerators.createCrossBlock(ModBlocks.BERRY_BLUEBERRY_BUSH, BlockModelGenerators.PlantType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockModelGenerators.createCrossBlock(ModBlocks.BERRY_ELDERBERRY_BUSH, BlockModelGenerators.PlantType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockModelGenerators.createCrossBlock(ModBlocks.BERRY_GOJI_BERRY_BUSH, BlockModelGenerators.PlantType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockModelGenerators.createCrossBlock(ModBlocks.BERRY_GOOSEBERRY_BUSH, BlockModelGenerators.PlantType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockModelGenerators.createCrossBlock(ModBlocks.BERRY_RASPBERRY_BUSH, BlockModelGenerators.PlantType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockModelGenerators.createCrossBlock(ModBlocks.BERRY_STRAWBERRY_BUSH, BlockModelGenerators.PlantType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockModelGenerators.createCrossBlock(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH, BlockModelGenerators.PlantType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockModelGenerators.createCrossBlock(ModBlocks.BERRY_BLUEBERRY_BUSH, BlockModelGenerators.PlantType.NOT_TINTED, BlueberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockModelGenerators.createCrossBlock(ModBlocks.BERRY_ELDERBERRY_BUSH, BlockModelGenerators.PlantType.NOT_TINTED, ElderberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockModelGenerators.createCrossBlock(ModBlocks.BERRY_GOJI_BERRY_BUSH, BlockModelGenerators.PlantType.NOT_TINTED, GojiBerryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockModelGenerators.createCrossBlock(ModBlocks.BERRY_GOOSEBERRY_BUSH, BlockModelGenerators.PlantType.NOT_TINTED, GooseberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockModelGenerators.createCrossBlock(ModBlocks.BERRY_RASPBERRY_BUSH, BlockModelGenerators.PlantType.NOT_TINTED, RaspberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockModelGenerators.createCrossBlock(ModBlocks.BERRY_STRAWBERRY_BUSH, BlockModelGenerators.PlantType.NOT_TINTED, StrawberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockModelGenerators.createCrossBlock(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH, BlockModelGenerators.PlantType.NOT_TINTED, WhiteCurrantBerryBushBlock.AGE, new int[]{0, 1, 2, 3});
 
     }
 

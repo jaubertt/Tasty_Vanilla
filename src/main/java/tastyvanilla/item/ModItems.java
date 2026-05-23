@@ -141,14 +141,14 @@ public class ModItems {
 
     //BERRIES & JAMS
 
-    public static final Item BERRY_BLACKBERRIES = registerItem("berry_blackberries", properties -> new BlockItem(ModBlocks.BERRY_BLACKBERRY_BUSH,properties.useItemDescriptionPrefix()));
-    public static final Item BERRY_BLUEBERRIES = registerItem("berry_blueberries", properties -> new BlockItem(ModBlocks.BERRY_BLUEBERRY_BUSH,properties.useItemDescriptionPrefix()));
-    public static final Item BERRY_ELDERBERRIES = registerItem("berry_elderberries",properties -> new BlockItem(ModBlocks.BERRY_ELDERBERRY_BUSH,properties.useItemDescriptionPrefix()));
-    public static final Item BERRY_GOJI_BERRIES = registerItem("berry_goji_berries", properties -> new BlockItem(ModBlocks.BERRY_ELDERBERRY_BUSH,properties.useItemDescriptionPrefix()));
-    public static final Item BERRY_GOOSEBERRIES = registerItem("berry_gooseberries", properties -> new BlockItem(ModBlocks.BERRY_GOOSEBERRY_BUSH,properties.useItemDescriptionPrefix()));
-    public static final Item BERRY_RASPBERRIES = registerItem("berry_raspberries", properties -> new BlockItem(ModBlocks.BERRY_RASPBERRY_BUSH,properties.useItemDescriptionPrefix()));
-    public static final Item BERRY_STRAWBERRIES = registerItem("berry_strawberries", properties -> new BlockItem(ModBlocks.BERRY_STRAWBERRY_BUSH,properties.useItemDescriptionPrefix()));
-    public static final Item BERRY_WHITE_CURRANT_BERRIES = registerItem("berry_white_currant_berries", properties -> new BlockItem(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH,properties.useItemDescriptionPrefix()));
+    public static final Item BERRY_BLACKBERRIES = registerItem("berry_blackberries", properties -> new BlockItem(ModBlocks.BERRY_BLACKBERRY_BUSH,properties.food(ModFoods.BERRY_BLACKBERRIES).useItemDescriptionPrefix()));
+    public static final Item BERRY_BLUEBERRIES = registerItem("berry_blueberries", properties -> new BlockItem(ModBlocks.BERRY_BLUEBERRY_BUSH,properties.food(ModFoods.BERRY_BLUEBERRIES).useItemDescriptionPrefix()));
+    public static final Item BERRY_ELDERBERRIES = registerItem("berry_elderberries", properties -> new BlockItem(ModBlocks.BERRY_ELDERBERRY_BUSH,properties.food(ModFoods.BERRY_ELDERBERRIES).useItemDescriptionPrefix()));
+    public static final Item BERRY_GOJI_BERRIES = registerItem("berry_goji_berries", properties -> new BlockItem(ModBlocks.BERRY_GOJI_BERRY_BUSH,properties.food(ModFoods.BERRY_GOJI_BERRIES).useItemDescriptionPrefix()));
+    public static final Item BERRY_GOOSEBERRIES = registerItem("berry_gooseberries", properties -> new BlockItem(ModBlocks.BERRY_GOOSEBERRY_BUSH,properties.food(ModFoods.BERRY_GOOSEBERRIES).useItemDescriptionPrefix()));
+    public static final Item BERRY_RASPBERRIES = registerItem("berry_raspberries", properties -> new BlockItem(ModBlocks.BERRY_RASPBERRY_BUSH,properties.food(ModFoods.BERRY_RASPBERRIES).useItemDescriptionPrefix()));
+    public static final Item BERRY_STRAWBERRIES = registerItem("berry_strawberries", properties -> new BlockItem(ModBlocks.BERRY_STRAWBERRY_BUSH,properties.food(ModFoods.BERRY_STRAWBERRIES).useItemDescriptionPrefix()));
+    public static final Item BERRY_WHITE_CURRANT_BERRIES = registerItem("berry_white_currant_berries", properties -> new BlockItem(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH,properties.food(ModFoods.BERRY_WHITE_CURRANT_BERRIES).useItemDescriptionPrefix()));
     
     public static final Item GLASS_JAR = registerItem("glass_jar", Item::new);
 

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "tastyvanilla:block/berry_elderberry_bush"
+    "model": "tastyvanilla:item/berry_elderberries"
   }
 }
