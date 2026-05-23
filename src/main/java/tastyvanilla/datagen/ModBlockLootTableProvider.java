@@ -17,6 +17,7 @@ import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
+import tastyvanilla.block.ModBlocks;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -28,6 +29,8 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
     @Override
     public void generate() {
 
+        dropSelf(ModBlocks.SALT_BLOCK);
+        dropSelf(ModBlocks.SUGAR_BLOCK);
 
     }
 }
