@@ -1,50 +1,34 @@
 package tastyvanilla.mixin;
 
-
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.passive.AnimalEntity;
-import net.minecraft.entity.passive.GoatEntity;
-import net.minecraft.entity.passive.PassiveEntity;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemUsage;
-import net.minecraft.item.Items;
-import net.minecraft.server.world.ServerWorld;
-import net.minecraft.sound.SoundEvents;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.Hand;
-import net.minecraft.world.World;
-import org.jetbrains.annotations.Nullable;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.animal.Animal;
+import net.minecraft.world.entity.animal.goat.Goat;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemUtils;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.level.Level;
 import org.spongepowered.asm.mixin.Mixin;
 import tastyvanilla.item.ModItems;
 
-@Mixin(GoatEntity.class)
-public abstract class GoatMixin extends AnimalEntity {
+@Mixin(Goat.class)
+public abstract class GoatMixin extends Animal {
 
-    protected GoatMixin(EntityType<? extends AnimalEntity> entityType, World world) {
-        super(entityType, world);
+    protected GoatMixin(net.minecraft.world.entity.EntityType<? extends Animal> type, Level level) {
+        super(type, level);
     }
 
     @Override
-    public @Nullable PassiveEntity createChild(ServerWorld world, PassiveEntity entity) {
-        return null;
-    }
-
-    @Override
-    public boolean isBreedingItem(ItemStack stack) {
-        return false;
-    }
-
-    @Override
-    public ActionResult interactMob(PlayerEntity player, Hand hand) {
-        ItemStack itemStack = player.getStackInHand(hand);
-        if (itemStack.isOf(Items.BUCKET) && !this.isBaby()) {
-            player.playSound(SoundEvents.ENTITY_COW_MILK, 1.0F, 1.0F);
-            ItemStack itemStack2 = ItemUsage.exchangeStack(itemStack, player, ModItems.GOAT_MILK_BUCKET.getDefaultStack());
-            player.setStackInHand(hand, itemStack2);
-            return ActionResult.SUCCESS;
+    public InteractionResult mobInteract(final Player player, final InteractionHand hand) {
+        net.minecraft.world.item.ItemStack itemStack = player.getItemInHand(hand);
+        if (itemStack.is(Items.BUCKET) && !this.isBaby()) {
+            player.playSound(SoundEvents.COW_MILK, 1.0F, 1.0F);
+            net.minecraft.world.item.ItemStack bucketOrMilkBucket = ItemUtils.createFilledResult(itemStack, player, ModItems.GOAT_MILK_BUCKET.getDefaultInstance());
+            player.setItemInHand(hand, bucketOrMilkBucket);
+            return InteractionResult.SUCCESS;
         } else {
-            return super.interactMob(player, hand);
+            return super.mobInteract(player, hand);
         }
     }
 }

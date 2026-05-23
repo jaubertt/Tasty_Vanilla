@@ -1,16 +1,15 @@
 package tastyvanilla.block.custom;
 
-import net.minecraft.block.CropBlock;
-import net.minecraft.item.ItemConvertible;
+import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.CropBlock;
 import tastyvanilla.item.ModItems;
 
 public class LettuceCropBlock extends CropBlock {
-    public LettuceCropBlock(Settings settings) {
-        super(settings);
+    public LettuceCropBlock(Properties properties) {
+        super(properties);
     }
 
     @Override
-    protected ItemConvertible getSeedsItem() {
-        return ModItems.LETTUCE_SEEDS;
+    protected ItemLike getBaseSeedId() {return ModItems.LETTUCE_SEEDS;
     }
 }

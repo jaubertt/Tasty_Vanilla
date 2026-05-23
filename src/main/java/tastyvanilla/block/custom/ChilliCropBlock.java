@@ -1,16 +1,16 @@
 package tastyvanilla.block.custom;
 
-import net.minecraft.block.CropBlock;
-import net.minecraft.item.ItemConvertible;
+import net.minecraft.world.level.block.CropBlock;
+import net.minecraft.world.level.ItemLike;
 import tastyvanilla.item.ModItems;
 
 public class ChilliCropBlock extends CropBlock {
-    public ChilliCropBlock(Settings settings) {
-        super(settings);
+    public ChilliCropBlock(Properties properties) {
+        super(properties);
     }
 
     @Override
-    protected ItemConvertible getSeedsItem() {
+    protected ItemLike getBaseSeedId() {
         return ModItems.CHILLI_SEEDS;
     }
 }

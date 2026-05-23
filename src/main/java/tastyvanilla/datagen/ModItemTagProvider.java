@@ -1,35 +1,22 @@
 package tastyvanilla.datagen;
 
 
-import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.minecraft.registry.RegistryWrapper;
-import net.minecraft.registry.tag.ItemTags;
+import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.tags.ItemTags;
 import tastyvanilla.item.ModItems;
-import tastyvanilla.util.ModTags;
 
 import java.util.concurrent.CompletableFuture;
 
-public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
+public class ModItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
 
-    public ModItemTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> completableFuture) {
+    public ModItemTagProvider(FabricPackOutput output, CompletableFuture<HolderLookup.Provider> completableFuture) {
         super(output, completableFuture);
     }
 
     @Override
-    protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-
-        //MOD TAGS
-
-        valueLookupBuilder(ModTags.Items.MOD_CROPS)
-                .add(ModItems.CHILLI)
-                .add(ModItems.TOMATO)
-                .add(ModItems.LETTUCE)
-                .add(ModItems.CABBAGE)
-                .add(ModItems.EGGPLANT)
-                .add(ModItems.GARLIC)
-                .add(ModItems.ONION)
-                .add(ModItems.SWEET_POTATO);
+    protected void addTags(HolderLookup.Provider registries) {
 
         //VANILLA TAGS
         valueLookupBuilder(ItemTags.VILLAGER_PICKS_UP)

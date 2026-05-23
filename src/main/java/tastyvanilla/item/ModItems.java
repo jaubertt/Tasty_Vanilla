@@ -97,24 +97,24 @@ public class ModItems {
 
     //CROPS
 
-    public static final Item CABBAGE = registerItem("cabbage", new BlockItem(ModBlocks.CABBAGE_CROP, new Item.Settings().food(ModFoods.CABBAGE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "cabbage")))));
+    public static final Item CABBAGE = registerItem("cabbage", properties -> new BlockItem(ModBlocks.CABBAGE_CROP, properties.useItemDescriptionPrefix()));
 
-    public static final Item CHILLI = registerItem("chilli", properties -> new Item(properties.food(ModFoods.CHILLI).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "chilli")))));
-    public static final Item CHILLI_SEEDS = registerItem("chilli_seeds", new BlockItem(ModBlocks.CHILLI_CROP, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "chilli_seeds")))));
+    public static final Item CHILLI = registerItem("chilli", properties -> new Item(properties.food(ModFoods.CHILLI)));
+    public static final Item CHILLI_SEEDS = registerItem("chilli_seeds",properties -> new BlockItem(ModBlocks.CHILLI_CROP, properties.useItemDescriptionPrefix()));
 
-    public static final Item EGGPLANT = registerItem("eggplant", new BlockItem(ModBlocks.EGGPLANT_CROP, new Item.Settings().food(ModFoods.EGGPLANT).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "eggplant")))));
+    public static final Item EGGPLANT = registerItem("eggplant", properties -> new BlockItem(ModBlocks.EGGPLANT_CROP, properties.useItemDescriptionPrefix()));
 
-    public static final Item GARLIC = registerItem("garlic", new BlockItem(ModBlocks.GARLIC_CROP, new Item.Settings().food(ModFoods.GARLIC).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "garlic")))));
+    public static final Item GARLIC = registerItem("garlic", properties -> new BlockItem(ModBlocks.GARLIC_CROP, properties.useItemDescriptionPrefix()));
 
-    public static final Item LETTUCE = registerItem("lettuce", properties -> new Item(properties.food(ModFoods.LETTUCE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "lettuce")))));
-    public static final Item LETTUCE_SEEDS = registerItem("lettuce_seeds", new BlockItem(ModBlocks.LETTUCE_CROP, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "lettuce_seeds")))));
+    public static final Item LETTUCE = registerItem("lettuce", properties -> new Item(properties.food(ModFoods.LETTUCE)));
+    public static final Item LETTUCE_SEEDS = registerItem("lettuce_seeds", properties -> new BlockItem(ModBlocks.LETTUCE_CROP, properties.useItemDescriptionPrefix()));
 
-    public static final Item ONION = registerItem("onion", new BlockItem(ModBlocks.ONION_CROP, new Item.Settings().food(ModFoods.ONION).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "onion")))));
+    public static final Item ONION = registerItem("onion",properties -> new BlockItem(ModBlocks.ONION_CROP, properties.useItemDescriptionPrefix()));
 
-    public static final Item SWEET_POTATO = registerItem("sweet_potato", new BlockItem(ModBlocks.SWEET_POTATO_CROP, new Item.Settings().food(ModFoods.SWEET_POTATO).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "sweet_potato")))));
+    public static final Item SWEET_POTATO = registerItem("sweet_potato", properties -> new BlockItem(ModBlocks.SWEET_POTATO_CROP, properties.useItemDescriptionPrefix()));
 
-    public static final Item TOMATO = registerItem("tomato", properties -> new Item(properties.food(ModFoods.TOMATO).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "tomato")))));
-    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", new BlockItem(ModBlocks.TOMATO_CROP, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, "tomato_seeds")))));
+    public static final Item TOMATO = registerItem("tomato", properties -> new Item(properties.food(ModFoods.TOMATO)));
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", properties -> new BlockItem(ModBlocks.TOMATO_CROP, properties.useItemDescriptionPrefix()));
 
 
     //CROP FOODS
@@ -151,8 +151,6 @@ public class ModItems {
     public static final Item BERRY_WHITE_CURRANT_BERRIES = registerItem("berry_white_currant_berries", properties -> new BlockItem(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH,properties.useItemDescriptionPrefix()));
     
     public static final Item GLASS_JAR = registerItem("glass_jar", Item::new);
-
-    public static final Item JAM = registerItem("glass_jar",properties -> new Item(properties.craftRemainder(Items.BUCKET).component(DataComponents.CONSUMABLE,Consumables.MILK_BUCKET).usingConvertsTo(Items.BUCKET).stacksTo(1)));
 
     public static final Item JAM_BLACKBERRY = registerItem("jam_blackberry", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_BLACKBERRY, ModFoods.JAMS_CONSUMABLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));
     public static final Item JAM_BLUEBERRY = registerItem("jam_blueberry", properties -> new Item(properties.craftRemainder(GLASS_JAR).food(ModFoods.JAM_BLUEBERRY, ModFoods.JAMS_CONSUMABLE).usingConvertsTo(GLASS_JAR).stacksTo(16)));

@@ -7,6 +7,9 @@ package tastyvanilla.world.gen;
 
 public class ModWorldGeneration {
     public static void GenerateWorldGen() {
+
+        ModFlowerGeneration.generateFlowers();
         ModBushGeneration.generateBushes();
+
     }
 }
