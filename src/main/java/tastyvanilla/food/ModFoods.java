@@ -116,6 +116,17 @@ public class ModFoods {
     public static final FoodProperties JAM_STRAWBERRY_MASH = (new FoodProperties.Builder()).nutrition(3).saturationModifier(0.1F).alwaysEdible().build();
     public static final FoodProperties JAM_WHITE_CURRANT_BERRY_MASH = (new FoodProperties.Builder()).nutrition(3).saturationModifier(0.1F).alwaysEdible().build();
 
+    //MEATS & DROPS
+    public static final FoodProperties RAW_MEAT_TIER_1 = (new FoodProperties.Builder()).nutrition(3).saturationModifier(1.8F).build();
+    public static final FoodProperties RAW_MEAT_TIER_2 = (new FoodProperties.Builder()).nutrition(2).saturationModifier(1.2F).build();
+    public static final FoodProperties RAW_MEAT_TIER_3 = (new FoodProperties.Builder()).nutrition(2).saturationModifier(0.4F).build();
+    public static final FoodProperties RAW_MEAT_TIER_4 = (new FoodProperties.Builder()).nutrition(1).saturationModifier(0.6F).build();
+
+    public static final FoodProperties COOKED_MEAT_TIER_1 = (new FoodProperties.Builder()).nutrition(8).saturationModifier(12.8F).build();
+    public static final FoodProperties COOKED_MEAT_TIER_2 = (new FoodProperties.Builder()).nutrition(6).saturationModifier(9.6F).build();
+    public static final FoodProperties COOKED_MEAT_TIER_3 = (new FoodProperties.Builder()).nutrition(5).saturationModifier(6.0F).build();
+    public static final FoodProperties COOKED_MEAT_TIER_4 = (new FoodProperties.Builder()).nutrition(3).saturationModifier(3.6F).build();
+
     //EFFECTS
 
     public static final Consumable JAMS_CONSUMABLE = Consumables.defaultDrink()

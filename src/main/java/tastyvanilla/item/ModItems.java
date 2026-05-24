@@ -25,7 +25,6 @@ public class ModItems {
 
 
     //TUTORIAL CODE REGISTER
-
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {
         return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(TastyVanilla.MOD_ID, name),
                 function.apply(new Item.Properties().setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(TastyVanilla.MOD_ID, name)))));
@@ -96,7 +95,6 @@ public class ModItems {
     public static final Item PIE_VEGETABLE = registerItem("pie_vegetable", properties -> new Item(properties.food(ModFoods.PIE_VEGETABLE)));
 
     //CROPS
-
     public static final Item CABBAGE = registerItem("cabbage", properties -> new BlockItem(ModBlocks.CABBAGE_CROP, properties.food(ModFoods.CABBAGE).useItemDescriptionPrefix()));
 
     public static final Item CHILLI = registerItem("chilli", properties -> new Item(properties.food(ModFoods.CHILLI)));
@@ -118,7 +116,6 @@ public class ModItems {
 
 
     //CROP FOODS
-
     public static final Item FOOD_TOMATO_SOUP = registerItem("food_tomato_soup", properties -> new Item(properties.food(ModFoods.FOOD_TOMATO_SOUP).stacksTo(16).usingConvertsTo(BOWL)));
     public static final Item FOOD_SALAD = registerItem("food_salad", properties -> new Item(properties.food(ModFoods.FOOD_SALAD).stacksTo(16).usingConvertsTo(BOWL)));
     public static final Item FOOD_WRAP_VEGGIE = registerItem("food_wrap_veggie", properties -> new Item(properties.food(ModFoods.FOOD_WRAP_VEGGIE)));
@@ -139,8 +136,48 @@ public class ModItems {
     //MILK & CHEESE
     public static final Item GOAT_MILK_BUCKET = registerItem("goat_milk_bucket",properties -> new Item(properties.craftRemainder(Items.BUCKET).component(DataComponents.CONSUMABLE,Consumables.MILK_BUCKET).usingConvertsTo(Items.BUCKET).stacksTo(1)));
 
-    //BERRIES & JAMS
+    //MEATS & DROPS
+    public static final Item RAW_MEAT_BEAR = registerItem("raw_meat_bear", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1)));
+    public static final Item RAW_MEAT_CAMEL = registerItem("raw_meat_camel", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1)));
+    public static final Item RAW_MEAT_HORSE = registerItem("raw_meat_horse", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1)));
+    public static final Item RAW_MEAT_VEGGIE = registerItem("raw_meat_veggie", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_2)));
+    public static final Item RAW_MEAT_SNIFFER = registerItem("raw_meat_sniffer", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1)));
+    public static final Item RAW_MEAT_GOAT = registerItem("raw_meat_goat", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1)));
+    public static final Item RAW_MEAT_LlAMA = registerItem("raw_meat_llama", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1)));
+    public static final Item RAW_MEAT_WOLF = registerItem("raw_meat_wolf", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_2)));
+    public static final Item RAW_MEAT_FOX = registerItem("raw_meat_fox", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3)));
+    public static final Item RAW_MEAT_CAT = registerItem("raw_meat_cat", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3)));
+    public static final Item RAW_MEAT_PARROT = registerItem("raw_meat_parrot", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3)));
+    public static final Item RAW_MEAT_FROG = registerItem("raw_meat_frog", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3)));
+    public static final Item RAW_MEAT_BAT = registerItem("raw_meat_bat", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_4)));
+    public static final Item RAW_MEAT_TURTLE = registerItem("raw_meat_turtle", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3)));
+    public static final Item RAW_MEAT_DOLPHIN = registerItem("raw_meat_dolphin", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_2)));
+    public static final Item RAW_MEAT_SQUID = registerItem("raw_meat_squid", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3)));
+    public static final Item RAW_MEAT_AXOLOTL = registerItem("raw_meat_axolotl", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3)));
+    public static final Item RAW_MEAT_ARMADILLO = registerItem("raw_meat_armadillo", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_2)));
+    public static final Item RAW_MEAT_ALLAY = registerItem("raw_meat_allay", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_4)));
 
+    public static final Item COOKED_MEAT_BEAR = registerItem("cooked_meat_bear", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_1)));
+    public static final Item COOKED_MEAT_CAMEL = registerItem("cooked_meat_camel", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_1)));
+    public static final Item COOKED_MEAT_HORSE = registerItem("cooked_meat_horse", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_1)));
+    public static final Item COOKED_MEAT_VEGGIE = registerItem("cooked_meat_veggie", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_2)));
+    public static final Item COOKED_MEAT_SNIFFER = registerItem("cooked_meat_sniffer", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_1)));
+    public static final Item COOKED_MEAT_GOAT = registerItem("cooked_meat_goat", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_1)));
+    public static final Item COOKED_MEAT_LlAMA = registerItem("cooked_meat_llama", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_1)));
+    public static final Item COOKED_MEAT_WOLF = registerItem("cooked_meat_wolf", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_2)));
+    public static final Item COOKED_MEAT_FOX = registerItem("cooked_meat_fox", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_3)));
+    public static final Item COOKED_MEAT_CAT = registerItem("cooked_meat_cat", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_3)));
+    public static final Item COOKED_MEAT_PARROT = registerItem("cooked_meat_parrot", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_3)));
+    public static final Item COOKED_MEAT_FROG = registerItem("cooked_meat_frog", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_3)));
+    public static final Item COOKED_MEAT_BAT = registerItem("cooked_meat_bat", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_4)));
+    public static final Item COOKED_MEAT_TURTLE = registerItem("cooked_meat_turtle", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_3)));
+    public static final Item COOKED_MEAT_DOLPHIN = registerItem("cooked_meat_dolphin", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_2)));
+    public static final Item COOKED_MEAT_SQUID = registerItem("cooked_meat_squid", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_3)));
+    public static final Item COOKED_MEAT_AXOLOTL = registerItem("cooked_meat_axolotl", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_3)));
+    public static final Item COOKED_MEAT_ARMADILLO = registerItem("cooked_meat_armadillo", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_2)));
+    public static final Item COOKED_MEAT_ALLAY = registerItem("cooked_meat_allay", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_4)));
+
+    //BERRIES & JAMS
     public static final Item BERRY_BLACKBERRIES = registerItem("berry_blackberries", properties -> new BlockItem(ModBlocks.BERRY_BLACKBERRY_BUSH,properties.food(ModFoods.BERRY_BLACKBERRIES).useItemDescriptionPrefix()));
     public static final Item BERRY_BLUEBERRIES = registerItem("berry_blueberries", properties -> new BlockItem(ModBlocks.BERRY_BLUEBERRY_BUSH,properties.food(ModFoods.BERRY_BLUEBERRIES).useItemDescriptionPrefix()));
     public static final Item BERRY_ELDERBERRIES = registerItem("berry_elderberries", properties -> new BlockItem(ModBlocks.BERRY_ELDERBERRY_BUSH,properties.food(ModFoods.BERRY_ELDERBERRIES).useItemDescriptionPrefix()));
@@ -236,7 +273,6 @@ public class ModItems {
             output.accept(TOMATO);
 
             //CROPFOODS
-
             output.accept(FOOD_ONION_RING);
             output.accept(FOOD_POTATO_FRIES);
             output.accept(FOOD_CHILLI_STEW);
@@ -252,7 +288,6 @@ public class ModItems {
             output.accept(FOOD_BUMSBLECH_SALAD);
 
             output.accept(BREAD_GARLIC);
-
 
             //MILK & CHEESE
             output.accept(GOAT_MILK_BUCKET);
@@ -287,6 +322,46 @@ public class ModItems {
             output.accept(JAM_STRAWBERRY_MASH);
             output.accept(JAM_WHITE_CURRANT_BERRY_MASH);
 
+            //MEAT & DROPS
+            output.accept(RAW_MEAT_BEAR);
+            output.accept(RAW_MEAT_CAMEL);
+            output.accept(RAW_MEAT_HORSE);
+            output.accept(RAW_MEAT_VEGGIE);
+            output.accept(RAW_MEAT_SNIFFER);
+            output.accept(RAW_MEAT_GOAT);
+            output.accept(RAW_MEAT_LlAMA);
+            output.accept(RAW_MEAT_WOLF);
+            output.accept(RAW_MEAT_FOX);
+            output.accept(RAW_MEAT_CAT);
+            output.accept(RAW_MEAT_PARROT);
+            output.accept(RAW_MEAT_FROG);
+            output.accept(RAW_MEAT_BAT);
+            output.accept(RAW_MEAT_TURTLE);
+            output.accept(RAW_MEAT_DOLPHIN);
+            output.accept(RAW_MEAT_SQUID);
+            output.accept(RAW_MEAT_AXOLOTL);
+            output.accept(RAW_MEAT_ARMADILLO);
+            output.accept(RAW_MEAT_ALLAY);
+
+            output.accept(COOKED_MEAT_BEAR);
+            output.accept(COOKED_MEAT_CAMEL);
+            output.accept(COOKED_MEAT_HORSE);
+            output.accept(COOKED_MEAT_VEGGIE);
+            output.accept(COOKED_MEAT_SNIFFER);
+            output.accept(COOKED_MEAT_GOAT);
+            output.accept(COOKED_MEAT_LlAMA);
+            output.accept(COOKED_MEAT_WOLF);
+            output.accept(COOKED_MEAT_FOX);
+            output.accept(COOKED_MEAT_CAT);
+            output.accept(COOKED_MEAT_PARROT);
+            output.accept(COOKED_MEAT_FROG);
+            output.accept(COOKED_MEAT_BAT);
+            output.accept(COOKED_MEAT_TURTLE);
+            output.accept(COOKED_MEAT_DOLPHIN);
+            output.accept(COOKED_MEAT_SQUID);
+            output.accept(COOKED_MEAT_AXOLOTL);
+            output.accept(COOKED_MEAT_ARMADILLO);
+            output.accept(COOKED_MEAT_ALLAY);
 
         });
 
