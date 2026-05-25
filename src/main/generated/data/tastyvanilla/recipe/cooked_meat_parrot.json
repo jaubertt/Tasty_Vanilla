@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": "tastyvanilla:raw_meat_parrot",
+  "result": {
+    "id": "tastyvanilla:cooked_meat_horse"
+  }
+}

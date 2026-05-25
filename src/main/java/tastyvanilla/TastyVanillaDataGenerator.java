@@ -21,6 +21,7 @@ public class TastyVanillaDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModBlockLootTableProvider::new);
 		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModVillagerTradeTags::new);
 		pack.addProvider(ModRegistryDataProvider::new);
 

@@ -136,6 +136,6 @@ public class ModFoods {
     public static final Consumable DOUGH_CONSUMABLE = Consumables.defaultDrink()
             .consumeSeconds(2.0F).sound(SoundEvents.GENERIC_EAT)
             .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.NAUSEA, 600, 0), 0.8F)).build();
-
-
+    public static final Consumable FOOD_POISONING = Consumables.defaultFood()
+            .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3F)).build();
 }

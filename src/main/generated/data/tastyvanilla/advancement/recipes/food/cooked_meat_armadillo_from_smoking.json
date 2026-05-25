@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_meat_armadillo": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tastyvanilla:raw_meat_armadillo"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tastyvanilla:cooked_meat_armadillo_from_smoking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_meat_armadillo"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tastyvanilla:cooked_meat_armadillo_from_smoking"
+    ]
+  }
+}

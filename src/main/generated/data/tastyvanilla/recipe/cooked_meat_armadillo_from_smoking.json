@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.5,
+  "ingredient": "tastyvanilla:raw_meat_armadillo",
+  "result": {
+    "id": "tastyvanilla:cooked_meat_horse"
+  }
+}

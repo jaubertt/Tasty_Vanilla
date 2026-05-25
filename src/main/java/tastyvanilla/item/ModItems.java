@@ -144,16 +144,16 @@ public class ModItems {
     public static final Item RAW_MEAT_SNIFFER = registerItem("raw_meat_sniffer", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1)));
     public static final Item RAW_MEAT_GOAT = registerItem("raw_meat_goat", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1)));
     public static final Item RAW_MEAT_LlAMA = registerItem("raw_meat_llama", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1)));
-    public static final Item RAW_MEAT_WOLF = registerItem("raw_meat_wolf", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_2)));
-    public static final Item RAW_MEAT_FOX = registerItem("raw_meat_fox", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3)));
-    public static final Item RAW_MEAT_CAT = registerItem("raw_meat_cat", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3)));
-    public static final Item RAW_MEAT_PARROT = registerItem("raw_meat_parrot", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3)));
+    public static final Item RAW_MEAT_WOLF = registerItem("raw_meat_wolf", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_2,ModFoods.FOOD_POISONING)));
+    public static final Item RAW_MEAT_FOX = registerItem("raw_meat_fox", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3,ModFoods.FOOD_POISONING)));
+    public static final Item RAW_MEAT_CAT = registerItem("raw_meat_cat", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3,ModFoods.FOOD_POISONING)));
+    public static final Item RAW_MEAT_PARROT = registerItem("raw_meat_parrot", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3,ModFoods.FOOD_POISONING)));
     public static final Item RAW_MEAT_FROG = registerItem("raw_meat_frog", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3)));
-    public static final Item RAW_MEAT_BAT = registerItem("raw_meat_bat", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_4)));
-    public static final Item RAW_MEAT_TURTLE = registerItem("raw_meat_turtle", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3)));
-    public static final Item RAW_MEAT_DOLPHIN = registerItem("raw_meat_dolphin", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_2)));
+    public static final Item RAW_MEAT_BAT = registerItem("raw_meat_bat", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_4,ModFoods.FOOD_POISONING)));
+    public static final Item RAW_MEAT_TURTLE = registerItem("raw_meat_turtle", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3,ModFoods.FOOD_POISONING)));
+    public static final Item RAW_MEAT_DOLPHIN = registerItem("raw_meat_dolphin", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_2,ModFoods.FOOD_POISONING)));
     public static final Item RAW_MEAT_SQUID = registerItem("raw_meat_squid", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3)));
-    public static final Item RAW_MEAT_AXOLOTL = registerItem("raw_meat_axolotl", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3)));
+    public static final Item RAW_MEAT_AXOLOTL = registerItem("raw_meat_axolotl", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3,ModFoods.FOOD_POISONING)));
     public static final Item RAW_MEAT_ARMADILLO = registerItem("raw_meat_armadillo", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_2)));
     public static final Item RAW_MEAT_ALLAY = registerItem("raw_meat_allay", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_4)));
 

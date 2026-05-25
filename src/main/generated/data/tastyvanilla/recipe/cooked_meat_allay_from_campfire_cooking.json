@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.5,
+  "ingredient": "tastyvanilla:raw_meat_allay",
+  "result": {
+    "id": "tastyvanilla:cooked_meat_horse"
+  }
+}

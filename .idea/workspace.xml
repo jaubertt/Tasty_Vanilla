@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Update to 26.1.1">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_table/chests/village/village_butcher.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_table/chests/village/village_fisher.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModModelProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanillaDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanillaDataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModRecipeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModRecipeProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/food/ModFoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/food/ModFoods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/en_gb.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/en_gb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/en_us.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +130,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "26.1.2",
-    "last_opened_file_path": "/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/Tasty Vanilla/src/main/resources/assets/tastyvanilla/models/item",
+    "last_opened_file_path": "/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/Tasty Vanilla/src/main/resources/data/minecraft/loot_table/chests/village",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -137,11 +139,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_table/chests/village" />
+      <recent name="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe" />
       <recent name="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/models/item" />
       <recent name="$PROJECT_DIR$/gradle/wrapper" />
       <recent name="$PROJECT_DIR$/.gradle" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/gradle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/items" />
@@ -375,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779546608637</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update to 26.1.1">
+      <option name="closed" value="true" />
+      <created>1779634787769</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1779634787769</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UnknownFeatures">
