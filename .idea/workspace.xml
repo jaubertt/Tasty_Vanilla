@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Update to 26.1.1">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_table/chests/village/village_butcher.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_table/chests/village/village_fisher.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanillaDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanillaDataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModRecipeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModRecipeProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/food/ModFoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/food/ModFoods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModItems.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,32 +104,32 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Data Generation.executor": "Run",
-    "Application.Minecraft Client.executor": "Run",
-    "Gradle.Build Tasty Vanilla.executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.Load Gradle Dependencies.executor": "Run",
-    "Gradle.Tasty Vanilla [build].executor": "Run",
-    "Gradle.Tasty Vanilla [configureClientLaunch].executor": "Run",
-    "Gradle.Tasty Vanilla [genSources].executor": "Run",
-    "Gradle.Tasty Vanilla [runClient].executor": "Run",
-    "Gradle.Tasty Vanilla [runDatagen].executor": "Run",
-    "Gradle.tastyvanilla-1.21.4_Relaunch [:net.fabricmc.devlaunchinjector.Main.main()].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "26.1.2",
-    "last_opened_file_path": "/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/Tasty Vanilla/src/main/resources/data/minecraft/loot_table/chests/village",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Data Generation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Minecraft Client.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build Tasty Vanilla.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Load Gradle Dependencies.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tasty Vanilla [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tasty Vanilla [configureClientLaunch].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tasty Vanilla [genSources].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tasty Vanilla [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tasty Vanilla [runDatagen].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.tastyvanilla-1.21.4_Relaunch [:net.fabricmc.devlaunchinjector.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;26.1.2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/Tasty Vanilla/src/main/resources/data/minecraft/loot_table/chests/village&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_table/chests/village" />
@@ -224,12 +217,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Data Generation" />
-      <item itemvalue="Application.Minecraft Client" />
-      <item itemvalue="Application.Minecraft Server" />
-      <item itemvalue="Gradle.Tasty Vanilla [runDatagen]" />
-      <item itemvalue="Gradle.Tasty Vanilla [runClient]" />
       <item itemvalue="Gradle.Tasty Vanilla [build]" />
+      <item itemvalue="Gradle.Tasty Vanilla [runClient]" />
+      <item itemvalue="Gradle.Tasty Vanilla [runDatagen]" />
+      <item itemvalue="Application.Minecraft Client" />
+      <item itemvalue="Application.Data Generation" />
+      <item itemvalue="Application.Minecraft Server" />
     </list>
     <recent_temporary>
       <list>
@@ -385,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779634787769</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Update to 26.1.1">
+      <option name="closed" value="true" />
+      <created>1779679765479</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1779679765479</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
