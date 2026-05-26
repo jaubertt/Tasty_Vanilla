@@ -62,7 +62,7 @@
               "function": "minecraft:furnace_smelt"
             }
           ],
-          "name": "minecraft:cod"
+          "name": "tastyvanilla:raw_meat_dolphin"
         }
       ],
       "rolls": 1.0

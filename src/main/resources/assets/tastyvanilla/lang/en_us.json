@@ -196,12 +196,13 @@
   "item.tastyvanilla.raw_meat_parrot": "Raw Parrot",
   "item.tastyvanilla.raw_meat_frog": "Frog Leg",
   "item.tastyvanilla.raw_meat_bat": "Bat Wing",
-  "item.tastyvanilla.raw_meat_turtle": "Raw Trutle",
+  "item.tastyvanilla.raw_meat_turtle": "Raw Turtle",
   "item.tastyvanilla.raw_meat_dolphin": "Raw Dolphin",
   "item.tastyvanilla.raw_meat_squid": "Raw Squid",
   "item.tastyvanilla.raw_meat_axolotl": "Raw Axolotl",
   "item.tastyvanilla.raw_meat_armadillo": "Raw Armadillo",
   "item.tastyvanilla.raw_meat_allay": "Raw Allay",
+  "item.tastyvanilla.raw_meat_nautilus": "Raw Nautilus",
 
   "item.tastyvanilla.cooked_meat_bear": "Bear Steak",
   "item.tastyvanilla.cooked_meat_camel": "Camel Steak",
@@ -222,6 +223,7 @@
   "item.tastyvanilla.cooked_meat_axolotl": "Cooked Axolotl",
   "item.tastyvanilla.cooked_meat_armadillo": "Cooked Armadillo",
   "item.tastyvanilla.cooked_meat_allay": "Cooked Allay",
+  "item.tastyvanilla.cooked_meat_nautilus": "Cooked Nautilus",
 
   //BLOCKS
   "block.tastyvanilla.salt_block": "Block of Salt",

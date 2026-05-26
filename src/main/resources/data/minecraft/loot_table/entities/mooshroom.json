@@ -92,7 +92,7 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "minecraft:beef"
+          "name": "tastyvanilla:raw_meat_veggie"
         }
       ],
       "rolls": 1.0

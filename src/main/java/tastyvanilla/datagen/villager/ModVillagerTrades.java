@@ -56,8 +56,8 @@ public class ModVillagerTrades {
     public static final ResourceKey<VillagerTrade> FISHERMAN_5_RAW_MEAT_NAUTILUS_EMERALD = createKey("fisherman/5/raw_meat_nautilus_emerald");
 
     public static final ResourceKey<VillagerTrade> CLERIC_3_RAW_MEAT_FROG_EMERALD = createKey("cleric/3/raw_meat_frog_emerald");
-    public static final ResourceKey<VillagerTrade> CLERIC_3_RAW_MEAT_AXOLOTL_EMERALD = createKey("cleric/3/raw_meat_axolotl_emerald");
 
+    public static final ResourceKey<VillagerTrade> CLERIC_5_RAW_MEAT_ALLAY_EMERALD = createKey("cleric/3/raw_meat_allay_emerald");
     public static final ResourceKey<VillagerTrade> CLERIC_5_RAW_MEAT_BAT_EMERALD = createKey("cleric/5/raw_meat_bat_emerald");
 
 
@@ -138,9 +138,9 @@ public class ModVillagerTrades {
 
         register(context, CLERIC_3_RAW_MEAT_FROG_EMERALD, new VillagerTrade(
                 new TradeCost(ModItems.RAW_MEAT_FROG, 13),new ItemStackTemplate(Items.EMERALD), 12, 20, 0.05f, Optional.empty(), List.of()));
-        register(context, CLERIC_3_RAW_MEAT_AXOLOTL_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_AXOLOTL, 13),new ItemStackTemplate(Items.EMERALD), 12, 20, 0.05f, Optional.empty(), List.of()));
 
+        register(context, CLERIC_5_RAW_MEAT_ALLAY_EMERALD, new VillagerTrade(
+                new TradeCost(ModItems.RAW_MEAT_ALLAY, 13),new ItemStackTemplate(Items.EMERALD), 12, 20, 0.05f, Optional.empty(), List.of()));
         register(context, CLERIC_5_RAW_MEAT_BAT_EMERALD, new VillagerTrade(
                 new TradeCost(ModItems.RAW_MEAT_BAT, 4),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
 
