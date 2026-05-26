@@ -6,8 +6,13 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.tags.TagEntry;
 import net.minecraft.tags.VillagerTradeTags;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.trading.TradeCost;
 import net.minecraft.world.item.trading.VillagerTrade;
+import tastyvanilla.item.ModItems;
 
+import java.util.List;
+import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 
 public class ModVillagerTradeTags extends FabricTagsProvider<VillagerTrade> {
@@ -27,6 +32,22 @@ public class ModVillagerTradeTags extends FabricTagsProvider<VillagerTrade> {
                 .add(TagEntry.element(ModVillagerTrades.FARMER_1_TOMATO_EMERALD.identifier()))
                 .add(TagEntry.element(ModVillagerTrades.FARMER_1_SWEET_POTATO_EMERALD.identifier()));
 
+        getOrCreateRawBuilder(VillagerTradeTags.BUTCHER_LEVEL_1)
+                    .add(TagEntry.element(ModVillagerTrades.BUTCHER_1_RAW_MEAT_WOLF_EMERALD.identifier()))
+                    .add(TagEntry.element(ModVillagerTrades.BUTCHER_1_RAW_MEAT_FOX_EMERALD.identifier()))
+                    .add(TagEntry.element(ModVillagerTrades.BUTCHER_1_RAW_MEAT_CAT_EMERALD.identifier()))
+                    .add(TagEntry.element(ModVillagerTrades.BUTCHER_1_RAW_MEAT_PARROT_EMERALD.identifier()))
+                    .add(TagEntry.element(ModVillagerTrades.BUTCHER_1_RAW_MEAT_ARMADILLO_EMERALD.identifier()));
+
+        getOrCreateRawBuilder(VillagerTradeTags.BUTCHER_LEVEL_3)
+                .add(TagEntry.element(ModVillagerTrades.BUTCHER_3_RAW_MEAT_BEAR_EMERALD.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.BUTCHER_3_RAW_MEAT_CAMEL_EMERALD.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.BUTCHER_3_RAW_MEAT_HORSE_EMERALD.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.BUTCHER_3_RAW_MEAT_VEGGIE_EMERALD.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.BUTCHER_3_RAW_MEAT_SNIFFER_EMERALD.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.BUTCHER_3_RAW_MEAT_GOAT_EMERALD.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.BUTCHER_3_RAW_MEAT_LLAMA_EMERALD.identifier()));
+
         getOrCreateRawBuilder(VillagerTradeTags.BUTCHER_LEVEL_5)
                 .add(TagEntry.element(ModVillagerTrades.BUTCHER_5_BERRY_BLACKBERRIES_EMERALD.identifier()))
                 .add(TagEntry.element(ModVillagerTrades.BUTCHER_5_BERRY_BLUEBERRIES_EMERALD.identifier()))
@@ -36,5 +57,21 @@ public class ModVillagerTradeTags extends FabricTagsProvider<VillagerTrade> {
                 .add(TagEntry.element(ModVillagerTrades.BUTCHER_5_BERRY_RASPBERRIES_EMERALD.identifier()))
                 .add(TagEntry.element(ModVillagerTrades.BUTCHER_5_BERRY_STRAWBERRIES_EMERALD.identifier()))
                 .add(TagEntry.element(ModVillagerTrades.BUTCHER_5_BERRY_WHITE_CURRANT_BERRIES_EMERALD.identifier()));
+
+        getOrCreateRawBuilder(VillagerTradeTags.FISHERMAN_LEVEL_4)
+                .add(TagEntry.element(ModVillagerTrades.FISHERMAN_4_RAW_MEAT_TURTLE_EMERALD.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.FISHERMAN_4_RAW_MEAT_DOLPHIN_EMERALD.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.FISHERMAN_4_RAW_MEAT_SQUID_EMERALD.identifier()));
+
+        getOrCreateRawBuilder(VillagerTradeTags.FISHERMAN_LEVEL_5)
+                .add(TagEntry.element(ModVillagerTrades.FISHERMAN_5_RAW_MEAT_AXOLOTL_EMERALD.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.FISHERMAN_5_RAW_MEAT_NAUTILUS_EMERALD.identifier()));
+
+        getOrCreateRawBuilder(VillagerTradeTags.CLERIC_LEVEL_3)
+                .add(TagEntry.element(ModVillagerTrades.CLERIC_3_RAW_MEAT_FROG_EMERALD.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.CLERIC_3_RAW_MEAT_AXOLOTL_EMERALD.identifier()));
+
+        getOrCreateRawBuilder(VillagerTradeTags.CLERIC_LEVEL_3)
+                .add(TagEntry.element(ModVillagerTrades.CLERIC_5_RAW_MEAT_BAT_EMERALD.identifier()));
     }
 }
