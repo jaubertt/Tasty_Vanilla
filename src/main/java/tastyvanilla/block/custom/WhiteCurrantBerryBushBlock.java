@@ -7,9 +7,14 @@ package tastyvanilla.block.custom;
 
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.InsideBlockEffectApplier;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
@@ -19,6 +24,7 @@ import net.minecraft.world.level.block.SweetBerryBushBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.gameevent.GameEvent;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.phys.Vec3;
 import tastyvanilla.item.ModItems;
 
 public class WhiteCurrantBerryBushBlock extends SweetBerryBushBlock {
@@ -47,6 +53,24 @@ public class WhiteCurrantBerryBushBlock extends SweetBerryBushBlock {
             return InteractionResult.SUCCESS;
         } else {
             return super.useWithoutItem(state, level, pos, player, hit);
+        }
+    }
+    @Override
+    protected void entityInside(
+            final BlockState state, final Level level, final BlockPos pos, final Entity entity, final InsideBlockEffectApplier effectApplier, final boolean isPrecise
+    ) {
+        if (entity instanceof LivingEntity && !entity.is(EntityType.FOX) && !entity.is(EntityType.BEE)) {
+            entity.makeStuckInBlock(state, new Vec3(0.8F, 0.75, 0.8F));
+            if (level instanceof ServerLevel serverLevel && (Integer)state.getValue(AGE) != 0) {
+                Vec3 movement = entity.isClientAuthoritative() ? entity.getKnownMovement() : entity.oldPosition().subtract(entity.position());
+                if (movement.horizontalDistanceSqr() > 0.0) {
+                    double xs = Math.abs(movement.x());
+                    double zs = Math.abs(movement.z());
+                    if (xs >= 0.003F || zs >= 0.003F) {
+                        entity.hurtServer(serverLevel, level.damageSources().sweetBerryBush(), 0.0F);
+                    }
+                }
+            }
         }
     }
 
