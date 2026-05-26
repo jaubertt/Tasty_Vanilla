@@ -156,6 +156,7 @@ public class ModItems {
     public static final Item RAW_MEAT_AXOLOTL = registerItem("raw_meat_axolotl", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3,ModFoods.FOOD_POISONING)));
     public static final Item RAW_MEAT_ARMADILLO = registerItem("raw_meat_armadillo", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_2)));
     public static final Item RAW_MEAT_ALLAY = registerItem("raw_meat_allay", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_4)));
+    public static final Item RAW_MEAT_NAUTILUS = registerItem("raw_meat_nautilus", properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3)));
 
     public static final Item COOKED_MEAT_BEAR = registerItem("cooked_meat_bear", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_1)));
     public static final Item COOKED_MEAT_CAMEL = registerItem("cooked_meat_camel", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_1)));
@@ -176,6 +177,7 @@ public class ModItems {
     public static final Item COOKED_MEAT_AXOLOTL = registerItem("cooked_meat_axolotl", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_3)));
     public static final Item COOKED_MEAT_ARMADILLO = registerItem("cooked_meat_armadillo", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_2)));
     public static final Item COOKED_MEAT_ALLAY = registerItem("cooked_meat_allay", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_4)));
+    public static final Item COOKED_MEAT_NAUTILUS = registerItem("cooked_meat_nautilus", properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_3)));
 
     //BERRIES & JAMS
     public static final Item BERRY_BLACKBERRIES = registerItem("berry_blackberries", properties -> new BlockItem(ModBlocks.BERRY_BLACKBERRY_BUSH,properties.food(ModFoods.BERRY_BLACKBERRIES).useItemDescriptionPrefix()));
@@ -342,6 +344,7 @@ public class ModItems {
             output.accept(RAW_MEAT_AXOLOTL);
             output.accept(RAW_MEAT_ARMADILLO);
             output.accept(RAW_MEAT_ALLAY);
+            output.accept(RAW_MEAT_NAUTILUS);
 
             output.accept(COOKED_MEAT_BEAR);
             output.accept(COOKED_MEAT_CAMEL);
@@ -362,6 +365,8 @@ public class ModItems {
             output.accept(COOKED_MEAT_AXOLOTL);
             output.accept(COOKED_MEAT_ARMADILLO);
             output.accept(COOKED_MEAT_ALLAY);
+            output.accept(COOKED_MEAT_NAUTILUS);
+
 
         });
 

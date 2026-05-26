@@ -106,6 +106,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.generateFlatItem(ModItems.RAW_MEAT_AXOLOTL, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.RAW_MEAT_ARMADILLO, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.RAW_MEAT_ALLAY, ModelTemplates.FLAT_ITEM);
+        itemModelGenerator.generateFlatItem(ModItems.RAW_MEAT_NAUTILUS, ModelTemplates.FLAT_ITEM);
 
         itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_BEAR, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_CAMEL, ModelTemplates.FLAT_ITEM);
@@ -126,6 +127,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_AXOLOTL, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_ARMADILLO, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_ALLAY, ModelTemplates.FLAT_ITEM);
+        itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_NAUTILUS, ModelTemplates.FLAT_ITEM);
 
     }
 }

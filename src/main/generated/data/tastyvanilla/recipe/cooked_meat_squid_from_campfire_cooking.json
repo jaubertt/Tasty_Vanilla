@@ -5,6 +5,6 @@
   "experience": 0.5,
   "ingredient": "tastyvanilla:raw_meat_squid",
   "result": {
-    "id": "tastyvanilla:cooked_meat_horse"
+    "id": "tastyvanilla:cooked_meat_squid"
   }
 }

@@ -5,6 +5,6 @@
   "experience": 0.35,
   "ingredient": "tastyvanilla:raw_meat_llama",
   "result": {
-    "id": "tastyvanilla:cooked_meat_horse"
+    "id": "tastyvanilla:cooked_meat_llama"
   }
 }

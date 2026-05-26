@@ -36,6 +36,7 @@ public class ModCompostableItems {
 		CompostableRegistry.INSTANCE.add(ModItems.PIE_MUSHROOM,1.0f);
 		CompostableRegistry.INSTANCE.add(ModItems.PIE_SHEPHERDS,1.0f);
 		CompostableRegistry.INSTANCE.add(ModItems.PIE_SWEET_BERRY,1.0f);
+		CompostableRegistry.INSTANCE.add(ModItems.PIE_STRAWBERRY,1.0f);
 		CompostableRegistry.INSTANCE.add(ModItems.PIE_VEGETABLE,1.0f);
 
 		//BAKED BREAD
