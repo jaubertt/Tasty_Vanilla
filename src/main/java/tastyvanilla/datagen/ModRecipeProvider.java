@@ -34,7 +34,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 cookMeatRecipes("cooked_meat_veggie", ModItems.RAW_MEAT_VEGGIE, ModItems.COOKED_MEAT_VEGGIE, 0.35f);
                 cookMeatRecipes("cooked_meat_sniffer", ModItems.RAW_MEAT_SNIFFER, ModItems.COOKED_MEAT_SNIFFER, 1.00f);
                 cookMeatRecipes("cooked_meat_goat", ModItems.RAW_MEAT_GOAT, ModItems.COOKED_MEAT_GOAT, 0.35f);
-                cookMeatRecipes("cooked_meat_llama", ModItems.RAW_MEAT_LlAMA, ModItems.COOKED_MEAT_LlAMA, 0.35f);
+                cookMeatRecipes("cooked_meat_llama", ModItems.RAW_MEAT_LLAMA, ModItems.COOKED_MEAT_LLAMA, 0.35f);
                 cookMeatRecipes("cooked_meat_wolf", ModItems.RAW_MEAT_WOLF, ModItems.COOKED_MEAT_WOLF, 0.35f);
                 cookMeatRecipes("cooked_meat_fox", ModItems.RAW_MEAT_FOX, ModItems.COOKED_MEAT_FOX, 0.35f);
                 cookMeatRecipes("cooked_meat_cat", ModItems.RAW_MEAT_CAT, ModItems.COOKED_MEAT_CAT, 0.35f);

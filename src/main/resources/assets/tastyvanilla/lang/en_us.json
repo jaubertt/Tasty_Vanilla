@@ -21,17 +21,17 @@
 
 
   //DOUGHS
-  "item.tastyvanilla.dough_baguel": "Baguel Dough",
+  "item.tastyvanilla.dough_baguel": "Bagel Dough",
   "item.tastyvanilla.dough_baguette": "Baguette Dough",
-  "item.tastyvanilla.dough_baked_bread": "Baked Bread Dough",
+  "item.tastyvanilla.dough_baked_bread": "Bread Dough",
   "item.tastyvanilla.dough_brownie": "Brownie Dough",
   "item.tastyvanilla.dough_croissant": "Croissant Dough",
   "item.tastyvanilla.dough_flatbread": "Flatbread Dough",
   "item.tastyvanilla.dough_focaccia": "Focaccia Dough",
   "item.tastyvanilla.dough_honey": "Honey Dough",
   "item.tastyvanilla.dough_multigrain": "Multigrain Dough",
-  "item.tastyvanilla.dough_pancakes": "Pancakes Dough",
-  "item.tastyvanilla.dough_sourdough": "Sourdough Dough",
+  "item.tastyvanilla.dough_pancakes": "Pancake Batter",
+  "item.tastyvanilla.dough_sourdough": "Sourdough",
   "item.tastyvanilla.dough_sweet_roll": "Sweet Roll Dough",
 
 
@@ -72,9 +72,9 @@
   "item.tastyvanilla.cabbage": "Cabbage",
   "block.tastyvanilla.cabbage_crop": "Cabbage Crop" ,
 
-  "item.tastyvanilla.chilli": "Chilli",
-  "item.tastyvanilla.chilli_seeds": "Chilli Seeds",
-  "block.tastyvanilla.chilli_crop": "Chilli Crop" ,
+  "item.tastyvanilla.chilli": "Chili",
+  "item.tastyvanilla.chilli_seeds": "Chili Seeds",
+  "block.tastyvanilla.chilli_crop": "Chili Crop" ,
 
   "item.tastyvanilla.eggplant": "Eggplant",
   "block.tastyvanilla.eggplant_crop": "Eggplant Crop" ,
@@ -97,7 +97,7 @@
   "block.tastyvanilla.tomato_crop": "Tomato Crop" ,
 
   "item.tastyvanilla.rice": "Rice",
-  "item.tastyvanilla.raw_rice": "Raw Rice",
+  "item.tastyvanilla.raw_rice": "Rice Panicle",
   "block.tastyvanilla.rice_crop": "Rice Crop",
 
 
@@ -141,7 +141,7 @@
   "item.tastyvanilla.berry_strawberries": "Strawberry",
   "block.tastyvanilla.berry_strawberry_bush": "Strawberry Bush" ,
 
-  "item.tastyvanilla.berry_white_currant_berries": "White Currant Berries",
+  "item.tastyvanilla.berry_white_currant_berries": "White Currants",
   "block.tastyvanilla.berry_white_currant_berry_bush": "White Currant Bush" ,
 
   //JAMS
@@ -194,14 +194,14 @@
   "item.tastyvanilla.raw_meat_fox": "Raw Fox",
   "item.tastyvanilla.raw_meat_cat": "Raw Cat",
   "item.tastyvanilla.raw_meat_parrot": "Raw Parrot",
-  "item.tastyvanilla.raw_meat_frog": "Frog Leg",
-  "item.tastyvanilla.raw_meat_bat": "Bat Wing",
+  "item.tastyvanilla.raw_meat_frog": "Frog Legs",
+  "item.tastyvanilla.raw_meat_bat": "Bat Wings",
   "item.tastyvanilla.raw_meat_turtle": "Raw Turtle",
   "item.tastyvanilla.raw_meat_dolphin": "Raw Dolphin",
   "item.tastyvanilla.raw_meat_squid": "Raw Squid",
   "item.tastyvanilla.raw_meat_axolotl": "Raw Axolotl",
   "item.tastyvanilla.raw_meat_armadillo": "Raw Armadillo",
-  "item.tastyvanilla.raw_meat_allay": "Raw Allay",
+  "item.tastyvanilla.raw_meat_allay": "Allay Wings",
   "item.tastyvanilla.raw_meat_nautilus": "Raw Nautilus",
 
   "item.tastyvanilla.cooked_meat_bear": "Bear Steak",
@@ -215,14 +215,14 @@
   "item.tastyvanilla.cooked_meat_fox": "Cooked Fox",
   "item.tastyvanilla.cooked_meat_cat": "Cooked Cat",
   "item.tastyvanilla.cooked_meat_parrot": "Cooked Parrot",
-  "item.tastyvanilla.cooked_meat_frog": "Cooked Frog Leg",
-  "item.tastyvanilla.cooked_meat_bat": "Cooked Bat Wing",
+  "item.tastyvanilla.cooked_meat_frog": "Cooked Frog Legs",
+  "item.tastyvanilla.cooked_meat_bat": "Cooked Bat Wings",
   "item.tastyvanilla.cooked_meat_turtle": "Cooked Turtle",
   "item.tastyvanilla.cooked_meat_dolphin": "Cooked Dolphin",
   "item.tastyvanilla.cooked_meat_squid": "Cooked Squid",
   "item.tastyvanilla.cooked_meat_axolotl": "Cooked Axolotl",
   "item.tastyvanilla.cooked_meat_armadillo": "Cooked Armadillo",
-  "item.tastyvanilla.cooked_meat_allay": "Cooked Allay",
+  "item.tastyvanilla.cooked_meat_allay": "Cooked Allay Wings",
   "item.tastyvanilla.cooked_meat_nautilus": "Cooked Nautilus",
 
   //BLOCKS

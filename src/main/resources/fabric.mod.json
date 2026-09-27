@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "tastyvanilla",
-	"version": "${version}",
+	"version": "2.2",
 	"name": "TastyVanilla",
 	"description": "Tasty Vanilla brings an array of exciting culinary and farming adventures to Minecraft while maintaining the familiar feel of the game's classic mechanics.",
 	"authors": [
@@ -30,7 +30,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.18.5",
-		"minecraft": "~26.1.2",
+		"minecraft": "~26.2",
 		"java": ">=25",
 		"fabric-api": "*"
 	},

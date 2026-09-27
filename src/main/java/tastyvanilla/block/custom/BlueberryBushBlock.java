@@ -11,10 +11,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.InsideBlockEffectApplier;
-import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.*;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
@@ -59,7 +56,7 @@ public class BlueberryBushBlock extends SweetBerryBushBlock {
     protected void entityInside(
             final BlockState state, final Level level, final BlockPos pos, final Entity entity, final InsideBlockEffectApplier effectApplier, final boolean isPrecise
     ) {
-        if (entity instanceof LivingEntity && !entity.is(EntityType.FOX) && !entity.is(EntityType.BEE)) {
+        if (entity instanceof LivingEntity && !entity.is(EntityTypes.FOX) && !entity.is(EntityTypes.BEE)) {
             entity.makeStuckInBlock(state, new Vec3(0.8F, 0.75, 0.8F));
             if (level instanceof ServerLevel serverLevel && (Integer)state.getValue(AGE) != 0) {
                 Vec3 movement = entity.isClientAuthoritative() ? entity.getKnownMovement() : entity.oldPosition().subtract(entity.position());
@@ -67,7 +64,7 @@ public class BlueberryBushBlock extends SweetBerryBushBlock {
                     double xs = Math.abs(movement.x());
                     double zs = Math.abs(movement.z());
                     if (xs >= 0.003F || zs >= 0.003F) {
-                        entity.hurtServer(serverLevel, level.damageSources().sweetBerryBush(), 0.0F);
+                        entity.hurtServer(serverLevel, level.damageSources().sweetBerryBush(), 1.0F);
                     }
                 }
             }

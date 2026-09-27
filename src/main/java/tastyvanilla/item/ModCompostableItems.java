@@ -2,6 +2,7 @@ package tastyvanilla.item;
 
 import net.fabricmc.fabric.api.registry.CompostableRegistry;
 import tastyvanilla.TastyVanilla;
+import net.fabricmc.fabric.api.registry.VillagerInteractionRegistries;
 
 public class ModCompostableItems {
 
@@ -77,7 +78,7 @@ public class ModCompostableItems {
 		CompostableRegistry.INSTANCE.add(ModItems.CHILLI,0.5f);
 		CompostableRegistry.INSTANCE.add(ModItems.CHILLI_SEEDS,0.25f);
 		CompostableRegistry.INSTANCE.add(ModItems.EGGPLANT,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.GARLIC,05f);
+		CompostableRegistry.INSTANCE.add(ModItems.GARLIC,0.5f);
 		CompostableRegistry.INSTANCE.add(ModItems.LETTUCE,0.25f);
 		CompostableRegistry.INSTANCE.add(ModItems.LETTUCE_SEEDS,0.5f);
 		CompostableRegistry.INSTANCE.add(ModItems.ONION,0.5f);
@@ -94,5 +95,10 @@ public class ModCompostableItems {
 		CompostableRegistry.INSTANCE.add(ModItems.BERRY_RASPBERRIES, 0.3F);
 		CompostableRegistry.INSTANCE.add(ModItems.BERRY_STRAWBERRIES, 0.3F);
 		CompostableRegistry.INSTANCE.add(ModItems.BERRY_WHITE_CURRANT_BERRIES, 0.3F);
+
+		//FARMER VILLAGERS COMPOST THESE (replaces the old FarmerWorkTaskMixin)
+		VillagerInteractionRegistries.registerCompostable(ModItems.CHILLI_SEEDS);
+		VillagerInteractionRegistries.registerCompostable(ModItems.LETTUCE_SEEDS);
+		VillagerInteractionRegistries.registerCompostable(ModItems.TOMATO_SEEDS);
     }
 }

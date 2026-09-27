@@ -1,7 +1,6 @@
 {
   "type": "minecraft:smelting",
   "category": "food",
-  "cookingtime": 200,
   "experience": 1.0,
   "ingredient": "tastyvanilla:raw_meat_sniffer",
   "result": {

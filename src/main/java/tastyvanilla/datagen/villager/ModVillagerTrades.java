@@ -57,7 +57,7 @@ public class ModVillagerTrades {
 
     public static final ResourceKey<VillagerTrade> CLERIC_3_RAW_MEAT_FROG_EMERALD = createKey("cleric/3/raw_meat_frog_emerald");
 
-    public static final ResourceKey<VillagerTrade> CLERIC_5_RAW_MEAT_ALLAY_EMERALD = createKey("cleric/3/raw_meat_allay_emerald");
+    public static final ResourceKey<VillagerTrade> CLERIC_5_RAW_MEAT_ALLAY_EMERALD = createKey("cleric/5/raw_meat_allay_emerald");
     public static final ResourceKey<VillagerTrade> CLERIC_5_RAW_MEAT_BAT_EMERALD = createKey("cleric/5/raw_meat_bat_emerald");
 
 
@@ -105,7 +105,7 @@ public class ModVillagerTrades {
         register(context, BUTCHER_3_RAW_MEAT_GOAT_EMERALD, new VillagerTrade(
                 new TradeCost(ModItems.RAW_MEAT_GOAT, 7),new ItemStackTemplate(Items.EMERALD), 16, 20, 0.05f, Optional.empty(), List.of()));
         register(context, BUTCHER_3_RAW_MEAT_LLAMA_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_LlAMA, 10),new ItemStackTemplate(Items.EMERALD), 16, 20, 0.05f, Optional.empty(), List.of()));
+                new TradeCost(ModItems.RAW_MEAT_LLAMA, 10),new ItemStackTemplate(Items.EMERALD), 16, 20, 0.05f, Optional.empty(), List.of()));
 
         register(context, BUTCHER_5_BERRY_BLACKBERRIES_EMERALD, new VillagerTrade(
                 new TradeCost(ModItems.BERRY_BLACKBERRIES, 10),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
@@ -140,7 +140,7 @@ public class ModVillagerTrades {
                 new TradeCost(ModItems.RAW_MEAT_FROG, 13),new ItemStackTemplate(Items.EMERALD), 12, 20, 0.05f, Optional.empty(), List.of()));
 
         register(context, CLERIC_5_RAW_MEAT_ALLAY_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_ALLAY, 13),new ItemStackTemplate(Items.EMERALD), 12, 20, 0.05f, Optional.empty(), List.of()));
+                new TradeCost(ModItems.RAW_MEAT_ALLAY, 13),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
         register(context, CLERIC_5_RAW_MEAT_BAT_EMERALD, new VillagerTrade(
                 new TradeCost(ModItems.RAW_MEAT_BAT, 4),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
 

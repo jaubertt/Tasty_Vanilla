@@ -68,10 +68,10 @@ public class ModVillagerTradeTags extends FabricTagsProvider<VillagerTrade> {
                 .add(TagEntry.element(ModVillagerTrades.FISHERMAN_5_RAW_MEAT_NAUTILUS_EMERALD.identifier()));
 
         getOrCreateRawBuilder(VillagerTradeTags.CLERIC_LEVEL_3)
-                .add(TagEntry.element(ModVillagerTrades.CLERIC_3_RAW_MEAT_FROG_EMERALD.identifier()))
-                .add(TagEntry.element(ModVillagerTrades.CLERIC_5_RAW_MEAT_ALLAY_EMERALD.identifier()));
+                .add(TagEntry.element(ModVillagerTrades.CLERIC_3_RAW_MEAT_FROG_EMERALD.identifier()));
 
-        getOrCreateRawBuilder(VillagerTradeTags.CLERIC_LEVEL_3)
-                .add(TagEntry.element(ModVillagerTrades.CLERIC_5_RAW_MEAT_BAT_EMERALD.identifier()));
+        getOrCreateRawBuilder(VillagerTradeTags.CLERIC_LEVEL_5)
+                .add(TagEntry.element(ModVillagerTrades.CLERIC_5_RAW_MEAT_BAT_EMERALD.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.CLERIC_5_RAW_MEAT_ALLAY_EMERALD.identifier()));
     }
 }
