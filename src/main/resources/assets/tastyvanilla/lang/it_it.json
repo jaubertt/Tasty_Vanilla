@@ -199,7 +199,7 @@
   "item.tastyvanilla.raw_meat_llama": "Costoletta di lama cruda",
   "item.tastyvanilla.raw_meat_wolf": "Lupo crudo",
   "item.tastyvanilla.raw_meat_fox": "Volpe cruda",
-  "item.tastyvanilla.raw_meat_cat": "Gatto crudo",
+  "item.tastyvanilla.raw_meat_cat": "Occhio di gatto",
   "item.tastyvanilla.raw_meat_parrot": "Pappagallo crudo",
   "item.tastyvanilla.raw_meat_frog": "Cosce di rana",
   "item.tastyvanilla.raw_meat_bat": "Ali di pipistrello",
@@ -210,6 +210,7 @@
   "item.tastyvanilla.raw_meat_armadillo": "Armadillo crudo",
   "item.tastyvanilla.raw_meat_allay": "Ali di alleviante",
   "item.tastyvanilla.raw_meat_nautilus": "Nautilo crudo",
+  "item.tastyvanilla.raw_meat_ravager": "Devastatore crudo",
 
   "item.tastyvanilla.cooked_meat_bear": "Bistecca di orso",
   "item.tastyvanilla.cooked_meat_camel": "Bistecca di dromedario",
@@ -220,15 +221,13 @@
   "item.tastyvanilla.cooked_meat_llama": "Costoletta di lama cotta",
   "item.tastyvanilla.cooked_meat_wolf": "Bistecca di lupo",
   "item.tastyvanilla.cooked_meat_fox": "Volpe cotta",
-  "item.tastyvanilla.cooked_meat_cat": "Gatto cotto",
   "item.tastyvanilla.cooked_meat_parrot": "Pappagallo cotto",
   "item.tastyvanilla.cooked_meat_frog": "Cosce di rana cotte",
-  "item.tastyvanilla.cooked_meat_bat": "Ali di pipistrello cotte",
   "item.tastyvanilla.cooked_meat_turtle": "Tartaruga cotta",
   "item.tastyvanilla.cooked_meat_dolphin": "Delfino cotto",
   "item.tastyvanilla.cooked_meat_squid": "Calamaro cotto",
   "item.tastyvanilla.cooked_meat_axolotl": "Assolotto cotto",
   "item.tastyvanilla.cooked_meat_armadillo": "Armadillo cotto",
-  "item.tastyvanilla.cooked_meat_allay": "Ali di alleviante cotte",
-  "item.tastyvanilla.cooked_meat_nautilus": "Nautilo cotto"
+  "item.tastyvanilla.cooked_meat_nautilus": "Nautilo cotto",
+  "item.tastyvanilla.cooked_meat_ravager": "Bistecca di devastatore"
 }
