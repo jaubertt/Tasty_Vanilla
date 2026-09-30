@@ -9,7 +9,7 @@
   "item.tastyvanilla.cookie_apple": "Apple Biscuit",
   "item.tastyvanilla.cookie_pumpkin": "Pumpkin Biscuit",
   "item.tastyvanilla.cookie_spider_eye": "Spider Eye Biscuit",
-  "item.tastyvanilla.cookie_oatmeal": "Oat Biscuit",
+  "item.tastyvanilla.cookie_oatmeal": "Oatmeal Biscuit",
   "item.tastyvanilla.cookie_sugar": "Sugar Biscuit",
 
 
@@ -36,7 +36,7 @@
 
 
   //BREAD
-  "item.tastyvanilla.bread_baguel": "Baguel",
+  "item.tastyvanilla.bread_baguel": "Bagel",
   "item.tastyvanilla.bread_baguette": "Baguette",
   "item.tastyvanilla.bread_baked": "Baked Bread",
   "item.tastyvanilla.bread_brownie": "Brownie",
@@ -80,7 +80,7 @@
   "block.tastyvanilla.eggplant_crop": "Aubergine Crop",
 
   "item.tastyvanilla.garlic": "Garlic",
-  "item.tastyvanilla.garlic_crop": "Garlic Crop",
+  "block.tastyvanilla.garlic_crop": "Garlic Crop",
 
   "item.tastyvanilla.lettuce": "Lettuce",
   "item.tastyvanilla.lettuce_seeds": "Lettuce Seeds",
@@ -97,14 +97,14 @@
   "block.tastyvanilla.tomato_crop": "Tomato Crop" ,
 
   "item.tastyvanilla.rice": "Rice",
-  "item.tastyvanilla.raw_rice": "Raw Rice",
+  "item.tastyvanilla.raw_rice": "Rice Panicle",
   "block.tastyvanilla.rice_crop": "Rice Crop",
 
 
   //FOOD CROPS
   "item.tastyvanilla.bread_garlic": "Garlic Bread",
   "item.tastyvanilla.dough_garlic": "Garlic Dough",
-  "item.tastyvanilla.food_baked_sweet_potato": "Baked Sweet Potato",
+  "item.tastyvanilla.food_baked_sweet_potato": "Jacket Sweet Potato",
   "item.tastyvanilla.food_chilli_stew": "Chilli Stew",
   "item.tastyvanilla.food_coleslaw": "Coleslaw",
   "item.tastyvanilla.food_onion_soup": "Onion Soup",
@@ -116,7 +116,7 @@
   "item.tastyvanilla.food_bumsblech_salad": "Bumsblech Salad",
   "item.tastyvanilla.food_sweet_potato_fries": "Sweet Potato Chips",
   "item.tastyvanilla.food_wrap": "Wrap",
-  "item.tastyvanilla.food_wrap_veggie": "Vegetable Wrap",
+  "item.tastyvanilla.food_wrap_veggie": "Veggie Wrap",
 
 
   //BERRIES & GRAPES
@@ -141,7 +141,7 @@
   "item.tastyvanilla.berry_strawberries": "Strawberry",
   "block.tastyvanilla.berry_strawberry_bush": "Strawberry Bush" ,
 
-  "item.tastyvanilla.berry_white_currant_berries": "Whitecurrant Berries",
+  "item.tastyvanilla.berry_white_currant_berries": "Whitecurrants",
   "block.tastyvanilla.berry_white_currant_berry_bush": "Whitecurrant Bush" ,
 
   //JAMS
@@ -155,7 +155,7 @@
   "item.tastyvanilla.jam_raspberry": "Raspberry Jam",
   "item.tastyvanilla.jam_sweet_berry": "Sweet Berry Jam",
   "item.tastyvanilla.jam_strawberry": "Strawberry Jam",
-  "item.tastyvanilla.jam_white_currant_berry": "White Currant Jam",
+  "item.tastyvanilla.jam_white_currant_berry": "Whitecurrant Jam",
 
   "item.tastyvanilla.jam_blackberry_mash": "Blackberry Purée",
   "item.tastyvanilla.jam_blueberry_mash": "Blueberry Purée",
@@ -165,7 +165,7 @@
   "item.tastyvanilla.jam_raspberry_mash": "Raspberry Purée",
   "item.tastyvanilla.jam_sweet_berry_mash": "Sweet Berry Purée",
   "item.tastyvanilla.jam_strawberry_mash": "Strawberry Purée",
-  "item.tastyvanilla.jam_white_currant_berry_mash": "White Currant Purée",
+  "item.tastyvanilla.jam_white_currant_berry_mash": "Whitecurrant Purée",
 
 
   //MILK & CHEESE
@@ -177,15 +177,57 @@
   "block.tastyvanilla.cheese_fresh": "Fresh Cheese",
   "item.tastyvanilla.cheese_soft": "Soft Cheese",
   "block.tastyvanilla.cheese_soft": "Soft Cheese",
-  "item.tastyvanilla.cheese_semihard": "Semihard Cheese",
-  "block.tastyvanilla.cheese_semihard": "Semihard Cheese",
+  "item.tastyvanilla.cheese_semihard": "Semi-hard Cheese",
+  "block.tastyvanilla.cheese_semihard": "Semi-hard Cheese",
   "item.tastyvanilla.cheese_hard": "Hard Cheese",
   "block.tastyvanilla.cheese_hard": "Hard Cheese",
-
 
   //BLOCKS
   "block.tastyvanilla.salt_block": "Block of Salt",
   "item.tastyvanilla.salt_block": "Block of Salt",
   "block.tastyvanilla.sugar_block": "Block of Sugar",
-  "item.tastyvanilla.sugar_block": "Block of Sugar"
+  "item.tastyvanilla.sugar_block": "Block of Sugar",
+
+  //MEATS & DROPS
+  "item.tastyvanilla.raw_meat_bear": "Raw Bear",
+  "item.tastyvanilla.raw_meat_camel": "Raw Camel",
+  "item.tastyvanilla.raw_meat_horse": "Raw Horse",
+  "item.tastyvanilla.raw_meat_veggie": "Raw Veggie Meat",
+  "item.tastyvanilla.raw_meat_sniffer": "Raw Sniffer",
+  "item.tastyvanilla.raw_meat_goat": "Raw Goat Chop",
+  "item.tastyvanilla.raw_meat_llama": "Raw Llama Chop",
+  "item.tastyvanilla.raw_meat_wolf": "Raw Wolf",
+  "item.tastyvanilla.raw_meat_fox": "Raw Fox",
+  "item.tastyvanilla.raw_meat_cat": "Raw Cat",
+  "item.tastyvanilla.raw_meat_parrot": "Raw Parrot",
+  "item.tastyvanilla.raw_meat_frog": "Frog Legs",
+  "item.tastyvanilla.raw_meat_bat": "Bat Wings",
+  "item.tastyvanilla.raw_meat_turtle": "Raw Turtle",
+  "item.tastyvanilla.raw_meat_dolphin": "Raw Dolphin",
+  "item.tastyvanilla.raw_meat_squid": "Raw Squid",
+  "item.tastyvanilla.raw_meat_axolotl": "Raw Axolotl",
+  "item.tastyvanilla.raw_meat_armadillo": "Raw Armadillo",
+  "item.tastyvanilla.raw_meat_allay": "Allay Wings",
+  "item.tastyvanilla.raw_meat_nautilus": "Raw Nautilus",
+
+  "item.tastyvanilla.cooked_meat_bear": "Bear Steak",
+  "item.tastyvanilla.cooked_meat_camel": "Camel Steak",
+  "item.tastyvanilla.cooked_meat_horse": "Horse Steak",
+  "item.tastyvanilla.cooked_meat_veggie": "Veggie Steak",
+  "item.tastyvanilla.cooked_meat_sniffer": "Sniffer Roast",
+  "item.tastyvanilla.cooked_meat_goat": "Cooked Goat Chop",
+  "item.tastyvanilla.cooked_meat_llama": "Cooked Llama Chop",
+  "item.tastyvanilla.cooked_meat_wolf": "Wolf Steak",
+  "item.tastyvanilla.cooked_meat_fox": "Cooked Fox",
+  "item.tastyvanilla.cooked_meat_cat": "Cooked Cat",
+  "item.tastyvanilla.cooked_meat_parrot": "Roast Parrot",
+  "item.tastyvanilla.cooked_meat_frog": "Cooked Frog Legs",
+  "item.tastyvanilla.cooked_meat_bat": "Cooked Bat Wings",
+  "item.tastyvanilla.cooked_meat_turtle": "Cooked Turtle",
+  "item.tastyvanilla.cooked_meat_dolphin": "Cooked Dolphin",
+  "item.tastyvanilla.cooked_meat_squid": "Cooked Squid",
+  "item.tastyvanilla.cooked_meat_axolotl": "Cooked Axolotl",
+  "item.tastyvanilla.cooked_meat_armadillo": "Cooked Armadillo",
+  "item.tastyvanilla.cooked_meat_allay": "Cooked Allay Wings",
+  "item.tastyvanilla.cooked_meat_nautilus": "Cooked Nautilus"
 }
