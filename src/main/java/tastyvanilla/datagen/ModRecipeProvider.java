@@ -37,17 +37,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 cookMeatRecipes("cooked_meat_llama", ModItems.RAW_MEAT_LLAMA, ModItems.COOKED_MEAT_LLAMA, 0.35f);
                 cookMeatRecipes("cooked_meat_wolf", ModItems.RAW_MEAT_WOLF, ModItems.COOKED_MEAT_WOLF, 0.35f);
                 cookMeatRecipes("cooked_meat_fox", ModItems.RAW_MEAT_FOX, ModItems.COOKED_MEAT_FOX, 0.35f);
-                cookMeatRecipes("cooked_meat_cat", ModItems.RAW_MEAT_CAT, ModItems.COOKED_MEAT_CAT, 0.35f);
                 cookMeatRecipes("cooked_meat_parrot", ModItems.RAW_MEAT_PARROT, ModItems.COOKED_MEAT_PARROT, 0.35f);
                 cookMeatRecipes("cooked_meat_frog", ModItems.RAW_MEAT_FROG, ModItems.COOKED_MEAT_FROG, 0.35f);
-                cookMeatRecipes("cooked_meat_bat", ModItems.RAW_MEAT_BAT, ModItems.COOKED_MEAT_BAT, 0.50f);
                 cookMeatRecipes("cooked_meat_turtle", ModItems.RAW_MEAT_TURTLE, ModItems.COOKED_MEAT_TURTLE, 0.50f);
                 cookMeatRecipes("cooked_meat_dolphin", ModItems.RAW_MEAT_DOLPHIN, ModItems.COOKED_MEAT_DOLPHIN, 0.50f);
                 cookMeatRecipes("cooked_meat_squid", ModItems.RAW_MEAT_SQUID, ModItems.COOKED_MEAT_SQUID, 0.50f);
                 cookMeatRecipes("cooked_meat_axolotl", ModItems.RAW_MEAT_AXOLOTL, ModItems.COOKED_MEAT_AXOLOTL, 0.70f);
                 cookMeatRecipes("cooked_meat_armadillo", ModItems.RAW_MEAT_ARMADILLO, ModItems.COOKED_MEAT_ARMADILLO, 0.50f);
-                cookMeatRecipes("cooked_meat_allay", ModItems.RAW_MEAT_ALLAY, ModItems.COOKED_MEAT_ALLAY, 0.50f);
                 cookMeatRecipes("cooked_meat_nautilus", ModItems.RAW_MEAT_NAUTILUS, ModItems.COOKED_MEAT_NAUTILUS, 0.50f);
+                cookMeatRecipes("cooked_meat_ravager", ModItems.RAW_MEAT_RAVAGER, ModItems.COOKED_MEAT_RAVAGER, 0.50f);
+
             }
 
             private void cookMeatRecipes(String name, ItemLike input, ItemLike result, float xp) {

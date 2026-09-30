@@ -45,21 +45,21 @@ public class ModFoods {
     public static final FoodProperties BREAD_SWEET_ROLL = new FoodProperties.Builder().nutrition(8).saturationModifier(0.3f).build();
 
     //PIES
-    public static final FoodProperties PIE_APPLE = new FoodProperties.Builder().nutrition(8).saturationModifier(0.8f).build();
-    public static final FoodProperties PIE_CHICKEN = new FoodProperties.Builder().nutrition(8).saturationModifier(1.2f).build();
-    public static final FoodProperties PIE_CHOCOLATE = new FoodProperties.Builder().nutrition(8).saturationModifier(0.8f).build();
-    public static final FoodProperties PIE_CHORUS_FRUIT = new FoodProperties.Builder().nutrition(8).saturationModifier(0.8f).alwaysEdible().build();
-    public static final FoodProperties PIE_FISH = new FoodProperties.Builder().nutrition(8).saturationModifier(1.2f).build();
-    public static final FoodProperties PIE_FUNGUS = new FoodProperties.Builder().nutrition(8).saturationModifier(1.8f).build();
-    public static final FoodProperties PIE_GLOW_BERRY = new FoodProperties.Builder().nutrition(8).saturationModifier(0.8f).build();
-    public static final FoodProperties PIE_HONEY = new FoodProperties.Builder().nutrition(8).saturationModifier(1.2f).build();
-    public static final FoodProperties PIE_MEAT = new FoodProperties.Builder().nutrition(8).saturationModifier(1.2f).build();
-    public static final FoodProperties PIE_MELON = new FoodProperties.Builder().nutrition(8).saturationModifier(0.8f).build();
-    public static final FoodProperties PIE_MUSHROOM = new FoodProperties.Builder().nutrition(8).saturationModifier(0.8f).build();
-    public static final FoodProperties PIE_SHEPHERDS = new FoodProperties.Builder().nutrition(8).saturationModifier(1.2f).build();
-    public static final FoodProperties PIE_SWEET_BERRY = new FoodProperties.Builder().nutrition(8).saturationModifier(0.8f).build();
-    public static final FoodProperties PIE_STRAWBERRY = new FoodProperties.Builder().nutrition(8).saturationModifier(0.8f).build();
-    public static final FoodProperties PIE_VEGETABLE = new FoodProperties.Builder().nutrition(8).saturationModifier(1.2f).build();
+    public static final FoodProperties PIE_APPLE = new FoodProperties.Builder().nutrition(8).saturationModifier(0.3f).build();
+    public static final FoodProperties PIE_CHICKEN = new FoodProperties.Builder().nutrition(8).saturationModifier(0.8f).build();
+    public static final FoodProperties PIE_CHOCOLATE = new FoodProperties.Builder().nutrition(8).saturationModifier(0.3f).build();
+    public static final FoodProperties PIE_CHORUS_FRUIT = new FoodProperties.Builder().nutrition(8).saturationModifier(0.3f).alwaysEdible().build();
+    public static final FoodProperties PIE_FISH = new FoodProperties.Builder().nutrition(8).saturationModifier(0.8f).build();
+    public static final FoodProperties PIE_FUNGUS = new FoodProperties.Builder().nutrition(8).saturationModifier(0.6f).build();
+    public static final FoodProperties PIE_GLOW_BERRY = new FoodProperties.Builder().nutrition(8).saturationModifier(0.3f).build();
+    public static final FoodProperties PIE_HONEY = new FoodProperties.Builder().nutrition(8).saturationModifier(0.3f).build();
+    public static final FoodProperties PIE_MEAT = new FoodProperties.Builder().nutrition(8).saturationModifier(0.8f).build();
+    public static final FoodProperties PIE_MELON = new FoodProperties.Builder().nutrition(8).saturationModifier(0.3f).build();
+    public static final FoodProperties PIE_MUSHROOM = new FoodProperties.Builder().nutrition(8).saturationModifier(0.6f).build();
+    public static final FoodProperties PIE_SHEPHERDS = new FoodProperties.Builder().nutrition(8).saturationModifier(0.8f).build();
+    public static final FoodProperties PIE_SWEET_BERRY = new FoodProperties.Builder().nutrition(8).saturationModifier(0.3f).build();
+    public static final FoodProperties PIE_STRAWBERRY = new FoodProperties.Builder().nutrition(8).saturationModifier(0.3f).build();
+    public static final FoodProperties PIE_VEGETABLE = new FoodProperties.Builder().nutrition(8).saturationModifier(0.6f).build();
 
     //CROPS
     public static final FoodProperties CABBAGE = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
@@ -73,19 +73,19 @@ public class ModFoods {
     public static final FoodProperties TOMATO = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
 
     //FOOD FROM CROPS
-    public static final FoodProperties FOOD_TOMATO_SOUP = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
-    public static final FoodProperties FOOD_SALAD = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
-    public static final FoodProperties FOOD_WRAP_VEGGIE = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
-    public static final FoodProperties FOOD_WRAP = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
-    public static final FoodProperties FOOD_ONION_SOUP = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
-    public static final FoodProperties FOOD_ONION_RING = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
-    public static final FoodProperties FOOD_ROASTED_GARLIC = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
-    public static final FoodProperties FOOD_BAKED_SWEET_POTATO = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
-    public static final FoodProperties FOOD_SWEET_POTATO_FRIES = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
-    public static final FoodProperties FOOD_POTATO_FRIES = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
-    public static final FoodProperties FOOD_COLESLAW = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
-    public static final FoodProperties FOOD_CHILLI_STEW = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
-    public static final FoodProperties FOOD_BUMSBLECH_SALAD = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_TOMATO_SOUP = new FoodProperties.Builder().nutrition(6).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_SALAD = new FoodProperties.Builder().nutrition(6).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_WRAP_VEGGIE = new FoodProperties.Builder().nutrition(8).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_WRAP = new FoodProperties.Builder().nutrition(10).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_ONION_SOUP = new FoodProperties.Builder().nutrition(6).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_ONION_RING = new FoodProperties.Builder().nutrition(5).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_ROASTED_GARLIC = new FoodProperties.Builder().nutrition(5).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_BAKED_SWEET_POTATO = new FoodProperties.Builder().nutrition(5).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_SWEET_POTATO_FRIES = new FoodProperties.Builder().nutrition(5).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_POTATO_FRIES = new FoodProperties.Builder().nutrition(5).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_COLESLAW = new FoodProperties.Builder().nutrition(6).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_CHILLI_STEW = new FoodProperties.Builder().nutrition(10).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_BUMSBLECH_SALAD = new FoodProperties.Builder().nutrition(10).saturationModifier(0.6f).build();
 
     public static final FoodProperties BREAD_GARLIC = new FoodProperties.Builder().nutrition(8).saturationModifier(0.6f).build();
 
@@ -138,4 +138,11 @@ public class ModFoods {
             .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.NAUSEA, 600, 0), 0.8F)).build();
     public static final Consumable FOOD_POISONING = Consumables.defaultFood()
             .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3F)).build();
+    public static final Consumable ALLAY_WINGS = Consumables.defaultFood() // Slow Falling, 10 seconds
+            .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 200, 0))).build();
+    public static final Consumable BAT_WINGS = Consumables.defaultFood() // Blindness, 5 seconds
+            .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.BLINDNESS, 100, 0))).build();
+    public static final Consumable CAT_EYE = Consumables.defaultFood() // Night Vision, 20 seconds
+            .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0))).build();
+
 }

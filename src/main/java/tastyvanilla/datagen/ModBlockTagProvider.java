@@ -86,5 +86,39 @@ public class ModBlockTagProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlockIds.SWEET_POTATO_CROP)
                 .add(ModBlockIds.TOMATO_CROP);
 
+        //BERRY BUSHES, LIKE THE VANILLA SWEET BERRY BUSH
+        builder(BlockTags.FALL_DAMAGE_RESETTING)
+                .add(ModBlockIds.BERRY_BLACKBERRY_BUSH)
+                .add(ModBlockIds.BERRY_BLUEBERRY_BUSH)
+                .add(ModBlockIds.BERRY_ELDERBERRY_BUSH)
+                .add(ModBlockIds.BERRY_GOJI_BERRY_BUSH)
+                .add(ModBlockIds.BERRY_GOOSEBERRY_BUSH)
+                .add(ModBlockIds.BERRY_RASPBERRY_BUSH)
+                .add(ModBlockIds.BERRY_STRAWBERRY_BUSH)
+                .add(ModBlockIds.BERRY_WHITE_CURRANT_BERRY_BUSH)
+        ;
+
+        builder(BlockTags.HAPPY_GHAST_AVOIDS)
+                .add(ModBlockIds.BERRY_BLACKBERRY_BUSH)
+                .add(ModBlockIds.BERRY_BLUEBERRY_BUSH)
+                .add(ModBlockIds.BERRY_ELDERBERRY_BUSH)
+                .add(ModBlockIds.BERRY_GOJI_BERRY_BUSH)
+                .add(ModBlockIds.BERRY_GOOSEBERRY_BUSH)
+                .add(ModBlockIds.BERRY_RASPBERRY_BUSH)
+                .add(ModBlockIds.BERRY_STRAWBERRY_BUSH)
+                .add(ModBlockIds.BERRY_WHITE_CURRANT_BERRY_BUSH)
+        ;
+
+        builder(BlockTags.PREVENT_MOB_SPAWNING_INSIDE)
+                .add(ModBlockIds.BERRY_BLACKBERRY_BUSH)
+                .add(ModBlockIds.BERRY_BLUEBERRY_BUSH)
+                .add(ModBlockIds.BERRY_ELDERBERRY_BUSH)
+                .add(ModBlockIds.BERRY_GOJI_BERRY_BUSH)
+                .add(ModBlockIds.BERRY_GOOSEBERRY_BUSH)
+                .add(ModBlockIds.BERRY_RASPBERRY_BUSH)
+                .add(ModBlockIds.BERRY_STRAWBERRY_BUSH)
+                .add(ModBlockIds.BERRY_WHITE_CURRANT_BERRY_BUSH)
+        ;
+
     }
 }

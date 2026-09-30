@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    [
-      "minecraft:milk_bucket"
-    ],
+    "#c:buckets/milk",
     [
       "tastyvanilla:salt"
     ]

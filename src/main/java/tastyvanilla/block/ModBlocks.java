@@ -2,6 +2,7 @@ package tastyvanilla.block;
 
 
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
+import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.LandPathTypeRegistry;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -164,6 +165,17 @@ public class ModBlocks {
         LandPathTypeRegistry.register(BERRY_RASPBERRY_BUSH, PathType.DAMAGING, null);
         LandPathTypeRegistry.register(BERRY_STRAWBERRY_BUSH, PathType.DAMAGING, null);
         LandPathTypeRegistry.register(BERRY_WHITE_CURRANT_BERRY_BUSH, PathType.DAMAGING, null);
+
+
+        //BERRY BUSHES CATCH FIRE AND BURN LIKE THE VANILLA SWEET BERRY BUSH (60, 100)
+        FlammableBlockRegistry.getDefaultInstance().add(BERRY_BLACKBERRY_BUSH, 60, 100);
+        FlammableBlockRegistry.getDefaultInstance().add(BERRY_BLUEBERRY_BUSH, 60, 100);
+        FlammableBlockRegistry.getDefaultInstance().add(BERRY_ELDERBERRY_BUSH, 60, 100);
+        FlammableBlockRegistry.getDefaultInstance().add(BERRY_GOJI_BERRY_BUSH, 60, 100);
+        FlammableBlockRegistry.getDefaultInstance().add(BERRY_GOOSEBERRY_BUSH, 60, 100);
+        FlammableBlockRegistry.getDefaultInstance().add(BERRY_RASPBERRY_BUSH, 60, 100);
+        FlammableBlockRegistry.getDefaultInstance().add(BERRY_STRAWBERRY_BUSH, 60, 100);
+        FlammableBlockRegistry.getDefaultInstance().add(BERRY_WHITE_CURRANT_BERRY_BUSH, 60, 100);
 
     }
 }

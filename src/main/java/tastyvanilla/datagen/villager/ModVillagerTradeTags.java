@@ -35,7 +35,6 @@ public class ModVillagerTradeTags extends FabricTagsProvider<VillagerTrade> {
         getOrCreateRawBuilder(VillagerTradeTags.BUTCHER_LEVEL_1)
                     .add(TagEntry.element(ModVillagerTrades.BUTCHER_1_RAW_MEAT_WOLF_EMERALD.identifier()))
                     .add(TagEntry.element(ModVillagerTrades.BUTCHER_1_RAW_MEAT_FOX_EMERALD.identifier()))
-                    .add(TagEntry.element(ModVillagerTrades.BUTCHER_1_RAW_MEAT_CAT_EMERALD.identifier()))
                     .add(TagEntry.element(ModVillagerTrades.BUTCHER_1_RAW_MEAT_PARROT_EMERALD.identifier()))
                     .add(TagEntry.element(ModVillagerTrades.BUTCHER_1_RAW_MEAT_ARMADILLO_EMERALD.identifier()));
 
@@ -47,6 +46,9 @@ public class ModVillagerTradeTags extends FabricTagsProvider<VillagerTrade> {
                 .add(TagEntry.element(ModVillagerTrades.BUTCHER_3_RAW_MEAT_SNIFFER_EMERALD.identifier()))
                 .add(TagEntry.element(ModVillagerTrades.BUTCHER_3_RAW_MEAT_GOAT_EMERALD.identifier()))
                 .add(TagEntry.element(ModVillagerTrades.BUTCHER_3_RAW_MEAT_LLAMA_EMERALD.identifier()));
+
+        getOrCreateRawBuilder(VillagerTradeTags.BUTCHER_LEVEL_4)
+                .add(TagEntry.element(ModVillagerTrades.BUTCHER_4_RAW_MEAT_RAVAGER_EMERALD.identifier()));
 
         getOrCreateRawBuilder(VillagerTradeTags.BUTCHER_LEVEL_5)
                 .add(TagEntry.element(ModVillagerTrades.BUTCHER_5_BERRY_BLACKBERRIES_EMERALD.identifier()))
@@ -68,10 +70,12 @@ public class ModVillagerTradeTags extends FabricTagsProvider<VillagerTrade> {
                 .add(TagEntry.element(ModVillagerTrades.FISHERMAN_5_RAW_MEAT_NAUTILUS_EMERALD.identifier()));
 
         getOrCreateRawBuilder(VillagerTradeTags.CLERIC_LEVEL_3)
-                .add(TagEntry.element(ModVillagerTrades.CLERIC_3_RAW_MEAT_FROG_EMERALD.identifier()));
+                .add(TagEntry.element(ModVillagerTrades.CLERIC_3_RAW_MEAT_FROG_EMERALD.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.CLERIC_3_RAW_MEAT_CAT_EMERALD.identifier()));
 
-        getOrCreateRawBuilder(VillagerTradeTags.CLERIC_LEVEL_5)
-                .add(TagEntry.element(ModVillagerTrades.CLERIC_5_RAW_MEAT_BAT_EMERALD.identifier()))
-                .add(TagEntry.element(ModVillagerTrades.CLERIC_5_RAW_MEAT_ALLAY_EMERALD.identifier()));
+
+        getOrCreateRawBuilder(VillagerTradeTags.CLERIC_LEVEL_4)
+                .add(TagEntry.element(ModVillagerTrades.CLERIC_4_RAW_MEAT_BAT_EMERALD.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.CLERIC_4_RAW_MEAT_ALLAY_EMERALD.identifier()));
     }
 }

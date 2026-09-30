@@ -2,8 +2,8 @@
   "type": "minecraft:smoking",
   "category": "food",
   "experience": 0.5,
-  "ingredient": "tastyvanilla:raw_meat_bat",
+  "ingredient": "tastyvanilla:raw_meat_ravager",
   "result": {
-    "id": "tastyvanilla:cooked_meat_bat"
+    "id": "tastyvanilla:cooked_meat_ravager"
   }
 }

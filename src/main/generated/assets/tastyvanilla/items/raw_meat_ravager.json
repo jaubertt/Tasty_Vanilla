@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "tastyvanilla:item/cooked_meat_bat"
+    "model": "tastyvanilla:item/raw_meat_ravager"
   }
 }

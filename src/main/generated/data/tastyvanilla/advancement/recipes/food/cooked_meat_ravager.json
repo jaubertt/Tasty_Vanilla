@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_raw_meat_cat": {
+    "has_raw_meat_ravager": {
       "conditions": {
         "items": [
           {
-            "items": "tastyvanilla:raw_meat_cat"
+            "items": "tastyvanilla:raw_meat_ravager"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tastyvanilla:cooked_meat_cat_from_smoking"
+        "recipe": "tastyvanilla:cooked_meat_ravager"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_raw_meat_cat"
+      "has_raw_meat_ravager"
     ]
   ],
   "rewards": {
     "recipes": [
-      "tastyvanilla:cooked_meat_cat_from_smoking"
+      "tastyvanilla:cooked_meat_ravager"
     ]
   }
 }

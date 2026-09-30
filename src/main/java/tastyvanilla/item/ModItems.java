@@ -1,6 +1,7 @@
 package tastyvanilla.item;
 
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
+import net.fabricmc.fabric.api.item.v1.DefaultItemComponentEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -135,26 +136,28 @@ public class ModItems {
     public static final Item GOAT_MILK_BUCKET = registerItem(ModItemIds.GOAT_MILK_BUCKET,properties -> new Item(properties.craftRemainder(Items.BUCKET).component(DataComponents.CONSUMABLE,Consumables.MILK_BUCKET).usingConvertsTo(Items.BUCKET).stacksTo(1)));
 
     //MEATS & DROPS
-    public static final Item RAW_MEAT_BEAR = registerItem(ModItemIds.RAW_MEAT_BEAR, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1)));
-    public static final Item RAW_MEAT_CAMEL = registerItem(ModItemIds.RAW_MEAT_CAMEL, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1)));
-    public static final Item RAW_MEAT_HORSE = registerItem(ModItemIds.RAW_MEAT_HORSE, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1)));
+    public static final Item RAW_MEAT_BEAR = registerItem(ModItemIds.RAW_MEAT_BEAR, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1,ModFoods.FOOD_POISONING)));
+    public static final Item RAW_MEAT_CAMEL = registerItem(ModItemIds.RAW_MEAT_CAMEL, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1,ModFoods.FOOD_POISONING)));
+    public static final Item RAW_MEAT_HORSE = registerItem(ModItemIds.RAW_MEAT_HORSE, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1,ModFoods.FOOD_POISONING)));
     public static final Item RAW_MEAT_VEGGIE = registerItem(ModItemIds.RAW_MEAT_VEGGIE, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_2)));
-    public static final Item RAW_MEAT_SNIFFER = registerItem(ModItemIds.RAW_MEAT_SNIFFER, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1)));
-    public static final Item RAW_MEAT_GOAT = registerItem(ModItemIds.RAW_MEAT_GOAT, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1)));
-    public static final Item RAW_MEAT_LLAMA = registerItem(ModItemIds.RAW_MEAT_LLAMA, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1)));
+    public static final Item RAW_MEAT_SNIFFER = registerItem(ModItemIds.RAW_MEAT_SNIFFER, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1,ModFoods.FOOD_POISONING)));
+    public static final Item RAW_MEAT_GOAT = registerItem(ModItemIds.RAW_MEAT_GOAT, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1,ModFoods.FOOD_POISONING)));
+    public static final Item RAW_MEAT_LLAMA = registerItem(ModItemIds.RAW_MEAT_LLAMA, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1,ModFoods.FOOD_POISONING)));
     public static final Item RAW_MEAT_WOLF = registerItem(ModItemIds.RAW_MEAT_WOLF, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_2,ModFoods.FOOD_POISONING)));
     public static final Item RAW_MEAT_FOX = registerItem(ModItemIds.RAW_MEAT_FOX, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3,ModFoods.FOOD_POISONING)));
-    public static final Item RAW_MEAT_CAT = registerItem(ModItemIds.RAW_MEAT_CAT, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3,ModFoods.FOOD_POISONING)));
     public static final Item RAW_MEAT_PARROT = registerItem(ModItemIds.RAW_MEAT_PARROT, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3,ModFoods.FOOD_POISONING)));
-    public static final Item RAW_MEAT_FROG = registerItem(ModItemIds.RAW_MEAT_FROG, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3)));
-    public static final Item RAW_MEAT_BAT = registerItem(ModItemIds.RAW_MEAT_BAT, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_4,ModFoods.FOOD_POISONING)));
+    public static final Item RAW_MEAT_FROG = registerItem(ModItemIds.RAW_MEAT_FROG, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3,ModFoods.FOOD_POISONING)));
     public static final Item RAW_MEAT_TURTLE = registerItem(ModItemIds.RAW_MEAT_TURTLE, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3,ModFoods.FOOD_POISONING)));
     public static final Item RAW_MEAT_DOLPHIN = registerItem(ModItemIds.RAW_MEAT_DOLPHIN, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_2,ModFoods.FOOD_POISONING)));
     public static final Item RAW_MEAT_SQUID = registerItem(ModItemIds.RAW_MEAT_SQUID, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3)));
     public static final Item RAW_MEAT_AXOLOTL = registerItem(ModItemIds.RAW_MEAT_AXOLOTL, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3,ModFoods.FOOD_POISONING)));
-    public static final Item RAW_MEAT_ARMADILLO = registerItem(ModItemIds.RAW_MEAT_ARMADILLO, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_2)));
-    public static final Item RAW_MEAT_ALLAY = registerItem(ModItemIds.RAW_MEAT_ALLAY, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_4)));
+    public static final Item RAW_MEAT_ARMADILLO = registerItem(ModItemIds.RAW_MEAT_ARMADILLO, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_2,ModFoods.FOOD_POISONING)));
     public static final Item RAW_MEAT_NAUTILUS = registerItem(ModItemIds.RAW_MEAT_NAUTILUS, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_3)));
+    public static final Item RAW_MEAT_RAVAGER = registerItem(ModItemIds.RAW_MEAT_RAVAGER, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_1,ModFoods.FOOD_POISONING)));
+    public static final Item RAW_MEAT_BAT = registerItem(ModItemIds.RAW_MEAT_BAT, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_4,ModFoods.BAT_WINGS)));
+    public static final Item RAW_MEAT_ALLAY = registerItem(ModItemIds.RAW_MEAT_ALLAY, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_4,ModFoods.ALLAY_WINGS)));
+    public static final Item RAW_MEAT_CAT = registerItem(ModItemIds.RAW_MEAT_CAT, properties -> new Item(properties.food(ModFoods.RAW_MEAT_TIER_4,ModFoods.CAT_EYE)));
+
 
     public static final Item COOKED_MEAT_BEAR = registerItem(ModItemIds.COOKED_MEAT_BEAR, properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_1)));
     public static final Item COOKED_MEAT_CAMEL = registerItem(ModItemIds.COOKED_MEAT_CAMEL, properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_1)));
@@ -165,17 +168,16 @@ public class ModItems {
     public static final Item COOKED_MEAT_LLAMA = registerItem(ModItemIds.COOKED_MEAT_LLAMA, properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_1)));
     public static final Item COOKED_MEAT_WOLF = registerItem(ModItemIds.COOKED_MEAT_WOLF, properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_2)));
     public static final Item COOKED_MEAT_FOX = registerItem(ModItemIds.COOKED_MEAT_FOX, properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_3)));
-    public static final Item COOKED_MEAT_CAT = registerItem(ModItemIds.COOKED_MEAT_CAT, properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_3)));
     public static final Item COOKED_MEAT_PARROT = registerItem(ModItemIds.COOKED_MEAT_PARROT, properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_3)));
     public static final Item COOKED_MEAT_FROG = registerItem(ModItemIds.COOKED_MEAT_FROG, properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_3)));
-    public static final Item COOKED_MEAT_BAT = registerItem(ModItemIds.COOKED_MEAT_BAT, properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_4)));
     public static final Item COOKED_MEAT_TURTLE = registerItem(ModItemIds.COOKED_MEAT_TURTLE, properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_3)));
     public static final Item COOKED_MEAT_DOLPHIN = registerItem(ModItemIds.COOKED_MEAT_DOLPHIN, properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_2)));
     public static final Item COOKED_MEAT_SQUID = registerItem(ModItemIds.COOKED_MEAT_SQUID, properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_3)));
     public static final Item COOKED_MEAT_AXOLOTL = registerItem(ModItemIds.COOKED_MEAT_AXOLOTL, properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_3)));
     public static final Item COOKED_MEAT_ARMADILLO = registerItem(ModItemIds.COOKED_MEAT_ARMADILLO, properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_2)));
-    public static final Item COOKED_MEAT_ALLAY = registerItem(ModItemIds.COOKED_MEAT_ALLAY, properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_4)));
     public static final Item COOKED_MEAT_NAUTILUS = registerItem(ModItemIds.COOKED_MEAT_NAUTILUS, properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_3)));
+    public static final Item COOKED_MEAT_RAVAGER = registerItem(ModItemIds.COOKED_MEAT_RAVAGER, properties -> new Item(properties.food(ModFoods.COOKED_MEAT_TIER_1)));
+
 
     //BERRIES & JAMS
     public static final Item BERRY_BLACKBERRIES = registerItem(ModItemIds.BERRY_BLACKBERRIES, properties -> new BlockItem(ModBlocks.BERRY_BLACKBERRY_BUSH,properties.food(ModFoods.BERRY_BLACKBERRIES).useItemDescriptionPrefix()));
@@ -343,6 +345,8 @@ public class ModItems {
             output.accept(RAW_MEAT_ARMADILLO);
             output.accept(RAW_MEAT_ALLAY);
             output.accept(RAW_MEAT_NAUTILUS);
+            output.accept(RAW_MEAT_RAVAGER);
+
 
             output.accept(COOKED_MEAT_BEAR);
             output.accept(COOKED_MEAT_CAMEL);
@@ -353,17 +357,15 @@ public class ModItems {
             output.accept(COOKED_MEAT_LLAMA);
             output.accept(COOKED_MEAT_WOLF);
             output.accept(COOKED_MEAT_FOX);
-            output.accept(COOKED_MEAT_CAT);
             output.accept(COOKED_MEAT_PARROT);
             output.accept(COOKED_MEAT_FROG);
-            output.accept(COOKED_MEAT_BAT);
             output.accept(COOKED_MEAT_TURTLE);
             output.accept(COOKED_MEAT_DOLPHIN);
             output.accept(COOKED_MEAT_SQUID);
             output.accept(COOKED_MEAT_AXOLOTL);
             output.accept(COOKED_MEAT_ARMADILLO);
-            output.accept(COOKED_MEAT_ALLAY);
             output.accept(COOKED_MEAT_NAUTILUS);
+            output.accept(COOKED_MEAT_RAVAGER);
 
 
         });
@@ -413,6 +415,13 @@ public class ModItems {
             output.accept(GOAT_MILK_BUCKET);
             output.accept(GLASS_JAR);
 
+        });
+
+        //VANILLA STEWS AND SOUPS STACK TO 16, LIKE THE MOD'S OWN BOWL FOODS
+        DefaultItemComponentEvents.MODIFY.register(context -> {
+            context.modify(Items.MUSHROOM_STEW, builder -> builder.set(DataComponents.MAX_STACK_SIZE, 16));
+            context.modify(Items.RABBIT_STEW, builder -> builder.set(DataComponents.MAX_STACK_SIZE, 16));
+            context.modify(Items.BEETROOT_SOUP, builder -> builder.set(DataComponents.MAX_STACK_SIZE, 16));
         });
 
     }

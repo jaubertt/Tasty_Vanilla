@@ -53,16 +53,15 @@ public class ModLootTableModifiers {
             }
 
             //MEAT DROPS: TINY MOBS (1)
-            addMeat(key, tableBuilder, registries, EntityTypes.BAT, ModItems.RAW_MEAT_BAT, 1, 1);
             addMeat(key, tableBuilder, registries, EntityTypes.FROG, ModItems.RAW_MEAT_FROG, 1, 1);
-            addMeat(key, tableBuilder, registries, EntityTypes.ALLAY, ModItems.RAW_MEAT_ALLAY, 1, 1);
             addMeat(key, tableBuilder, registries, EntityTypes.PARROT, ModItems.RAW_MEAT_PARROT, 1, 1);
             addMeat(key, tableBuilder, registries, EntityTypes.AXOLOTL, ModItems.RAW_MEAT_AXOLOTL, 1, 1);
+            addDrop(key, tableBuilder, registries, EntityTypes.ALLAY, ModItems.RAW_MEAT_ALLAY, 1, 1);
+            addDrop(key, tableBuilder, registries, EntityTypes.BAT, ModItems.RAW_MEAT_BAT, 1, 1);
+
 
             //MEAT DROPS: MEDIUM MOBS (1-2)
             addMeat(key, tableBuilder, registries, EntityTypes.FOX, ModItems.RAW_MEAT_FOX, 1, 2);
-            addMeat(key, tableBuilder, registries, EntityTypes.CAT, ModItems.RAW_MEAT_CAT, 1, 2);
-            addMeat(key, tableBuilder, registries, EntityTypes.OCELOT, ModItems.RAW_MEAT_CAT, 1, 2);
             addMeat(key, tableBuilder, registries, EntityTypes.WOLF, ModItems.RAW_MEAT_WOLF, 1, 2);
             addMeat(key, tableBuilder, registries, EntityTypes.ARMADILLO, ModItems.RAW_MEAT_ARMADILLO, 1, 2);
             addMeat(key, tableBuilder, registries, EntityTypes.GOAT, ModItems.RAW_MEAT_GOAT, 1, 2);
@@ -71,6 +70,8 @@ public class ModLootTableModifiers {
             addMeat(key, tableBuilder, registries, EntityTypes.GLOW_SQUID, ModItems.RAW_MEAT_SQUID, 1, 2);
             addMeat(key, tableBuilder, registries, EntityTypes.NAUTILUS, ModItems.RAW_MEAT_NAUTILUS, 1, 2);
             addMeat(key, tableBuilder, registries, EntityTypes.DOLPHIN, ModItems.RAW_MEAT_DOLPHIN, 1, 2);
+            addDrop(key, tableBuilder, registries, EntityTypes.CAT, ModItems.RAW_MEAT_CAT, 0, 2);
+            addDrop(key, tableBuilder, registries, EntityTypes.OCELOT, ModItems.RAW_MEAT_CAT, 0, 2);
 
             //MEAT DROPS: LARGE MOBS (1-3)
             addMeat(key, tableBuilder, registries, EntityTypes.HORSE, ModItems.RAW_MEAT_HORSE, 1, 3);
@@ -82,6 +83,7 @@ public class ModLootTableModifiers {
             addMeat(key, tableBuilder, registries, EntityTypes.POLAR_BEAR, ModItems.RAW_MEAT_BEAR, 1, 3);
             addMeat(key, tableBuilder, registries, EntityTypes.PANDA, ModItems.RAW_MEAT_BEAR, 1, 3);
             addMeat(key, tableBuilder, registries, EntityTypes.SNIFFER, ModItems.RAW_MEAT_SNIFFER, 1, 3);
+            addMeat(key, tableBuilder, registries, EntityTypes.RAVAGER, ModItems.RAW_MEAT_RAVAGER, 1, 3);
 
             //MOOSHROOM: NOT HERE. Its beef is replaced on purpose, so it keeps its JSON file:
             //src/main/resources/data/minecraft/loot_table/entities/mooshroom.json
@@ -93,9 +95,17 @@ public class ModLootTableModifiers {
                         chestItem(Items.RABBIT, 3, 1, 3),
                         chestItem(ModItems.RAW_MEAT_HORSE, 3, 1, 3),
                         chestItem(ModItems.RAW_MEAT_BEAR, 3, 1, 3),
-                        chestItem(ModItems.RAW_MEAT_CAT, 2, 1, 3),
                         chestItem(ModItems.RAW_MEAT_WOLF, 2, 1, 3),
                         chestItem(ModItems.RAW_MEAT_FOX, 2, 1, 3));
+            }
+
+            // The cleric's chest (village temple): Frog Legs, Bat Wings, Cat Eye and Allay Wings, 1 to 2 of each.
+            if (key.equals(BuiltInLootTables.VILLAGE_TEMPLE)) {
+                addToMainPool(tableBuilder,
+                        chestItem(ModItems.RAW_MEAT_FROG, 1, 1, 2),
+                        chestItem(ModItems.RAW_MEAT_BAT, 1, 1, 2),
+                        chestItem(ModItems.RAW_MEAT_CAT, 1, 1, 2),
+                        chestItem(ModItems.RAW_MEAT_ALLAY, 1, 1, 2));
             }
 
             if (key.equals(BuiltInLootTables.VILLAGE_FISHER)) {
@@ -168,6 +178,21 @@ public class ModLootTableModifiers {
                 .add(LootItem.lootTableItem(meat)
                         .apply(SetItemCountFunction.setCount(UniformGenerator.between(min, max)))
                         .apply(SmeltItemFunction.smelted().when(shouldSmeltLoot(registries)))
+                        .apply(EnchantedCountIncreaseFunction.lootingMultiplier(registries, UniformGenerator.between(0.0F, 1.0F)))));
+    }
+
+    // Same as addMeat, but the drop is never cooked. For drops with no cooking recipe
+    // (Bat Wings, Allay Wings, Cat Eye), so the game doesn't log "Couldn't smelt" when the mob burns.
+    private static void addDrop(ResourceKey<LootTable> key, LootTable.Builder tableBuilder, HolderLookup.Provider registries,
+                                EntityType<?> mob, ItemLike drop, float min, float max) {
+        if (!mob.getDefaultLootTable().map(key::equals).orElse(false)) {
+            return;
+        }
+
+        tableBuilder.withPool(LootPool.lootPool()
+                .setRolls(ConstantValue.exactly(1.0F))
+                .add(LootItem.lootTableItem(drop)
+                        .apply(SetItemCountFunction.setCount(UniformGenerator.between(min, max)))
                         .apply(EnchantedCountIncreaseFunction.lootingMultiplier(registries, UniformGenerator.between(0.0F, 1.0F)))));
     }
 

@@ -3,6 +3,7 @@ package tastyvanilla.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider;
+import net.fabricmc.fabric.api.tag.convention.v2.ConventionalItemTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.tags.ItemTags;
 import tastyvanilla.item.ModItemIds;
@@ -91,12 +92,19 @@ public class ModItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
 
         builder(ItemTags.RABBIT_FOOD)
                 .add(ModItemIds.TOMATO)
+                .add(ModItemIds.LETTUCE)
+                .add(ModItemIds.CABBAGE)
         ;
 
         builder(ItemTags.FOX_FOOD)
                 .add(ModItemIds.BERRY_BLUEBERRIES)
                 .add(ModItemIds.BERRY_GOOSEBERRIES)
                 .add(ModItemIds.BERRY_BLACKBERRIES)
+                .add(ModItemIds.BERRY_ELDERBERRIES)
+                .add(ModItemIds.BERRY_GOJI_BERRIES)
+                .add(ModItemIds.BERRY_RASPBERRIES)
+                .add(ModItemIds.BERRY_STRAWBERRIES)
+                .add(ModItemIds.BERRY_WHITE_CURRANT_BERRIES)
         ;
 
         builder(ItemTags.MEAT)
@@ -108,7 +116,6 @@ public class ModItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
                 .add(ModItemIds.RAW_MEAT_LLAMA)
                 .add(ModItemIds.RAW_MEAT_WOLF)
                 .add(ModItemIds.RAW_MEAT_FOX)
-                .add(ModItemIds.RAW_MEAT_CAT)
                 .add(ModItemIds.RAW_MEAT_PARROT)
                 .add(ModItemIds.RAW_MEAT_FROG)
                 .add(ModItemIds.RAW_MEAT_TURTLE)
@@ -117,6 +124,8 @@ public class ModItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
                 .add(ModItemIds.RAW_MEAT_AXOLOTL)
                 .add(ModItemIds.RAW_MEAT_ARMADILLO)
                 .add(ModItemIds.RAW_MEAT_NAUTILUS)
+                .add(ModItemIds.RAW_MEAT_RAVAGER)
+
 
                 .add(ModItemIds.COOKED_MEAT_BEAR)
                 .add(ModItemIds.COOKED_MEAT_CAMEL)
@@ -126,7 +135,6 @@ public class ModItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
                 .add(ModItemIds.COOKED_MEAT_LLAMA)
                 .add(ModItemIds.COOKED_MEAT_WOLF)
                 .add(ModItemIds.COOKED_MEAT_FOX)
-                .add(ModItemIds.COOKED_MEAT_CAT)
                 .add(ModItemIds.COOKED_MEAT_PARROT)
                 .add(ModItemIds.COOKED_MEAT_FROG)
                 .add(ModItemIds.COOKED_MEAT_TURTLE)
@@ -135,6 +143,33 @@ public class ModItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
                 .add(ModItemIds.COOKED_MEAT_AXOLOTL)
                 .add(ModItemIds.COOKED_MEAT_ARMADILLO)
                 .add(ModItemIds.COOKED_MEAT_NAUTILUS)
+                .add(ModItemIds.COOKED_MEAT_RAVAGER)
+
+        ;
+
+        //CONVENTIONAL TAGS, SHARED WITH OTHER MODS
+        builder(ConventionalItemTags.MILK_BUCKETS)
+                .add(ModItemIds.GOAT_MILK_BUCKET)
+        ;
+
+        builder(ConventionalItemTags.COOKED_MEAT_FOODS)
+                .add(ModItemIds.COOKED_MEAT_BEAR)
+                .add(ModItemIds.COOKED_MEAT_CAMEL)
+                .add(ModItemIds.COOKED_MEAT_HORSE)
+                .add(ModItemIds.COOKED_MEAT_SNIFFER)
+                .add(ModItemIds.COOKED_MEAT_GOAT)
+                .add(ModItemIds.COOKED_MEAT_LLAMA)
+                .add(ModItemIds.COOKED_MEAT_WOLF)
+                .add(ModItemIds.COOKED_MEAT_FOX)
+                .add(ModItemIds.COOKED_MEAT_PARROT)
+                .add(ModItemIds.COOKED_MEAT_FROG)
+                .add(ModItemIds.COOKED_MEAT_TURTLE)
+                .add(ModItemIds.COOKED_MEAT_DOLPHIN)
+                .add(ModItemIds.COOKED_MEAT_SQUID)
+                .add(ModItemIds.COOKED_MEAT_AXOLOTL)
+                .add(ModItemIds.COOKED_MEAT_ARMADILLO)
+                .add(ModItemIds.COOKED_MEAT_NAUTILUS)
+                .add(ModItemIds.COOKED_MEAT_RAVAGER)
         ;
 
     }

@@ -3,7 +3,7 @@
   "criteria": {
 
     "has_milk": {
-      "conditions": {"items": [{"items": "minecraft:milk_bucket"}]},
+      "conditions": {"items": [{"items": "#c:buckets/milk"}]},
       "trigger": "minecraft:inventory_changed"},
 
     "has_salt": {

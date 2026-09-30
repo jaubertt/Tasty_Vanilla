@@ -139,6 +139,8 @@ public class ModItemIds {
     public static final ResourceKey<Item> RAW_MEAT_ARMADILLO = create("raw_meat_armadillo");
     public static final ResourceKey<Item> RAW_MEAT_ALLAY = create("raw_meat_allay");
     public static final ResourceKey<Item> RAW_MEAT_NAUTILUS = create("raw_meat_nautilus");
+    public static final ResourceKey<Item> RAW_MEAT_RAVAGER = create("raw_meat_ravager");
+
 
     public static final ResourceKey<Item> COOKED_MEAT_BEAR = create("cooked_meat_bear");
     public static final ResourceKey<Item> COOKED_MEAT_CAMEL = create("cooked_meat_camel");
@@ -149,17 +151,16 @@ public class ModItemIds {
     public static final ResourceKey<Item> COOKED_MEAT_LLAMA = create("cooked_meat_llama");
     public static final ResourceKey<Item> COOKED_MEAT_WOLF = create("cooked_meat_wolf");
     public static final ResourceKey<Item> COOKED_MEAT_FOX = create("cooked_meat_fox");
-    public static final ResourceKey<Item> COOKED_MEAT_CAT = create("cooked_meat_cat");
     public static final ResourceKey<Item> COOKED_MEAT_PARROT = create("cooked_meat_parrot");
     public static final ResourceKey<Item> COOKED_MEAT_FROG = create("cooked_meat_frog");
-    public static final ResourceKey<Item> COOKED_MEAT_BAT = create("cooked_meat_bat");
     public static final ResourceKey<Item> COOKED_MEAT_TURTLE = create("cooked_meat_turtle");
     public static final ResourceKey<Item> COOKED_MEAT_DOLPHIN = create("cooked_meat_dolphin");
     public static final ResourceKey<Item> COOKED_MEAT_SQUID = create("cooked_meat_squid");
     public static final ResourceKey<Item> COOKED_MEAT_AXOLOTL = create("cooked_meat_axolotl");
     public static final ResourceKey<Item> COOKED_MEAT_ARMADILLO = create("cooked_meat_armadillo");
-    public static final ResourceKey<Item> COOKED_MEAT_ALLAY = create("cooked_meat_allay");
     public static final ResourceKey<Item> COOKED_MEAT_NAUTILUS = create("cooked_meat_nautilus");
+    public static final ResourceKey<Item> COOKED_MEAT_RAVAGER = create("cooked_meat_ravager");
+
 
     //BERRIES & JAMS
     public static final ResourceKey<Item> BERRY_BLACKBERRIES = create("berry_blackberries");

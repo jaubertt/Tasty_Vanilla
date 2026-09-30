@@ -9,6 +9,7 @@ import tastyvanilla.item.ModCompostableItems;
 import tastyvanilla.item.ModItems;
 import tastyvanilla.world.gen.ModWorldGeneration;
 import tastyvanilla.loot.ModLootTableModifiers;
+import tastyvanilla.item.ModBrewingRecipes;
 
 public class TastyVanilla implements ModInitializer {
 	public static final String MOD_ID = "tastyvanilla";
@@ -23,6 +24,7 @@ public class TastyVanilla implements ModInitializer {
 		ModEntities.registerModEntities();
 		ModWorldGeneration.GenerateWorldGen();
 		ModLootTableModifiers.registerModLootTableModifiers();
+		ModBrewingRecipes.registerModBrewingRecipes();
 
 	}
 }

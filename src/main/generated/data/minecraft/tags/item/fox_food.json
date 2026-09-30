@@ -2,6 +2,11 @@
   "values": [
     "tastyvanilla:berry_blueberries",
     "tastyvanilla:berry_gooseberries",
-    "tastyvanilla:berry_blackberries"
+    "tastyvanilla:berry_blackberries",
+    "tastyvanilla:berry_elderberries",
+    "tastyvanilla:berry_goji_berries",
+    "tastyvanilla:berry_raspberries",
+    "tastyvanilla:berry_strawberries",
+    "tastyvanilla:berry_white_currant_berries"
   ]
 }

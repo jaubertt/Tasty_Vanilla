@@ -5,9 +5,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Meat and Drops Update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModBrewingRecipes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/38c23aef0ee8b065151e48e32e8b3fc494233697" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/38c23aef0ee8b065151e48e32e8b3fc494233697" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/396752f85f208dd44a9a0b6e6ad5fe525b2191f8" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/396752f85f208dd44a9a0b6e6ad5fe525b2191f8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/399fd572fbf4b1506166b148f656972ed2be6a35" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/399fd572fbf4b1506166b148f656972ed2be6a35" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/3d6c00b0789f47c214921c049296a12eb5851cdd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/3d6c00b0789f47c214921c049296a12eb5851cdd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/a43f8c688fffc278adadf1d18154a2f8d17d08ef" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/a43f8c688fffc278adadf1d18154a2f8d17d08ef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/tastyvanilla/items/cooked_meat_allay.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/tastyvanilla/items/cooked_meat_bat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/tastyvanilla/items/cooked_meat_cat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/tastyvanilla/models/item/cooked_meat_allay.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/tastyvanilla/models/item/cooked_meat_bat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/assets/tastyvanilla/models/item/cooked_meat_cat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/item/meat.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/item/meat.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/villager_trade/butcher/level_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/villager_trade/butcher/level_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/villager_trade/cleric/level_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/villager_trade/cleric/level_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/villager_trade/cleric/level_5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/advancement/recipes/food/cooked_meat_allay.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/advancement/recipes/food/cooked_meat_allay_from_campfire_cooking.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/advancement/recipes/food/cooked_meat_allay_from_smoking.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/advancement/recipes/food/cooked_meat_bat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/advancement/recipes/food/cooked_meat_bat_from_campfire_cooking.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/advancement/recipes/food/cooked_meat_bat_from_smoking.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/advancement/recipes/food/cooked_meat_cat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/advancement/recipes/food/cooked_meat_cat_from_campfire_cooking.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/advancement/recipes/food/cooked_meat_cat_from_smoking.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/recipe/cooked_meat_allay.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/recipe/cooked_meat_allay_from_campfire_cooking.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/recipe/cooked_meat_allay_from_smoking.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/recipe/cooked_meat_bat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/recipe/cooked_meat_bat_from_campfire_cooking.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/recipe/cooked_meat_bat_from_smoking.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/recipe/cooked_meat_cat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/recipe/cooked_meat_cat_from_campfire_cooking.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/recipe/cooked_meat_cat_from_smoking.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/villager_trade/butcher/1/raw_meat_cat_emerald.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/villager_trade/cleric/3/raw_meat_frog_emerald.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/villager_trade/cleric/3/raw_meat_frog_emerald.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/villager_trade/cleric/5/raw_meat_allay_emerald.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/tastyvanilla/villager_trade/cleric/5/raw_meat_bat_emerald.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/TastyVanilla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/block/ModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModBlockTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModBlockTagProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModItemTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModItemTagProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModModelProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModRecipeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/ModRecipeProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/villager/ModVillagerTradeTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/villager/ModVillagerTradeTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/villager/ModVillagerTrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/villager/ModVillagerTrades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/food/ModFoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/food/ModFoods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModCompostableItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModCompostableItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModItemIds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModItemIds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/item/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/loot/ModLootTableModifiers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/loot/ModLootTableModifiers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/de_de.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/de_de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/en_gb.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/en_gb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/es_es.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/es_es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/es_mx.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/es_mx.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/fr_fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/fr_fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/it_it.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/it_it.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/pt_br.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/pt_br.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/ru_ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/lang/ru_ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/cooked_meat_allay.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/cooked_meat_ravager.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/cooked_meat_bat.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/raw_meat_ravager.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/cooked_meat_cat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/raw_meat_cat.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/raw_meat_cat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/advancement/recipes/food/butter.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/advancement/recipes/food/butter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/butter.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/butter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/flour.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/flour.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/food_chilli_stew.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/food_chilli_stew.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/food_wrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/food_wrap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/jam_blackberry.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/jam_blackberry.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/pie_meat.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe/pie_meat.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,12 +156,12 @@
     &quot;assignee&quot;: &quot;jaubertt&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/jaubertt/tastyvanilla-1.21.4_Relaunch.git&quot;,
-    &quot;accountId&quot;: &quot;7b38c3fa-70b9-460f-a04e-5aa246725766&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jaubertt/tastyvanilla-1.21.4_Relaunch.git",
+    "accountId": "f02f120c-1cee-40e4-8479-0b0998c0999b"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -106,41 +175,43 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Data Generation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Minecraft Client.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build Tasty Vanilla.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Load Gradle Dependencies.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Tasty Vanilla [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Tasty Vanilla [configureClientLaunch].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Tasty Vanilla [genSources].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Tasty Vanilla [runClient].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Tasty Vanilla [runDatagen].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.tastyvanilla-1.21.4_Relaunch [:net.fabricmc.devlaunchinjector.Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;26.2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/Tasty Vanilla/src/main/resources/assets/tastyvanilla/textures/item&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Data Generation.executor": "Run",
+    "Application.Minecraft Client.executor": "Run",
+    "Gradle.Build Tasty Vanilla.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.Load Gradle Dependencies.executor": "Run",
+    "Gradle.Tasty Vanilla [:net.fabricmc.devlaunchinjector.Main.main()].executor": "Run",
+    "Gradle.Tasty Vanilla [build].executor": "Run",
+    "Gradle.Tasty Vanilla [configureClientLaunch].executor": "Run",
+    "Gradle.Tasty Vanilla [genSources].executor": "Run",
+    "Gradle.Tasty Vanilla [runClient].executor": "Run",
+    "Gradle.Tasty Vanilla [runDatagen].executor": "Run",
+    "Gradle.tastyvanilla-1.21.4_Relaunch [:net.fabricmc.devlaunchinjector.Main.main()].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "26.2",
+    "last_opened_file_path": "/Users/ismaelrivera/Documents/Minecraft/Fabric Modding/Tasty Vanilla/Tasty Vanilla/src/main/resources/assets/tastyvanilla/textures/item",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item" />
+      <recent name="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/advancement/recipes/food" />
       <recent name="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_table" />
       <recent name="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_table/chests/village" />
       <recent name="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/recipe" />
-      <recent name="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/models/item" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/data/sereneseasons/tags" />
       <recent name="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/items" />
       <recent name="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/block" />
       <recent name="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item" />
@@ -151,7 +222,7 @@
       <recent name="tastyvanilla.mixin" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tasty Vanilla [runClient]">
+  <component name="RunManager" selected="Application.Data Generation">
     <configuration name="Tasty Vanilla [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -219,12 +290,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.Tasty Vanilla [build]" />
-      <item itemvalue="Gradle.Tasty Vanilla [runClient]" />
-      <item itemvalue="Gradle.Tasty Vanilla [runDatagen]" />
       <item itemvalue="Application.Minecraft Client" />
       <item itemvalue="Application.Data Generation" />
       <item itemvalue="Application.Minecraft Server" />
+      <item itemvalue="Gradle.Tasty Vanilla [build]" />
+      <item itemvalue="Gradle.Tasty Vanilla [runClient]" />
+      <item itemvalue="Gradle.Tasty Vanilla [runDatagen]" />
     </list>
     <recent_temporary>
       <list>
@@ -444,7 +515,39 @@
       <option name="project" value="LOCAL" />
       <updated>1779825839682</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Meat and Drops Update">
+      <option name="closed" value="true" />
+      <created>1790535443943</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1790535443943</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Meat and Drops Update">
+      <option name="closed" value="true" />
+      <created>1790755402079</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1790755402079</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Meat and Drops Update">
+      <option name="closed" value="true" />
+      <created>1790757675832</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1790757675832</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Meat and Drops Update">
+      <option name="closed" value="true" />
+      <created>1790757748978</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1790757748978</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="UnknownFeatures">

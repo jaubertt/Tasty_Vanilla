@@ -3,8 +3,8 @@
   "category": "food",
   "cookingtime": 600,
   "experience": 0.5,
-  "ingredient": "tastyvanilla:raw_meat_allay",
+  "ingredient": "tastyvanilla:raw_meat_ravager",
   "result": {
-    "id": "tastyvanilla:cooked_meat_allay"
+    "id": "tastyvanilla:cooked_meat_ravager"
   }
 }

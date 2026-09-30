@@ -107,6 +107,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.generateFlatItem(ModItems.RAW_MEAT_ARMADILLO, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.RAW_MEAT_ALLAY, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.RAW_MEAT_NAUTILUS, ModelTemplates.FLAT_ITEM);
+        itemModelGenerator.generateFlatItem(ModItems.RAW_MEAT_RAVAGER, ModelTemplates.FLAT_ITEM);
+
 
         itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_BEAR, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_CAMEL, ModelTemplates.FLAT_ITEM);
@@ -117,17 +119,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_LLAMA, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_WOLF, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_FOX, ModelTemplates.FLAT_ITEM);
-        itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_CAT, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_PARROT, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_FROG, ModelTemplates.FLAT_ITEM);
-        itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_BAT, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_TURTLE, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_DOLPHIN, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_SQUID, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_AXOLOTL, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_ARMADILLO, ModelTemplates.FLAT_ITEM);
-        itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_ALLAY, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_NAUTILUS, ModelTemplates.FLAT_ITEM);
+        itemModelGenerator.generateFlatItem(ModItems.COOKED_MEAT_RAVAGER, ModelTemplates.FLAT_ITEM);
 
     }
 }
