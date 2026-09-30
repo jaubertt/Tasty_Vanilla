@@ -198,7 +198,7 @@
   "item.tastyvanilla.raw_meat_llama": "Raw Llama Chop",
   "item.tastyvanilla.raw_meat_wolf": "Raw Wolf",
   "item.tastyvanilla.raw_meat_fox": "Raw Fox",
-  "item.tastyvanilla.raw_meat_cat": "Raw Cat",
+  "item.tastyvanilla.raw_meat_cat": "Cat Eye",
   "item.tastyvanilla.raw_meat_parrot": "Raw Parrot",
   "item.tastyvanilla.raw_meat_frog": "Frog Legs",
   "item.tastyvanilla.raw_meat_bat": "Bat Wings",
@@ -209,6 +209,7 @@
   "item.tastyvanilla.raw_meat_armadillo": "Raw Armadillo",
   "item.tastyvanilla.raw_meat_allay": "Allay Wings",
   "item.tastyvanilla.raw_meat_nautilus": "Raw Nautilus",
+  "item.tastyvanilla.raw_meat_ravager": "Raw Ravager",
 
   "item.tastyvanilla.cooked_meat_bear": "Bear Steak",
   "item.tastyvanilla.cooked_meat_camel": "Camel Steak",
@@ -219,15 +220,13 @@
   "item.tastyvanilla.cooked_meat_llama": "Cooked Llama Chop",
   "item.tastyvanilla.cooked_meat_wolf": "Wolf Steak",
   "item.tastyvanilla.cooked_meat_fox": "Cooked Fox",
-  "item.tastyvanilla.cooked_meat_cat": "Cooked Cat",
   "item.tastyvanilla.cooked_meat_parrot": "Cooked Parrot",
   "item.tastyvanilla.cooked_meat_frog": "Cooked Frog Legs",
-  "item.tastyvanilla.cooked_meat_bat": "Cooked Bat Wings",
   "item.tastyvanilla.cooked_meat_turtle": "Cooked Turtle",
   "item.tastyvanilla.cooked_meat_dolphin": "Cooked Dolphin",
   "item.tastyvanilla.cooked_meat_squid": "Cooked Squid",
   "item.tastyvanilla.cooked_meat_axolotl": "Cooked Axolotl",
   "item.tastyvanilla.cooked_meat_armadillo": "Cooked Armadillo",
-  "item.tastyvanilla.cooked_meat_allay": "Cooked Allay Wings",
-  "item.tastyvanilla.cooked_meat_nautilus": "Cooked Nautilus"
+  "item.tastyvanilla.cooked_meat_nautilus": "Cooked Nautilus",
+  "item.tastyvanilla.cooked_meat_ravager": "Ravager Steak"
 }
