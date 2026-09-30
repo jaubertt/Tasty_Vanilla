@@ -8,8 +8,8 @@
   "item.tastyvanilla.cookie_carrot": "Cookie à la carotte",
   "item.tastyvanilla.cookie_apple": "Cookie à la pomme",
   "item.tastyvanilla.cookie_pumpkin": "Cookie à la citrouille",
-  "item.tastyvanilla.cookie_spider_eye": "Cookie à l’œil d’araignée",
-  "item.tastyvanilla.cookie_oatmeal": "Cookie à l’avoine",
+  "item.tastyvanilla.cookie_spider_eye": "Cookie à l'oeil d'araignée",
+  "item.tastyvanilla.cookie_oatmeal": "Cookie à l'avoine",
   "item.tastyvanilla.cookie_sugar": "Cookie au sucre",
 
 
@@ -54,13 +54,13 @@
   "item.tastyvanilla.pie_apple": "Tarte aux pommes",
   "item.tastyvanilla.pie_chicken": "Tarte au poulet",
   "item.tastyvanilla.pie_chocolate": "Tarte au chocolat",
-  "item.tastyvanilla.pie_chorus_fruit": "Tarte aux fruits chorus",
+  "item.tastyvanilla.pie_chorus_fruit": "Tarte au chorus",
   "item.tastyvanilla.pie_fish": "Tarte au poisson",
-  "item.tastyvanilla.pie_fungus": "Tarte aux champignons",
+  "item.tastyvanilla.pie_fungus": "Tarte aux champignons du Nether",
   "item.tastyvanilla.pie_glow_berry": "Tarte aux baies lumineuses",
   "item.tastyvanilla.pie_honey": "Tarte au miel",
   "item.tastyvanilla.pie_meat": "Tarte à la viande",
-  "item.tastyvanilla.pie_melon": "Tarte au melon",
+  "item.tastyvanilla.pie_melon": "Tarte à la pastèque",
   "item.tastyvanilla.pie_mushroom": "Tarte aux champignons",
   "item.tastyvanilla.pie_shepherds": "Hachis parmentier",
   "item.tastyvanilla.pie_strawberry": "Tarte aux fraises",
@@ -77,17 +77,17 @@
   "block.tastyvanilla.chilli_crop": "Culture de piment" ,
 
   "item.tastyvanilla.eggplant": "Aubergine",
-  "block.tastyvanilla.eggplant_crop": "Culture d’aubergine" ,
+  "block.tastyvanilla.eggplant_crop": "Culture d'aubergine" ,
 
   "item.tastyvanilla.garlic": "Ail",
-  "item.tastyvanilla.garlic_crop": "Culture d’ail",
+  "block.tastyvanilla.garlic_crop": "Culture d'ail",
 
   "item.tastyvanilla.lettuce": "Laitue",
   "item.tastyvanilla.lettuce_seeds": "Graines de laitue",
   "block.tastyvanilla.lettuce_crop": "Culture de laitue" ,
 
   "item.tastyvanilla.onion": "Oignon",
-  "block.tastyvanilla.onion_crop": "Culture d’oignon" ,
+  "block.tastyvanilla.onion_crop": "Culture d'oignon" ,
 
   "item.tastyvanilla.sweet_potato": "Patate douce",
   "block.tastyvanilla.sweet_potato_crop": "Culture de patate douce" ,
@@ -97,18 +97,18 @@
   "block.tastyvanilla.tomato_crop": "Culture de tomate" ,
 
   "item.tastyvanilla.rice": "Riz",
-  "item.tastyvanilla.raw_rice": "Riz cru",
+  "item.tastyvanilla.raw_rice": "Épi de riz",
   "block.tastyvanilla.rice_crop": "Culture de riz",
 
 
   //FOOD CROPS
-  "item.tastyvanilla.bread_garlic": "Pain à l’ail",
-  "item.tastyvanilla.dough_garlic": "Pâte à l’ail",
+  "item.tastyvanilla.bread_garlic": "Pain à l'ail",
+  "item.tastyvanilla.dough_garlic": "Pâte à l'ail",
   "item.tastyvanilla.food_baked_sweet_potato": "Patate douce cuite",
   "item.tastyvanilla.food_chilli_stew": "Ragoût de piment",
   "item.tastyvanilla.food_coleslaw": "Salade de chou",
-  "item.tastyvanilla.food_onion_soup": "Soupe à l’oignon",
-  "item.tastyvanilla.food_onion_ring": "Beignets d’oignon",
+  "item.tastyvanilla.food_onion_soup": "Soupe à l'oignon",
+  "item.tastyvanilla.food_onion_ring": "Beignets d'oignon",
   "item.tastyvanilla.food_potato_fries": "Frites",
   "item.tastyvanilla.food_roasted_garlic": "Ail rôti",
   "item.tastyvanilla.food_tomato_soup": "Soupe à la tomate",
@@ -127,7 +127,7 @@
   "block.tastyvanilla.berry_blueberry_bush": "Buisson de myrtilles" ,
 
   "item.tastyvanilla.berry_elderberries": "Baies de sureau",
-  "block.tastyvanilla.berry_elderberry_bush": "Buisson de sureau" ,
+  "block.tastyvanilla.berry_elderberry_bush": "Buisson de baies de sureau" ,
 
   "item.tastyvanilla.berry_goji_berries": "Baies de goji",
   "block.tastyvanilla.berry_goji_berry_bush": "Buisson de baies de goji" ,
@@ -138,7 +138,7 @@
   "item.tastyvanilla.berry_raspberries": "Framboises",
   "block.tastyvanilla.berry_raspberry_bush": "Buisson de framboises" ,
 
-  "item.tastyvanilla.berry_strawberries": "Fraises",
+  "item.tastyvanilla.berry_strawberries": "Fraise",
   "block.tastyvanilla.berry_strawberry_bush": "Buisson de fraises" ,
 
   "item.tastyvanilla.berry_white_currant_berries": "Groseilles blanches",
@@ -150,7 +150,7 @@
 
   "item.tastyvanilla.jam_blackberry": "Confiture de mûres",
   "item.tastyvanilla.jam_blueberry": "Confiture de myrtilles",
-  "item.tastyvanilla.jam_elderberry": "Confiture de sureau",
+  "item.tastyvanilla.jam_elderberry": "Confiture de baies de sureau",
   "item.tastyvanilla.jam_goji_berry": "Confiture de baies de goji",
   "item.tastyvanilla.jam_gooseberry": "Confiture de groseilles à maquereau",
   "item.tastyvanilla.jam_raspberry": "Confiture de framboises",
@@ -160,7 +160,7 @@
 
   "item.tastyvanilla.jam_blackberry_mash": "Purée de mûres",
   "item.tastyvanilla.jam_blueberry_mash": "Purée de myrtilles",
-  "item.tastyvanilla.jam_elderberry_mash": "Purée de sureau",
+  "item.tastyvanilla.jam_elderberry_mash": "Purée de baies de sureau",
   "item.tastyvanilla.jam_goji_berry_mash": "Purée de baies de goji",
   "item.tastyvanilla.jam_gooseberry_mash": "Purée de groseilles à maquereau",
   "item.tastyvanilla.jam_raspberry_mash": "Purée de framboises",
@@ -187,5 +187,49 @@
   "block.tastyvanilla.salt_block": "Bloc de sel",
   "item.tastyvanilla.salt_block": "Bloc de sel",
   "block.tastyvanilla.sugar_block": "Bloc de sucre",
-  "item.tastyvanilla.sugar_block": "Bloc de sucre"
+  "item.tastyvanilla.sugar_block": "Bloc de sucre",
+
+
+  //MEATS & DROPS
+  "item.tastyvanilla.raw_meat_bear": "Ours cru",
+  "item.tastyvanilla.raw_meat_camel": "Dromadaire cru",
+  "item.tastyvanilla.raw_meat_horse": "Cheval cru",
+  "item.tastyvanilla.raw_meat_veggie": "Viande végétarienne crue",
+  "item.tastyvanilla.raw_meat_sniffer": "Renifleur cru",
+  "item.tastyvanilla.raw_meat_goat": "Côtelette de chèvre crue",
+  "item.tastyvanilla.raw_meat_llama": "Côtelette de lama crue",
+  "item.tastyvanilla.raw_meat_wolf": "Loup cru",
+  "item.tastyvanilla.raw_meat_fox": "Renard cru",
+  "item.tastyvanilla.raw_meat_cat": "Chat cru",
+  "item.tastyvanilla.raw_meat_parrot": "Perroquet cru",
+  "item.tastyvanilla.raw_meat_frog": "Cuisses de grenouille",
+  "item.tastyvanilla.raw_meat_bat": "Ailes de chauve-souris",
+  "item.tastyvanilla.raw_meat_turtle": "Tortue crue",
+  "item.tastyvanilla.raw_meat_dolphin": "Dauphin cru",
+  "item.tastyvanilla.raw_meat_squid": "Poulpe cru",
+  "item.tastyvanilla.raw_meat_axolotl": "Axolotl cru",
+  "item.tastyvanilla.raw_meat_armadillo": "Tatou cru",
+  "item.tastyvanilla.raw_meat_allay": "Ailes d'Allay",
+  "item.tastyvanilla.raw_meat_nautilus": "Nautile cru",
+
+  "item.tastyvanilla.cooked_meat_bear": "Steak d'ours",
+  "item.tastyvanilla.cooked_meat_camel": "Steak de dromadaire",
+  "item.tastyvanilla.cooked_meat_horse": "Steak de cheval",
+  "item.tastyvanilla.cooked_meat_veggie": "Steak végétarien",
+  "item.tastyvanilla.cooked_meat_sniffer": "Rôti de renifleur",
+  "item.tastyvanilla.cooked_meat_goat": "Côtelette de chèvre cuite",
+  "item.tastyvanilla.cooked_meat_llama": "Côtelette de lama cuite",
+  "item.tastyvanilla.cooked_meat_wolf": "Steak de loup",
+  "item.tastyvanilla.cooked_meat_fox": "Renard cuit",
+  "item.tastyvanilla.cooked_meat_cat": "Chat cuit",
+  "item.tastyvanilla.cooked_meat_parrot": "Perroquet cuit",
+  "item.tastyvanilla.cooked_meat_frog": "Cuisses de grenouille cuites",
+  "item.tastyvanilla.cooked_meat_bat": "Ailes de chauve-souris cuites",
+  "item.tastyvanilla.cooked_meat_turtle": "Tortue cuite",
+  "item.tastyvanilla.cooked_meat_dolphin": "Dauphin cuit",
+  "item.tastyvanilla.cooked_meat_squid": "Poulpe cuit",
+  "item.tastyvanilla.cooked_meat_axolotl": "Axolotl cuit",
+  "item.tastyvanilla.cooked_meat_armadillo": "Tatou cuit",
+  "item.tastyvanilla.cooked_meat_allay": "Ailes d'Allay cuites",
+  "item.tastyvanilla.cooked_meat_nautilus": "Nautile cuit"
 }
