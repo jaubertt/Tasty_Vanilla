@@ -9,7 +9,7 @@
   "item.tastyvanilla.cookie_apple": "Biscotto alla mela",
   "item.tastyvanilla.cookie_pumpkin": "Biscotto alla zucca",
   "item.tastyvanilla.cookie_spider_eye": "Biscotto con occhio di ragno",
-  "item.tastyvanilla.cookie_oatmeal": "Biscotto d’avena",
+  "item.tastyvanilla.cookie_oatmeal": "Biscotto d'avena",
   "item.tastyvanilla.cookie_sugar": "Biscotto allo zucchero",
 
 
@@ -38,7 +38,7 @@
   //BREAD
   "item.tastyvanilla.bread_baguel": "Bagel",
   "item.tastyvanilla.bread_baguette": "Baguette",
-  "item.tastyvanilla.bread_baked": "Pane",
+  "item.tastyvanilla.bread_baked": "Pane al forno",
   "item.tastyvanilla.bread_brownie": "Brownie",
   "item.tastyvanilla.bread_croissant": "Croissant",
   "item.tastyvanilla.bread_flatbread": "Piadina",
@@ -54,15 +54,15 @@
   "item.tastyvanilla.pie_apple": "Torta di mele",
   "item.tastyvanilla.pie_chicken": "Torta di pollo",
   "item.tastyvanilla.pie_chocolate": "Torta al cioccolato",
-  "item.tastyvanilla.pie_chorus_fruit": "Torta di frutti di chorus",
+  "item.tastyvanilla.pie_chorus_fruit": "Torta di coro",
   "item.tastyvanilla.pie_fish": "Torta di pesce",
-  "item.tastyvanilla.pie_fungus": "Torta ai funghi",
+  "item.tastyvanilla.pie_fungus": "Torta ai funghi del Nether",
   "item.tastyvanilla.pie_glow_berry": "Torta alle bacche luminose",
   "item.tastyvanilla.pie_honey": "Torta al miele",
   "item.tastyvanilla.pie_meat": "Torta di carne",
-  "item.tastyvanilla.pie_melon": "Torta al melone",
+  "item.tastyvanilla.pie_melon": "Torta all'anguria",
   "item.tastyvanilla.pie_mushroom": "Torta ai funghi",
-  "item.tastyvanilla.pie_shepherds": "Shepherd’s pie",
+  "item.tastyvanilla.pie_shepherds": "Torta del pastore",
   "item.tastyvanilla.pie_strawberry": "Torta alle fragole",
   "item.tastyvanilla.pie_sweet_berry": "Torta alle bacche dolci",
   "item.tastyvanilla.pie_vegetable": "Torta di verdure",
@@ -77,35 +77,35 @@
   "block.tastyvanilla.chilli_crop": "Coltura di peperoncino" ,
 
   "item.tastyvanilla.eggplant": "Melanzana",
-  "block.tastyvanilla.eggplant_crop": "Coltura di melanzane" ,
+  "block.tastyvanilla.eggplant_crop": "Coltura di melanzana" ,
 
   "item.tastyvanilla.garlic": "Aglio",
-  "item.tastyvanilla.garlic_crop": "Coltura di aglio",
+  "block.tastyvanilla.garlic_crop": "Coltura di aglio",
 
   "item.tastyvanilla.lettuce": "Lattuga",
   "item.tastyvanilla.lettuce_seeds": "Semi di lattuga",
   "block.tastyvanilla.lettuce_crop": "Coltura di lattuga" ,
 
   "item.tastyvanilla.onion": "Cipolla",
-  "block.tastyvanilla.onion_crop": "Coltura di cipolle" ,
+  "block.tastyvanilla.onion_crop": "Coltura di cipolla" ,
 
   "item.tastyvanilla.sweet_potato": "Patata dolce",
-  "block.tastyvanilla.sweet_potato_crop": "Coltura di patate dolci" ,
+  "block.tastyvanilla.sweet_potato_crop": "Coltura di patata dolce" ,
 
   "item.tastyvanilla.tomato": "Pomodoro",
   "item.tastyvanilla.tomato_seeds": "Semi di pomodoro",
-  "block.tastyvanilla.tomato_crop": "Coltura di pomodori" ,
+  "block.tastyvanilla.tomato_crop": "Coltura di pomodoro" ,
 
   "item.tastyvanilla.rice": "Riso",
-  "item.tastyvanilla.raw_rice": "Riso crudo",
+  "item.tastyvanilla.raw_rice": "Spiga di riso",
   "block.tastyvanilla.rice_crop": "Coltura di riso",
 
 
   //FOOD CROPS
-  "item.tastyvanilla.bread_garlic": "Pane all’aglio",
-  "item.tastyvanilla.dough_garlic": "Impasto all’aglio",
+  "item.tastyvanilla.bread_garlic": "Pane all'aglio",
+  "item.tastyvanilla.dough_garlic": "Impasto all'aglio",
   "item.tastyvanilla.food_baked_sweet_potato": "Patata dolce al forno",
-  "item.tastyvanilla.food_chilli_stew": "Spezzatino di peperoncino",
+  "item.tastyvanilla.food_chilli_stew": "Stufato al peperoncino",
   "item.tastyvanilla.food_coleslaw": "Insalata di cavolo",
   "item.tastyvanilla.food_onion_soup": "Zuppa di cipolle",
   "item.tastyvanilla.food_onion_ring": "Anelli di cipolla",
@@ -130,7 +130,7 @@
   "block.tastyvanilla.berry_elderberry_bush": "Cespuglio di sambuco" ,
 
   "item.tastyvanilla.berry_goji_berries": "Bacche di goji",
-  "block.tastyvanilla.berry_goji_berry_bush": "Cespuglio di bacche di goji" ,
+  "block.tastyvanilla.berry_goji_berry_bush": "Cespuglio di goji" ,
 
   "item.tastyvanilla.berry_gooseberries": "Uva spina",
   "block.tastyvanilla.berry_gooseberry_bush": "Cespuglio di uva spina" ,
@@ -138,7 +138,7 @@
   "item.tastyvanilla.berry_raspberries": "Lamponi",
   "block.tastyvanilla.berry_raspberry_bush": "Cespuglio di lamponi" ,
 
-  "item.tastyvanilla.berry_strawberries": "Fragole",
+  "item.tastyvanilla.berry_strawberries": "Fragola",
   "block.tastyvanilla.berry_strawberry_bush": "Cespuglio di fragole" ,
 
   "item.tastyvanilla.berry_white_currant_berries": "Ribes bianco",
@@ -187,5 +187,48 @@
   "block.tastyvanilla.salt_block": "Blocco di sale",
   "item.tastyvanilla.salt_block": "Blocco di sale",
   "block.tastyvanilla.sugar_block": "Blocco di zucchero",
-  "item.tastyvanilla.sugar_block": "Blocco di zucchero"
+  "item.tastyvanilla.sugar_block": "Blocco di zucchero",
+
+  //MEATS & DROPS
+  "item.tastyvanilla.raw_meat_bear": "Orso crudo",
+  "item.tastyvanilla.raw_meat_camel": "Dromedario crudo",
+  "item.tastyvanilla.raw_meat_horse": "Cavallo crudo",
+  "item.tastyvanilla.raw_meat_veggie": "Carne vegetale cruda",
+  "item.tastyvanilla.raw_meat_sniffer": "Fiutatore crudo",
+  "item.tastyvanilla.raw_meat_goat": "Costoletta di capra cruda",
+  "item.tastyvanilla.raw_meat_llama": "Costoletta di lama cruda",
+  "item.tastyvanilla.raw_meat_wolf": "Lupo crudo",
+  "item.tastyvanilla.raw_meat_fox": "Volpe cruda",
+  "item.tastyvanilla.raw_meat_cat": "Gatto crudo",
+  "item.tastyvanilla.raw_meat_parrot": "Pappagallo crudo",
+  "item.tastyvanilla.raw_meat_frog": "Cosce di rana",
+  "item.tastyvanilla.raw_meat_bat": "Ali di pipistrello",
+  "item.tastyvanilla.raw_meat_turtle": "Tartaruga cruda",
+  "item.tastyvanilla.raw_meat_dolphin": "Delfino crudo",
+  "item.tastyvanilla.raw_meat_squid": "Calamaro crudo",
+  "item.tastyvanilla.raw_meat_axolotl": "Assolotto crudo",
+  "item.tastyvanilla.raw_meat_armadillo": "Armadillo crudo",
+  "item.tastyvanilla.raw_meat_allay": "Ali di alleviante",
+  "item.tastyvanilla.raw_meat_nautilus": "Nautilo crudo",
+
+  "item.tastyvanilla.cooked_meat_bear": "Bistecca di orso",
+  "item.tastyvanilla.cooked_meat_camel": "Bistecca di dromedario",
+  "item.tastyvanilla.cooked_meat_horse": "Bistecca di cavallo",
+  "item.tastyvanilla.cooked_meat_veggie": "Bistecca vegetale",
+  "item.tastyvanilla.cooked_meat_sniffer": "Arrosto di fiutatore",
+  "item.tastyvanilla.cooked_meat_goat": "Costoletta di capra cotta",
+  "item.tastyvanilla.cooked_meat_llama": "Costoletta di lama cotta",
+  "item.tastyvanilla.cooked_meat_wolf": "Bistecca di lupo",
+  "item.tastyvanilla.cooked_meat_fox": "Volpe cotta",
+  "item.tastyvanilla.cooked_meat_cat": "Gatto cotto",
+  "item.tastyvanilla.cooked_meat_parrot": "Pappagallo cotto",
+  "item.tastyvanilla.cooked_meat_frog": "Cosce di rana cotte",
+  "item.tastyvanilla.cooked_meat_bat": "Ali di pipistrello cotte",
+  "item.tastyvanilla.cooked_meat_turtle": "Tartaruga cotta",
+  "item.tastyvanilla.cooked_meat_dolphin": "Delfino cotto",
+  "item.tastyvanilla.cooked_meat_squid": "Calamaro cotto",
+  "item.tastyvanilla.cooked_meat_axolotl": "Assolotto cotto",
+  "item.tastyvanilla.cooked_meat_armadillo": "Armadillo cotto",
+  "item.tastyvanilla.cooked_meat_allay": "Ali di alleviante cotte",
+  "item.tastyvanilla.cooked_meat_nautilus": "Nautilo cotto"
 }
