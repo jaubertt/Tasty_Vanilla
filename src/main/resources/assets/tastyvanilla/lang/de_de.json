@@ -194,7 +194,7 @@
   "item.tastyvanilla.raw_meat_llama": "Rohes Lamafleisch",
   "item.tastyvanilla.raw_meat_wolf": "Rohes Wolfsfleisch",
   "item.tastyvanilla.raw_meat_fox": "Rohes Fuchsfleisch",
-  "item.tastyvanilla.raw_meat_cat": "Rohes Katzenfleisch",
+  "item.tastyvanilla.raw_meat_cat": "Katzenauge",
   "item.tastyvanilla.raw_meat_parrot": "Roher Papagei",
   "item.tastyvanilla.raw_meat_frog": "Froschschenkel",
   "item.tastyvanilla.raw_meat_bat": "Fledermausflügel",
@@ -205,6 +205,7 @@
   "item.tastyvanilla.raw_meat_armadillo": "Rohes Gürteltierfleisch",
   "item.tastyvanilla.raw_meat_allay": "Hilfsgeisterflügel",
   "item.tastyvanilla.raw_meat_nautilus": "Roher Nautilus",
+  "item.tastyvanilla.raw_meat_ravager": "Rohes Verwüsterfleisch",
 
   "item.tastyvanilla.cooked_meat_bear": "Bärensteak",
   "item.tastyvanilla.cooked_meat_camel": "Dromedarsteak",
@@ -215,15 +216,13 @@
   "item.tastyvanilla.cooked_meat_llama": "Gebratenes Lamafleisch",
   "item.tastyvanilla.cooked_meat_wolf": "Wolfssteak",
   "item.tastyvanilla.cooked_meat_fox": "Gebratenes Fuchsfleisch",
-  "item.tastyvanilla.cooked_meat_cat": "Gebratenes Katzenfleisch",
   "item.tastyvanilla.cooked_meat_parrot": "Gebratener Papagei",
   "item.tastyvanilla.cooked_meat_frog": "Gebratene Froschschenkel",
-  "item.tastyvanilla.cooked_meat_bat": "Gebratene Fledermausflügel",
   "item.tastyvanilla.cooked_meat_turtle": "Gebratenes Schildkrötenfleisch",
   "item.tastyvanilla.cooked_meat_dolphin": "Gebratenes Delfinfleisch",
   "item.tastyvanilla.cooked_meat_squid": "Gebratener Tintenfisch",
   "item.tastyvanilla.cooked_meat_axolotl": "Gebratener Axolotl",
   "item.tastyvanilla.cooked_meat_armadillo": "Gebratenes Gürteltierfleisch",
-  "item.tastyvanilla.cooked_meat_allay": "Gebratene Hilfsgeisterflügel",
-  "item.tastyvanilla.cooked_meat_nautilus": "Gebratener Nautilus"
+  "item.tastyvanilla.cooked_meat_nautilus": "Gebratener Nautilus",
+  "item.tastyvanilla.cooked_meat_ravager": "Verwüstersteak"
 }
