@@ -80,7 +80,7 @@
   "block.tastyvanilla.eggplant_crop": "Eggplant Crop" ,
 
   "item.tastyvanilla.garlic": "Garlic",
-  "item.tastyvanilla.garlic_crop": "Garlic Crop",
+  "block.tastyvanilla.garlic_crop": "Garlic Crop",
 
   "item.tastyvanilla.lettuce": "Lettuce",
   "item.tastyvanilla.lettuce_seeds": "Lettuce Seeds",
@@ -105,7 +105,7 @@
   "item.tastyvanilla.bread_garlic": "Garlic Bread",
   "item.tastyvanilla.dough_garlic": "Garlic Dough",
   "item.tastyvanilla.food_baked_sweet_potato": "Baked Sweet Potato",
-  "item.tastyvanilla.food_chilli_stew": "Chilli Stew",
+  "item.tastyvanilla.food_chilli_stew": "Chili Stew",
   "item.tastyvanilla.food_coleslaw": "Coleslaw",
   "item.tastyvanilla.food_onion_soup": "Onion Soup",
   "item.tastyvanilla.food_onion_ring": "Onion Rings",
@@ -182,6 +182,12 @@
   "item.tastyvanilla.cheese_hard": "Hard Cheese",
   "block.tastyvanilla.cheese_hard": "Hard Cheese",
 
+  //BLOCKS
+  "block.tastyvanilla.salt_block": "Block of Salt",
+  "item.tastyvanilla.salt_block": "Block of Salt",
+  "block.tastyvanilla.sugar_block": "Block of Sugar",
+  "item.tastyvanilla.sugar_block": "Block of Sugar",
+
   //MEATS & DROPS
   "item.tastyvanilla.raw_meat_bear": "Raw Bear",
   "item.tastyvanilla.raw_meat_camel": "Raw Camel",
@@ -223,11 +229,5 @@
   "item.tastyvanilla.cooked_meat_axolotl": "Cooked Axolotl",
   "item.tastyvanilla.cooked_meat_armadillo": "Cooked Armadillo",
   "item.tastyvanilla.cooked_meat_allay": "Cooked Allay Wings",
-  "item.tastyvanilla.cooked_meat_nautilus": "Cooked Nautilus",
-
-  //BLOCKS
-  "block.tastyvanilla.salt_block": "Block of Salt",
-  "item.tastyvanilla.salt_block": "Block of Salt",
-  "block.tastyvanilla.sugar_block": "Block of Sugar",
-  "item.tastyvanilla.sugar_block": "Block of Sugar"
+  "item.tastyvanilla.cooked_meat_nautilus": "Cooked Nautilus"
 }

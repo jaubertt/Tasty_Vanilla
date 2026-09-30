@@ -4,7 +4,9 @@
 //
 
 package tastyvanilla.world;
-
+import net.minecraft.core.Direction;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate;
 import java.util.List;
 
 import net.minecraft.core.Holder;
@@ -32,14 +34,27 @@ public class ModPlacedFeatures {
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
-        register(context, BERRY_BLACKBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_BLACKBERRY_BUSH_KEY), List.of(RarityFilter.onAverageOnceEvery(32),InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
-        register(context, BERRY_BLUEBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_BLUEBERRY_BUSH_KEY), List.of(RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
-        register(context, BERRY_ELDERBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_ELDERBERRY_BUSH_KEY), List.of(RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
-        register(context, BERRY_GOJI_BERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_GOJI_BERRY_BUSH_KEY), List.of(RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
-        register(context, BERRY_GOOSEBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_GOOSE_BERRY_BUSH_KEY), List.of(RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
-        register(context, BERRY_RASPBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_RASPBERRY_BUSH_KEY), List.of(RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
-        register(context, BERRY_STRAWBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_STRAWBERRY_BUSH_KEY), List.of(RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
-        register(context, BERRY_WHITE_CURRANT_BERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_WHITE_CURRANT_BERRY_BUSH_KEY), List.of(RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+        register(context, BERRY_BLACKBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_BLACKBERRY_BUSH_KEY), berryPatch());
+        register(context, BERRY_BLUEBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_BLUEBERRY_BUSH_KEY), berryPatch());
+        register(context, BERRY_ELDERBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_ELDERBERRY_BUSH_KEY), berryPatch());
+        register(context, BERRY_GOJI_BERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_GOJI_BERRY_BUSH_KEY), berryPatch());
+        register(context, BERRY_GOOSEBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_GOOSE_BERRY_BUSH_KEY), berryPatch());
+        register(context, BERRY_RASPBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_RASPBERRY_BUSH_KEY), berryPatch());
+        register(context, BERRY_STRAWBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_STRAWBERRY_BUSH_KEY), berryPatch());
+        register(context, BERRY_WHITE_CURRANT_BERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_WHITE_CURRANT_BERRY_BUSH_KEY), berryPatch());    }
+
+    // The 7 steps of vanilla 26.2's berry patch (minecraft:patch_berry_common), in the same order
+    private static List<PlacementModifier> berryPatch() {
+        return List.of(
+                RarityFilter.onAverageOnceEvery(32),    // step 1
+                InSquarePlacement.spread(),             // step 2
+                PlacementUtils.HEIGHTMAP_WORLD_SURFACE, // step 3
+                BiomeFilter.biome(),                    // step 4
+                CountPlacement.of(96),                  // step 5
+                RandomOffsetPlacement.ofTriangle(7, 3), // step 6
+                BlockPredicateFilter.forPredicate(BlockPredicate.allOf(            // step 7: keep the try only if
+                        BlockPredicate.ONLY_IN_AIR_PREDICATE,                      // the spot is air
+                        BlockPredicate.matchesBlocks(Direction.DOWN.getUnitVec3i(), Blocks.GRASS_BLOCK)))); // and the block below is grass
     }
 
 

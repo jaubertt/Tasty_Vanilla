@@ -35,22 +35,22 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> BERRY_WHITE_CURRANT_BERRY_BUSH_KEY = registerKey("berry_white_current_berry_bush");
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
-        register(context, BERRY_BLACKBERRY_BUSH_KEY, Feature.SIMPLE_RANDOM_SELECTOR,new CompositeFeatureConfiguration(HolderSet.direct(PlacementUtils.inlinePlaced(Feature.SIMPLE_BLOCK,
-                new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.BERRY_BLACKBERRY_BUSH.defaultBlockState().setValue(SweetBerryBushBlock.AGE, 3)))))));
-        register(context, BERRY_BLUEBERRY_BUSH_KEY, Feature.SIMPLE_RANDOM_SELECTOR,new CompositeFeatureConfiguration(HolderSet.direct(PlacementUtils.inlinePlaced(Feature.SIMPLE_BLOCK,
-                new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.BERRY_BLUEBERRY_BUSH.defaultBlockState().setValue(SweetBerryBushBlock.AGE, 3)))))));
-        register(context, BERRY_ELDERBERRY_BUSH_KEY, Feature.SIMPLE_RANDOM_SELECTOR,new CompositeFeatureConfiguration(HolderSet.direct(PlacementUtils.inlinePlaced(Feature.SIMPLE_BLOCK,
-                new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.BERRY_ELDERBERRY_BUSH.defaultBlockState().setValue(SweetBerryBushBlock.AGE, 3)))))));
-        register(context, BERRY_GOJI_BERRY_BUSH_KEY, Feature.SIMPLE_RANDOM_SELECTOR,new CompositeFeatureConfiguration(HolderSet.direct(PlacementUtils.inlinePlaced(Feature.SIMPLE_BLOCK,
-                new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.BERRY_GOJI_BERRY_BUSH.defaultBlockState().setValue(SweetBerryBushBlock.AGE, 3)))))));
-        register(context, BERRY_GOOSE_BERRY_BUSH_KEY, Feature.SIMPLE_RANDOM_SELECTOR,new CompositeFeatureConfiguration(HolderSet.direct(PlacementUtils.inlinePlaced(Feature.SIMPLE_BLOCK,
-                new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.BERRY_GOOSEBERRY_BUSH.defaultBlockState().setValue(SweetBerryBushBlock.AGE, 3)))))));
-        register(context, BERRY_RASPBERRY_BUSH_KEY, Feature.SIMPLE_RANDOM_SELECTOR,new CompositeFeatureConfiguration(HolderSet.direct(PlacementUtils.inlinePlaced(Feature.SIMPLE_BLOCK,
-                new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.BERRY_RASPBERRY_BUSH.defaultBlockState().setValue(SweetBerryBushBlock.AGE, 3)))))));
-        register(context, BERRY_STRAWBERRY_BUSH_KEY, Feature.SIMPLE_RANDOM_SELECTOR,new CompositeFeatureConfiguration(HolderSet.direct(PlacementUtils.inlinePlaced(Feature.SIMPLE_BLOCK,
-                new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.BERRY_STRAWBERRY_BUSH.defaultBlockState().setValue(SweetBerryBushBlock.AGE, 3)))))));
-        register(context, BERRY_WHITE_CURRANT_BERRY_BUSH_KEY, Feature.SIMPLE_RANDOM_SELECTOR,new CompositeFeatureConfiguration(HolderSet.direct(PlacementUtils.inlinePlaced(Feature.SIMPLE_BLOCK,
-                new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH.defaultBlockState().setValue(SweetBerryBushBlock.AGE, 3)))))));
+        register(context, BERRY_BLACKBERRY_BUSH_KEY, Feature.SIMPLE_BLOCK,
+                new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.BERRY_BLACKBERRY_BUSH.defaultBlockState().setValue(SweetBerryBushBlock.AGE, 3))));
+        register(context, BERRY_BLUEBERRY_BUSH_KEY, Feature.SIMPLE_BLOCK,
+                new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.BERRY_BLUEBERRY_BUSH.defaultBlockState().setValue(SweetBerryBushBlock.AGE, 3))));
+        register(context, BERRY_ELDERBERRY_BUSH_KEY, Feature.SIMPLE_BLOCK,
+                new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.BERRY_ELDERBERRY_BUSH.defaultBlockState().setValue(SweetBerryBushBlock.AGE, 3))));
+        register(context, BERRY_GOJI_BERRY_BUSH_KEY, Feature.SIMPLE_BLOCK,
+                new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.BERRY_GOJI_BERRY_BUSH.defaultBlockState().setValue(SweetBerryBushBlock.AGE, 3))));
+        register(context, BERRY_GOOSE_BERRY_BUSH_KEY, Feature.SIMPLE_BLOCK,
+                new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.BERRY_GOOSEBERRY_BUSH.defaultBlockState().setValue(SweetBerryBushBlock.AGE, 3))));
+        register(context, BERRY_RASPBERRY_BUSH_KEY, Feature.SIMPLE_BLOCK,
+                new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.BERRY_RASPBERRY_BUSH.defaultBlockState().setValue(SweetBerryBushBlock.AGE, 3))));
+        register(context, BERRY_STRAWBERRY_BUSH_KEY, Feature.SIMPLE_BLOCK,
+                new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.BERRY_STRAWBERRY_BUSH.defaultBlockState().setValue(SweetBerryBushBlock.AGE, 3))));
+        register(context, BERRY_WHITE_CURRANT_BERRY_BUSH_KEY, Feature.SIMPLE_BLOCK,
+                new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH.defaultBlockState().setValue(SweetBerryBushBlock.AGE, 3))));
     }
 
 
