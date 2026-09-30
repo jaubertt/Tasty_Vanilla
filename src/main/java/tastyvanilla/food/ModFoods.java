@@ -131,7 +131,7 @@ public class ModFoods {
 
     public static final Consumable JAMS_CONSUMABLE = Consumables.defaultDrink()
             .consumeSeconds(2.0F).sound(SoundEvents.HONEY_DRINK).onConsume(ClearAllStatusEffectsConsumeEffect.INSTANCE).build();
-    public static final Consumable PIE_CHORUS_FRUIT_CONSUMABLE = Consumables.defaultDrink()
+    public static final Consumable PIE_CHORUS_FRUIT_CONSUMABLE = Consumables.defaultFood()
             .onConsume(new TeleportRandomlyConsumeEffect()).build();
     public static final Consumable DOUGH_CONSUMABLE = Consumables.defaultDrink()
             .consumeSeconds(2.0F).sound(SoundEvents.GENERIC_EAT)

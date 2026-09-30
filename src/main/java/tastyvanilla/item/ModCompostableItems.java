@@ -79,8 +79,8 @@ public class ModCompostableItems {
 		CompostableRegistry.INSTANCE.add(ModItems.CHILLI_SEEDS,0.25f);
 		CompostableRegistry.INSTANCE.add(ModItems.EGGPLANT,0.5f);
 		CompostableRegistry.INSTANCE.add(ModItems.GARLIC,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.LETTUCE,0.25f);
-		CompostableRegistry.INSTANCE.add(ModItems.LETTUCE_SEEDS,0.5f);
+		CompostableRegistry.INSTANCE.add(ModItems.LETTUCE,0.5f);
+		CompostableRegistry.INSTANCE.add(ModItems.LETTUCE_SEEDS,0.25f);
 		CompostableRegistry.INSTANCE.add(ModItems.ONION,0.5f);
 		CompostableRegistry.INSTANCE.add(ModItems.SWEET_POTATO,0.25f);
 		CompostableRegistry.INSTANCE.add(ModItems.TOMATO,0.5f);

@@ -79,7 +79,7 @@ public class ModItems {
     public static final Item PIE_APPLE = registerItem(ModItemIds.PIE_APPLE, properties -> new Item(properties.food(ModFoods.PIE_APPLE)));
     public static final Item PIE_CHICKEN = registerItem(ModItemIds.PIE_CHICKEN, properties -> new Item(properties.food(ModFoods.PIE_CHICKEN)));
     public static final Item PIE_CHOCOLATE = registerItem(ModItemIds.PIE_CHOCOLATE, properties -> new Item(properties.food(ModFoods.PIE_CHOCOLATE)));
-    public static final Item PIE_CHORUS_FRUIT = registerItem(ModItemIds.PIE_CHORUS_FRUIT, properties -> new Item(properties.food(ModFoods.PIE_CHORUS_FRUIT,ModFoods.PIE_CHORUS_FRUIT_CONSUMABLE)));
+    public static final Item PIE_CHORUS_FRUIT = registerItem(ModItemIds.PIE_CHORUS_FRUIT, properties -> new Item(properties.food(ModFoods.PIE_CHORUS_FRUIT,Consumables.CHORUS_FRUIT)));
     public static final Item PIE_FISH = registerItem(ModItemIds.PIE_FISH, properties -> new Item(properties.food(ModFoods.PIE_FISH)));
     public static final Item PIE_FUNGUS = registerItem(ModItemIds.PIE_FUNGUS, properties -> new Item(properties.food(ModFoods.PIE_FUNGUS)));
     public static final Item PIE_GLOW_BERRY = registerItem(ModItemIds.PIE_GLOW_BERRY, properties -> new Item(properties.food(ModFoods.PIE_GLOW_BERRY)));

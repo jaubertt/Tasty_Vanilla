@@ -1,6 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "category": "misc",
+  "category": "food",
   "ingredient": [
     "tastyvanilla:jam_elderberry_mash"
   ],
