@@ -7,35 +7,15 @@
   ],
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
-            {
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "block": "tastyvanilla:eggplant_crop",
-                  "condition": "minecraft:block_state_property",
-                  "properties": {
-                    "age": "7"
-                  }
-                }
-              ],
-              "name": "tastyvanilla:eggplant"
-            },
-            {
-              "type": "minecraft:item",
-              "name": "tastyvanilla:eggplant"
-            }
-          ]
+          "type": "minecraft:item",
+          "name": "tastyvanilla:eggplant"
         }
       ],
       "rolls": 1.0
     },
     {
-      "bonus_rolls": 0.0,
       "conditions": [
         {
           "block": "tastyvanilla:eggplant_crop",
@@ -64,5 +44,6 @@
       ],
       "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "tastyvanilla:blocks/eggplant_crop"
 }

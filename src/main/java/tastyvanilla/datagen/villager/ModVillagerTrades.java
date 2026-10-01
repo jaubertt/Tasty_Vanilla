@@ -162,7 +162,7 @@ public class ModVillagerTrades {
                 new TradeCost(ModItems.RAW_MEAT_CAT, 2),new ItemStackTemplate(Items.EMERALD), 12, 20, 0.05f, Optional.empty(), List.of()));
 
         register(context, CLERIC_4_RAW_MEAT_ALLAY_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_ALLAY, 6),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
+                new TradeCost(ModItems.RAW_MEAT_ALLAY, 2),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
         register(context, CLERIC_4_RAW_MEAT_BAT_EMERALD, new VillagerTrade(
                 new TradeCost(ModItems.RAW_MEAT_BAT, 4),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
 

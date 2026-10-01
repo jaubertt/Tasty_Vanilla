@@ -6,9 +6,9 @@ import net.fabricmc.fabric.api.registry.VillagerInteractionRegistries;
 
 public class ModCompostableItems {
 
-    //ITEM INITIALIZER
-    public static void registerModCompostableItems(){
-        TastyVanilla.LOGGER.info("Registering Mod Compostable Items for " + TastyVanilla.MOD_ID);
+	//ITEM INITIALIZER
+	public static void registerModCompostableItems(){
+		TastyVanilla.LOGGER.info("Registering Mod Compostable Items for " + TastyVanilla.MOD_ID);
 
 		//COOKIES
 		CompostableRegistry.INSTANCE.add(ModItems.COOKIE_APPLE,0.85f);
@@ -40,21 +40,21 @@ public class ModCompostableItems {
 		CompostableRegistry.INSTANCE.add(ModItems.PIE_STRAWBERRY,1.0f);
 		CompostableRegistry.INSTANCE.add(ModItems.PIE_VEGETABLE,1.0f);
 
-		//BAKED BREAD
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_BAGUEL,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_BAGUETTE,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_BAKED,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_BROWNIE,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_CROISSANT,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_FLATBREAD,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_FOCACCIA,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_HONEY,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_MULTIGRAIN,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_PANCAKES,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_SOURDOUGH,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_SWEET_ROLL,0.5f);
+		//BAKED BREAD, LIKE VANILLA BREAD
+		CompostableRegistry.INSTANCE.add(ModItems.BREAD_BAGUEL,0.85f);
+		CompostableRegistry.INSTANCE.add(ModItems.BREAD_BAGUETTE,0.85f);
+		CompostableRegistry.INSTANCE.add(ModItems.BREAD_BAKED,0.85f);
+		CompostableRegistry.INSTANCE.add(ModItems.BREAD_BROWNIE,0.85f);
+		CompostableRegistry.INSTANCE.add(ModItems.BREAD_CROISSANT,0.85f);
+		CompostableRegistry.INSTANCE.add(ModItems.BREAD_FLATBREAD,0.85f);
+		CompostableRegistry.INSTANCE.add(ModItems.BREAD_FOCACCIA,0.85f);
+		CompostableRegistry.INSTANCE.add(ModItems.BREAD_HONEY,0.85f);
+		CompostableRegistry.INSTANCE.add(ModItems.BREAD_MULTIGRAIN,0.85f);
+		CompostableRegistry.INSTANCE.add(ModItems.BREAD_PANCAKES,0.85f);
+		CompostableRegistry.INSTANCE.add(ModItems.BREAD_SOURDOUGH,0.85f);
+		CompostableRegistry.INSTANCE.add(ModItems.BREAD_SWEET_ROLL,0.85f);
 
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_GARLIC,0.5f);
+		CompostableRegistry.INSTANCE.add(ModItems.BREAD_GARLIC,0.85f);
 
 
 		//DOUGHS
@@ -73,18 +73,22 @@ public class ModCompostableItems {
 		CompostableRegistry.INSTANCE.add(ModItems.DOUGH_GARLIC,0.65f);
 
 
-		//CROPS
-        CompostableRegistry.INSTANCE.add(ModItems.CABBAGE,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.CHILLI,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.CHILLI_SEEDS,0.25f);
-		CompostableRegistry.INSTANCE.add(ModItems.EGGPLANT,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.GARLIC,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.LETTUCE,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.LETTUCE_SEEDS,0.25f);
-		CompostableRegistry.INSTANCE.add(ModItems.ONION,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.SWEET_POTATO,0.25f);
-		CompostableRegistry.INSTANCE.add(ModItems.TOMATO,0.5f);
-		CompostableRegistry.INSTANCE.add(ModItems.TOMATO_SEEDS,0.25f);
+		//CROPS LIKE VANILLA CARROT AND POTATO, SEEDS LIKE VANILLA SEEDS
+		CompostableRegistry.INSTANCE.add(ModItems.CABBAGE,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.CHILLI,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.CHILLI_SEEDS,0.3f);
+		CompostableRegistry.INSTANCE.add(ModItems.EGGPLANT,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.GARLIC,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.LETTUCE,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.LETTUCE_SEEDS,0.3f);
+		CompostableRegistry.INSTANCE.add(ModItems.ONION,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.SWEET_POTATO,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.TOMATO,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.TOMATO_SEEDS,0.3f);
+
+		//COOKED VEGETABLES, LIKE VANILLA BAKED POTATO
+		CompostableRegistry.INSTANCE.add(ModItems.FOOD_BAKED_SWEET_POTATO,0.85f);
+		CompostableRegistry.INSTANCE.add(ModItems.FOOD_ROASTED_GARLIC,0.85f);
 
 		//BERRIES
 		CompostableRegistry.INSTANCE.add(ModItems.BERRY_BLACKBERRIES, 0.3F);
@@ -110,5 +114,5 @@ public class ModCompostableItems {
 		VillagerInteractionRegistries.registerFood(ModItems.ONION, 1);
 		VillagerInteractionRegistries.registerFood(ModItems.SWEET_POTATO, 1);
 		VillagerInteractionRegistries.registerFood(ModItems.TOMATO, 1);
-    }
+	}
 }

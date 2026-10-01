@@ -42,32 +42,12 @@ public class ModBlockTagProvider extends FabricTagsProvider.BlockTagsProvider {
 
 
         //TOOLS
-        builder(BlockTags.MINEABLE_WITH_AXE)
-                .add(ModBlockIds.CABBAGE_CROP)
-                .add(ModBlockIds.CHILLI_CROP)
-                .add(ModBlockIds.EGGPLANT_CROP)
-                .add(ModBlockIds.GARLIC_CROP)
-                .add(ModBlockIds.LETTUCE_CROP)
-                .add(ModBlockIds.ONION_CROP)
-                .add(ModBlockIds.SWEET_POTATO_CROP)
-                .add(ModBlockIds.TOMATO_CROP)
-                .add(ModBlockItemIds.SALT_BLOCK.block())
-                .add(ModBlockItemIds.SUGAR_BLOCK.block())
-        ;
-
         builder(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlockIds.CABBAGE_CROP)
-                .add(ModBlockIds.CHILLI_CROP)
-                .add(ModBlockIds.EGGPLANT_CROP)
-                .add(ModBlockIds.GARLIC_CROP)
-                .add(ModBlockIds.LETTUCE_CROP)
-                .add(ModBlockIds.ONION_CROP)
-                .add(ModBlockIds.SWEET_POTATO_CROP)
-                .add(ModBlockIds.TOMATO_CROP)
                 .add(ModBlockItemIds.SALT_BLOCK.block())
                 .add(ModBlockItemIds.SUGAR_BLOCK.block())
         ;
 
+        //BUSHES TAGGED LIKE THE VANILLA SWEET BERRY BUSH (CROPS ARE ALREADY COVERED THROUGH BlockTags.CROPS)
         builder(BlockTags.BEE_GROWABLES)
                 .add(ModBlockIds.BERRY_BLACKBERRY_BUSH)
                 .add(ModBlockIds.BERRY_BLUEBERRY_BUSH)
@@ -77,14 +57,7 @@ public class ModBlockTagProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlockIds.BERRY_RASPBERRY_BUSH)
                 .add(ModBlockIds.BERRY_STRAWBERRY_BUSH)
                 .add(ModBlockIds.BERRY_WHITE_CURRANT_BERRY_BUSH)
-                .add(ModBlockIds.CABBAGE_CROP)
-                .add(ModBlockIds.CHILLI_CROP)
-                .add(ModBlockIds.EGGPLANT_CROP)
-                .add(ModBlockIds.GARLIC_CROP)
-                .add(ModBlockIds.LETTUCE_CROP)
-                .add(ModBlockIds.ONION_CROP)
-                .add(ModBlockIds.SWEET_POTATO_CROP)
-                .add(ModBlockIds.TOMATO_CROP);
+        ;
 
         //BERRY BUSHES, LIKE THE VANILLA SWEET BERRY BUSH
         builder(BlockTags.FALL_DAMAGE_RESETTING)
