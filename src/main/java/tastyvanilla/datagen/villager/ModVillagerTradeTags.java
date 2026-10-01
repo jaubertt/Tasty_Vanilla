@@ -77,5 +77,23 @@ public class ModVillagerTradeTags extends FabricTagsProvider<VillagerTrade> {
         getOrCreateRawBuilder(VillagerTradeTags.CLERIC_LEVEL_4)
                 .add(TagEntry.element(ModVillagerTrades.CLERIC_4_RAW_MEAT_BAT_EMERALD.identifier()))
                 .add(TagEntry.element(ModVillagerTrades.CLERIC_4_RAW_MEAT_ALLAY_EMERALD.identifier()));
+
+        getOrCreateRawBuilder(VillagerTradeTags.WANDERING_TRADER_COMMON)
+                .add(TagEntry.element(ModVillagerTrades.WANDERING_TRADER_EMERALD_CHILLI_SEEDS.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.WANDERING_TRADER_EMERALD_LETTUCE_SEEDS.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.WANDERING_TRADER_EMERALD_TOMATO_SEEDS.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.WANDERING_TRADER_EMERALD_CABBAGE.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.WANDERING_TRADER_EMERALD_EGGPLANT.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.WANDERING_TRADER_EMERALD_GARLIC.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.WANDERING_TRADER_EMERALD_ONION.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.WANDERING_TRADER_EMERALD_SWEET_POTATO.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.WANDERING_TRADER_EMERALD_BERRY_BLACKBERRIES.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.WANDERING_TRADER_EMERALD_BERRY_BLUEBERRIES.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.WANDERING_TRADER_EMERALD_BERRY_ELDERBERRIES.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.WANDERING_TRADER_EMERALD_BERRY_GOJI_BERRIES.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.WANDERING_TRADER_EMERALD_BERRY_GOOSEBERRIES.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.WANDERING_TRADER_EMERALD_BERRY_RASPBERRIES.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.WANDERING_TRADER_EMERALD_BERRY_STRAWBERRIES.identifier()))
+                .add(TagEntry.element(ModVillagerTrades.WANDERING_TRADER_EMERALD_BERRY_WHITE_CURRANT_BERRIES.identifier()));
     }
 }

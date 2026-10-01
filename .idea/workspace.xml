@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc4fb4ac-10af-4184-aa13-c3e6b209727b" name="Changes" comment="Meat and Drops Update">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Claude outputs/eye-and-wings-26.2.md" beforeDir="false" afterPath="$PROJECT_DIR$/Claude outputs/eye-and-wings-26.2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/models/item/sugar.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/advancement/recipes/tools/glass_jar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/tastyvanilla/advancement/recipes/tools/glass_jar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/38c23aef0ee8b065151e48e32e8b3fc494233697" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/38c23aef0ee8b065151e48e32e8b3fc494233697" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/a43f8c688fffc278adadf1d18154a2f8d17d08ef" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/a43f8c688fffc278adadf1d18154a2f8d17d08ef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/villager/ModVillagerTradeTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/villager/ModVillagerTradeTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/villager/ModVillagerTrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tastyvanilla/datagen/villager/ModVillagerTrades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/cooked_meat_nautilus.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/cooked_meat_nautilus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/cooked_meat_ravager.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/cooked_meat_ravager.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/cooked_meat_squid.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/cooked_meat_squid.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/raw_meat_nautilus.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/raw_meat_nautilus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/raw_meat_ravager.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/raw_meat_ravager.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/raw_meat_squid.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tastyvanilla/textures/item/raw_meat_squid.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +162,7 @@
       <recent name="tastyvanilla.mixin" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Data Generation">
+  <component name="RunManager" selected="Gradle.Tasty Vanilla [runClient]">
     <configuration name="Tasty Vanilla [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -489,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790804669417</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Meat and Drops Update">
+      <option name="closed" value="true" />
+      <created>1790825756378</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1790825756379</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="UnknownFeatures">

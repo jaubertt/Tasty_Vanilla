@@ -62,6 +62,23 @@ public class ModVillagerTrades {
     public static final ResourceKey<VillagerTrade> CLERIC_4_RAW_MEAT_ALLAY_EMERALD = createKey("cleric/4/raw_meat_allay_emerald");
     public static final ResourceKey<VillagerTrade> CLERIC_4_RAW_MEAT_BAT_EMERALD = createKey("cleric/4/raw_meat_bat_emerald");
 
+    public static final ResourceKey<VillagerTrade> WANDERING_TRADER_EMERALD_CHILLI_SEEDS = createKey("wandering_trader/emerald_chilli_seeds");
+    public static final ResourceKey<VillagerTrade> WANDERING_TRADER_EMERALD_LETTUCE_SEEDS = createKey("wandering_trader/emerald_lettuce_seeds");
+    public static final ResourceKey<VillagerTrade> WANDERING_TRADER_EMERALD_TOMATO_SEEDS = createKey("wandering_trader/emerald_tomato_seeds");
+    public static final ResourceKey<VillagerTrade> WANDERING_TRADER_EMERALD_CABBAGE = createKey("wandering_trader/emerald_cabbage");
+    public static final ResourceKey<VillagerTrade> WANDERING_TRADER_EMERALD_EGGPLANT = createKey("wandering_trader/emerald_eggplant");
+    public static final ResourceKey<VillagerTrade> WANDERING_TRADER_EMERALD_GARLIC = createKey("wandering_trader/emerald_garlic");
+    public static final ResourceKey<VillagerTrade> WANDERING_TRADER_EMERALD_ONION = createKey("wandering_trader/emerald_onion");
+    public static final ResourceKey<VillagerTrade> WANDERING_TRADER_EMERALD_SWEET_POTATO = createKey("wandering_trader/emerald_sweet_potato");
+    public static final ResourceKey<VillagerTrade> WANDERING_TRADER_EMERALD_BERRY_BLACKBERRIES = createKey("wandering_trader/emerald_berry_blackberries");
+    public static final ResourceKey<VillagerTrade> WANDERING_TRADER_EMERALD_BERRY_BLUEBERRIES = createKey("wandering_trader/emerald_berry_blueberries");
+    public static final ResourceKey<VillagerTrade> WANDERING_TRADER_EMERALD_BERRY_ELDERBERRIES = createKey("wandering_trader/emerald_berry_elderberries");
+    public static final ResourceKey<VillagerTrade> WANDERING_TRADER_EMERALD_BERRY_GOJI_BERRIES = createKey("wandering_trader/emerald_berry_goji_berries");
+    public static final ResourceKey<VillagerTrade> WANDERING_TRADER_EMERALD_BERRY_GOOSEBERRIES = createKey("wandering_trader/emerald_berry_gooseberries");
+    public static final ResourceKey<VillagerTrade> WANDERING_TRADER_EMERALD_BERRY_RASPBERRIES = createKey("wandering_trader/emerald_berry_raspberries");
+    public static final ResourceKey<VillagerTrade> WANDERING_TRADER_EMERALD_BERRY_STRAWBERRIES = createKey("wandering_trader/emerald_berry_strawberries");
+    public static final ResourceKey<VillagerTrade> WANDERING_TRADER_EMERALD_BERRY_WHITE_CURRANT_BERRIES = createKey("wandering_trader/emerald_berry_white_currant_berries");
+
 
 
     public static void bootstrap(BootstrapContext<VillagerTrade> context) {
@@ -148,6 +165,39 @@ public class ModVillagerTrades {
                 new TradeCost(ModItems.RAW_MEAT_ALLAY, 6),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
         register(context, CLERIC_4_RAW_MEAT_BAT_EMERALD, new VillagerTrade(
                 new TradeCost(ModItems.RAW_MEAT_BAT, 4),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
+
+        register(context, WANDERING_TRADER_EMERALD_CHILLI_SEEDS, new VillagerTrade(
+                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.CHILLI_SEEDS), 12, 1, 0.05f, Optional.empty(), List.of()));
+        register(context, WANDERING_TRADER_EMERALD_LETTUCE_SEEDS, new VillagerTrade(
+                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.LETTUCE_SEEDS), 12, 1, 0.05f, Optional.empty(), List.of()));
+        register(context, WANDERING_TRADER_EMERALD_TOMATO_SEEDS, new VillagerTrade(
+                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.TOMATO_SEEDS), 12, 1, 0.05f, Optional.empty(), List.of()));
+        register(context, WANDERING_TRADER_EMERALD_CABBAGE, new VillagerTrade(
+                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.CABBAGE), 12, 1, 0.05f, Optional.empty(), List.of()));
+        register(context, WANDERING_TRADER_EMERALD_EGGPLANT, new VillagerTrade(
+                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.EGGPLANT), 12, 1, 0.05f, Optional.empty(), List.of()));
+        register(context, WANDERING_TRADER_EMERALD_GARLIC, new VillagerTrade(
+                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.GARLIC), 12, 1, 0.05f, Optional.empty(), List.of()));
+        register(context, WANDERING_TRADER_EMERALD_ONION, new VillagerTrade(
+                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.ONION), 12, 1, 0.05f, Optional.empty(), List.of()));
+        register(context, WANDERING_TRADER_EMERALD_SWEET_POTATO, new VillagerTrade(
+                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.SWEET_POTATO), 12, 1, 0.05f, Optional.empty(), List.of()));
+        register(context, WANDERING_TRADER_EMERALD_BERRY_BLACKBERRIES, new VillagerTrade(
+                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.BERRY_BLACKBERRIES), 12, 1, 0.05f, Optional.empty(), List.of()));
+        register(context, WANDERING_TRADER_EMERALD_BERRY_BLUEBERRIES, new VillagerTrade(
+                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.BERRY_BLUEBERRIES), 12, 1, 0.05f, Optional.empty(), List.of()));
+        register(context, WANDERING_TRADER_EMERALD_BERRY_ELDERBERRIES, new VillagerTrade(
+                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.BERRY_ELDERBERRIES), 12, 1, 0.05f, Optional.empty(), List.of()));
+        register(context, WANDERING_TRADER_EMERALD_BERRY_GOJI_BERRIES, new VillagerTrade(
+                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.BERRY_GOJI_BERRIES), 12, 1, 0.05f, Optional.empty(), List.of()));
+        register(context, WANDERING_TRADER_EMERALD_BERRY_GOOSEBERRIES, new VillagerTrade(
+                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.BERRY_GOOSEBERRIES), 12, 1, 0.05f, Optional.empty(), List.of()));
+        register(context, WANDERING_TRADER_EMERALD_BERRY_RASPBERRIES, new VillagerTrade(
+                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.BERRY_RASPBERRIES), 12, 1, 0.05f, Optional.empty(), List.of()));
+        register(context, WANDERING_TRADER_EMERALD_BERRY_STRAWBERRIES, new VillagerTrade(
+                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.BERRY_STRAWBERRIES), 12, 1, 0.05f, Optional.empty(), List.of()));
+        register(context, WANDERING_TRADER_EMERALD_BERRY_WHITE_CURRANT_BERRIES, new VillagerTrade(
+                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.BERRY_WHITE_CURRANT_BERRIES), 12, 1, 0.05f, Optional.empty(), List.of()));
 
     }
     
