@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "tastyvanilla",
-	"version": "2.2",
+	"version": "${version}",
 	"name": "TastyVanilla",
 	"description": "Tasty Vanilla brings an array of exciting culinary and farming adventures to Minecraft while maintaining the familiar feel of the game's classic mechanics.",
 	"authors": [

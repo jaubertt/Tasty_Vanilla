@@ -1,6 +1,6 @@
 # Cat Eye, Bat Wings and Allay Wings
 
-**Status, 30 Sep:** Parts 1 to 6, and Part 6b except the textures, are done by you and checked by me: the Java compiles, and Data Generation ran at 11:37 and made all the ravager files. You also added the Hunger chance to Raw Ravager, kept the Cat Eye trade at cleric level 3, and removed the old cooked textures. Part 8 is done by me, ravager names included, and double-checked by 2 agents. Next: the 2 ravager textures (Part 6b, step 17), then Part 7 and on as written.
+**Status, 30 Sep: all done.** Parts 1 to 12 are finished. 26.2 was committed and pushed (`cb5f563`), and the 9 lang files were copied to the 11 other branches and pushed. I checked every branch on your Mac and on GitHub. Your in-game test closed normally, with no errors about the new items.
 
 Written for your files as they were on 30 Sep at 10:35 your time. Please don't edit these files until you've done the steps. If a line doesn't match what a step says, stop and tell me.
 
