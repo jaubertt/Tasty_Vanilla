@@ -15,9 +15,7 @@ import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
-import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
 import net.minecraft.world.level.levelgen.placement.*;
 import tastyvanilla.TastyVanilla;
 
@@ -33,7 +31,7 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> BERRY_WHITE_CURRANT_BERRY_BUSH_PLACED_KEY = registerKey("berry_white_currant_berry_bush_placed");
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
-        var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
+        var configuredFeatures = context.lookup(Registries.FEATURE);
         register(context, BERRY_BLACKBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_BLACKBERRY_BUSH_KEY), berryPatch());
         register(context, BERRY_BLUEBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_BLUEBERRY_BUSH_KEY), berryPatch());
         register(context, BERRY_ELDERBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_ELDERBERRY_BUSH_KEY), berryPatch());
@@ -43,7 +41,7 @@ public class ModPlacedFeatures {
         register(context, BERRY_STRAWBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_STRAWBERRY_BUSH_KEY), berryPatch());
         register(context, BERRY_WHITE_CURRANT_BERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BERRY_WHITE_CURRANT_BERRY_BUSH_KEY), berryPatch());    }
 
-    // The 7 steps of vanilla 26.2's berry patch (minecraft:patch_berry_common), in the same order
+    // The 7 steps of vanilla 26.3's berry patch (minecraft:patch_berry_common), in the same order
     private static List<PlacementModifier> berryPatch() {
         return List.of(
                 RarityFilter.onAverageOnceEvery(32),    // step 1
@@ -51,10 +49,10 @@ public class ModPlacedFeatures {
                 PlacementUtils.HEIGHTMAP_WORLD_SURFACE, // step 3
                 BiomeFilter.biome(),                    // step 4
                 CountPlacement.of(96),                  // step 5
-                RandomOffsetPlacement.ofTriangle(7, 3), // step 6
+                OffsetPlacement.ofTriangle(7, 3),       // step 6
                 BlockPredicateFilter.forPredicate(BlockPredicate.allOf(            // step 7: keep the try only if
                         BlockPredicate.ONLY_IN_AIR_PREDICATE,                      // the spot is air
-                        BlockPredicate.matchesBlocks(Direction.DOWN.getUnitVec3i(), Blocks.GRASS_BLOCK)))); // and the block below is grass
+                        BlockPredicate.matchesBlocks(Direction.DOWN, Blocks.GRASS_BLOCK)))); // and the block below is grass
     }
 
 
@@ -62,14 +60,13 @@ public class ModPlacedFeatures {
         return ResourceKey.create(Registries.PLACED_FEATURE, Identifier.fromNamespaceAndPath(TastyVanilla.MOD_ID, name));
     }
 
-    private static <FC extends FeatureConfiguration, F extends Feature<FC>> void register(BootstrapContext<PlacedFeature> context, ResourceKey<PlacedFeature> key,
-                                                                                          Holder<ConfiguredFeature<?, ?>> configuration, net.minecraft.world.level.levelgen.placement.PlacementModifier... modifiers) {
+    private static void register(BootstrapContext<PlacedFeature> context, ResourceKey<PlacedFeature> key,
+                                 Holder<Feature> configuration, net.minecraft.world.level.levelgen.placement.PlacementModifier... modifiers) {
         register(context, key, configuration, List.of(modifiers));
     }
 
-    private static void register(BootstrapContext<PlacedFeature> context, ResourceKey<PlacedFeature> key, Holder<ConfiguredFeature<?, ?>> configuration,
+    private static void register(BootstrapContext<PlacedFeature> context, ResourceKey<PlacedFeature> key, Holder<Feature> configuration,
                                  List<net.minecraft.world.level.levelgen.placement.PlacementModifier> modifiers) {
         context.register(key, new PlacedFeature(configuration, List.copyOf(modifiers)));
     }
 }
-

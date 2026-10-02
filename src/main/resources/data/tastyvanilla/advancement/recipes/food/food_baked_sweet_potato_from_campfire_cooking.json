@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tastyvanilla:food_baked_sweet_potato_from_campfire_cooking"
+        "recipes": "tastyvanilla:food_baked_sweet_potato_from_campfire_cooking"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

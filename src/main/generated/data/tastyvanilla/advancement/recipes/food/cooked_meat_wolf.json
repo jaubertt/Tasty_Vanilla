@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tastyvanilla:cooked_meat_wolf"
+        "recipes": "tastyvanilla:cooked_meat_wolf"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

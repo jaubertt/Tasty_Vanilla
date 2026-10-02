@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tastyvanilla:cooked_meat_sniffer"
+        "recipes": "tastyvanilla:cooked_meat_sniffer"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

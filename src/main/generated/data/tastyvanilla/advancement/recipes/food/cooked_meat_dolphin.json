@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tastyvanilla:cooked_meat_dolphin"
+        "recipes": "tastyvanilla:cooked_meat_dolphin"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

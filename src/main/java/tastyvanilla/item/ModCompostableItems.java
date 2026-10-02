@@ -1,118 +1,143 @@
 package tastyvanilla.item;
 
-import net.fabricmc.fabric.api.registry.CompostableRegistry;
-import tastyvanilla.TastyVanilla;
+import net.fabricmc.fabric.api.item.v1.DefaultItemComponentEvents;
 import net.fabricmc.fabric.api.registry.VillagerInteractionRegistries;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.food.VillagerFood;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.component.Compostable;
+import net.minecraft.world.level.storage.loot.providers.number.ints.ContextIntProvider;
+import net.minecraft.world.level.storage.loot.providers.number.ints.ContextIntProviders;
+import tastyvanilla.TastyVanilla;
 
 public class ModCompostableItems {
+
+	//COMPOST CHANCES, THE SAME ONES VANILLA USES (data/minecraft/context_int_provider/compostable/)
+	//AN EMPTY COMPOSTER ALWAYS GETS A LAYER, LIKE BEFORE
+	private static final ResourceKey<ContextIntProvider> LOW = ContextIntProviders.COMPOSTABLE_LOW;                       //30%, LIKE WHEAT SEEDS (WAS 0.3f)
+	private static final ResourceKey<ContextIntProvider> MEDIUM = ContextIntProviders.COMPOSTABLE_MEDIUM;                 //65%, LIKE CARROT (WAS 0.65f)
+	private static final ResourceKey<ContextIntProvider> MEDIUM_HIGH = ContextIntProviders.COMPOSTABLE_MEDIUM_HIGH;       //85%, LIKE BREAD (WAS 0.85f)
+	private static final ResourceKey<ContextIntProvider> ALWAYS_ADD_ONE = ContextIntProviders.COMPOSTABLE_ALWAYS_ADD_ONE; //100%, LIKE PUMPKIN PIE (WAS 1.0f)
 
 	//ITEM INITIALIZER
 	public static void registerModCompostableItems(){
 		TastyVanilla.LOGGER.info("Registering Mod Compostable Items for " + TastyVanilla.MOD_ID);
 
-		//COOKIES
-		CompostableRegistry.INSTANCE.add(ModItems.COOKIE_APPLE,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.COOKIE_CARROT,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.COOKIE_GLOW_BERRY,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.COOKIE_HONEY,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.COOKIE_OATMEAL,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.COOKIE_POPPY_SEED,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.COOKIE_PUMPKIN,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.COOKIE_SPIDER_EYE,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.COOKIE_SUGAR,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.COOKIE_SUNFLOWER_SEED,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.COOKIE_SWEET_BERRY,0.85f);
+		//26.3: COMPOSTING AND VILLAGER FOOD ARE ITEM COMPONENTS NOW, SET HERE ON THE MOD'S ITEMS
+		DefaultItemComponentEvents.MODIFY.register(context -> {
+			//COOKIES
+			compostable(context, ModItems.COOKIE_APPLE, MEDIUM_HIGH);
+			compostable(context, ModItems.COOKIE_CARROT, MEDIUM_HIGH);
+			compostable(context, ModItems.COOKIE_GLOW_BERRY, MEDIUM_HIGH);
+			compostable(context, ModItems.COOKIE_HONEY, MEDIUM_HIGH);
+			compostable(context, ModItems.COOKIE_OATMEAL, MEDIUM_HIGH);
+			compostable(context, ModItems.COOKIE_POPPY_SEED, MEDIUM_HIGH);
+			compostable(context, ModItems.COOKIE_PUMPKIN, MEDIUM_HIGH);
+			compostable(context, ModItems.COOKIE_SPIDER_EYE, MEDIUM_HIGH);
+			compostable(context, ModItems.COOKIE_SUGAR, MEDIUM_HIGH);
+			compostable(context, ModItems.COOKIE_SUNFLOWER_SEED, MEDIUM_HIGH);
+			compostable(context, ModItems.COOKIE_SWEET_BERRY, MEDIUM_HIGH);
 
-		//PIES
-		CompostableRegistry.INSTANCE.add(ModItems.PIE_APPLE,1.0f);
-		CompostableRegistry.INSTANCE.add(ModItems.PIE_CHICKEN,1.0f);
-		CompostableRegistry.INSTANCE.add(ModItems.PIE_CHOCOLATE,1.0f);
-		CompostableRegistry.INSTANCE.add(ModItems.PIE_CHORUS_FRUIT,1.0f);
-		CompostableRegistry.INSTANCE.add(ModItems.PIE_FISH,1.0f);
-		CompostableRegistry.INSTANCE.add(ModItems.PIE_FUNGUS,1.0f);
-		CompostableRegistry.INSTANCE.add(ModItems.PIE_GLOW_BERRY,1.0f);
-		CompostableRegistry.INSTANCE.add(ModItems.PIE_HONEY,1.0f);
-		CompostableRegistry.INSTANCE.add(ModItems.PIE_MEAT,1.0f);
-		CompostableRegistry.INSTANCE.add(ModItems.PIE_MELON,1.0f);
-		CompostableRegistry.INSTANCE.add(ModItems.PIE_MUSHROOM,1.0f);
-		CompostableRegistry.INSTANCE.add(ModItems.PIE_SHEPHERDS,1.0f);
-		CompostableRegistry.INSTANCE.add(ModItems.PIE_SWEET_BERRY,1.0f);
-		CompostableRegistry.INSTANCE.add(ModItems.PIE_STRAWBERRY,1.0f);
-		CompostableRegistry.INSTANCE.add(ModItems.PIE_VEGETABLE,1.0f);
+			//PIES
+			compostable(context, ModItems.PIE_APPLE, ALWAYS_ADD_ONE);
+			compostable(context, ModItems.PIE_CHICKEN, ALWAYS_ADD_ONE);
+			compostable(context, ModItems.PIE_CHOCOLATE, ALWAYS_ADD_ONE);
+			compostable(context, ModItems.PIE_CHORUS_FRUIT, ALWAYS_ADD_ONE);
+			compostable(context, ModItems.PIE_FISH, ALWAYS_ADD_ONE);
+			compostable(context, ModItems.PIE_FUNGUS, ALWAYS_ADD_ONE);
+			compostable(context, ModItems.PIE_GLOW_BERRY, ALWAYS_ADD_ONE);
+			compostable(context, ModItems.PIE_HONEY, ALWAYS_ADD_ONE);
+			compostable(context, ModItems.PIE_MEAT, ALWAYS_ADD_ONE);
+			compostable(context, ModItems.PIE_MELON, ALWAYS_ADD_ONE);
+			compostable(context, ModItems.PIE_MUSHROOM, ALWAYS_ADD_ONE);
+			compostable(context, ModItems.PIE_SHEPHERDS, ALWAYS_ADD_ONE);
+			compostable(context, ModItems.PIE_SWEET_BERRY, ALWAYS_ADD_ONE);
+			compostable(context, ModItems.PIE_STRAWBERRY, ALWAYS_ADD_ONE);
+			compostable(context, ModItems.PIE_VEGETABLE, ALWAYS_ADD_ONE);
 
-		//BAKED BREAD, LIKE VANILLA BREAD
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_BAGUEL,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_BAGUETTE,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_BAKED,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_BROWNIE,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_CROISSANT,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_FLATBREAD,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_FOCACCIA,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_HONEY,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_MULTIGRAIN,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_PANCAKES,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_SOURDOUGH,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_SWEET_ROLL,0.85f);
+			//BAKED BREAD, LIKE VANILLA BREAD
+			compostable(context, ModItems.BREAD_BAGUEL, MEDIUM_HIGH);
+			compostable(context, ModItems.BREAD_BAGUETTE, MEDIUM_HIGH);
+			compostable(context, ModItems.BREAD_BAKED, MEDIUM_HIGH);
+			compostable(context, ModItems.BREAD_BROWNIE, MEDIUM_HIGH);
+			compostable(context, ModItems.BREAD_CROISSANT, MEDIUM_HIGH);
+			compostable(context, ModItems.BREAD_FLATBREAD, MEDIUM_HIGH);
+			compostable(context, ModItems.BREAD_FOCACCIA, MEDIUM_HIGH);
+			compostable(context, ModItems.BREAD_HONEY, MEDIUM_HIGH);
+			compostable(context, ModItems.BREAD_MULTIGRAIN, MEDIUM_HIGH);
+			compostable(context, ModItems.BREAD_PANCAKES, MEDIUM_HIGH);
+			compostable(context, ModItems.BREAD_SOURDOUGH, MEDIUM_HIGH);
+			compostable(context, ModItems.BREAD_SWEET_ROLL, MEDIUM_HIGH);
 
-		CompostableRegistry.INSTANCE.add(ModItems.BREAD_GARLIC,0.85f);
-
-
-		//DOUGHS
-		CompostableRegistry.INSTANCE.add(ModItems.DOUGH_BAGUEL,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.DOUGH_BAGUETTE,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.DOUGH_BAKED_BREAD,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.DOUGH_BROWNIE,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.DOUGH_CROISSANT,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.DOUGH_FLATBREAD,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.DOUGH_FOCACCIA,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.DOUGH_HONEY,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.DOUGH_MULTIGRAIN,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.DOUGH_PANCAKES,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.DOUGH_SOURDOUGH,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.DOUGH_SWEET_ROLL,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.DOUGH_GARLIC,0.65f);
+			compostable(context, ModItems.BREAD_GARLIC, MEDIUM_HIGH);
 
 
-		//CROPS LIKE VANILLA CARROT AND POTATO, SEEDS LIKE VANILLA SEEDS
-		CompostableRegistry.INSTANCE.add(ModItems.CABBAGE,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.CHILLI,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.CHILLI_SEEDS,0.3f);
-		CompostableRegistry.INSTANCE.add(ModItems.EGGPLANT,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.GARLIC,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.LETTUCE,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.LETTUCE_SEEDS,0.3f);
-		CompostableRegistry.INSTANCE.add(ModItems.ONION,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.SWEET_POTATO,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.TOMATO,0.65f);
-		CompostableRegistry.INSTANCE.add(ModItems.TOMATO_SEEDS,0.3f);
+			//DOUGHS
+			compostable(context, ModItems.DOUGH_BAGUEL, MEDIUM);
+			compostable(context, ModItems.DOUGH_BAGUETTE, MEDIUM);
+			compostable(context, ModItems.DOUGH_BAKED_BREAD, MEDIUM);
+			compostable(context, ModItems.DOUGH_BROWNIE, MEDIUM);
+			compostable(context, ModItems.DOUGH_CROISSANT, MEDIUM);
+			compostable(context, ModItems.DOUGH_FLATBREAD, MEDIUM);
+			compostable(context, ModItems.DOUGH_FOCACCIA, MEDIUM);
+			compostable(context, ModItems.DOUGH_HONEY, MEDIUM);
+			compostable(context, ModItems.DOUGH_MULTIGRAIN, MEDIUM);
+			compostable(context, ModItems.DOUGH_PANCAKES, MEDIUM);
+			compostable(context, ModItems.DOUGH_SOURDOUGH, MEDIUM);
+			compostable(context, ModItems.DOUGH_SWEET_ROLL, MEDIUM);
+			compostable(context, ModItems.DOUGH_GARLIC, MEDIUM);
 
-		//COOKED VEGETABLES, LIKE VANILLA BAKED POTATO
-		CompostableRegistry.INSTANCE.add(ModItems.FOOD_BAKED_SWEET_POTATO,0.85f);
-		CompostableRegistry.INSTANCE.add(ModItems.FOOD_ROASTED_GARLIC,0.85f);
 
-		//BERRIES
-		CompostableRegistry.INSTANCE.add(ModItems.BERRY_BLACKBERRIES, 0.3F);
-		CompostableRegistry.INSTANCE.add(ModItems.BERRY_BLUEBERRIES, 0.3F);
-		CompostableRegistry.INSTANCE.add(ModItems.BERRY_ELDERBERRIES, 0.3F);
-		CompostableRegistry.INSTANCE.add(ModItems.BERRY_GOJI_BERRIES, 0.3F);
-		CompostableRegistry.INSTANCE.add(ModItems.BERRY_GOOSEBERRIES, 0.3F);
-		CompostableRegistry.INSTANCE.add(ModItems.BERRY_RASPBERRIES, 0.3F);
-		CompostableRegistry.INSTANCE.add(ModItems.BERRY_STRAWBERRIES, 0.3F);
-		CompostableRegistry.INSTANCE.add(ModItems.BERRY_WHITE_CURRANT_BERRIES, 0.3F);
+			//CROPS LIKE VANILLA CARROT AND POTATO, SEEDS LIKE VANILLA SEEDS
+			compostable(context, ModItems.CABBAGE, MEDIUM);
+			compostable(context, ModItems.CHILLI, MEDIUM);
+			compostable(context, ModItems.CHILLI_SEEDS, LOW);
+			compostable(context, ModItems.EGGPLANT, MEDIUM);
+			compostable(context, ModItems.GARLIC, MEDIUM);
+			compostable(context, ModItems.LETTUCE, MEDIUM);
+			compostable(context, ModItems.LETTUCE_SEEDS, LOW);
+			compostable(context, ModItems.ONION, MEDIUM);
+			compostable(context, ModItems.SWEET_POTATO, MEDIUM);
+			compostable(context, ModItems.TOMATO, MEDIUM);
+			compostable(context, ModItems.TOMATO_SEEDS, LOW);
+
+			//COOKED VEGETABLES, LIKE VANILLA BAKED POTATO
+			compostable(context, ModItems.FOOD_BAKED_SWEET_POTATO, MEDIUM_HIGH);
+			compostable(context, ModItems.FOOD_ROASTED_GARLIC, MEDIUM_HIGH);
+
+			//BERRIES
+			compostable(context, ModItems.BERRY_BLACKBERRIES, LOW);
+			compostable(context, ModItems.BERRY_BLUEBERRIES, LOW);
+			compostable(context, ModItems.BERRY_ELDERBERRIES, LOW);
+			compostable(context, ModItems.BERRY_GOJI_BERRIES, LOW);
+			compostable(context, ModItems.BERRY_GOOSEBERRIES, LOW);
+			compostable(context, ModItems.BERRY_RASPBERRIES, LOW);
+			compostable(context, ModItems.BERRY_STRAWBERRIES, LOW);
+			compostable(context, ModItems.BERRY_WHITE_CURRANT_BERRIES, LOW);
+
+			//VILLAGERS EAT THESE, WORTH 1 POINT LIKE VANILLA CARROT, POTATO AND BEETROOT
+			villagerFood(context, ModItems.CABBAGE, 1);
+			villagerFood(context, ModItems.CHILLI, 1);
+			villagerFood(context, ModItems.EGGPLANT, 1);
+			villagerFood(context, ModItems.GARLIC, 1);
+			villagerFood(context, ModItems.LETTUCE, 1);
+			villagerFood(context, ModItems.ONION, 1);
+			villagerFood(context, ModItems.SWEET_POTATO, 1);
+			villagerFood(context, ModItems.TOMATO, 1);
+		});
 
 		//FARMER VILLAGERS COMPOST THESE (replaces the old FarmerWorkTaskMixin)
 		VillagerInteractionRegistries.registerCompostable(ModItems.CHILLI_SEEDS);
 		VillagerInteractionRegistries.registerCompostable(ModItems.LETTUCE_SEEDS);
 		VillagerInteractionRegistries.registerCompostable(ModItems.TOMATO_SEEDS);
+	}
 
-		//VILLAGERS EAT THESE, WORTH 1 POINT LIKE VANILLA CARROT, POTATO AND BEETROOT
-		VillagerInteractionRegistries.registerFood(ModItems.CABBAGE, 1);
-		VillagerInteractionRegistries.registerFood(ModItems.CHILLI, 1);
-		VillagerInteractionRegistries.registerFood(ModItems.EGGPLANT, 1);
-		VillagerInteractionRegistries.registerFood(ModItems.GARLIC, 1);
-		VillagerInteractionRegistries.registerFood(ModItems.LETTUCE, 1);
-		VillagerInteractionRegistries.registerFood(ModItems.ONION, 1);
-		VillagerInteractionRegistries.registerFood(ModItems.SWEET_POTATO, 1);
-		VillagerInteractionRegistries.registerFood(ModItems.TOMATO, 1);
+	private static void compostable(DefaultItemComponentEvents.ModifyContext context, Item item, ResourceKey<ContextIntProvider> chance) {
+		context.modify(item, builder -> builder.set(DataComponents.COMPOSTABLE, new Compostable(chance)));
+	}
+
+	private static void villagerFood(DefaultItemComponentEvents.ModifyContext context, Item item, int nutrition) {
+		context.modify(item, builder -> builder.set(DataComponents.VILLAGER_FOOD, new VillagerFood(nutrition)));
 	}
 }

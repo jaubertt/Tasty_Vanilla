@@ -30,8 +30,8 @@ import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.functions.SmeltItemFunction;
 import net.minecraft.world.level.storage.loot.predicates.AnyOfCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemEntityPropertyCondition;
-import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
-import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
+import net.minecraft.world.level.storage.loot.providers.number.floats.ContextFloatProviders;
+import net.minecraft.world.level.storage.loot.providers.number.ints.ContextIntProviders;
 import tastyvanilla.TastyVanilla;
 import tastyvanilla.item.ModItems;
 
@@ -168,32 +168,32 @@ public class ModLootTableModifiers {
     // Adds a meat pool to one mob, built exactly like vanilla's cow beef pool:
     // min-max meat, cooked if the mob was on fire or killed with Fire Aspect, +0-1 per Looting level.
     private static void addMeat(ResourceKey<LootTable> key, LootTable.Builder tableBuilder, HolderLookup.Provider registries,
-                                EntityType<?> mob, ItemLike meat, float min, float max) {
+                                EntityType<?> mob, ItemLike meat, int min, int max) {
         if (!mob.getDefaultLootTable().map(key::equals).orElse(false)) {
             return;
         }
 
         tableBuilder.withPool(LootPool.lootPool()
-                .setRolls(ConstantValue.exactly(1.0F))
+                .setRolls(ContextIntProviders.exactly(1))
                 .add(LootItem.lootTableItem(meat)
-                        .apply(SetItemCountFunction.setCount(UniformGenerator.between(min, max)))
+                        .apply(SetItemCountFunction.setCount(ContextIntProviders.between(min, max)))
                         .apply(SmeltItemFunction.smelted().when(shouldSmeltLoot(registries)))
-                        .apply(EnchantedCountIncreaseFunction.lootingMultiplier(registries, UniformGenerator.between(0.0F, 1.0F)))));
+                        .apply(EnchantedCountIncreaseFunction.lootingMultiplier(registries.lookupOrThrow(Registries.ENCHANTMENT), ContextFloatProviders.between(0.0F, 1.0F)))));
     }
 
     // Same as addMeat, but the drop is never cooked. For drops with no cooking recipe
     // (Bat Wings, Allay Wings, Cat Eye), so the game doesn't log "Couldn't smelt" when the mob burns.
     private static void addDrop(ResourceKey<LootTable> key, LootTable.Builder tableBuilder, HolderLookup.Provider registries,
-                                EntityType<?> mob, ItemLike drop, float min, float max) {
+                                EntityType<?> mob, ItemLike drop, int min, int max) {
         if (!mob.getDefaultLootTable().map(key::equals).orElse(false)) {
             return;
         }
 
         tableBuilder.withPool(LootPool.lootPool()
-                .setRolls(ConstantValue.exactly(1.0F))
+                .setRolls(ContextIntProviders.exactly(1))
                 .add(LootItem.lootTableItem(drop)
-                        .apply(SetItemCountFunction.setCount(UniformGenerator.between(min, max)))
-                        .apply(EnchantedCountIncreaseFunction.lootingMultiplier(registries, UniformGenerator.between(0.0F, 1.0F)))));
+                        .apply(SetItemCountFunction.setCount(ContextIntProviders.between(min, max)))
+                        .apply(EnchantedCountIncreaseFunction.lootingMultiplier(registries.lookupOrThrow(Registries.ENCHANTMENT), ContextFloatProviders.between(0.0F, 1.0F)))));
     }
 
     // Same condition vanilla uses for cooked meat drops (copied from EntityLootSubProvider.shouldSmeltLoot() in 26.2):
@@ -213,10 +213,10 @@ public class ModLootTableModifiers {
     }
 
     // One chest entry: item, weight (how likely it is compared to the other items), min-max count.
-    private static LootPoolEntryContainer.Builder<?> chestItem(ItemLike item, int weight, float min, float max) {
+    private static LootPoolEntryContainer.Builder<?> chestItem(ItemLike item, int weight, int min, int max) {
         return LootItem.lootTableItem(item)
                 .setWeight(weight)
-                .apply(SetItemCountFunction.setCount(UniformGenerator.between(min, max)));
+                .apply(SetItemCountFunction.setCount(ContextIntProviders.between(min, max)));
     }
 
     // Adds entries to the FIRST pool of a table, which is the main pool in every vanilla chest you use.

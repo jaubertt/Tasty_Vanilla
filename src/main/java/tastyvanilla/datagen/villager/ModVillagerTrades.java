@@ -11,8 +11,6 @@ import net.minecraft.world.item.trading.TradeCost;
 import tastyvanilla.TastyVanilla;
 import tastyvanilla.item.ModItems;
 
-import java.util.List;
-import java.util.Optional;
 
 public class ModVillagerTrades {
 
@@ -83,124 +81,124 @@ public class ModVillagerTrades {
 
     public static void bootstrap(BootstrapContext<VillagerTrade> context) {
 
-        register(context, FARMER_1_CABBAGE_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.CABBAGE, 20),new ItemStackTemplate(Items.EMERALD), 16, 2, 0.05f, Optional.empty(), List.of()));
-        register(context, FARMER_1_CHILLI_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.CHILLI, 22),new ItemStackTemplate(Items.EMERALD), 16, 2, 0.05f, Optional.empty(), List.of()));
-        register(context, FARMER_1_EGGPLANT_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.EGGPLANT, 20),new ItemStackTemplate(Items.EMERALD), 16, 2, 0.05f, Optional.empty(), List.of()));
-        register(context, FARMER_1_GARLIC_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.GARLIC, 20),new ItemStackTemplate(Items.EMERALD), 16, 2, 0.05f, Optional.empty(), List.of()));
-        register(context, FARMER_1_LETTUCE_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.LETTUCE, 26),new ItemStackTemplate(Items.EMERALD), 16, 2, 0.05f, Optional.empty(), List.of()));
-        register(context, FARMER_1_ONION_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.ONION, 20),new ItemStackTemplate(Items.EMERALD), 16, 2, 0.05f, Optional.empty(), List.of()));
-        register(context, FARMER_1_SWEET_POTATO_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.SWEET_POTATO, 22),new ItemStackTemplate(Items.EMERALD), 16, 2, 0.05f, Optional.empty(), List.of()));
-        register(context, FARMER_1_TOMATO_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.TOMATO, 26),new ItemStackTemplate(Items.EMERALD), 16, 2, 0.05f, Optional.empty(), List.of()));
+        register(context, FARMER_1_CABBAGE_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.CABBAGE, 20), new ItemStackTemplate(Items.EMERALD), 16, 2, 0.05f).build());
+        register(context, FARMER_1_CHILLI_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.CHILLI, 22), new ItemStackTemplate(Items.EMERALD), 16, 2, 0.05f).build());
+        register(context, FARMER_1_EGGPLANT_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.EGGPLANT, 20), new ItemStackTemplate(Items.EMERALD), 16, 2, 0.05f).build());
+        register(context, FARMER_1_GARLIC_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.GARLIC, 20), new ItemStackTemplate(Items.EMERALD), 16, 2, 0.05f).build());
+        register(context, FARMER_1_LETTUCE_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.LETTUCE, 26), new ItemStackTemplate(Items.EMERALD), 16, 2, 0.05f).build());
+        register(context, FARMER_1_ONION_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.ONION, 20), new ItemStackTemplate(Items.EMERALD), 16, 2, 0.05f).build());
+        register(context, FARMER_1_SWEET_POTATO_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.SWEET_POTATO, 22), new ItemStackTemplate(Items.EMERALD), 16, 2, 0.05f).build());
+        register(context, FARMER_1_TOMATO_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.TOMATO, 26), new ItemStackTemplate(Items.EMERALD), 16, 2, 0.05f).build());
 
-        register(context, BUTCHER_1_RAW_MEAT_WOLF_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_WOLF, 4),new ItemStackTemplate(Items.EMERALD), 16, 2, 0.05f, Optional.empty(), List.of()));
-        register(context, BUTCHER_1_RAW_MEAT_FOX_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_FOX, 4),new ItemStackTemplate(Items.EMERALD), 16, 5, 0.05f, Optional.empty(), List.of()));
-        register(context, BUTCHER_1_RAW_MEAT_PARROT_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_PARROT, 4),new ItemStackTemplate(Items.EMERALD), 16, 5, 0.05f, Optional.empty(), List.of()));
-        register(context, BUTCHER_1_RAW_MEAT_ARMADILLO_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_ARMADILLO, 4),new ItemStackTemplate(Items.EMERALD), 16, 5, 0.05f, Optional.empty(), List.of()));
+        register(context, BUTCHER_1_RAW_MEAT_WOLF_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_WOLF, 4), new ItemStackTemplate(Items.EMERALD), 16, 2, 0.05f).build());
+        register(context, BUTCHER_1_RAW_MEAT_FOX_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_FOX, 4), new ItemStackTemplate(Items.EMERALD), 16, 5, 0.05f).build());
+        register(context, BUTCHER_1_RAW_MEAT_PARROT_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_PARROT, 4), new ItemStackTemplate(Items.EMERALD), 16, 5, 0.05f).build());
+        register(context, BUTCHER_1_RAW_MEAT_ARMADILLO_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_ARMADILLO, 4), new ItemStackTemplate(Items.EMERALD), 16, 5, 0.05f).build());
 
-        register(context, BUTCHER_3_RAW_MEAT_BEAR_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_BEAR, 7),new ItemStackTemplate(Items.EMERALD), 16, 20, 0.05f, Optional.empty(), List.of()));
-        register(context, BUTCHER_3_RAW_MEAT_CAMEL_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_CAMEL, 7),new ItemStackTemplate(Items.EMERALD), 16, 20, 0.05f, Optional.empty(), List.of()));
-        register(context, BUTCHER_3_RAW_MEAT_HORSE_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_HORSE, 7),new ItemStackTemplate(Items.EMERALD), 16, 20, 0.05f, Optional.empty(), List.of()));
-        register(context, BUTCHER_3_RAW_MEAT_VEGGIE_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_VEGGIE, 10),new ItemStackTemplate(Items.EMERALD), 16, 20, 0.05f, Optional.empty(), List.of()));
-        register(context, BUTCHER_3_RAW_MEAT_SNIFFER_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_SNIFFER, 1),new ItemStackTemplate(Items.EMERALD), 16, 30, 0.05f, Optional.empty(), List.of()));
-        register(context, BUTCHER_3_RAW_MEAT_GOAT_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_GOAT, 7),new ItemStackTemplate(Items.EMERALD), 16, 20, 0.05f, Optional.empty(), List.of()));
-        register(context, BUTCHER_3_RAW_MEAT_LLAMA_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_LLAMA, 10),new ItemStackTemplate(Items.EMERALD), 16, 20, 0.05f, Optional.empty(), List.of()));
+        register(context, BUTCHER_3_RAW_MEAT_BEAR_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_BEAR, 7), new ItemStackTemplate(Items.EMERALD), 16, 20, 0.05f).build());
+        register(context, BUTCHER_3_RAW_MEAT_CAMEL_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_CAMEL, 7), new ItemStackTemplate(Items.EMERALD), 16, 20, 0.05f).build());
+        register(context, BUTCHER_3_RAW_MEAT_HORSE_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_HORSE, 7), new ItemStackTemplate(Items.EMERALD), 16, 20, 0.05f).build());
+        register(context, BUTCHER_3_RAW_MEAT_VEGGIE_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_VEGGIE, 10), new ItemStackTemplate(Items.EMERALD), 16, 20, 0.05f).build());
+        register(context, BUTCHER_3_RAW_MEAT_SNIFFER_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_SNIFFER, 1), new ItemStackTemplate(Items.EMERALD), 16, 30, 0.05f).build());
+        register(context, BUTCHER_3_RAW_MEAT_GOAT_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_GOAT, 7), new ItemStackTemplate(Items.EMERALD), 16, 20, 0.05f).build());
+        register(context, BUTCHER_3_RAW_MEAT_LLAMA_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_LLAMA, 10), new ItemStackTemplate(Items.EMERALD), 16, 20, 0.05f).build());
 
-        register(context, BUTCHER_4_RAW_MEAT_RAVAGER_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_RAVAGER, 1),new ItemStackTemplate(Items.EMERALD), 16, 20, 0.05f, Optional.empty(), List.of()));
+        register(context, BUTCHER_4_RAW_MEAT_RAVAGER_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_RAVAGER, 1), new ItemStackTemplate(Items.EMERALD), 16, 20, 0.05f).build());
 
-        register(context, BUTCHER_5_BERRY_BLACKBERRIES_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.BERRY_BLACKBERRIES, 10),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
-        register(context, BUTCHER_5_BERRY_BLUEBERRIES_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.BERRY_BLUEBERRIES, 10),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
-        register(context, BUTCHER_5_BERRY_ELDERBERRIES_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.BERRY_ELDERBERRIES, 10),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
-        register(context, BUTCHER_5_BERRY_GOJI_BERRIES_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.BERRY_GOJI_BERRIES, 10),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
-        register(context, BUTCHER_5_BERRY_GOOSEBERRIES_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.BERRY_GOOSEBERRIES, 10),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
-        register(context, BUTCHER_5_BERRY_STRAWBERRIES_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.BERRY_STRAWBERRIES, 10),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
-        register(context, BUTCHER_5_BERRY_RASPBERRIES_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.BERRY_RASPBERRIES, 10),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
-        register(context, BUTCHER_5_BERRY_WHITE_CURRANT_BERRIES_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.BERRY_WHITE_CURRANT_BERRIES, 10),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
+        register(context, BUTCHER_5_BERRY_BLACKBERRIES_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.BERRY_BLACKBERRIES, 10), new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f).build());
+        register(context, BUTCHER_5_BERRY_BLUEBERRIES_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.BERRY_BLUEBERRIES, 10), new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f).build());
+        register(context, BUTCHER_5_BERRY_ELDERBERRIES_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.BERRY_ELDERBERRIES, 10), new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f).build());
+        register(context, BUTCHER_5_BERRY_GOJI_BERRIES_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.BERRY_GOJI_BERRIES, 10), new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f).build());
+        register(context, BUTCHER_5_BERRY_GOOSEBERRIES_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.BERRY_GOOSEBERRIES, 10), new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f).build());
+        register(context, BUTCHER_5_BERRY_STRAWBERRIES_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.BERRY_STRAWBERRIES, 10), new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f).build());
+        register(context, BUTCHER_5_BERRY_RASPBERRIES_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.BERRY_RASPBERRIES, 10), new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f).build());
+        register(context, BUTCHER_5_BERRY_WHITE_CURRANT_BERRIES_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.BERRY_WHITE_CURRANT_BERRIES, 10), new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f).build());
 
-        register(context, FISHERMAN_4_RAW_MEAT_TURTLE_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_TURTLE, 6),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
-        register(context, FISHERMAN_4_RAW_MEAT_DOLPHIN_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_DOLPHIN, 4),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
-        register(context, FISHERMAN_4_RAW_MEAT_SQUID_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_SQUID, 13),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
+        register(context, FISHERMAN_4_RAW_MEAT_TURTLE_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_TURTLE, 6), new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f).build());
+        register(context, FISHERMAN_4_RAW_MEAT_DOLPHIN_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_DOLPHIN, 4), new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f).build());
+        register(context, FISHERMAN_4_RAW_MEAT_SQUID_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_SQUID, 13), new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f).build());
 
-        register(context, FISHERMAN_5_RAW_MEAT_AXOLOTL_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_AXOLOTL, 6),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
-        register(context, FISHERMAN_5_RAW_MEAT_NAUTILUS_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_NAUTILUS, 4),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
+        register(context, FISHERMAN_5_RAW_MEAT_AXOLOTL_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_AXOLOTL, 6), new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f).build());
+        register(context, FISHERMAN_5_RAW_MEAT_NAUTILUS_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_NAUTILUS, 4), new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f).build());
 
-        register(context, CLERIC_3_RAW_MEAT_FROG_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_FROG, 6),new ItemStackTemplate(Items.EMERALD), 12, 20, 0.05f, Optional.empty(), List.of()));
-        register(context, CLERIC_3_RAW_MEAT_CAT_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_CAT, 2),new ItemStackTemplate(Items.EMERALD), 12, 20, 0.05f, Optional.empty(), List.of()));
+        register(context, CLERIC_3_RAW_MEAT_FROG_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_FROG, 6), new ItemStackTemplate(Items.EMERALD), 12, 20, 0.05f).build());
+        register(context, CLERIC_3_RAW_MEAT_CAT_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_CAT, 2), new ItemStackTemplate(Items.EMERALD), 12, 20, 0.05f).build());
 
-        register(context, CLERIC_4_RAW_MEAT_ALLAY_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_ALLAY, 2),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
-        register(context, CLERIC_4_RAW_MEAT_BAT_EMERALD, new VillagerTrade(
-                new TradeCost(ModItems.RAW_MEAT_BAT, 4),new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f, Optional.empty(), List.of()));
+        register(context, CLERIC_4_RAW_MEAT_ALLAY_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_ALLAY, 2), new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f).build());
+        register(context, CLERIC_4_RAW_MEAT_BAT_EMERALD, VillagerTrade.builder(
+                new TradeCost(ModItems.RAW_MEAT_BAT, 4), new ItemStackTemplate(Items.EMERALD), 12, 30, 0.05f).build());
 
-        register(context, WANDERING_TRADER_EMERALD_CHILLI_SEEDS, new VillagerTrade(
-                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.CHILLI_SEEDS), 12, 1, 0.05f, Optional.empty(), List.of()));
-        register(context, WANDERING_TRADER_EMERALD_LETTUCE_SEEDS, new VillagerTrade(
-                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.LETTUCE_SEEDS), 12, 1, 0.05f, Optional.empty(), List.of()));
-        register(context, WANDERING_TRADER_EMERALD_TOMATO_SEEDS, new VillagerTrade(
-                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.TOMATO_SEEDS), 12, 1, 0.05f, Optional.empty(), List.of()));
-        register(context, WANDERING_TRADER_EMERALD_CABBAGE, new VillagerTrade(
-                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.CABBAGE), 12, 1, 0.05f, Optional.empty(), List.of()));
-        register(context, WANDERING_TRADER_EMERALD_EGGPLANT, new VillagerTrade(
-                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.EGGPLANT), 12, 1, 0.05f, Optional.empty(), List.of()));
-        register(context, WANDERING_TRADER_EMERALD_GARLIC, new VillagerTrade(
-                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.GARLIC), 12, 1, 0.05f, Optional.empty(), List.of()));
-        register(context, WANDERING_TRADER_EMERALD_ONION, new VillagerTrade(
-                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.ONION), 12, 1, 0.05f, Optional.empty(), List.of()));
-        register(context, WANDERING_TRADER_EMERALD_SWEET_POTATO, new VillagerTrade(
-                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.SWEET_POTATO), 12, 1, 0.05f, Optional.empty(), List.of()));
-        register(context, WANDERING_TRADER_EMERALD_BERRY_BLACKBERRIES, new VillagerTrade(
-                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.BERRY_BLACKBERRIES), 12, 1, 0.05f, Optional.empty(), List.of()));
-        register(context, WANDERING_TRADER_EMERALD_BERRY_BLUEBERRIES, new VillagerTrade(
-                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.BERRY_BLUEBERRIES), 12, 1, 0.05f, Optional.empty(), List.of()));
-        register(context, WANDERING_TRADER_EMERALD_BERRY_ELDERBERRIES, new VillagerTrade(
-                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.BERRY_ELDERBERRIES), 12, 1, 0.05f, Optional.empty(), List.of()));
-        register(context, WANDERING_TRADER_EMERALD_BERRY_GOJI_BERRIES, new VillagerTrade(
-                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.BERRY_GOJI_BERRIES), 12, 1, 0.05f, Optional.empty(), List.of()));
-        register(context, WANDERING_TRADER_EMERALD_BERRY_GOOSEBERRIES, new VillagerTrade(
-                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.BERRY_GOOSEBERRIES), 12, 1, 0.05f, Optional.empty(), List.of()));
-        register(context, WANDERING_TRADER_EMERALD_BERRY_RASPBERRIES, new VillagerTrade(
-                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.BERRY_RASPBERRIES), 12, 1, 0.05f, Optional.empty(), List.of()));
-        register(context, WANDERING_TRADER_EMERALD_BERRY_STRAWBERRIES, new VillagerTrade(
-                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.BERRY_STRAWBERRIES), 12, 1, 0.05f, Optional.empty(), List.of()));
-        register(context, WANDERING_TRADER_EMERALD_BERRY_WHITE_CURRANT_BERRIES, new VillagerTrade(
-                new TradeCost(Items.EMERALD, 1),new ItemStackTemplate(ModItems.BERRY_WHITE_CURRANT_BERRIES), 12, 1, 0.05f, Optional.empty(), List.of()));
+        register(context, WANDERING_TRADER_EMERALD_CHILLI_SEEDS, VillagerTrade.builder(
+                new TradeCost(Items.EMERALD, 1), new ItemStackTemplate(ModItems.CHILLI_SEEDS), 12, 1, 0.05f).build());
+        register(context, WANDERING_TRADER_EMERALD_LETTUCE_SEEDS, VillagerTrade.builder(
+                new TradeCost(Items.EMERALD, 1), new ItemStackTemplate(ModItems.LETTUCE_SEEDS), 12, 1, 0.05f).build());
+        register(context, WANDERING_TRADER_EMERALD_TOMATO_SEEDS, VillagerTrade.builder(
+                new TradeCost(Items.EMERALD, 1), new ItemStackTemplate(ModItems.TOMATO_SEEDS), 12, 1, 0.05f).build());
+        register(context, WANDERING_TRADER_EMERALD_CABBAGE, VillagerTrade.builder(
+                new TradeCost(Items.EMERALD, 1), new ItemStackTemplate(ModItems.CABBAGE), 12, 1, 0.05f).build());
+        register(context, WANDERING_TRADER_EMERALD_EGGPLANT, VillagerTrade.builder(
+                new TradeCost(Items.EMERALD, 1), new ItemStackTemplate(ModItems.EGGPLANT), 12, 1, 0.05f).build());
+        register(context, WANDERING_TRADER_EMERALD_GARLIC, VillagerTrade.builder(
+                new TradeCost(Items.EMERALD, 1), new ItemStackTemplate(ModItems.GARLIC), 12, 1, 0.05f).build());
+        register(context, WANDERING_TRADER_EMERALD_ONION, VillagerTrade.builder(
+                new TradeCost(Items.EMERALD, 1), new ItemStackTemplate(ModItems.ONION), 12, 1, 0.05f).build());
+        register(context, WANDERING_TRADER_EMERALD_SWEET_POTATO, VillagerTrade.builder(
+                new TradeCost(Items.EMERALD, 1), new ItemStackTemplate(ModItems.SWEET_POTATO), 12, 1, 0.05f).build());
+        register(context, WANDERING_TRADER_EMERALD_BERRY_BLACKBERRIES, VillagerTrade.builder(
+                new TradeCost(Items.EMERALD, 1), new ItemStackTemplate(ModItems.BERRY_BLACKBERRIES), 12, 1, 0.05f).build());
+        register(context, WANDERING_TRADER_EMERALD_BERRY_BLUEBERRIES, VillagerTrade.builder(
+                new TradeCost(Items.EMERALD, 1), new ItemStackTemplate(ModItems.BERRY_BLUEBERRIES), 12, 1, 0.05f).build());
+        register(context, WANDERING_TRADER_EMERALD_BERRY_ELDERBERRIES, VillagerTrade.builder(
+                new TradeCost(Items.EMERALD, 1), new ItemStackTemplate(ModItems.BERRY_ELDERBERRIES), 12, 1, 0.05f).build());
+        register(context, WANDERING_TRADER_EMERALD_BERRY_GOJI_BERRIES, VillagerTrade.builder(
+                new TradeCost(Items.EMERALD, 1), new ItemStackTemplate(ModItems.BERRY_GOJI_BERRIES), 12, 1, 0.05f).build());
+        register(context, WANDERING_TRADER_EMERALD_BERRY_GOOSEBERRIES, VillagerTrade.builder(
+                new TradeCost(Items.EMERALD, 1), new ItemStackTemplate(ModItems.BERRY_GOOSEBERRIES), 12, 1, 0.05f).build());
+        register(context, WANDERING_TRADER_EMERALD_BERRY_RASPBERRIES, VillagerTrade.builder(
+                new TradeCost(Items.EMERALD, 1), new ItemStackTemplate(ModItems.BERRY_RASPBERRIES), 12, 1, 0.05f).build());
+        register(context, WANDERING_TRADER_EMERALD_BERRY_STRAWBERRIES, VillagerTrade.builder(
+                new TradeCost(Items.EMERALD, 1), new ItemStackTemplate(ModItems.BERRY_STRAWBERRIES), 12, 1, 0.05f).build());
+        register(context, WANDERING_TRADER_EMERALD_BERRY_WHITE_CURRANT_BERRIES, VillagerTrade.builder(
+                new TradeCost(Items.EMERALD, 1), new ItemStackTemplate(ModItems.BERRY_WHITE_CURRANT_BERRIES), 12, 1, 0.05f).build());
 
     }
-    
+
     private static ResourceKey<VillagerTrade> createKey(String name) {
         return ResourceKey.create(Registries.VILLAGER_TRADE, Identifier.fromNamespaceAndPath(TastyVanilla.MOD_ID, name));
     }

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tastyvanilla:cooked_meat_parrot"
+        "recipes": "tastyvanilla:cooked_meat_parrot"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

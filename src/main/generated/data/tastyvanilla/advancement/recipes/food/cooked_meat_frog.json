@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tastyvanilla:cooked_meat_frog"
+        "recipes": "tastyvanilla:cooked_meat_frog"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

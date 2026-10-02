@@ -18,7 +18,7 @@ public class ModRegistryDataProvider extends FabricDynamicRegistryProvider {
         entries.addAll(registries.lookupOrThrow(Registries.VILLAGER_TRADE));
         entries.addAll(registries.lookupOrThrow(Registries.TRADE_SET));
 
-        entries.addAll(registries.lookupOrThrow(Registries.CONFIGURED_FEATURE));
+        entries.addAll(registries.lookupOrThrow(Registries.FEATURE));
         entries.addAll(registries.lookupOrThrow(Registries.PLACED_FEATURE));
 
     }

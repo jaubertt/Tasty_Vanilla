@@ -93,5 +93,44 @@ public class ModBlockTagProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlockIds.BERRY_WHITE_CURRANT_BERRY_BUSH)
         ;
 
+        //26.3: SOME BLOCK BEHAVIOUR COMES FROM TAGS NOW
+        //SOLID, LIKE VANILLA STONE (SUFFOCATION, WATER FLOW, TELEPORTS, HEIGHTMAPS)
+        builder(BlockTags.BLOCKS_MOTION_NO_LEAVES)
+                .add(ModBlockItemIds.SALT_BLOCK.block())
+                .add(ModBlockItemIds.SUGAR_BLOCK.block())
+        ;
+
+        //WATER AND LAVA WASH THEM AWAY, LIKE VANILLA WHEAT AND THE SWEET BERRY BUSH
+        builder(BlockTags.WASHED_AWAY_BY_FLUIDS)
+                .add(ModBlockIds.CABBAGE_CROP)
+                .add(ModBlockIds.CHILLI_CROP)
+                .add(ModBlockIds.EGGPLANT_CROP)
+                .add(ModBlockIds.GARLIC_CROP)
+                .add(ModBlockIds.LETTUCE_CROP)
+                .add(ModBlockIds.ONION_CROP)
+                .add(ModBlockIds.SWEET_POTATO_CROP)
+                .add(ModBlockIds.TOMATO_CROP)
+                .add(ModBlockIds.BERRY_BLACKBERRY_BUSH)
+                .add(ModBlockIds.BERRY_BLUEBERRY_BUSH)
+                .add(ModBlockIds.BERRY_ELDERBERRY_BUSH)
+                .add(ModBlockIds.BERRY_GOJI_BERRY_BUSH)
+                .add(ModBlockIds.BERRY_GOOSEBERRY_BUSH)
+                .add(ModBlockIds.BERRY_RASPBERRY_BUSH)
+                .add(ModBlockIds.BERRY_STRAWBERRY_BUSH)
+                .add(ModBlockIds.BERRY_WHITE_CURRANT_BERRY_BUSH)
+        ;
+
+        //ENDERMEN DON'T TELEPORT INTO THEM, LIKE THE VANILLA SWEET BERRY BUSH
+        builder(BlockTags.DANGEROUS_FOR_TELEPORTATION)
+                .add(ModBlockIds.BERRY_BLACKBERRY_BUSH)
+                .add(ModBlockIds.BERRY_BLUEBERRY_BUSH)
+                .add(ModBlockIds.BERRY_ELDERBERRY_BUSH)
+                .add(ModBlockIds.BERRY_GOJI_BERRY_BUSH)
+                .add(ModBlockIds.BERRY_GOOSEBERRY_BUSH)
+                .add(ModBlockIds.BERRY_RASPBERRY_BUSH)
+                .add(ModBlockIds.BERRY_STRAWBERRY_BUSH)
+                .add(ModBlockIds.BERRY_WHITE_CURRANT_BERRY_BUSH)
+        ;
+
     }
 }
