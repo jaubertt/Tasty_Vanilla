@@ -55,6 +55,8 @@ public class ModCompostableItems {
 		CompostableRegistry.INSTANCE.add(ModItems.BREAD_SWEET_ROLL,0.85f);
 
 		CompostableRegistry.INSTANCE.add(ModItems.BREAD_GARLIC,0.85f);
+		CompostableRegistry.INSTANCE.add(ModItems.BREAD_CORNBREAD,0.85f);
+		CompostableRegistry.INSTANCE.add(ModItems.BREAD_PIKI,0.85f);
 
 
 		//DOUGHS
@@ -71,6 +73,11 @@ public class ModCompostableItems {
 		CompostableRegistry.INSTANCE.add(ModItems.DOUGH_SOURDOUGH,0.65f);
 		CompostableRegistry.INSTANCE.add(ModItems.DOUGH_SWEET_ROLL,0.65f);
 		CompostableRegistry.INSTANCE.add(ModItems.DOUGH_GARLIC,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.DOUGH_CORNBREAD,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.WHITE_NIXTAMAL,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.BLUE_NIXTAMAL,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.WHITE_MASA,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.BLUE_MASA,0.65f);
 
 
 		//CROPS LIKE VANILLA CARROT AND POTATO, SEEDS LIKE VANILLA SEEDS
@@ -85,10 +92,27 @@ public class ModCompostableItems {
 		CompostableRegistry.INSTANCE.add(ModItems.SWEET_POTATO,0.65f);
 		CompostableRegistry.INSTANCE.add(ModItems.TOMATO,0.65f);
 		CompostableRegistry.INSTANCE.add(ModItems.TOMATO_SEEDS,0.3f);
+		CompostableRegistry.INSTANCE.add(ModItems.CORN,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.CORN_KERNELS,0.3f);
+		CompostableRegistry.INSTANCE.add(ModItems.WHITE_CORN,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.WHITE_CORN_KERNELS,0.3f);
+		CompostableRegistry.INSTANCE.add(ModItems.BLUE_CORN,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.BLUE_CORN_KERNELS,0.3f);
+		CompostableRegistry.INSTANCE.add(ModItems.PURPLE_CORN,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.PURPLE_CORN_KERNELS,0.3f);
+		CompostableRegistry.INSTANCE.add(ModItems.RAW_RICE,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.RICE,0.3f);
+		CompostableRegistry.INSTANCE.add(ModItems.RAW_WILD_RICE,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.WILD_RICE,0.3f);
+		CompostableRegistry.INSTANCE.add(ModItems.RAW_BLACK_RICE,0.65f);
+		CompostableRegistry.INSTANCE.add(ModItems.BLACK_RICE,0.3f);
 
 		//COOKED VEGETABLES, LIKE VANILLA BAKED POTATO
 		CompostableRegistry.INSTANCE.add(ModItems.FOOD_BAKED_SWEET_POTATO,0.85f);
 		CompostableRegistry.INSTANCE.add(ModItems.FOOD_ROASTED_GARLIC,0.85f);
+		CompostableRegistry.INSTANCE.add(ModItems.FOOD_ROASTED_CORN,0.85f);
+		CompostableRegistry.INSTANCE.add(ModItems.FOOD_POPCORN,0.85f);
+		CompostableRegistry.INSTANCE.add(ModItems.FOOD_TORTILLA,0.85f);
 
 		//BERRIES
 		CompostableRegistry.INSTANCE.add(ModItems.BERRY_BLACKBERRIES, 0.3F);
@@ -104,6 +128,13 @@ public class ModCompostableItems {
 		VillagerInteractionRegistries.registerCompostable(ModItems.CHILLI_SEEDS);
 		VillagerInteractionRegistries.registerCompostable(ModItems.LETTUCE_SEEDS);
 		VillagerInteractionRegistries.registerCompostable(ModItems.TOMATO_SEEDS);
+		VillagerInteractionRegistries.registerCompostable(ModItems.CORN_KERNELS);
+		VillagerInteractionRegistries.registerCompostable(ModItems.WHITE_CORN_KERNELS);
+		VillagerInteractionRegistries.registerCompostable(ModItems.BLUE_CORN_KERNELS);
+		VillagerInteractionRegistries.registerCompostable(ModItems.PURPLE_CORN_KERNELS);
+		VillagerInteractionRegistries.registerCompostable(ModItems.RICE);
+		VillagerInteractionRegistries.registerCompostable(ModItems.WILD_RICE);
+		VillagerInteractionRegistries.registerCompostable(ModItems.BLACK_RICE);
 
 		//VILLAGERS EAT THESE, WORTH 1 POINT LIKE VANILLA CARROT, POTATO AND BEETROOT
 		VillagerInteractionRegistries.registerFood(ModItems.CABBAGE, 1);
@@ -114,5 +145,9 @@ public class ModCompostableItems {
 		VillagerInteractionRegistries.registerFood(ModItems.ONION, 1);
 		VillagerInteractionRegistries.registerFood(ModItems.SWEET_POTATO, 1);
 		VillagerInteractionRegistries.registerFood(ModItems.TOMATO, 1);
+		VillagerInteractionRegistries.registerFood(ModItems.CORN, 1);
+		VillagerInteractionRegistries.registerFood(ModItems.WHITE_CORN, 1);
+		VillagerInteractionRegistries.registerFood(ModItems.BLUE_CORN, 1);
+		VillagerInteractionRegistries.registerFood(ModItems.PURPLE_CORN, 1);
 	}
 }

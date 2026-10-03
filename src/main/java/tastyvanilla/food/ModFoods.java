@@ -64,6 +64,7 @@ public class ModFoods {
     //CROPS
     public static final FoodProperties CABBAGE = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
     public static final FoodProperties CHILLI = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
+    public static final FoodProperties CORN = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build(); // ALL 4 CORN COLORS
     public static final FoodProperties EGGPLANT = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
     public static final FoodProperties GARLIC = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
     public static final FoodProperties LETTUCE = new FoodProperties.Builder().nutrition(3).saturationModifier(0.6f).build();
@@ -88,6 +89,27 @@ public class ModFoods {
     public static final FoodProperties FOOD_BUMSBLECH_SALAD = new FoodProperties.Builder().nutrition(10).saturationModifier(0.6f).build();
 
     public static final FoodProperties BREAD_GARLIC = new FoodProperties.Builder().nutrition(8).saturationModifier(0.6f).build();
+
+    //CORN & RICE FOODS (2.2.1)
+    public static final FoodProperties FOOD_ROASTED_CORN = new FoodProperties.Builder().nutrition(5).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_POPCORN = new FoodProperties.Builder().nutrition(2).saturationModifier(0.1f).build();
+    public static final FoodProperties FOOD_TORTILLA = new FoodProperties.Builder().nutrition(2).saturationModifier(0.6f).build();
+    public static final FoodProperties BREAD_CORNBREAD = new FoodProperties.Builder().nutrition(6).saturationModifier(0.6f).build(); // LIKE BAKED BREAD
+    public static final FoodProperties BREAD_PIKI = new FoodProperties.Builder().nutrition(5).saturationModifier(0.1f).build(); // LIKE FLATBREAD
+    public static final FoodProperties FOOD_TACOS = new FoodProperties.Builder().nutrition(10).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_TAMALES = new FoodProperties.Builder().nutrition(8).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_POZOLE = new FoodProperties.Builder().nutrition(10).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_TLACOYOS = new FoodProperties.Builder().nutrition(8).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_POLENTA = new FoodProperties.Builder().nutrition(8).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_AREPA = new FoodProperties.Builder().nutrition(8).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_MAZAMORRA_MORADA = new FoodProperties.Builder().nutrition(6).saturationModifier(0.3f).build(); // SWEET
+    public static final FoodProperties FOOD_CHICHA_MORADA = new FoodProperties.Builder().nutrition(4).saturationModifier(0.1f).build(); // DRINK
+    public static final FoodProperties FOOD_FRIED_RICE = new FoodProperties.Builder().nutrition(8).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_SUSHI = new FoodProperties.Builder().nutrition(4).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_RICE_PUDDING = new FoodProperties.Builder().nutrition(6).saturationModifier(0.3f).build(); // SWEET
+    public static final FoodProperties FOOD_WILD_RICE_SOUP = new FoodProperties.Builder().nutrition(6).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_WILD_RICE_PILAF = new FoodProperties.Builder().nutrition(8).saturationModifier(0.6f).build();
+    public static final FoodProperties FOOD_BLACK_RICE_CONGEE = new FoodProperties.Builder().nutrition(6).saturationModifier(0.3f).build(); // SWEET
 
     public static final FoodProperties BERRY_BLACKBERRIES = (new FoodProperties.Builder()).nutrition(2).saturationModifier(0.1F).build();
     public static final FoodProperties BERRY_BLUEBERRIES = (new FoodProperties.Builder()).nutrition(2).saturationModifier(0.1F).build();

@@ -113,6 +113,39 @@ public class ModItems {
     public static final Item TOMATO = registerItem(ModItemIds.TOMATO, properties -> new Item(properties.food(ModFoods.TOMATO)));
     public static final Item TOMATO_SEEDS = registerItem(ModItemIds.TOMATO_SEEDS, properties -> new BlockItem(ModBlocks.TOMATO_CROP, properties.useItemDescriptionPrefix()));
 
+    //CORN & RICE (2.2.1)
+    public static final Item CORN = registerItem(ModItemIds.CORN, properties -> new Item(properties.food(ModFoods.CORN)));
+    public static final Item CORN_KERNELS = registerItem(ModItemIds.CORN_KERNELS, properties -> new BlockItem(ModBlocks.CORN_CROP, properties.useItemDescriptionPrefix()));
+
+    public static final Item WHITE_CORN = registerItem(ModItemIds.WHITE_CORN, properties -> new Item(properties.food(ModFoods.CORN)));
+    public static final Item WHITE_CORN_KERNELS = registerItem(ModItemIds.WHITE_CORN_KERNELS, properties -> new BlockItem(ModBlocks.WHITE_CORN_CROP, properties.useItemDescriptionPrefix()));
+
+    public static final Item BLUE_CORN = registerItem(ModItemIds.BLUE_CORN, properties -> new Item(properties.food(ModFoods.CORN)));
+    public static final Item BLUE_CORN_KERNELS = registerItem(ModItemIds.BLUE_CORN_KERNELS, properties -> new BlockItem(ModBlocks.BLUE_CORN_CROP, properties.useItemDescriptionPrefix()));
+
+    public static final Item PURPLE_CORN = registerItem(ModItemIds.PURPLE_CORN, properties -> new Item(properties.food(ModFoods.CORN)));
+    public static final Item PURPLE_CORN_KERNELS = registerItem(ModItemIds.PURPLE_CORN_KERNELS, properties -> new BlockItem(ModBlocks.PURPLE_CORN_CROP, properties.useItemDescriptionPrefix()));
+
+    public static final Item WHITE_NIXTAMAL = registerItem(ModItemIds.WHITE_NIXTAMAL, properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
+    public static final Item BLUE_NIXTAMAL = registerItem(ModItemIds.BLUE_NIXTAMAL, properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
+    public static final Item WHITE_MASA = registerItem(ModItemIds.WHITE_MASA, properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
+    public static final Item BLUE_MASA = registerItem(ModItemIds.BLUE_MASA, properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
+
+    public static final Item CAL = registerItem(ModItemIds.CAL, Item::new);
+    public static final Item CORNMEAL = registerItem(ModItemIds.CORNMEAL, Item::new);
+    public static final Item DOUGH_CORNBREAD = registerItem(ModItemIds.DOUGH_CORNBREAD, properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
+
+    public static final Item RAW_RICE = registerItem(ModItemIds.RAW_RICE, Item::new);
+    public static final Item RICE = registerItem(ModItemIds.RICE, properties -> new BlockItem(ModBlocks.RICE_CROP, properties.useItemDescriptionPrefix()));
+    public static final Item BROWN_RICE = registerItem(ModItemIds.BROWN_RICE, Item::new);
+    public static final Item WHITE_RICE = registerItem(ModItemIds.WHITE_RICE, Item::new);
+
+    public static final Item RAW_WILD_RICE = registerItem(ModItemIds.RAW_WILD_RICE, Item::new);
+    public static final Item WILD_RICE = registerItem(ModItemIds.WILD_RICE, properties -> new BlockItem(ModBlocks.WILD_RICE_CROP, properties.useItemDescriptionPrefix()));
+
+    public static final Item RAW_BLACK_RICE = registerItem(ModItemIds.RAW_BLACK_RICE, Item::new);
+    public static final Item BLACK_RICE = registerItem(ModItemIds.BLACK_RICE, properties -> new BlockItem(ModBlocks.BLACK_RICE_CROP, properties.useItemDescriptionPrefix()));
+
 
     //CROP FOODS
     public static final Item FOOD_TOMATO_SOUP = registerItem(ModItemIds.FOOD_TOMATO_SOUP, properties -> new Item(properties.food(ModFoods.FOOD_TOMATO_SOUP).stacksTo(16).usingConvertsTo(BOWL)));
@@ -131,6 +164,27 @@ public class ModItems {
 
     public static final Item BREAD_GARLIC = registerItem(ModItemIds.BREAD_GARLIC, properties -> new Item(properties.food(ModFoods.BREAD_GARLIC)));
     public static final Item DOUGH_GARLIC = registerItem(ModItemIds.DOUGH_GARLIC, properties -> new Item(properties.food(ModFoods.DOUGHS,ModFoods.DOUGH_CONSUMABLE)));
+
+    //CORN & RICE FOODS (2.2.1)
+    public static final Item FOOD_ROASTED_CORN = registerItem(ModItemIds.FOOD_ROASTED_CORN, properties -> new Item(properties.food(ModFoods.FOOD_ROASTED_CORN)));
+    public static final Item FOOD_POPCORN = registerItem(ModItemIds.FOOD_POPCORN, properties -> new Item(properties.food(ModFoods.FOOD_POPCORN)));
+    public static final Item FOOD_TORTILLA = registerItem(ModItemIds.FOOD_TORTILLA, properties -> new Item(properties.food(ModFoods.FOOD_TORTILLA)));
+    public static final Item BREAD_CORNBREAD = registerItem(ModItemIds.BREAD_CORNBREAD, properties -> new Item(properties.food(ModFoods.BREAD_CORNBREAD)));
+    public static final Item BREAD_PIKI = registerItem(ModItemIds.BREAD_PIKI, properties -> new Item(properties.food(ModFoods.BREAD_PIKI)));
+    public static final Item FOOD_TACOS = registerItem(ModItemIds.FOOD_TACOS, properties -> new Item(properties.food(ModFoods.FOOD_TACOS)));
+    public static final Item FOOD_TAMALES = registerItem(ModItemIds.FOOD_TAMALES, properties -> new Item(properties.food(ModFoods.FOOD_TAMALES)));
+    public static final Item FOOD_POZOLE = registerItem(ModItemIds.FOOD_POZOLE, properties -> new Item(properties.food(ModFoods.FOOD_POZOLE).stacksTo(16).usingConvertsTo(BOWL)));
+    public static final Item FOOD_TLACOYOS = registerItem(ModItemIds.FOOD_TLACOYOS, properties -> new Item(properties.food(ModFoods.FOOD_TLACOYOS)));
+    public static final Item FOOD_POLENTA = registerItem(ModItemIds.FOOD_POLENTA, properties -> new Item(properties.food(ModFoods.FOOD_POLENTA).stacksTo(16).usingConvertsTo(BOWL)));
+    public static final Item FOOD_AREPA = registerItem(ModItemIds.FOOD_AREPA, properties -> new Item(properties.food(ModFoods.FOOD_AREPA)));
+    public static final Item FOOD_MAZAMORRA_MORADA = registerItem(ModItemIds.FOOD_MAZAMORRA_MORADA, properties -> new Item(properties.food(ModFoods.FOOD_MAZAMORRA_MORADA).stacksTo(16).usingConvertsTo(BOWL)));
+    public static final Item FOOD_CHICHA_MORADA = registerItem(ModItemIds.FOOD_CHICHA_MORADA, properties -> new Item(properties.craftRemainder(Items.GLASS_BOTTLE).food(ModFoods.FOOD_CHICHA_MORADA, Consumables.DEFAULT_DRINK).usingConvertsTo(Items.GLASS_BOTTLE).stacksTo(16)));
+    public static final Item FOOD_FRIED_RICE = registerItem(ModItemIds.FOOD_FRIED_RICE, properties -> new Item(properties.food(ModFoods.FOOD_FRIED_RICE).stacksTo(16).usingConvertsTo(BOWL)));
+    public static final Item FOOD_SUSHI = registerItem(ModItemIds.FOOD_SUSHI, properties -> new Item(properties.food(ModFoods.FOOD_SUSHI)));
+    public static final Item FOOD_RICE_PUDDING = registerItem(ModItemIds.FOOD_RICE_PUDDING, properties -> new Item(properties.food(ModFoods.FOOD_RICE_PUDDING).stacksTo(16).usingConvertsTo(BOWL)));
+    public static final Item FOOD_WILD_RICE_SOUP = registerItem(ModItemIds.FOOD_WILD_RICE_SOUP, properties -> new Item(properties.food(ModFoods.FOOD_WILD_RICE_SOUP).stacksTo(16).usingConvertsTo(BOWL)));
+    public static final Item FOOD_WILD_RICE_PILAF = registerItem(ModItemIds.FOOD_WILD_RICE_PILAF, properties -> new Item(properties.food(ModFoods.FOOD_WILD_RICE_PILAF).stacksTo(16).usingConvertsTo(BOWL)));
+    public static final Item FOOD_BLACK_RICE_CONGEE = registerItem(ModItemIds.FOOD_BLACK_RICE_CONGEE, properties -> new Item(properties.food(ModFoods.FOOD_BLACK_RICE_CONGEE).stacksTo(16).usingConvertsTo(BOWL)));
 
     //MILK & CHEESE
     public static final Item GOAT_MILK_BUCKET = registerItem(ModItemIds.GOAT_MILK_BUCKET,properties -> new Item(properties.craftRemainder(Items.BUCKET).component(DataComponents.CONSUMABLE,Consumables.MILK_BUCKET).usingConvertsTo(Items.BUCKET).stacksTo(1)));
@@ -273,6 +327,10 @@ public class ModItems {
             output.accept(ONION);
             output.accept(SWEET_POTATO);
             output.accept(TOMATO);
+            output.accept(CORN);
+            output.accept(WHITE_CORN);
+            output.accept(BLUE_CORN);
+            output.accept(PURPLE_CORN);
 
             //CROPFOODS
             output.accept(FOOD_ONION_RING);
@@ -290,6 +348,27 @@ public class ModItems {
             output.accept(FOOD_BUMSBLECH_SALAD);
 
             output.accept(BREAD_GARLIC);
+
+            //CORN & RICE FOODS
+            output.accept(FOOD_ROASTED_CORN);
+            output.accept(FOOD_POPCORN);
+            output.accept(FOOD_TORTILLA);
+            output.accept(BREAD_CORNBREAD);
+            output.accept(BREAD_PIKI);
+            output.accept(FOOD_TACOS);
+            output.accept(FOOD_TAMALES);
+            output.accept(FOOD_POZOLE);
+            output.accept(FOOD_TLACOYOS);
+            output.accept(FOOD_POLENTA);
+            output.accept(FOOD_AREPA);
+            output.accept(FOOD_MAZAMORRA_MORADA);
+            output.accept(FOOD_CHICHA_MORADA);
+            output.accept(FOOD_FRIED_RICE);
+            output.accept(FOOD_SUSHI);
+            output.accept(FOOD_RICE_PUDDING);
+            output.accept(FOOD_WILD_RICE_SOUP);
+            output.accept(FOOD_WILD_RICE_PILAF);
+            output.accept(FOOD_BLACK_RICE_CONGEE);
 
             //MILK & CHEESE
             output.accept(GOAT_MILK_BUCKET);
@@ -395,6 +474,19 @@ public class ModItems {
 
             output.accept(DOUGH_GARLIC);
 
+            //CORN & RICE INGREDIENTS
+            output.accept(WHITE_NIXTAMAL);
+            output.accept(BLUE_NIXTAMAL);
+            output.accept(WHITE_MASA);
+            output.accept(BLUE_MASA);
+            output.accept(CORNMEAL);
+            output.accept(CAL);
+            output.accept(DOUGH_CORNBREAD);
+            output.accept(RAW_RICE);
+            output.accept(BROWN_RICE);
+            output.accept(WHITE_RICE);
+            output.accept(RAW_WILD_RICE);
+            output.accept(RAW_BLACK_RICE);
 
         });
 
@@ -405,6 +497,13 @@ public class ModItems {
             output.accept(CHILLI_SEEDS);
             output.accept(LETTUCE_SEEDS);
             output.accept(TOMATO_SEEDS);
+            output.accept(CORN_KERNELS);
+            output.accept(WHITE_CORN_KERNELS);
+            output.accept(BLUE_CORN_KERNELS);
+            output.accept(PURPLE_CORN_KERNELS);
+            output.accept(RICE);
+            output.accept(WILD_RICE);
+            output.accept(BLACK_RICE);
 
 
         });

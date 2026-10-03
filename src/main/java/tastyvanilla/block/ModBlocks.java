@@ -21,6 +21,7 @@ import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.pathfinder.PathType;
 import tastyvanilla.TastyVanilla;
 import tastyvanilla.block.custom.*;
+import tastyvanilla.item.ModItems;
 
 import java.util.function.Function;
 
@@ -86,6 +87,44 @@ public class ModBlocks {
             properties -> new TomatoCropBlock(properties
                     .noCollision().randomTicks().instabreak().sound(SoundType.CROP)
                     .pushReaction(PushReaction.DESTROY).mapColor(MapColor.PLANT)));
+
+    //CORN & RICE (2.2.1)
+    //CORN: 2 BLOCKS TALL, PLANTED WITH KERNELS ON FARMLAND
+    public static final Block CORN_CROP = registerBlockWithoutBlockItem(ModBlockIds.CORN_CROP,
+            properties -> new CornCropBlock(properties
+                    .noCollision().randomTicks().instabreak().sound(SoundType.CROP)
+                    .pushReaction(PushReaction.DESTROY).mapColor(MapColor.PLANT), () -> ModItems.CORN_KERNELS));
+
+    public static final Block WHITE_CORN_CROP = registerBlockWithoutBlockItem(ModBlockIds.WHITE_CORN_CROP,
+            properties -> new CornCropBlock(properties
+                    .noCollision().randomTicks().instabreak().sound(SoundType.CROP)
+                    .pushReaction(PushReaction.DESTROY).mapColor(MapColor.PLANT), () -> ModItems.WHITE_CORN_KERNELS));
+
+    public static final Block BLUE_CORN_CROP = registerBlockWithoutBlockItem(ModBlockIds.BLUE_CORN_CROP,
+            properties -> new CornCropBlock(properties
+                    .noCollision().randomTicks().instabreak().sound(SoundType.CROP)
+                    .pushReaction(PushReaction.DESTROY).mapColor(MapColor.PLANT), () -> ModItems.BLUE_CORN_KERNELS));
+
+    public static final Block PURPLE_CORN_CROP = registerBlockWithoutBlockItem(ModBlockIds.PURPLE_CORN_CROP,
+            properties -> new CornCropBlock(properties
+                    .noCollision().randomTicks().instabreak().sound(SoundType.CROP)
+                    .pushReaction(PushReaction.DESTROY).mapColor(MapColor.PLANT), () -> ModItems.PURPLE_CORN_KERNELS));
+
+    //RICE: PLANTED IN WATER 1 BLOCK DEEP (WILD RICE ALSO GROWS ON SAND, GRAVEL AND CLAY)
+    public static final Block RICE_CROP = registerBlockWithoutBlockItem(ModBlockIds.RICE_CROP,
+            properties -> new RiceCropBlock(properties
+                    .noCollision().randomTicks().instabreak().sound(SoundType.WET_GRASS)
+                    .pushReaction(PushReaction.DESTROY).mapColor(MapColor.PLANT), () -> ModItems.RICE, false));
+
+    public static final Block WILD_RICE_CROP = registerBlockWithoutBlockItem(ModBlockIds.WILD_RICE_CROP,
+            properties -> new RiceCropBlock(properties
+                    .noCollision().randomTicks().instabreak().sound(SoundType.WET_GRASS)
+                    .pushReaction(PushReaction.DESTROY).mapColor(MapColor.PLANT), () -> ModItems.WILD_RICE, true));
+
+    public static final Block BLACK_RICE_CROP = registerBlockWithoutBlockItem(ModBlockIds.BLACK_RICE_CROP,
+            properties -> new RiceCropBlock(properties
+                    .noCollision().randomTicks().instabreak().sound(SoundType.WET_GRASS)
+                    .pushReaction(PushReaction.DESTROY).mapColor(MapColor.PLANT), () -> ModItems.BLACK_RICE, false));
 
     //BERRIES
 

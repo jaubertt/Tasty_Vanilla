@@ -19,6 +19,15 @@ public class ModBlockIds {
     public static final ResourceKey<Block> SWEET_POTATO_CROP = create("sweet_potato_crop");
     public static final ResourceKey<Block> TOMATO_CROP = create("tomato_crop");
 
+    //CORN & RICE (2.2.1)
+    public static final ResourceKey<Block> CORN_CROP = create("corn_crop");
+    public static final ResourceKey<Block> WHITE_CORN_CROP = create("white_corn_crop");
+    public static final ResourceKey<Block> BLUE_CORN_CROP = create("blue_corn_crop");
+    public static final ResourceKey<Block> PURPLE_CORN_CROP = create("purple_corn_crop");
+    public static final ResourceKey<Block> RICE_CROP = create("rice_crop");
+    public static final ResourceKey<Block> WILD_RICE_CROP = create("wild_rice_crop");
+    public static final ResourceKey<Block> BLACK_RICE_CROP = create("black_rice_crop");
+
     //BERRIES
     public static final ResourceKey<Block> BERRY_BLACKBERRY_BUSH = create("berry_blackberry_bush");
     public static final ResourceKey<Block> BERRY_BLUEBERRY_BUSH = create("berry_blueberry_bush");

@@ -96,6 +96,35 @@ public class ModItemIds {
     public static final ResourceKey<Item> TOMATO = create("tomato");
     public static final ResourceKey<Item> TOMATO_SEEDS = create("tomato_seeds");
 
+    //CORN & RICE (2.2.1)
+    //CORN (HARVEST) AND CORN KERNELS (PLANTING ITEM), ONE PER COLOR
+    public static final ResourceKey<Item> CORN = create("corn");
+    public static final ResourceKey<Item> CORN_KERNELS = create("corn_kernels");
+    public static final ResourceKey<Item> WHITE_CORN = create("white_corn");
+    public static final ResourceKey<Item> WHITE_CORN_KERNELS = create("white_corn_kernels");
+    public static final ResourceKey<Item> BLUE_CORN = create("blue_corn");
+    public static final ResourceKey<Item> BLUE_CORN_KERNELS = create("blue_corn_kernels");
+    public static final ResourceKey<Item> PURPLE_CORN = create("purple_corn");
+    public static final ResourceKey<Item> PURPLE_CORN_KERNELS = create("purple_corn_kernels");
+    //NIXTAMAL AND MASA (WHITE AND BLUE ONLY)
+    public static final ResourceKey<Item> WHITE_NIXTAMAL = create("white_nixtamal");
+    public static final ResourceKey<Item> BLUE_NIXTAMAL = create("blue_nixtamal");
+    public static final ResourceKey<Item> WHITE_MASA = create("white_masa");
+    public static final ResourceKey<Item> BLUE_MASA = create("blue_masa");
+    //SHARED CORN INGREDIENTS
+    public static final ResourceKey<Item> CAL = create("cal");
+    public static final ResourceKey<Item> CORNMEAL = create("cornmeal");
+    public static final ResourceKey<Item> DOUGH_CORNBREAD = create("dough_cornbread");
+    //RICE PANICLES (HARVEST) AND RICE (PLANTING ITEM)
+    public static final ResourceKey<Item> RAW_RICE = create("raw_rice");
+    public static final ResourceKey<Item> RICE = create("rice");
+    public static final ResourceKey<Item> BROWN_RICE = create("brown_rice");
+    public static final ResourceKey<Item> WHITE_RICE = create("white_rice");
+    public static final ResourceKey<Item> RAW_WILD_RICE = create("raw_wild_rice");
+    public static final ResourceKey<Item> WILD_RICE = create("wild_rice");
+    public static final ResourceKey<Item> RAW_BLACK_RICE = create("raw_black_rice");
+    public static final ResourceKey<Item> BLACK_RICE = create("black_rice");
+
 
     //CROP FOODS
     public static final ResourceKey<Item> FOOD_TOMATO_SOUP = create("food_tomato_soup");
@@ -114,6 +143,27 @@ public class ModItemIds {
 
     public static final ResourceKey<Item> BREAD_GARLIC = create("bread_garlic");
     public static final ResourceKey<Item> DOUGH_GARLIC = create("dough_garlic");
+
+    //CORN & RICE FOODS (2.2.1)
+    public static final ResourceKey<Item> FOOD_ROASTED_CORN = create("food_roasted_corn");
+    public static final ResourceKey<Item> FOOD_POPCORN = create("food_popcorn");
+    public static final ResourceKey<Item> FOOD_TORTILLA = create("food_tortilla");
+    public static final ResourceKey<Item> BREAD_CORNBREAD = create("bread_cornbread");
+    public static final ResourceKey<Item> BREAD_PIKI = create("bread_piki");
+    public static final ResourceKey<Item> FOOD_TACOS = create("food_tacos");
+    public static final ResourceKey<Item> FOOD_TAMALES = create("food_tamales");
+    public static final ResourceKey<Item> FOOD_POZOLE = create("food_pozole");
+    public static final ResourceKey<Item> FOOD_TLACOYOS = create("food_tlacoyos");
+    public static final ResourceKey<Item> FOOD_POLENTA = create("food_polenta");
+    public static final ResourceKey<Item> FOOD_AREPA = create("food_arepa");
+    public static final ResourceKey<Item> FOOD_MAZAMORRA_MORADA = create("food_mazamorra_morada");
+    public static final ResourceKey<Item> FOOD_CHICHA_MORADA = create("food_chicha_morada");
+    public static final ResourceKey<Item> FOOD_FRIED_RICE = create("food_fried_rice");
+    public static final ResourceKey<Item> FOOD_SUSHI = create("food_sushi");
+    public static final ResourceKey<Item> FOOD_RICE_PUDDING = create("food_rice_pudding");
+    public static final ResourceKey<Item> FOOD_WILD_RICE_SOUP = create("food_wild_rice_soup");
+    public static final ResourceKey<Item> FOOD_WILD_RICE_PILAF = create("food_wild_rice_pilaf");
+    public static final ResourceKey<Item> FOOD_BLACK_RICE_CONGEE = create("food_black_rice_congee");
 
     //MILK & CHEESE
     public static final ResourceKey<Item> GOAT_MILK_BUCKET = create("goat_milk_bucket");
