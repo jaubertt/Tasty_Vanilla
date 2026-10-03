@@ -4,7 +4,6 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.BlockRenderLayer;
 import tastyvanilla.block.ModBlocks;
-import tastyvanilla.item.ModItems;
 
 public class TastyVanillaClient implements ClientModInitializer{
     @Override
@@ -27,9 +26,6 @@ public class TastyVanillaClient implements ClientModInitializer{
         BlockRenderLayerMap.putBlock(ModBlocks.BERRY_RASPBERRY_BUSH, BlockRenderLayer.CUTOUT);
         BlockRenderLayerMap.putBlock(ModBlocks.BERRY_STRAWBERRY_BUSH, BlockRenderLayer.CUTOUT);
         BlockRenderLayerMap.putBlock(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH, BlockRenderLayer.CUTOUT);
-
-        ModItems.registerModItems();
-        ModBlocks.registerModBlocks();
     }
 }
 

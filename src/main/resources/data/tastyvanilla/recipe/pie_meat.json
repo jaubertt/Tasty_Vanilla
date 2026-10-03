@@ -10,9 +10,7 @@
     [
       "tastyvanilla:salt"
     ],
-    [
-      "minecraft:cooked_beef"
-    ],
+    "#c:foods/cooked_meat",
     [
       "minecraft:potato"
     ]

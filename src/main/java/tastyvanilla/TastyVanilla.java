@@ -6,8 +6,10 @@ import org.slf4j.LoggerFactory;
 import tastyvanilla.block.ModBlocks;
 import tastyvanilla.entity.ModEntities;
 import tastyvanilla.entity.ModVillagerTrades;
+import tastyvanilla.item.ModBrewingRecipes;
 import tastyvanilla.item.ModCompostableItems;
 import tastyvanilla.item.ModItems;
+import tastyvanilla.loot.ModLootTableModifiers;
 import tastyvanilla.world.gen.ModWorldGeneration;
 
 public class TastyVanilla implements ModInitializer {
@@ -23,6 +25,8 @@ public class TastyVanilla implements ModInitializer {
 		ModEntities.registerModEntities();
 		ModWorldGeneration.GenerateWorldGen();
 		ModVillagerTrades.registerModVillagerTrades();
+		ModLootTableModifiers.registerModLootTableModifiers();
+		ModBrewingRecipes.registerModBrewingRecipes();
 
 	}
 }

@@ -12,6 +12,7 @@ classes/
 # idea
 
 .idea(not to be used)/
+.idea/
 *.iml
 *.ipr
 *.iws
@@ -40,3 +41,13 @@ hs_err_*.log
 replay_*.log
 *.hprof
 *.jfr
+
+# claude
+
+Claude outputs*/
+.claude/
+CLAUDE.md
+
+# datagen cache
+
+src/main/generated/.cache/

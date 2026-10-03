@@ -20,6 +20,6 @@ public class ModRegistryDataGenerator extends FabricDynamicRegistryProvider {
 
     @Override
     public String getName() {
-        return "";
+        return "Tasty Vanilla Dynamic Registry";
     }
 }

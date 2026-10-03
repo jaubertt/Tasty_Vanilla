@@ -1,25 +1,19 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "category": "misc",
-    "ingredients": [
-      [
-        "minecraft:cooked_chicken",
-        "minecraft:cooked_porkchop",
-        "minecraft:cooked_beef",
-        "minecraft:cooked_rabbit",
-        "minecraft:cooked_mutton"
-      ],
-      [
-        "tastyvanilla:tomato"
-      ],
-      [
-        "tastyvanilla:lettuce"
-      ],
-      [
-        "tastyvanilla:bread_flatbread"
-      ]
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:foods/cooked_meat",
+    [
+      "tastyvanilla:tomato"
     ],
-    "result": {
-      "id": "tastyvanilla:food_wrap"
+    [
+      "tastyvanilla:lettuce"
+    ],
+    [
+      "tastyvanilla:bread_flatbread"
+    ]
+  ],
+  "result": {
+    "id": "tastyvanilla:food_wrap"
   }
 }

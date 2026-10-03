@@ -28,13 +28,13 @@ public class ModModelProvider extends FabricModelProvider {
 
        //BERRIES
         blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_BLACKBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_BLUEBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_ELDERBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_GOJI_BERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_GOOSEBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_RASPBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_STRAWBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_BLUEBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlueberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_ELDERBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, ElderberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_GOJI_BERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, GojiBerryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_GOOSEBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, GooseberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_RASPBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, RaspberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_STRAWBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, StrawberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, WhiteCurrantBerryBushBlock.AGE, new int[]{0, 1, 2, 3});
 
     }
 
@@ -85,6 +85,49 @@ public class ModModelProvider extends FabricModelProvider {
 
         //CHEESE
         itemModelGenerator.register(ModItems.GOAT_MILK_BUCKET, Models.GENERATED);
+
+        //MEATS & DROPS
+        itemModelGenerator.register(ModItems.RAW_MEAT_BEAR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_CAMEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_HORSE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_VEGGIE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_SNIFFER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_GOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_LLAMA, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_WOLF, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_FOX, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_CAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_PARROT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_FROG, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_BAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_TURTLE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_DOLPHIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_SQUID, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_AXOLOTL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_ARMADILLO, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_ALLAY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_NAUTILUS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_MEAT_RAVAGER, Models.GENERATED);
+
+
+        itemModelGenerator.register(ModItems.COOKED_MEAT_BEAR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_MEAT_CAMEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_MEAT_HORSE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_MEAT_VEGGIE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_MEAT_SNIFFER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_MEAT_GOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_MEAT_LLAMA, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_MEAT_WOLF, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_MEAT_FOX, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_MEAT_PARROT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_MEAT_FROG, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_MEAT_TURTLE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_MEAT_DOLPHIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_MEAT_SQUID, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_MEAT_AXOLOTL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_MEAT_ARMADILLO, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_MEAT_NAUTILUS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_MEAT_RAVAGER, Models.GENERATED);
 
     }
 }

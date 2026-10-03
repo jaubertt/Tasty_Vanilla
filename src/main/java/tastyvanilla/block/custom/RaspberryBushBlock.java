@@ -59,19 +59,17 @@ public class RaspberryBushBlock extends SweetBerryBushBlock {
     protected void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity, EntityCollisionHandler handler, boolean bl) {
         if (entity instanceof LivingEntity && entity.getType() != EntityType.FOX && entity.getType() != EntityType.BEE) {
             entity.slowMovement(state, new Vec3d((double)0.8F, (double)0.75F, (double)0.8F));
-            if (world instanceof ServerWorld) {
-                ServerWorld serverWorld = (ServerWorld)world;
-                if ((Integer)state.get(AGE) != 0) {
-                    Vec3d vec3d = entity.isControlledByPlayer() ? entity.getMovement() : entity.getLastRenderPos().subtract(entity.getEntityPos());
-                    if (vec3d.horizontalLengthSquared() > (double)0.0F) {
-                        double d = Math.abs(vec3d.getX());
-                        double e = Math.abs(vec3d.getZ());
+            //HURTS ENTITIES THAT MOVE THROUGH IT, LIKE THE VANILLA SWEET BERRY BUSH
+            if (world instanceof ServerWorld serverWorld && (Integer)state.get(AGE) != 0) {
+                Vec3d vec3d = entity.isControlledByPlayer() ? entity.getMovement() : entity.getLastRenderPos().subtract(entity.getEntityPos());
+                if (vec3d.horizontalLengthSquared() > (double)0.0F) {
+                    double d = Math.abs(vec3d.getX());
+                    double e = Math.abs(vec3d.getZ());
+                    if (d >= (double)0.003F || e >= (double)0.003F) {
+                        entity.damage(serverWorld, world.getDamageSources().sweetBerryBush(), 1.0F);
                     }
-
-                    return;
                 }
             }
-
         }
     }
 }

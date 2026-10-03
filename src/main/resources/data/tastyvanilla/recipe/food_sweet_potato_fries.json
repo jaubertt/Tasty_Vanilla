@@ -13,10 +13,6 @@
       ]
     ],
     "result": {
-      "id": "tastyvanilla:food_sweet_potato_fries",
-      "components": {
-        "minecraft:max_stack_size": 16
-
-    }
+      "id": "tastyvanilla:food_sweet_potato_fries"
   }
 }

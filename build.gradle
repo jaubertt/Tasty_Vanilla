@@ -65,6 +65,12 @@ jar {
 	}
 }
 
+// iCloud Drive sometimes copies files as "name 2.json" or folders as "recipe 2".
+// Minecraft rejects those names, so keep them out of every jar this project builds.
+tasks.withType(AbstractArchiveTask).configureEach {
+	exclude { element -> element.relativePath.segments.any { it ==~ /.+ \d+(\.[^.]+)?/ } }
+}
+
 // configure the maven publication
 publishing {
 	publications {

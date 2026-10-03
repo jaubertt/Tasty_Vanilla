@@ -41,32 +41,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
 
         //TOOLS
-        valueLookupBuilder(BlockTags.AXE_MINEABLE)
-                .add(ModBlocks.CABBAGE_CROP)
-                .add(ModBlocks.CHILLI_CROP)
-                .add(ModBlocks.EGGPLANT_CROP)
-                .add(ModBlocks.GARLIC_CROP)
-                .add(ModBlocks.LETTUCE_CROP)
-                .add(ModBlocks.ONION_CROP)
-                .add(ModBlocks.SWEET_POTATO_CROP)
-                .add(ModBlocks.TOMATO_CROP)
-                .add(ModBlocks.SALT_BLOCK)
-                .add(ModBlocks.SUGAR_BLOCK)
-        ;
-
         valueLookupBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.CABBAGE_CROP)
-                .add(ModBlocks.CHILLI_CROP)
-                .add(ModBlocks.EGGPLANT_CROP)
-                .add(ModBlocks.GARLIC_CROP)
-                .add(ModBlocks.LETTUCE_CROP)
-                .add(ModBlocks.ONION_CROP)
-                .add(ModBlocks.SWEET_POTATO_CROP)
-                .add(ModBlocks.TOMATO_CROP)
                 .add(ModBlocks.SALT_BLOCK)
                 .add(ModBlocks.SUGAR_BLOCK)
         ;
 
+        //BUSHES TAGGED LIKE THE VANILLA SWEET BERRY BUSH (CROPS ARE ALREADY COVERED THROUGH BlockTags.CROPS)
         valueLookupBuilder(BlockTags.BEE_GROWABLES)
                 .add(ModBlocks.BERRY_BLACKBERRY_BUSH)
                 .add(ModBlocks.BERRY_BLUEBERRY_BUSH)
@@ -75,10 +55,42 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BERRY_GOOSEBERRY_BUSH)
                 .add(ModBlocks.BERRY_RASPBERRY_BUSH)
                 .add(ModBlocks.BERRY_STRAWBERRY_BUSH)
-                .add(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH);
+                .add(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH)
         ;
 
+        //BERRY BUSHES, LIKE THE VANILLA SWEET BERRY BUSH
+        valueLookupBuilder(BlockTags.FALL_DAMAGE_RESETTING)
+                .add(ModBlocks.BERRY_BLACKBERRY_BUSH)
+                .add(ModBlocks.BERRY_BLUEBERRY_BUSH)
+                .add(ModBlocks.BERRY_ELDERBERRY_BUSH)
+                .add(ModBlocks.BERRY_GOJI_BERRY_BUSH)
+                .add(ModBlocks.BERRY_GOOSEBERRY_BUSH)
+                .add(ModBlocks.BERRY_RASPBERRY_BUSH)
+                .add(ModBlocks.BERRY_STRAWBERRY_BUSH)
+                .add(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH)
+        ;
 
+        valueLookupBuilder(BlockTags.HAPPY_GHAST_AVOIDS)
+                .add(ModBlocks.BERRY_BLACKBERRY_BUSH)
+                .add(ModBlocks.BERRY_BLUEBERRY_BUSH)
+                .add(ModBlocks.BERRY_ELDERBERRY_BUSH)
+                .add(ModBlocks.BERRY_GOJI_BERRY_BUSH)
+                .add(ModBlocks.BERRY_GOOSEBERRY_BUSH)
+                .add(ModBlocks.BERRY_RASPBERRY_BUSH)
+                .add(ModBlocks.BERRY_STRAWBERRY_BUSH)
+                .add(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH)
+        ;
+
+        valueLookupBuilder(BlockTags.PREVENT_MOB_SPAWNING_INSIDE)
+                .add(ModBlocks.BERRY_BLACKBERRY_BUSH)
+                .add(ModBlocks.BERRY_BLUEBERRY_BUSH)
+                .add(ModBlocks.BERRY_ELDERBERRY_BUSH)
+                .add(ModBlocks.BERRY_GOJI_BERRY_BUSH)
+                .add(ModBlocks.BERRY_GOOSEBERRY_BUSH)
+                .add(ModBlocks.BERRY_RASPBERRY_BUSH)
+                .add(ModBlocks.BERRY_STRAWBERRY_BUSH)
+                .add(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH)
+        ;
 
     }
 }
