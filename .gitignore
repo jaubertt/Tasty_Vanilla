@@ -28,9 +28,10 @@ bin/
 
 *.DS_Store
 
-# fabric
+# fabric and neoforge run folders
 
 run/
+runs/
 
 # java
 
@@ -47,4 +48,4 @@ CLAUDE.md
 
 # datagen cache
 
-src/main/generated/.cache/
+common/src/generated/resources/.cache/

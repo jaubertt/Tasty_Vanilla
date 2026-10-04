@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "category": "food",
-  "experience": 0.35,
-  "ingredient": "tastyvanilla:raw_meat_camel",
-  "result": {
-    "id": "tastyvanilla:cooked_meat_camel"
-  }
-}

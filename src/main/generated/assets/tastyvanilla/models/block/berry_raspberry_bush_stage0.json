@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "tastyvanilla:block/berry_raspberry_bush_stage0"
-  }
-}
