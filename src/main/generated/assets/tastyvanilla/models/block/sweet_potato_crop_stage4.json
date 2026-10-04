@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "tastyvanilla:block/sweet_potato_crop_stage4"
+  }
+}

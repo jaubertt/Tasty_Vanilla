@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+
+    "has_ingredient": {
+      "conditions": {"items": [{"items": "minecraft:sweet_berries"}]},
+      "trigger": "minecraft:inventory_changed"},
+
+    "has_the_recipe": {
+      "conditions": {"recipe": "tastyvanilla:jam_sweet_berry_mash"},
+      "trigger": "minecraft:recipe_unlocked"}
+  },
+
+
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ingredient"
+    ]
+  ],
+
+  "rewards": {"recipes": ["tastyvanilla:jam_sweet_berry_mash"]}
+}

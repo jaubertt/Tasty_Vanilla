@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": [
+    "tastyvanilla:dough_flatbread"
+  ],
+  "result": {
+    "id": "tastyvanilla:bread_flatbread"
+  },
+  "experience": 0.35,
+  "cookingtime": 100
+}

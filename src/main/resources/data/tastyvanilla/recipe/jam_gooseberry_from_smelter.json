@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": [
+    "tastyvanilla:jam_gooseberry_mash"
+  ],
+  "result": {
+    "id": "tastyvanilla:jam_gooseberry"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

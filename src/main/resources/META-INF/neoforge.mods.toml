@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "ARR"
+issueTrackerURL = "https://github.com/jaubertt/Tasty_Vanilla/issues"
+
+[[mods]]
+modId = "tastyvanilla"
+version = "${version}"
+displayName = "TastyVanilla"
+displayURL = "https://modrinth.com/mod/tasty-vanilla"
+authors = "Jaubert"
+description = '''Tasty Vanilla brings an array of exciting culinary and farming adventures to Minecraft while maintaining the familiar feel of the game's classic mechanics.'''
+
+[[mixins]]
+config = "tastyvanilla.mixins.json"
+
+[[dependencies.tastyvanilla]]
+modId = "neoforge"
+type = "required"
+versionRange = "[${neoforge_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tastyvanilla]]
+modId = "minecraft"
+type = "required"
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"

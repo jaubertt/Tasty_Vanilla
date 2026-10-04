@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": [
+    "tastyvanilla:dough_brownie"
+  ],
+  "result": {
+    "id": "tastyvanilla:bread_brownie"
+  },
+  "experience": 0.35,
+  "cookingtime": 100
+}

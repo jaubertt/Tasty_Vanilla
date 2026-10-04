@@ -1,0 +1,226 @@
+{
+  "values": {
+    "tastyvanilla:cookie_apple": {
+      "chance": 0.85
+    },
+    "tastyvanilla:cookie_carrot": {
+      "chance": 0.85
+    },
+    "tastyvanilla:cookie_glow_berry": {
+      "chance": 0.85
+    },
+    "tastyvanilla:cookie_honey": {
+      "chance": 0.85
+    },
+    "tastyvanilla:cookie_oatmeal": {
+      "chance": 0.85
+    },
+    "tastyvanilla:cookie_poppy_seed": {
+      "chance": 0.85
+    },
+    "tastyvanilla:cookie_pumpkin": {
+      "chance": 0.85
+    },
+    "tastyvanilla:cookie_spider_eye": {
+      "chance": 0.85
+    },
+    "tastyvanilla:cookie_sugar": {
+      "chance": 0.85
+    },
+    "tastyvanilla:cookie_sunflower_seed": {
+      "chance": 0.85
+    },
+    "tastyvanilla:cookie_sweet_berry": {
+      "chance": 0.85
+    },
+    "tastyvanilla:pie_apple": {
+      "chance": 1.0
+    },
+    "tastyvanilla:pie_chicken": {
+      "chance": 1.0
+    },
+    "tastyvanilla:pie_chocolate": {
+      "chance": 1.0
+    },
+    "tastyvanilla:pie_chorus_fruit": {
+      "chance": 1.0
+    },
+    "tastyvanilla:pie_fish": {
+      "chance": 1.0
+    },
+    "tastyvanilla:pie_fungus": {
+      "chance": 1.0
+    },
+    "tastyvanilla:pie_glow_berry": {
+      "chance": 1.0
+    },
+    "tastyvanilla:pie_honey": {
+      "chance": 1.0
+    },
+    "tastyvanilla:pie_meat": {
+      "chance": 1.0
+    },
+    "tastyvanilla:pie_melon": {
+      "chance": 1.0
+    },
+    "tastyvanilla:pie_mushroom": {
+      "chance": 1.0
+    },
+    "tastyvanilla:pie_shepherds": {
+      "chance": 1.0
+    },
+    "tastyvanilla:pie_sweet_berry": {
+      "chance": 1.0
+    },
+    "tastyvanilla:pie_strawberry": {
+      "chance": 1.0
+    },
+    "tastyvanilla:pie_vegetable": {
+      "chance": 1.0
+    },
+    "tastyvanilla:bread_baguel": {
+      "chance": 0.85
+    },
+    "tastyvanilla:bread_baguette": {
+      "chance": 0.85
+    },
+    "tastyvanilla:bread_baked": {
+      "chance": 0.85
+    },
+    "tastyvanilla:bread_brownie": {
+      "chance": 0.85
+    },
+    "tastyvanilla:bread_croissant": {
+      "chance": 0.85
+    },
+    "tastyvanilla:bread_flatbread": {
+      "chance": 0.85
+    },
+    "tastyvanilla:bread_focaccia": {
+      "chance": 0.85
+    },
+    "tastyvanilla:bread_honey": {
+      "chance": 0.85
+    },
+    "tastyvanilla:bread_multigrain": {
+      "chance": 0.85
+    },
+    "tastyvanilla:bread_pancakes": {
+      "chance": 0.85
+    },
+    "tastyvanilla:bread_sourdough": {
+      "chance": 0.85
+    },
+    "tastyvanilla:bread_sweet_roll": {
+      "chance": 0.85
+    },
+    "tastyvanilla:bread_garlic": {
+      "chance": 0.85
+    },
+    "tastyvanilla:dough_baguel": {
+      "chance": 0.65
+    },
+    "tastyvanilla:dough_baguette": {
+      "chance": 0.65
+    },
+    "tastyvanilla:dough_baked_bread": {
+      "chance": 0.65
+    },
+    "tastyvanilla:dough_brownie": {
+      "chance": 0.65
+    },
+    "tastyvanilla:dough_croissant": {
+      "chance": 0.65
+    },
+    "tastyvanilla:dough_flatbread": {
+      "chance": 0.65
+    },
+    "tastyvanilla:dough_focaccia": {
+      "chance": 0.65
+    },
+    "tastyvanilla:dough_honey": {
+      "chance": 0.65
+    },
+    "tastyvanilla:dough_multigrain": {
+      "chance": 0.65
+    },
+    "tastyvanilla:dough_pancakes": {
+      "chance": 0.65
+    },
+    "tastyvanilla:dough_sourdough": {
+      "chance": 0.65
+    },
+    "tastyvanilla:dough_sweet_roll": {
+      "chance": 0.65
+    },
+    "tastyvanilla:dough_garlic": {
+      "chance": 0.65
+    },
+    "tastyvanilla:cabbage": {
+      "chance": 0.65
+    },
+    "tastyvanilla:chilli": {
+      "chance": 0.65
+    },
+    "tastyvanilla:chilli_seeds": {
+      "chance": 0.3,
+      "can_villager_compost": true
+    },
+    "tastyvanilla:eggplant": {
+      "chance": 0.65
+    },
+    "tastyvanilla:garlic": {
+      "chance": 0.65
+    },
+    "tastyvanilla:lettuce": {
+      "chance": 0.65
+    },
+    "tastyvanilla:lettuce_seeds": {
+      "chance": 0.3,
+      "can_villager_compost": true
+    },
+    "tastyvanilla:onion": {
+      "chance": 0.65
+    },
+    "tastyvanilla:sweet_potato": {
+      "chance": 0.65
+    },
+    "tastyvanilla:tomato": {
+      "chance": 0.65
+    },
+    "tastyvanilla:tomato_seeds": {
+      "chance": 0.3,
+      "can_villager_compost": true
+    },
+    "tastyvanilla:food_baked_sweet_potato": {
+      "chance": 0.85
+    },
+    "tastyvanilla:food_roasted_garlic": {
+      "chance": 0.85
+    },
+    "tastyvanilla:berry_blackberries": {
+      "chance": 0.3
+    },
+    "tastyvanilla:berry_blueberries": {
+      "chance": 0.3
+    },
+    "tastyvanilla:berry_elderberries": {
+      "chance": 0.3
+    },
+    "tastyvanilla:berry_goji_berries": {
+      "chance": 0.3
+    },
+    "tastyvanilla:berry_gooseberries": {
+      "chance": 0.3
+    },
+    "tastyvanilla:berry_raspberries": {
+      "chance": 0.3
+    },
+    "tastyvanilla:berry_strawberries": {
+      "chance": 0.3
+    },
+    "tastyvanilla:berry_white_currant_berries": {
+      "chance": 0.3
+    }
+  }
+}

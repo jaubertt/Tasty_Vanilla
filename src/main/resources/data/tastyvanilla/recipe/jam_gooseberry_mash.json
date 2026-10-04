@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      [
+        "tastyvanilla:berry_gooseberries"
+      ],
+      [
+        "tastyvanilla:berry_gooseberries"
+      ],
+      [
+        "tastyvanilla:berry_gooseberries"
+      ],
+      [
+        "tastyvanilla:berry_gooseberries"
+      ],
+      [
+        "tastyvanilla:berry_gooseberries"
+      ],
+      [
+        "tastyvanilla:berry_gooseberries"
+      ],
+      [
+        "minecraft:honey_bottle",
+        "minecraft:sugar"
+      ],
+      [
+        "tastyvanilla:glass_jar"
+      ],
+      [
+        "minecraft:honey_bottle",
+        "minecraft:sugar"
+      ]
+    ],
+    "result": {
+      "id": "tastyvanilla:jam_gooseberry_mash"
+  }
+}

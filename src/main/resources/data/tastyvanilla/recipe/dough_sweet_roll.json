@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "tastyvanilla:flour"
+    ],
+    [
+      "minecraft:milk_bucket"
+    ],
+    [
+      "minecraft:sugar"
+    ],
+    [
+      "tastyvanilla:butter"
+    ]
+  ],
+  "result": {
+    "id": "tastyvanilla:dough_sweet_roll",
+    "count": 3
+  }
+}

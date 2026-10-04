@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": [
+    "tastyvanilla:sweet_potato"
+  ],
+  "result": {
+    "id": "tastyvanilla:food_baked_sweet_potato"
+  },
+  "experience": 0.35,
+  "cookingtime": 100
+}

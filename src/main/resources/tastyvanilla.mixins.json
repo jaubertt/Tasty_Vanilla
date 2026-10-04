@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "tastyvanilla.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"GoatMixin",
+		"VillagerAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

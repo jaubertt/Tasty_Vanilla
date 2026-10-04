@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_meat_parrot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tastyvanilla:raw_meat_parrot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tastyvanilla:cooked_meat_parrot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_meat_parrot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tastyvanilla:cooked_meat_parrot"
+    ]
+  }
+}

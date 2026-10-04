@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "tastyvanilla:tomato"
+  ],
+  "result": {
+    "count": 3,
+    "id": "tastyvanilla:tomato_seeds"
+  }
+}

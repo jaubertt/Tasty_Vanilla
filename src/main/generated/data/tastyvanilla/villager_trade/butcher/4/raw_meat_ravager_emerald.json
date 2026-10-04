@@ -1,0 +1,11 @@
+{
+  "gives": {
+    "id": "minecraft:emerald"
+  },
+  "max_uses": 16.0,
+  "reputation_discount": 0.05,
+  "wants": {
+    "id": "tastyvanilla:raw_meat_ravager"
+  },
+  "xp": 20.0
+}

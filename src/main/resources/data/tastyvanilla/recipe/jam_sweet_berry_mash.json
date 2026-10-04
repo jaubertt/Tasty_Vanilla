@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      [
+        "minecraft:sweet_berries"
+      ],
+      [
+        "minecraft:sweet_berries"
+      ],
+      [
+        "minecraft:sweet_berries"
+      ],
+      [
+        "minecraft:sweet_berries"
+      ],
+      [
+        "minecraft:sweet_berries"
+      ],
+      [
+        "minecraft:sweet_berries"
+      ],
+      [
+        "minecraft:honey_bottle",
+        "minecraft:sugar"
+      ],
+      [
+        "tastyvanilla:glass_jar"
+      ],
+      [
+        "minecraft:honey_bottle",
+        "minecraft:sugar"
+      ]
+    ],
+    "result": {
+      "id": "tastyvanilla:jam_sweet_berry_mash"
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      [
+        "tastyvanilla:berry_white_currant_berries"
+      ],
+      [
+        "tastyvanilla:berry_white_currant_berries"
+      ],
+      [
+        "tastyvanilla:berry_white_currant_berries"
+      ],
+      [
+        "tastyvanilla:berry_white_currant_berries"
+      ],
+      [
+        "tastyvanilla:berry_white_currant_berries"
+      ],
+      [
+        "tastyvanilla:berry_white_currant_berries"
+      ],
+      [
+        "minecraft:honey_bottle",
+        "minecraft:sugar"
+      ],
+      [
+        "tastyvanilla:glass_jar"
+      ],
+      [
+        "minecraft:honey_bottle",
+        "minecraft:sugar"
+      ]
+
+    ],
+    "result": {
+      "id": "tastyvanilla:jam_white_currant_berry_mash"
+  }
+}

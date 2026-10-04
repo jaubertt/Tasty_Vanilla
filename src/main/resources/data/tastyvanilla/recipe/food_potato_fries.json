@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      [
+        "minecraft:bowl"
+      ],
+      [
+        "minecraft:potato"
+      ],
+      [
+        "tastyvanilla:salt"
+      ]
+    ],
+    "result": {
+      "id": "tastyvanilla:food_potato_fries",
+      "components": {
+        "minecraft:max_stack_size": 16
+
+    }
+  }
+}

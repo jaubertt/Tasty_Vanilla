@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+
+    "has_flour": {
+      "conditions": {"items": [{"items": "tastyvanilla:flour"}]},
+      "trigger": "minecraft:inventory_changed"}
+  },
+
+
+  "requirements": [
+    [
+      "has_flour"
+    ]
+  ],
+
+  "rewards": {
+    "recipes": [
+      "tastyvanilla:dough_baguel",
+      "tastyvanilla:dough_baguette",
+      "tastyvanilla:dough_baked_bread",
+      "tastyvanilla:dough_brownie",
+      "tastyvanilla:dough_croissant",
+      "tastyvanilla:dough_flatbread",
+      "tastyvanilla:dough_focaccia",
+      "tastyvanilla:dough_garlic",
+      "tastyvanilla:dough_honey",
+      "tastyvanilla:dough_multigrain",
+      "tastyvanilla:dough_pancakes",
+      "tastyvanilla:dough_sourdough",
+      "tastyvanilla:dough_sweet_roll"
+    ]
+  }
+}

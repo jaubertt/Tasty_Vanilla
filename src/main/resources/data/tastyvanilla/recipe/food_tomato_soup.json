@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:bowl"
+    ],
+    [
+      "tastyvanilla:tomato"
+    ],
+    [
+      "tastyvanilla:salt"
+    ]
+  ],
+  "result": {
+    "id": "tastyvanilla:food_tomato_soup",
+    "components": {
+      "minecraft:max_stack_size": 16
+
+    }
+  }
+}

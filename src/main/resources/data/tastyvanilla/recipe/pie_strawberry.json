@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:egg",
+      "minecraft:brown_egg",
+      "minecraft:blue_egg"
+    ],
+    [
+      "minecraft:sugar"
+    ],
+    [
+      "tastyvanilla:berry_strawberries"
+    ]
+  ],
+  "result": {
+    "id": "tastyvanilla:pie_strawberry",
+    "count": 1
+  }
+}

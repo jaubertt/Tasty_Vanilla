@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 1.0,
+  "ingredient": "tastyvanilla:raw_meat_sniffer",
+  "result": {
+    "id": "tastyvanilla:cooked_meat_sniffer"
+  }
+}

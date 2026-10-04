@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "experience": 0.7,
+  "ingredient": "tastyvanilla:raw_meat_axolotl",
+  "result": {
+    "id": "tastyvanilla:cooked_meat_axolotl"
+  }
+}

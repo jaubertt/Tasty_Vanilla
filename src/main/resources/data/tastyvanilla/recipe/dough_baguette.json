@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "tastyvanilla:flour"
+    ],
+    [
+      "minecraft:water_bucket"
+    ],
+    [
+      "tastyvanilla:yeast"
+    ]
+  ],
+  "result": {
+    "id": "tastyvanilla:dough_baguette",
+    "count": 3
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": [
+    "tastyvanilla:jam_goji_berry_mash"
+  ],
+  "result": {
+    "id": "tastyvanilla:jam_goji_berry"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

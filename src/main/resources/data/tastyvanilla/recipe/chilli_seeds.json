@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "tastyvanilla:chilli"
+  ],
+  "result": {
+    "count": 3,
+    "id": "tastyvanilla:chilli_seeds"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+
+    "has_flatbread": {
+      "conditions": {"items": [{"items": "tastyvanilla:bread_flatbread"}]},
+      "trigger": "minecraft:inventory_changed"},
+
+    "has_lettuce": {
+      "conditions": {"items": [{"items": "tastyvanilla:lettuce"}]},
+      "trigger": "minecraft:inventory_changed"},
+
+    "has_the_recipe": {
+      "conditions": {"recipe": "tastyvanilla:food_wrap"},
+      "trigger": "minecraft:recipe_unlocked"}
+  },
+
+
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_flatbread",
+      "has_lettuce"
+    ]
+  ],
+
+  "rewards": {"recipes": ["tastyvanilla:food_wrap"]}
+}
