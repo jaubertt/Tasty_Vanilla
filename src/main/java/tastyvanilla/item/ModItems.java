@@ -429,8 +429,8 @@ public class ModItems {
     //VANILLA STEWS AND SOUPS STACK TO 16, LIKE THE MOD'S OWN BOWL FOODS
     // (the Fabric branch does this with DefaultItemComponentEvents.MODIFY). Mod event bus, see TastyVanilla.
     public static void modifyDefaultComponents(ModifyDefaultComponentsEvent event) {
-            event.modify(Items.MUSHROOM_STEW, (components, context, item) -> components.set(DataComponents.MAX_STACK_SIZE, 16));
-            event.modify(Items.RABBIT_STEW, (components, context, item) -> components.set(DataComponents.MAX_STACK_SIZE, 16));
-            event.modify(Items.BEETROOT_SOUP, (components, context, item) -> components.set(DataComponents.MAX_STACK_SIZE, 16));
+            event.modify(Items.MUSHROOM_STEW, components -> components.set(DataComponents.MAX_STACK_SIZE, 16));
+            event.modify(Items.RABBIT_STEW, components -> components.set(DataComponents.MAX_STACK_SIZE, 16));
+            event.modify(Items.BEETROOT_SOUP, components -> components.set(DataComponents.MAX_STACK_SIZE, 16));
     }
 }

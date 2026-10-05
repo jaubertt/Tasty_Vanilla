@@ -59,7 +59,7 @@ public class RaspberryBushBlock extends SweetBerryBushBlock {
     protected void entityInside(
             final BlockState state, final Level level, final BlockPos pos, final Entity entity, final InsideBlockEffectApplier effectApplier, final boolean isPrecise
     ) {
-        if (entity instanceof LivingEntity && !entity.is(EntityTypes.FOX) && !entity.is(EntityTypes.BEE)) {
+        if (entity instanceof LivingEntity && !entity.is(EntityType.FOX) && !entity.is(EntityType.BEE)) {
             entity.makeStuckInBlock(state, new Vec3(0.8F, 0.75, 0.8F));
             if (level instanceof ServerLevel serverLevel && (Integer)state.getValue(AGE) != 0) {
                 Vec3 movement = entity.isClientAuthoritative() ? entity.getKnownMovement() : entity.oldPosition().subtract(entity.position());

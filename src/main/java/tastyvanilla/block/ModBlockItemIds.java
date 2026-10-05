@@ -1,6 +1,5 @@
 package tastyvanilla.block;
 
-import net.minecraft.references.BlockItemId;
 import net.minecraft.resources.Identifier;
 import tastyvanilla.TastyVanilla;
 

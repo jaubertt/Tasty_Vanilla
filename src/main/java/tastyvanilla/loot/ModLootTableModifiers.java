@@ -4,13 +4,13 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.mojang.serialization.JsonOps;
-import net.minecraft.advancements.predicates.DataComponentMatchers;
-import net.minecraft.advancements.predicates.EnchantmentPredicate;
-import net.minecraft.advancements.predicates.ItemPredicate;
-import net.minecraft.advancements.predicates.MinMaxBounds;
-import net.minecraft.advancements.predicates.entity.EntityEquipmentPredicate;
-import net.minecraft.advancements.predicates.entity.EntityFlagsPredicate;
-import net.minecraft.advancements.predicates.entity.EntityPredicate;
+import net.minecraft.advancements.criterion.DataComponentMatchers;
+import net.minecraft.advancements.criterion.EnchantmentPredicate;
+import net.minecraft.advancements.criterion.ItemPredicate;
+import net.minecraft.advancements.criterion.MinMaxBounds;
+import net.minecraft.advancements.criterion.EntityEquipmentPredicate;
+import net.minecraft.advancements.criterion.EntityFlagsPredicate;
+import net.minecraft.advancements.criterion.EntityPredicate;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.component.predicates.DataComponentPredicates;
 import net.minecraft.core.component.predicates.EnchantmentsPredicate;
@@ -19,7 +19,6 @@ import net.minecraft.resources.RegistryOps;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.tags.EnchantmentTags;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.EntityTypes;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.level.ItemLike;
@@ -57,37 +56,37 @@ public class ModLootTableModifiers {
         {
 
             //MEAT DROPS: TINY MOBS (1)
-            addMeat(key, table, registries, EntityTypes.FROG, ModItems.RAW_MEAT_FROG, 1, 1);
-            addMeat(key, table, registries, EntityTypes.PARROT, ModItems.RAW_MEAT_PARROT, 1, 1);
-            addMeat(key, table, registries, EntityTypes.AXOLOTL, ModItems.RAW_MEAT_AXOLOTL, 1, 1);
-            addDrop(key, table, registries, EntityTypes.ALLAY, ModItems.RAW_MEAT_ALLAY, 1, 1);
-            addDrop(key, table, registries, EntityTypes.BAT, ModItems.RAW_MEAT_BAT, 1, 1);
+            addMeat(key, table, registries, EntityType.FROG, ModItems.RAW_MEAT_FROG, 1, 1);
+            addMeat(key, table, registries, EntityType.PARROT, ModItems.RAW_MEAT_PARROT, 1, 1);
+            addMeat(key, table, registries, EntityType.AXOLOTL, ModItems.RAW_MEAT_AXOLOTL, 1, 1);
+            addDrop(key, table, registries, EntityType.ALLAY, ModItems.RAW_MEAT_ALLAY, 1, 1);
+            addDrop(key, table, registries, EntityType.BAT, ModItems.RAW_MEAT_BAT, 1, 1);
 
 
             //MEAT DROPS: MEDIUM MOBS (1-2)
-            addMeat(key, table, registries, EntityTypes.FOX, ModItems.RAW_MEAT_FOX, 1, 2);
-            addMeat(key, table, registries, EntityTypes.WOLF, ModItems.RAW_MEAT_WOLF, 1, 2);
-            addMeat(key, table, registries, EntityTypes.ARMADILLO, ModItems.RAW_MEAT_ARMADILLO, 1, 2);
-            addMeat(key, table, registries, EntityTypes.GOAT, ModItems.RAW_MEAT_GOAT, 1, 2);
-            addMeat(key, table, registries, EntityTypes.TURTLE, ModItems.RAW_MEAT_TURTLE, 1, 2);
-            addMeat(key, table, registries, EntityTypes.SQUID, ModItems.RAW_MEAT_SQUID, 1, 2);
-            addMeat(key, table, registries, EntityTypes.GLOW_SQUID, ModItems.RAW_MEAT_SQUID, 1, 2);
-            addMeat(key, table, registries, EntityTypes.NAUTILUS, ModItems.RAW_MEAT_NAUTILUS, 1, 2);
-            addMeat(key, table, registries, EntityTypes.DOLPHIN, ModItems.RAW_MEAT_DOLPHIN, 1, 2);
-            addDrop(key, table, registries, EntityTypes.CAT, ModItems.RAW_MEAT_CAT, 0, 2);
-            addDrop(key, table, registries, EntityTypes.OCELOT, ModItems.RAW_MEAT_CAT, 0, 2);
+            addMeat(key, table, registries, EntityType.FOX, ModItems.RAW_MEAT_FOX, 1, 2);
+            addMeat(key, table, registries, EntityType.WOLF, ModItems.RAW_MEAT_WOLF, 1, 2);
+            addMeat(key, table, registries, EntityType.ARMADILLO, ModItems.RAW_MEAT_ARMADILLO, 1, 2);
+            addMeat(key, table, registries, EntityType.GOAT, ModItems.RAW_MEAT_GOAT, 1, 2);
+            addMeat(key, table, registries, EntityType.TURTLE, ModItems.RAW_MEAT_TURTLE, 1, 2);
+            addMeat(key, table, registries, EntityType.SQUID, ModItems.RAW_MEAT_SQUID, 1, 2);
+            addMeat(key, table, registries, EntityType.GLOW_SQUID, ModItems.RAW_MEAT_SQUID, 1, 2);
+            addMeat(key, table, registries, EntityType.NAUTILUS, ModItems.RAW_MEAT_NAUTILUS, 1, 2);
+            addMeat(key, table, registries, EntityType.DOLPHIN, ModItems.RAW_MEAT_DOLPHIN, 1, 2);
+            addDrop(key, table, registries, EntityType.CAT, ModItems.RAW_MEAT_CAT, 0, 2);
+            addDrop(key, table, registries, EntityType.OCELOT, ModItems.RAW_MEAT_CAT, 0, 2);
 
             //MEAT DROPS: LARGE MOBS (1-3)
-            addMeat(key, table, registries, EntityTypes.HORSE, ModItems.RAW_MEAT_HORSE, 1, 3);
-            addMeat(key, table, registries, EntityTypes.DONKEY, ModItems.RAW_MEAT_HORSE, 1, 3);
-            addMeat(key, table, registries, EntityTypes.MULE, ModItems.RAW_MEAT_HORSE, 1, 3);
-            addMeat(key, table, registries, EntityTypes.CAMEL, ModItems.RAW_MEAT_CAMEL, 1, 3);
-            addMeat(key, table, registries, EntityTypes.LLAMA, ModItems.RAW_MEAT_LLAMA, 1, 3);
-            addMeat(key, table, registries, EntityTypes.TRADER_LLAMA, ModItems.RAW_MEAT_LLAMA, 1, 3);
-            addMeat(key, table, registries, EntityTypes.POLAR_BEAR, ModItems.RAW_MEAT_BEAR, 1, 3);
-            addMeat(key, table, registries, EntityTypes.PANDA, ModItems.RAW_MEAT_BEAR, 1, 3);
-            addMeat(key, table, registries, EntityTypes.SNIFFER, ModItems.RAW_MEAT_SNIFFER, 1, 3);
-            addMeat(key, table, registries, EntityTypes.RAVAGER, ModItems.RAW_MEAT_RAVAGER, 1, 3);
+            addMeat(key, table, registries, EntityType.HORSE, ModItems.RAW_MEAT_HORSE, 1, 3);
+            addMeat(key, table, registries, EntityType.DONKEY, ModItems.RAW_MEAT_HORSE, 1, 3);
+            addMeat(key, table, registries, EntityType.MULE, ModItems.RAW_MEAT_HORSE, 1, 3);
+            addMeat(key, table, registries, EntityType.CAMEL, ModItems.RAW_MEAT_CAMEL, 1, 3);
+            addMeat(key, table, registries, EntityType.LLAMA, ModItems.RAW_MEAT_LLAMA, 1, 3);
+            addMeat(key, table, registries, EntityType.TRADER_LLAMA, ModItems.RAW_MEAT_LLAMA, 1, 3);
+            addMeat(key, table, registries, EntityType.POLAR_BEAR, ModItems.RAW_MEAT_BEAR, 1, 3);
+            addMeat(key, table, registries, EntityType.PANDA, ModItems.RAW_MEAT_BEAR, 1, 3);
+            addMeat(key, table, registries, EntityType.SNIFFER, ModItems.RAW_MEAT_SNIFFER, 1, 3);
+            addMeat(key, table, registries, EntityType.RAVAGER, ModItems.RAW_MEAT_RAVAGER, 1, 3);
 
             //MOOSHROOM: NOT HERE. Its beef is replaced on purpose, so it keeps its JSON file:
             //src/main/resources/data/minecraft/loot_table/entities/mooshroom.json
