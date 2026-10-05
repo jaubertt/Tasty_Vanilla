@@ -1,0 +1,13 @@
+{
+  "values": {
+    "tastyvanilla:chilli_seeds": {
+      "can_villager_compost": true
+    },
+    "tastyvanilla:lettuce_seeds": {
+      "can_villager_compost": true
+    },
+    "tastyvanilla:tomato_seeds": {
+      "can_villager_compost": true
+    }
+  }
+}
