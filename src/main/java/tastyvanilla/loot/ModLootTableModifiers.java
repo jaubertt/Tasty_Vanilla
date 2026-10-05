@@ -259,5 +259,11 @@ public class ModLootTableModifiers {
         LootPool rebuilt = LootPool.CODEC.parse(ops, mainJson).getOrThrow();
         table.removePool(name);
         table.addPool(rebuilt);
+
+        // addPool appends, so the rebuilt main pool is now last. Move the table's other pools (pool1, pool2...)
+        // back behind it, so the pools roll in vanilla's order and a seed fills the chest like on Fabric.
+        for (int i = 1; table.getPool("pool" + i) != null; i++) {
+            table.addPool(table.removePool("pool" + i));
+        }
     }
 }

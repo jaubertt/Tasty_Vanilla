@@ -25,13 +25,14 @@ neoForge {
 		client {
 			client()
 			ideName = 'NeoForge Client'
-			// The same run folder as the Fabric branch (test worlds, options).
-			gameDirectory = this.mkdir(this.file('run'))
+			// Its own folder inside run/ (gitignored). Fabric's test worlds stay in run/saves and are never
+			// opened by NeoForge, which would drop anything NeoForge doesn't have (the 2.2.1 corn and rice).
+			gameDirectory = this.mkdir(this.file('run/neoforge'))
 		}
 		server {
 			server()
 			ideName = 'NeoForge Server'
-			gameDirectory = this.mkdir(this.file('run/server'))
+			gameDirectory = this.mkdir(this.file('run/neoforge/server'))
 		}
 	}
 

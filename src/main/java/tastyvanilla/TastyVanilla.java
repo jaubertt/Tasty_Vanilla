@@ -16,8 +16,8 @@ import tastyvanilla.item.ModVillagerFoods;
 import tastyvanilla.loot.ModLootTableModifiers;
 
 // NeoForge entry point. The Fabric branch has the same class as a ModInitializer; here NeoForge calls the
-// constructor and hands us the mod event bus. Blocks, items and compostables keep their ids, so worlds
-// move between the Fabric and NeoForge jars without changes.
+// constructor and hands us the mod event bus. Blocks and items keep the Fabric ids, so a 2.2 world opens on
+// either loader. Content NeoForge doesn't have (the 2.2.1 corn and rice) is dropped when NeoForge saves a world.
 @Mod(TastyVanilla.MOD_ID)
 public class TastyVanilla {
 	public static final String MOD_ID = "tastyvanilla";

@@ -8,6 +8,11 @@ modId = "tastyvanilla"
 version = "${version}"
 displayName = "TastyVanilla"
 displayURL = "https://modrinth.com/mod/tasty-vanilla"
+# The same icon the Fabric version uses (fabric.mod.json "icon").
+# iconFile = small square next to the mod's name in the Mods list.
+# bannerFile = picture at the top of the mod's info panel (NeoForge fits it inside 250x50).
+iconFile = "assets/tastyvanilla/icon.png"
+bannerFile = "assets/tastyvanilla/icon.png"
 authors = "Jaubert"
 description = '''Tasty Vanilla brings an array of exciting culinary and farming adventures to Minecraft while maintaining the familiar feel of the game's classic mechanics.'''
 
