@@ -1,4 +1,4 @@
-// NeoForge build of Tasty Vanilla (branch 26.1.2-neoforge). The Fabric build lives on branch 26.1.2.
+// NeoForge build of Tasty Vanilla (branch 1.21.11-neoforge). The Fabric build lives on branch 1.21.11.
 plugins {
 	id 'java-library'
 	id 'maven-publish'
@@ -14,7 +14,8 @@ base {
 }
 
 java {
-	toolchain.languageVersion = JavaLanguageVersion.of(25)
+	// Minecraft 1.21.11 runs on Java 21 (the Fabric 1.21.11 branch and NeoForge's 1.21.11 template use 21; the 26.x branches use 25).
+	toolchain.languageVersion = JavaLanguageVersion.of(21)
 	withSourcesJar()
 }
 
@@ -26,7 +27,7 @@ neoForge {
 		client {
 			client()
 			ideName = 'NeoForge Client'
-			// One folder per Minecraft version inside run/ (gitignored), here run/neoforge-26.1.2, so each NeoForge
+			// One folder per Minecraft version inside run/ (gitignored), here run/neoforge-1.21.11, so each NeoForge
 			// version keeps its own worlds and settings. Fabric's test worlds in run/saves are never opened by NeoForge.
 			gameDirectory = this.mkdir(this.file("run/neoforge-${project.minecraft_version}"))
 		}
