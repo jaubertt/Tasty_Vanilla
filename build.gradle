@@ -8,6 +8,7 @@ plugins {
 version = project.mod_version
 group = project.maven_group
 
+// Default base name for archive tasks; the two jars you upload are named below the jar block.
 base {
 	archivesName = "${project.mod_id}-neoforge-${project.minecraft_version}"
 }
@@ -78,6 +79,17 @@ jar {
 	from("LICENSE") {
 		rename { "${it}_$projectName"}
 	}
+}
+
+// Jar file names, the same pattern every release:
+// "Tasty Vanilla-2.2-neoforge-26.2.jar" and "Tasty Vanilla-2.2-neoforge-26.2-sources.jar".
+// The numbers come from mod_version and minecraft_version in gradle.properties.
+def releaseName = "Tasty Vanilla-${project.mod_version}-neoforge-${project.minecraft_version}".toString()
+tasks.named('jar') {
+	archiveFileName = releaseName + '.jar'
+}
+tasks.named('sourcesJar') {
+	archiveFileName = releaseName + '-sources.jar'
 }
 
 // iCloud Drive sometimes copies files as "name 2.json" or folders as "recipe 2".
