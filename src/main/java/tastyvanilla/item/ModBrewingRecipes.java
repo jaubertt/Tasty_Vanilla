@@ -6,7 +6,7 @@ import net.neoforged.neoforge.event.brewing.RegisterBrewingRecipesEvent;
 
 // Brewing recipes for the mod's drops, added to vanilla's brewing stand.
 // Longer, splash and lingering versions come from vanilla's own recipes (Redstone, Gunpowder, Dragon's Breath).
-// On the game event bus (see TastyVanilla); the Fabric branch uses FabricPotionBrewingBuilder.BUILD.
+// On the game event bus (see TastyVanilla); the Fabric branch uses FabricBrewingRecipeRegistryBuilder.BUILD.
 public class ModBrewingRecipes {
 
     public static void onRegisterBrewingRecipes(RegisterBrewingRecipesEvent event) {

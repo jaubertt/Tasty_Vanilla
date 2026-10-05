@@ -7,15 +7,35 @@
   ],
   "pools": [
     {
+      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "tastyvanilla:onion"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "tastyvanilla:onion_crop",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "age": "7"
+                  }
+                }
+              ],
+              "name": "tastyvanilla:onion"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tastyvanilla:onion"
+            }
+          ]
         }
       ],
       "rolls": 1.0
     },
     {
+      "bonus_rolls": 0.0,
       "conditions": [
         {
           "block": "tastyvanilla:onion_crop",
@@ -44,6 +64,5 @@
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "tastyvanilla:blocks/onion_crop"
+  ]
 }

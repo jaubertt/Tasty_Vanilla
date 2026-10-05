@@ -7,15 +7,35 @@
   ],
   "pools": [
     {
+      "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "tastyvanilla:garlic"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "tastyvanilla:garlic_crop",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "age": "7"
+                  }
+                }
+              ],
+              "name": "tastyvanilla:garlic"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tastyvanilla:garlic"
+            }
+          ]
         }
       ],
       "rolls": 1.0
     },
     {
+      "bonus_rolls": 0.0,
       "conditions": [
         {
           "block": "tastyvanilla:garlic_crop",
@@ -44,6 +64,5 @@
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "tastyvanilla:blocks/garlic_crop"
+  ]
 }

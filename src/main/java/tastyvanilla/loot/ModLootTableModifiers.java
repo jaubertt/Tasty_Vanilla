@@ -201,7 +201,7 @@ public class ModLootTableModifiers {
                 .build());
     }
 
-    // Same condition vanilla uses for cooked meat drops (copied from EntityLootSubProvider.shouldSmeltLoot() in 26.2):
+    // Same condition vanilla uses for cooked meat drops (copied from EntityLootSubProvider.shouldSmeltLoot() in 1.21.11):
     // the mob is on fire, OR the killer's main-hand item has an enchantment from #minecraft:smelts_loot (Fire Aspect).
     private static AnyOfCondition.Builder shouldSmeltLoot(HolderLookup.Provider registries) {
         HolderLookup.RegistryLookup<Enchantment> enchantments = registries.lookupOrThrow(Registries.ENCHANTMENT);

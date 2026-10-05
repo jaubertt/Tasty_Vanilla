@@ -10,6 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import tastyvanilla.block.ModBlocks;
 import tastyvanilla.entity.ModEntities;
+import tastyvanilla.entity.ModVillagerTrades;
 import tastyvanilla.item.ModBrewingRecipes;
 import tastyvanilla.item.ModItems;
 import tastyvanilla.item.ModVillagerFoods;
@@ -17,7 +18,7 @@ import tastyvanilla.loot.ModLootTableModifiers;
 
 // NeoForge entry point. The Fabric branch has the same class as a ModInitializer; here NeoForge calls the
 // constructor and hands us the mod event bus. Blocks and items keep the Fabric ids, so a 2.2 world opens on
-// either loader. Content NeoForge doesn't have (the 2.2.1 corn and rice) is dropped when NeoForge saves a world.
+// either loader. Client-only setup (crop and bush render layers) lives in TastyVanillaClient.
 @Mod(TastyVanilla.MOD_ID)
 public class TastyVanilla {
 	public static final String MOD_ID = "tastyvanilla";
@@ -34,9 +35,11 @@ public class TastyVanilla {
 		modBus.addListener(ModItems::modifyDefaultComponents);
 		modBus.addListener(this::onCommonSetup);
 
-		// Brewing recipes and loot table additions (game event bus).
+		// Brewing recipes, loot table additions and villager trades (game event bus).
 		NeoForge.EVENT_BUS.addListener(ModBrewingRecipes::onRegisterBrewingRecipes);
 		NeoForge.EVENT_BUS.addListener(ModLootTableModifiers::onLootTableLoad);
+		NeoForge.EVENT_BUS.addListener(ModVillagerTrades::onVillagerTrades);
+		NeoForge.EVENT_BUS.addListener(ModVillagerTrades::onWandererTrades);
 
 		// Compostables and farmer composting: data/neoforge/data_maps/item/compostables.json (no code).
 		// Berry bush world generation: data/tastyvanilla/neoforge/biome_modifier/*.json (no code).

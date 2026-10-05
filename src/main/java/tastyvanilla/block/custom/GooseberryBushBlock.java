@@ -59,7 +59,7 @@ public class GooseberryBushBlock extends SweetBerryBushBlock {
     protected void entityInside(
             final BlockState state, final Level level, final BlockPos pos, final Entity entity, final InsideBlockEffectApplier effectApplier, final boolean isPrecise
     ) {
-        if (entity instanceof LivingEntity && !entity.is(EntityType.FOX) && !entity.is(EntityType.BEE)) {
+        if (entity instanceof LivingEntity && entity.getType() != EntityType.FOX && entity.getType() != EntityType.BEE) {
             entity.makeStuckInBlock(state, new Vec3(0.8F, 0.75, 0.8F));
             if (level instanceof ServerLevel serverLevel && (Integer)state.getValue(AGE) != 0) {
                 Vec3 movement = entity.isClientAuthoritative() ? entity.getKnownMovement() : entity.oldPosition().subtract(entity.position());
@@ -75,10 +75,10 @@ public class GooseberryBushBlock extends SweetBerryBushBlock {
     }
 
     // NeoForge: mobs path around the bush like around vanilla's sweet berry bush
-    // (the Fabric branch registers this in ModBlocks with LandPathTypeRegistry).
+    // (the Fabric branch registers this in ModBlocks with LandPathNodeTypesRegistry, as PathNodeType.DAMAGE_OTHER).
     @Override
     public PathType getBlockPathType(BlockState state, BlockGetter level, BlockPos pos, Mob mob) {
-        return PathType.DAMAGING;
+        return PathType.DAMAGE_OTHER;
     }
 
     // NeoForge: the bush catches fire and burns like vanilla's sweet berry bush, ignite odds 60 and burn odds 100

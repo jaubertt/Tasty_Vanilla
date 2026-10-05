@@ -8,7 +8,8 @@ import org.spongepowered.asm.mixin.gen.Accessor;
 
 import java.util.Map;
 
-// Opens Villager.FOOD_POINTS (private static final) so ModVillagerFoods can add the mod's vegetables.
+// Opens Villager.FOOD_POINTS (public static final in 1.21.11, so only the final needs lifting) so ModVillagerFoods
+// can add the mod's vegetables.
 // Fabric API does exactly this inside VillagerInteractionRegistries.registerFood; NeoForge has no API for it.
 @Mixin(Villager.class)
 public interface VillagerAccessor {
