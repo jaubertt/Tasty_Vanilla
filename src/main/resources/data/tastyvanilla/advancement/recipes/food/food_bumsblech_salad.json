@@ -19,7 +19,7 @@
       "trigger": "minecraft:inventory_changed"},
 
     "has_the_recipe": {
-      "conditions": {"recipe": "tastyvanilla:food_bumsblech_salad"},
+      "conditions": {"recipes": "tastyvanilla:food_bumsblech_salad"},
       "trigger": "minecraft:recipe_unlocked"}
   },
 

@@ -1,9 +1,5 @@
 package tastyvanilla.loot;
 
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.mojang.serialization.JsonOps;
 import net.minecraft.advancements.predicates.DataComponentMatchers;
 import net.minecraft.advancements.predicates.EnchantmentPredicate;
 import net.minecraft.advancements.predicates.ItemPredicate;
@@ -11,11 +7,10 @@ import net.minecraft.advancements.predicates.MinMaxBounds;
 import net.minecraft.advancements.predicates.entity.EntityEquipmentPredicate;
 import net.minecraft.advancements.predicates.entity.EntityFlagsPredicate;
 import net.minecraft.advancements.predicates.entity.EntityPredicate;
-import net.minecraft.core.HolderLookup;
+import net.minecraft.core.HolderGetter;
 import net.minecraft.core.component.predicates.DataComponentPredicates;
 import net.minecraft.core.component.predicates.EnchantmentsPredicate;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.RegistryOps;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.tags.EnchantmentTags;
 import net.minecraft.world.entity.EntityType;
@@ -34,12 +29,14 @@ import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.functions.SmeltItemFunction;
 import net.minecraft.world.level.storage.loot.predicates.AnyOfCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemEntityPropertyCondition;
-import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
-import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
+import net.minecraft.world.level.storage.loot.providers.number.floats.ContextFloatProviders;
+import net.minecraft.world.level.storage.loot.providers.number.ints.ContextIntProviders;
 import net.neoforged.neoforge.event.LootTableLoadEvent;
 import tastyvanilla.TastyVanilla;
 import tastyvanilla.item.ModItems;
+import tastyvanilla.mixin.LootPoolAccessor;
 
+import java.util.ArrayList;
 import java.util.List;
 
 // Adds Tasty Vanilla drops ON TOP of vanilla loot tables while the game loads.
@@ -53,7 +50,7 @@ public class ModLootTableModifiers {
     public static void onLootTableLoad(LootTableLoadEvent event) {
         ResourceKey<LootTable> key = event.getKey();
         LootTable table = event.getTable();
-        HolderLookup.Provider registries = event.getRegistries();
+        HolderGetter.Provider registries = event.getRegistries();
         {
 
             //MEAT DROPS: TINY MOBS (1)
@@ -94,7 +91,7 @@ public class ModLootTableModifiers {
 
             //CHESTS: item, weight, min count, max count (added to the chest's main pool, like your old JSON files)
             if (key.equals(BuiltInLootTables.VILLAGE_BUTCHER)) {
-                addToMainPool(table, registries,
+                addToMainPool(table,
                         chestItem(Items.CHICKEN, 3, 1, 3),
                         chestItem(Items.RABBIT, 3, 1, 3),
                         chestItem(ModItems.RAW_MEAT_HORSE, 3, 1, 3),
@@ -105,7 +102,7 @@ public class ModLootTableModifiers {
 
             // The cleric's chest (village temple): Frog Legs, Bat Wings, Cat Eye and Allay Wings, 1 to 2 of each.
             if (key.equals(BuiltInLootTables.VILLAGE_TEMPLE)) {
-                addToMainPool(table, registries,
+                addToMainPool(table,
                         chestItem(ModItems.RAW_MEAT_FROG, 1, 1, 2),
                         chestItem(ModItems.RAW_MEAT_BAT, 1, 1, 2),
                         chestItem(ModItems.RAW_MEAT_CAT, 1, 1, 2),
@@ -113,7 +110,7 @@ public class ModLootTableModifiers {
             }
 
             if (key.equals(BuiltInLootTables.VILLAGE_FISHER)) {
-                addToMainPool(table, registries,
+                addToMainPool(table,
                         // Extra Cod and Salmon on top of vanilla's own entries (weights 2 and 1),
                         // so the totals stay 6 and 6 like in your old JSON file.
                         chestItem(Items.COD, 4, 1, 3),
@@ -124,31 +121,31 @@ public class ModLootTableModifiers {
             }
 
             if (key.equals(BuiltInLootTables.VILLAGE_DESERT_HOUSE)) {
-                addToMainPool(table, registries,
+                addToMainPool(table,
                         chestItem(ModItems.CHILLI, 10, 1, 7));
             }
 
             if (key.equals(BuiltInLootTables.VILLAGE_PLAINS_HOUSE)) {
-                addToMainPool(table, registries,
+                addToMainPool(table,
                         chestItem(ModItems.BERRY_STRAWBERRIES, 10, 1, 7),
                         chestItem(ModItems.TOMATO, 10, 1, 7),
                         chestItem(ModItems.LETTUCE_SEEDS, 10, 1, 7));
             }
 
             if (key.equals(BuiltInLootTables.VILLAGE_SAVANNA_HOUSE)) {
-                addToMainPool(table, registries,
+                addToMainPool(table,
                         chestItem(ModItems.EGGPLANT, 10, 1, 7),
                         chestItem(ModItems.SWEET_POTATO, 10, 1, 7));
             }
 
             if (key.equals(BuiltInLootTables.VILLAGE_SNOWY_HOUSE)) {
-                addToMainPool(table, registries,
+                addToMainPool(table,
                         chestItem(ModItems.BERRY_WHITE_CURRANT_BERRIES, 10, 1, 5),
                         chestItem(ModItems.CABBAGE, 10, 1, 7));
             }
 
             if (key.equals(BuiltInLootTables.VILLAGE_TAIGA_HOUSE)) {
-                addToMainPool(table, registries,
+                addToMainPool(table,
                         chestItem(ModItems.ONION, 10, 1, 7),
                         chestItem(ModItems.GARLIC, 10, 1, 7),
                         chestItem(ModItems.BERRY_BLUEBERRIES, 5, 1, 7),
@@ -156,7 +153,7 @@ public class ModLootTableModifiers {
             }
 
             if (key.equals(BuiltInLootTables.SHIPWRECK_SUPPLY)) {
-                addToMainPool(table, registries,
+                addToMainPool(table,
                         chestItem(ModItems.CABBAGE, 6, 2, 8),
                         chestItem(ModItems.CHILLI, 6, 2, 8),
                         chestItem(ModItems.EGGPLANT, 6, 2, 8),
@@ -171,41 +168,41 @@ public class ModLootTableModifiers {
 
     // Adds a meat pool to one mob, built exactly like vanilla's cow beef pool:
     // min-max meat, cooked if the mob was on fire or killed with Fire Aspect, +0-1 per Looting level.
-    private static void addMeat(ResourceKey<LootTable> key, LootTable table, HolderLookup.Provider registries,
-                                EntityType<?> mob, ItemLike meat, float min, float max) {
+    private static void addMeat(ResourceKey<LootTable> key, LootTable table, HolderGetter.Provider registries,
+                                EntityType<?> mob, ItemLike meat, int min, int max) {
         if (!mob.getDefaultLootTable().map(key::equals).orElse(false)) {
             return;
         }
 
         table.addPool(LootPool.lootPool()
-                .setRolls(ConstantValue.exactly(1.0F))
+                .setRolls(ContextIntProviders.exactly(1))
                 .add(LootItem.lootTableItem(meat)
-                        .apply(SetItemCountFunction.setCount(UniformGenerator.between(min, max)))
+                        .apply(SetItemCountFunction.setCount(ContextIntProviders.between(min, max)))
                         .apply(SmeltItemFunction.smelted().when(shouldSmeltLoot(registries)))
-                        .apply(EnchantedCountIncreaseFunction.lootingMultiplier(registries, UniformGenerator.between(0.0F, 1.0F))))
+                        .apply(EnchantedCountIncreaseFunction.lootingMultiplier(registries.lookupOrThrow(Registries.ENCHANTMENT), ContextFloatProviders.between(0.0F, 1.0F))))
                 .build());
     }
 
     // Same as addMeat, but the drop is never cooked. For drops with no cooking recipe
     // (Bat Wings, Allay Wings, Cat Eye), so the game doesn't log "Couldn't smelt" when the mob burns.
-    private static void addDrop(ResourceKey<LootTable> key, LootTable table, HolderLookup.Provider registries,
-                                EntityType<?> mob, ItemLike drop, float min, float max) {
+    private static void addDrop(ResourceKey<LootTable> key, LootTable table, HolderGetter.Provider registries,
+                                EntityType<?> mob, ItemLike drop, int min, int max) {
         if (!mob.getDefaultLootTable().map(key::equals).orElse(false)) {
             return;
         }
 
         table.addPool(LootPool.lootPool()
-                .setRolls(ConstantValue.exactly(1.0F))
+                .setRolls(ContextIntProviders.exactly(1))
                 .add(LootItem.lootTableItem(drop)
-                        .apply(SetItemCountFunction.setCount(UniformGenerator.between(min, max)))
-                        .apply(EnchantedCountIncreaseFunction.lootingMultiplier(registries, UniformGenerator.between(0.0F, 1.0F))))
+                        .apply(SetItemCountFunction.setCount(ContextIntProviders.between(min, max)))
+                        .apply(EnchantedCountIncreaseFunction.lootingMultiplier(registries.lookupOrThrow(Registries.ENCHANTMENT), ContextFloatProviders.between(0.0F, 1.0F))))
                 .build());
     }
 
     // Same condition vanilla uses for cooked meat drops (copied from EntityLootSubProvider.shouldSmeltLoot() in 26.2):
     // the mob is on fire, OR the killer's main-hand item has an enchantment from #minecraft:smelts_loot (Fire Aspect).
-    private static AnyOfCondition.Builder shouldSmeltLoot(HolderLookup.Provider registries) {
-        HolderLookup.RegistryLookup<Enchantment> enchantments = registries.lookupOrThrow(Registries.ENCHANTMENT);
+    private static AnyOfCondition.Builder shouldSmeltLoot(HolderGetter.Provider registries) {
+        HolderGetter<Enchantment> enchantments = registries.lookupOrThrow(Registries.ENCHANTMENT);
 
         return AnyOfCondition.anyOf(
                 LootItemEntityPropertyCondition.hasProperties(LootContext.EntityTarget.THIS,
@@ -219,51 +216,30 @@ public class ModLootTableModifiers {
     }
 
     // One chest entry: item, weight (how likely it is compared to the other items), min-max count.
-    private static LootPoolEntryContainer.Builder<?> chestItem(ItemLike item, int weight, float min, float max) {
+    private static LootPoolEntryContainer.Builder<?> chestItem(ItemLike item, int weight, int min, int max) {
         return LootItem.lootTableItem(item)
                 .setWeight(weight)
-                .apply(SetItemCountFunction.setCount(UniformGenerator.between(min, max)));
+                .apply(SetItemCountFunction.setCount(ContextIntProviders.between(min, max)));
     }
 
     // Adds entries to the FIRST pool of a table, which is the main pool in every vanilla chest you use.
     // Vanilla's other pools (bundles, nautilus armor, armor trims) are left untouched.
-    // NeoForge names that pool "main" when a table has one pool and "pool0" when it has several, and it
-    // offers no way to add entries to a pool that is already built. So the pool is written out as JSON,
-    // the new entries are appended, and the pool is read back and swapped in. The Fabric branch does the
-    // same with LootTable.Builder.modifyPools.
-    private static void addToMainPool(LootTable table, HolderLookup.Provider registries, LootPoolEntryContainer.Builder<?>... entries) {
-        String name = table.getPool("main") != null ? "main" : "pool0";
-        LootPool mainPool = table.getPool(name);
+    // NeoForge names that pool "main" when a table has one pool and "pool0" when it has several. The new
+    // entries go at the end of its entry list through LootPoolAccessor, like Fabric's LootTable.Builder.modifyPools,
+    // so the pool keeps its place, rolls and conditions. (26.2 rebuilt the pool through JSON; in 26.3 NeoForge
+    // only hands the event a HolderGetter.Provider, which can't create the RegistryOps that would need.)
+    private static void addToMainPool(LootTable table, LootPoolEntryContainer.Builder<?>... entries) {
+        LootPool mainPool = table.getPool("main") != null ? table.getPool("main") : table.getPool("pool0");
         if (mainPool == null) {
             TastyVanilla.LOGGER.warn("Loot table {} has no main pool, nothing was added to it", table.getLootTableId());
             return;
         }
 
-        RegistryOps<JsonElement> ops = registries.createSerializationContext(JsonOps.INSTANCE);
-        JsonObject mainJson = LootPool.CODEC.encodeStart(ops, mainPool).getOrThrow().getAsJsonObject();
-
-        LootPool.Builder additions = LootPool.lootPool();
+        LootPoolAccessor pool = (LootPoolAccessor) (Object) mainPool;
+        List<LootPoolEntryContainer> combined = new ArrayList<>(pool.tastyvanilla$getEntries());
         for (LootPoolEntryContainer.Builder<?> entry : entries) {
-            additions.add(entry);
+            combined.add(entry.build());
         }
-        JsonObject additionsJson = LootPool.CODEC.encodeStart(ops, additions.build()).getOrThrow().getAsJsonObject();
-
-        if (!mainJson.has("entries")) {
-            mainJson.add("entries", new JsonArray());
-        }
-        JsonArray mainEntries = mainJson.getAsJsonArray("entries");
-        for (JsonElement entry : additionsJson.getAsJsonArray("entries")) {
-            mainEntries.add(entry);
-        }
-
-        LootPool rebuilt = LootPool.CODEC.parse(ops, mainJson).getOrThrow();
-        table.removePool(name);
-        table.addPool(rebuilt);
-
-        // addPool appends, so the rebuilt main pool is now last. Move the table's other pools (pool1, pool2...)
-        // back behind it, so the pools roll in vanilla's order and a seed fills the chest like on Fabric.
-        for (int i = 1; table.getPool("pool" + i) != null; i++) {
-            table.addPool(table.removePool("pool" + i));
-        }
+        pool.tastyvanilla$setEntries(List.copyOf(combined));
     }
 }

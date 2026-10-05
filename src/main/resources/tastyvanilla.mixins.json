@@ -4,7 +4,7 @@
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"GoatMixin",
-		"VillagerAccessor"
+		"LootPoolAccessor"
 	],
 	"injectors": {
 		"defaultRequire": 1

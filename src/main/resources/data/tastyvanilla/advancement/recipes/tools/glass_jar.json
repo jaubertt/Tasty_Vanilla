@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tastyvanilla:glass_jar"
+        "recipes": "tastyvanilla:glass_jar"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

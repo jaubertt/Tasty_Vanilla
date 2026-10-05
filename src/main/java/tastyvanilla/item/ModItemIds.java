@@ -115,7 +115,6 @@ public class ModItemIds {
     public static final ResourceKey<Item> BREAD_GARLIC = create("bread_garlic");
     public static final ResourceKey<Item> DOUGH_GARLIC = create("dough_garlic");
 
-
     //MILK & CHEESE
     public static final ResourceKey<Item> GOAT_MILK_BUCKET = create("goat_milk_bucket");
 

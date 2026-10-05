@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tastyvanilla:cooked_meat_squid"
+        "recipes": "tastyvanilla:cooked_meat_squid"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

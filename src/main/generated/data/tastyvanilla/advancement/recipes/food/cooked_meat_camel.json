@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tastyvanilla:cooked_meat_camel"
+        "recipes": "tastyvanilla:cooked_meat_camel"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

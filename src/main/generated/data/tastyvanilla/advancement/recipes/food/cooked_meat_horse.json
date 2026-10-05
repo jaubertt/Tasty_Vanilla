@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tastyvanilla:cooked_meat_horse"
+        "recipes": "tastyvanilla:cooked_meat_horse"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

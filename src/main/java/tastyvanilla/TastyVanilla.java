@@ -10,9 +10,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import tastyvanilla.block.ModBlocks;
 import tastyvanilla.entity.ModEntities;
-import tastyvanilla.item.ModBrewingRecipes;
+import tastyvanilla.item.ModCompostableItems;
 import tastyvanilla.item.ModItems;
-import tastyvanilla.item.ModVillagerFoods;
 import tastyvanilla.loot.ModLootTableModifiers;
 
 // NeoForge entry point. The Fabric branch has the same class as a ModInitializer; here NeoForge calls the
@@ -28,18 +27,20 @@ public class TastyVanilla {
 		// Blocks and items: NeoForge opens the registries during RegisterEvent, see onRegister below.
 		modBus.addListener(this::onRegister);
 
-		// Creative tabs and the vanilla stews' stack size (mod event bus).
+		// Creative tabs, the vanilla stews' stack size, and composting and villager food, which are item
+		// components since 26.3 (mod event bus).
 		modBus.addListener(ModItems::addToCreativeTabs);
 		modBus.addListener(ModBlocks::addToCreativeTabs);
 		modBus.addListener(ModItems::modifyDefaultComponents);
+		modBus.addListener(ModCompostableItems::modifyDefaultComponents);
 		modBus.addListener(this::onCommonSetup);
 
-		// Brewing recipes and loot table additions (game event bus).
-		NeoForge.EVENT_BUS.addListener(ModBrewingRecipes::onRegisterBrewingRecipes);
+		// Loot table additions (game event bus).
 		NeoForge.EVENT_BUS.addListener(ModLootTableModifiers::onLootTableLoad);
 
-		// Compostables and farmer composting: data/neoforge/data_maps/item/compostables.json (no code).
-		// Berry bush world generation: data/tastyvanilla/neoforge/biome_modifier/*.json (no code).
+		// No code, data files like on Fabric 26.3: brewing, data/tastyvanilla/recipe/brewing/*.json;
+		// farmer composting, data/neoforge/data_maps/item/villager_compostables.json;
+		// berry bush world generation, data/tastyvanilla/neoforge/biome_modifier/*.json.
 	}
 
 	// ModBlocks and ModItems register everything the moment their class loads (the same code as on
@@ -54,7 +55,5 @@ public class TastyVanilla {
 
 	private void onCommonSetup(FMLCommonSetupEvent event) {
 		ModEntities.registerModEntities();
-		// Villager food points touch a vanilla static map, so this runs on the main thread.
-		event.enqueueWork(ModVillagerFoods::registerModVillagerFoods);
 	}
 }

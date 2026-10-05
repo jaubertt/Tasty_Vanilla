@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tastyvanilla:cooked_meat_bear"
+        "recipes": "tastyvanilla:cooked_meat_bear"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

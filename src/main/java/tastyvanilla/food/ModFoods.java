@@ -88,7 +88,6 @@ public class ModFoods {
 
     public static final FoodProperties BREAD_GARLIC = new FoodProperties.Builder().nutrition(8).saturationModifier(0.6f).build();
 
-
     public static final FoodProperties BERRY_BLACKBERRIES = (new FoodProperties.Builder()).nutrition(2).saturationModifier(0.1F).build();
     public static final FoodProperties BERRY_BLUEBERRIES = (new FoodProperties.Builder()).nutrition(2).saturationModifier(0.1F).build();
     public static final FoodProperties BERRY_ELDERBERRIES = (new FoodProperties.Builder()).nutrition(2).saturationModifier(0.1F).build();

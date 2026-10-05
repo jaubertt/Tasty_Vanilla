@@ -11,7 +11,7 @@
       "trigger": "minecraft:inventory_changed"},
 
     "has_the_recipe": {
-      "conditions": {"recipe": "tastyvanilla:food_tomato_soup"},
+      "conditions": {"recipes": "tastyvanilla:food_tomato_soup"},
       "trigger": "minecraft:recipe_unlocked"}
   },
 

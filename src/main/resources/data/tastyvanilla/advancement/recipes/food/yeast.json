@@ -43,7 +43,7 @@
       "trigger": "minecraft:inventory_changed"},
 
     "has_the_recipe": {
-      "conditions": {"recipe": "tastyvanilla:yeast"},
+      "conditions": {"recipes": "tastyvanilla:yeast"},
       "trigger": "minecraft:recipe_unlocked"}
   },
 

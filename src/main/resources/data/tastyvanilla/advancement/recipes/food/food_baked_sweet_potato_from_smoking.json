@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tastyvanilla:food_baked_sweet_potato_from_smoking"
+        "recipes": "tastyvanilla:food_baked_sweet_potato_from_smoking"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

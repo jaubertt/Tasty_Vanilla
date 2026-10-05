@@ -7,7 +7,7 @@
       "trigger": "minecraft:inventory_changed"},
 
     "has_the_recipe": {
-      "conditions": {"recipe": "tastyvanilla:food_onion_soup"},
+      "conditions": {"recipes": "tastyvanilla:food_onion_soup"},
       "trigger": "minecraft:recipe_unlocked"}
   },
 

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tastyvanilla:cooked_meat_ravager"
+        "recipes": "tastyvanilla:cooked_meat_ravager"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

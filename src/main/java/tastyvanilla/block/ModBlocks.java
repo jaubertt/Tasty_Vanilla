@@ -18,7 +18,6 @@ import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import tastyvanilla.TastyVanilla;
 import tastyvanilla.block.custom.*;
-import tastyvanilla.item.ModItems;
 
 import java.util.function.Function;
 
@@ -48,70 +47,70 @@ public class ModBlocks {
     public static final Block CABBAGE_CROP = registerBlockWithoutBlockItem(ModBlockIds.CABBAGE_CROP,
             properties -> new CabbageCropBlock(properties
                     .noCollision().randomTicks().instabreak().sound(SoundType.CROP)
-                    .pushReaction(PushReaction.DESTROY).mapColor(MapColor.PLANT)));
+                    .pushReaction(PushReaction.POPPED).mapColor(MapColor.PLANT)));
 
     public static final Block CHILLI_CROP = registerBlockWithoutBlockItem(ModBlockIds.CHILLI_CROP,
             properties -> new ChilliCropBlock(properties
                     .noCollision().randomTicks().instabreak().sound(SoundType.CROP)
-                    .pushReaction(PushReaction.DESTROY).mapColor(MapColor.PLANT)));
+                    .pushReaction(PushReaction.POPPED).mapColor(MapColor.PLANT)));
 
     public static final Block EGGPLANT_CROP = registerBlockWithoutBlockItem(ModBlockIds.EGGPLANT_CROP,
             properties -> new EggplantCropBlock(properties
                     .noCollision().randomTicks().instabreak().sound(SoundType.CROP)
-                    .pushReaction(PushReaction.DESTROY).mapColor(MapColor.PLANT)));
+                    .pushReaction(PushReaction.POPPED).mapColor(MapColor.PLANT)));
 
     public static final Block GARLIC_CROP = registerBlockWithoutBlockItem(ModBlockIds.GARLIC_CROP,
             properties -> new GarlicCropBlock(properties
                     .noCollision().randomTicks().instabreak().sound(SoundType.CROP)
-                    .pushReaction(PushReaction.DESTROY).mapColor(MapColor.PLANT)));
+                    .pushReaction(PushReaction.POPPED).mapColor(MapColor.PLANT)));
 
     public static final Block LETTUCE_CROP = registerBlockWithoutBlockItem(ModBlockIds.LETTUCE_CROP,
             properties -> new LettuceCropBlock(properties
                     .noCollision().randomTicks().instabreak().sound(SoundType.CROP)
-                    .pushReaction(PushReaction.DESTROY).mapColor(MapColor.PLANT)));
+                    .pushReaction(PushReaction.POPPED).mapColor(MapColor.PLANT)));
 
     public static final Block ONION_CROP = registerBlockWithoutBlockItem(ModBlockIds.ONION_CROP,
             properties -> new OnionCropBlock(properties
                     .noCollision().randomTicks().instabreak().sound(SoundType.CROP)
-                    .pushReaction(PushReaction.DESTROY).mapColor(MapColor.PLANT)));
+                    .pushReaction(PushReaction.POPPED).mapColor(MapColor.PLANT)));
 
     public static final Block SWEET_POTATO_CROP = registerBlockWithoutBlockItem(ModBlockIds.SWEET_POTATO_CROP,
             properties -> new SweetPotatoCropBlock(properties
                     .noCollision().randomTicks().instabreak().sound(SoundType.CROP)
-                    .pushReaction(PushReaction.DESTROY).mapColor(MapColor.PLANT)));
+                    .pushReaction(PushReaction.POPPED).mapColor(MapColor.PLANT)));
 
     public static final Block TOMATO_CROP = registerBlockWithoutBlockItem(ModBlockIds.TOMATO_CROP,
             properties -> new TomatoCropBlock(properties
                     .noCollision().randomTicks().instabreak().sound(SoundType.CROP)
-                    .pushReaction(PushReaction.DESTROY).mapColor(MapColor.PLANT)));
+                    .pushReaction(PushReaction.POPPED).mapColor(MapColor.PLANT)));
 
     //BERRIES
 
 
     public static final Block BERRY_BLACKBERRY_BUSH = registerBlockWithoutBlockItem(ModBlockIds.BERRY_BLACKBERRY_BUSH,
             properties -> new BlackberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
-                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
+                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.POPPED)));
     public static final Block BERRY_BLUEBERRY_BUSH = registerBlockWithoutBlockItem(ModBlockIds.BERRY_BLUEBERRY_BUSH,
             properties -> new BlueberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
-                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
+                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.POPPED)));
     public static final Block BERRY_ELDERBERRY_BUSH = registerBlockWithoutBlockItem(ModBlockIds.BERRY_ELDERBERRY_BUSH,
             properties -> new ElderberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
-                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
+                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.POPPED)));
     public static final Block BERRY_GOJI_BERRY_BUSH = registerBlockWithoutBlockItem(ModBlockIds.BERRY_GOJI_BERRY_BUSH,
             properties -> new GojiBerryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
-                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
+                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.POPPED)));
     public static final Block BERRY_GOOSEBERRY_BUSH = registerBlockWithoutBlockItem(ModBlockIds.BERRY_GOOSEBERRY_BUSH,
             properties -> new GooseberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
-                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
+                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.POPPED)));
     public static final Block BERRY_RASPBERRY_BUSH = registerBlockWithoutBlockItem(ModBlockIds.BERRY_RASPBERRY_BUSH,
             properties -> new RaspberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
-                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
+                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.POPPED)));
     public static final Block BERRY_STRAWBERRY_BUSH = registerBlockWithoutBlockItem(ModBlockIds.BERRY_STRAWBERRY_BUSH,
             properties -> new StrawberryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
-                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
+                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.POPPED)));
     public static final Block BERRY_WHITE_CURRANT_BERRY_BUSH = registerBlockWithoutBlockItem(ModBlockIds.BERRY_WHITE_CURRANT_BERRY_BUSH,
             properties -> new WhiteCurrantBerryBushBlock(properties.mapColor(MapColor.PLANT).randomTicks()
-                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
+                    .noCollision().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.POPPED)));
 
     //--------------------------//
 

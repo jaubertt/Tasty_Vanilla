@@ -19,7 +19,6 @@ public class ModBlockIds {
     public static final ResourceKey<Block> SWEET_POTATO_CROP = create("sweet_potato_crop");
     public static final ResourceKey<Block> TOMATO_CROP = create("tomato_crop");
 
-
     //BERRIES
     public static final ResourceKey<Block> BERRY_BLACKBERRY_BUSH = create("berry_blackberry_bush");
     public static final ResourceKey<Block> BERRY_BLUEBERRY_BUSH = create("berry_blueberry_bush");

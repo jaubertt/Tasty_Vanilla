@@ -1,6 +1,7 @@
 {
   "type": "minecraft:smoking",
   "category": "food",
+  "cookingtime": 200,
   "experience": 0.7,
   "ingredient": "tastyvanilla:raw_meat_axolotl",
   "result": {

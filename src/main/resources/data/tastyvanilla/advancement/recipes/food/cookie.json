@@ -7,7 +7,7 @@
       "trigger": "minecraft:inventory_changed"},
 
     "has_the_recipe": {
-      "conditions": {"recipe": "minecraft:cookie"},
+      "conditions": {"recipes": "minecraft:cookie"},
       "trigger": "minecraft:recipe_unlocked"}
   },
 
