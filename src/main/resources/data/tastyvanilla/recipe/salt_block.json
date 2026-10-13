@@ -7,9 +7,9 @@
     "###"
   ],
   "key": {
-    "#": [
-      "tastyvanilla:salt"
-    ]
+    "#": {
+      "item": "tastyvanilla:salt"
+    }
   },
   "result": {
     "id": "tastyvanilla:salt_block",

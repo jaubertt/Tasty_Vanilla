@@ -3,7 +3,8 @@
 	"package": "tastyvanilla.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"GoatMixin"
+		"GoatMixin",
+		"PlayerEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

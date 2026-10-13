@@ -17,7 +17,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
 
         //VILLAGERS
-        valueLookupBuilder(BlockTags.CROPS)
+        getOrCreateTagBuilder(BlockTags.CROPS)
                 .add(ModBlocks.CABBAGE_CROP)
                 .add(ModBlocks.CHILLI_CROP)
                 .add(ModBlocks.EGGPLANT_CROP)
@@ -28,7 +28,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.TOMATO_CROP)
         ;
 
-        valueLookupBuilder(BlockTags.MAINTAINS_FARMLAND)
+        getOrCreateTagBuilder(BlockTags.MAINTAINS_FARMLAND)
                 .add(ModBlocks.CABBAGE_CROP)
                 .add(ModBlocks.CHILLI_CROP)
                 .add(ModBlocks.EGGPLANT_CROP)
@@ -41,13 +41,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
 
         //TOOLS
-        valueLookupBuilder(BlockTags.PICKAXE_MINEABLE)
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.SALT_BLOCK)
                 .add(ModBlocks.SUGAR_BLOCK)
         ;
 
         //BUSHES TAGGED LIKE THE VANILLA SWEET BERRY BUSH (CROPS ARE ALREADY COVERED THROUGH BlockTags.CROPS)
-        valueLookupBuilder(BlockTags.BEE_GROWABLES)
+        getOrCreateTagBuilder(BlockTags.BEE_GROWABLES)
                 .add(ModBlocks.BERRY_BLACKBERRY_BUSH)
                 .add(ModBlocks.BERRY_BLUEBERRY_BUSH)
                 .add(ModBlocks.BERRY_ELDERBERRY_BUSH)
@@ -59,7 +59,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         ;
 
         //BERRY BUSHES, LIKE THE VANILLA SWEET BERRY BUSH
-        valueLookupBuilder(BlockTags.FALL_DAMAGE_RESETTING)
+        getOrCreateTagBuilder(BlockTags.FALL_DAMAGE_RESETTING)
                 .add(ModBlocks.BERRY_BLACKBERRY_BUSH)
                 .add(ModBlocks.BERRY_BLUEBERRY_BUSH)
                 .add(ModBlocks.BERRY_ELDERBERRY_BUSH)
@@ -70,18 +70,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH)
         ;
 
-        valueLookupBuilder(BlockTags.HAPPY_GHAST_AVOIDS)
-                .add(ModBlocks.BERRY_BLACKBERRY_BUSH)
-                .add(ModBlocks.BERRY_BLUEBERRY_BUSH)
-                .add(ModBlocks.BERRY_ELDERBERRY_BUSH)
-                .add(ModBlocks.BERRY_GOJI_BERRY_BUSH)
-                .add(ModBlocks.BERRY_GOOSEBERRY_BUSH)
-                .add(ModBlocks.BERRY_RASPBERRY_BUSH)
-                .add(ModBlocks.BERRY_STRAWBERRY_BUSH)
-                .add(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH)
-        ;
-
-        valueLookupBuilder(BlockTags.PREVENT_MOB_SPAWNING_INSIDE)
+        getOrCreateTagBuilder(BlockTags.PREVENT_MOB_SPAWNING_INSIDE)
                 .add(ModBlocks.BERRY_BLACKBERRY_BUSH)
                 .add(ModBlocks.BERRY_BLUEBERRY_BUSH)
                 .add(ModBlocks.BERRY_ELDERBERRY_BUSH)

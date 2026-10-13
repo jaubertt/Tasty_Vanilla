@@ -2,17 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    [
-      "minecraft:egg",
-      "minecraft:brown_egg",
-      "minecraft:blue_egg"
-    ],
-    [
-      "minecraft:sugar"
-    ],
-    [
-      "minecraft:honey_bottle"
-    ]
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
   ],
   "result": {
     "id": "tastyvanilla:pie_honey",

@@ -7,9 +7,9 @@
     "###"
   ],
   "key": {
-    "#": [
-      "minecraft:glass"
-    ]
+    "#": {
+      "item": "minecraft:glass"
+    }
   },
   "result": {
     "id": "tastyvanilla:glass_jar",

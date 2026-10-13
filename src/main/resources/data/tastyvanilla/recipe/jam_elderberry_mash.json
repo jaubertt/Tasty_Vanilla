@@ -1,38 +1,46 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "category": "misc",
-    "ingredients": [
-      [
-        "tastyvanilla:berry_elderberries"
-      ],
-      [
-        "tastyvanilla:berry_elderberries"
-      ],
-      [
-        "tastyvanilla:berry_elderberries"
-      ],
-      [
-        "tastyvanilla:berry_elderberries"
-      ],
-      [
-        "tastyvanilla:berry_elderberries"
-      ],
-      [
-        "tastyvanilla:berry_elderberries"
-      ],
-      [
-        "minecraft:honey_bottle",
-        "minecraft:sugar"
-      ],
-      [
-        "tastyvanilla:glass_jar"
-      ],
-      [
-        "minecraft:honey_bottle",
-        "minecraft:sugar"
-      ]
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tastyvanilla:berry_elderberries"
+    },
+    {
+      "item": "tastyvanilla:berry_elderberries"
+    },
+    {
+      "item": "tastyvanilla:berry_elderberries"
+    },
+    {
+      "item": "tastyvanilla:berry_elderberries"
+    },
+    {
+      "item": "tastyvanilla:berry_elderberries"
+    },
+    {
+      "item": "tastyvanilla:berry_elderberries"
+    },
+    [
+      {
+        "item": "minecraft:honey_bottle"
+      },
+      {
+        "item": "minecraft:sugar"
+      }
     ],
-    "result": {
-      "id": "tastyvanilla:jam_elderberry_mash"
+    {
+      "item": "tastyvanilla:glass_jar"
+    },
+    [
+      {
+        "item": "minecraft:honey_bottle"
+      },
+      {
+        "item": "minecraft:sugar"
+      }
+    ]
+  ],
+  "result": {
+    "id": "tastyvanilla:jam_elderberry_mash"
   }
 }

@@ -2,26 +2,23 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    [
-      "minecraft:bowl"
-    ],
-    [
-      "minecraft:egg",
-      "minecraft:brown_egg",
-      "minecraft:blue_egg"
-    ],
-    [
-      "tastyvanilla:cabbage"
-    ],
-    [
-      "tastyvanilla:lettuce"
-    ]
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "tastyvanilla:cabbage"
+    },
+    {
+      "item": "tastyvanilla:lettuce"
+    }
   ],
   "result": {
     "id": "tastyvanilla:food_coleslaw",
     "components": {
       "minecraft:max_stack_size": 16
-
     }
   }
 }

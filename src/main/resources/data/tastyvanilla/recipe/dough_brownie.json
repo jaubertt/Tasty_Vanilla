@@ -2,21 +2,21 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    [
-      "tastyvanilla:flour"
-    ],
-    [
-      "minecraft:milk_bucket"
-    ],
-    [
-      "tastyvanilla:butter"
-    ],
-    [
-      "minecraft:sugar"
-    ],
-    [
-      "minecraft:cocoa_beans"
-    ]
+    {
+      "item": "tastyvanilla:flour"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "tastyvanilla:butter"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    }
   ],
   "result": {
     "id": "tastyvanilla:dough_brownie",

@@ -2,23 +2,21 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    [
-      "minecraft:egg",
-      "minecraft:brown_egg",
-      "minecraft:blue_egg"
-    ],
-    [
-      "tastyvanilla:salt"
-    ],
-    [
-      "minecraft:crimson_fungus"
-    ],
-    [
-      "minecraft:warped_fungus"
-    ],
-    [
-      "tastyvanilla:butter"
-    ]
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "tastyvanilla:salt"
+    },
+    {
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "item": "tastyvanilla:butter"
+    }
   ],
   "result": {
     "id": "tastyvanilla:pie_fungus",

@@ -5,8 +5,12 @@
     "#X#"
   ],
   "key": {
-    "#": "minecraft:wheat",
-    "X": "minecraft:carrot"
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "X": {
+      "item": "minecraft:carrot"
+    }
   },
   "result": {
     "id": "tastyvanilla:cookie_carrot",

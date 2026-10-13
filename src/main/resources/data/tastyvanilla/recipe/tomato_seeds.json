@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "tastyvanilla:tomato"
+    {
+      "item": "tastyvanilla:tomato"
+    }
   ],
   "result": {
     "count": 3,

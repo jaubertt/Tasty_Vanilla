@@ -210,7 +210,6 @@
   "item.tastyvanilla.raw_meat_axolotl": "Сырое мясо аксолотля",
   "item.tastyvanilla.raw_meat_armadillo": "Сырое мясо броненосца",
   "item.tastyvanilla.raw_meat_allay": "Крылья тихони",
-  "item.tastyvanilla.raw_meat_nautilus": "Сырое мясо наутилуса",
   "item.tastyvanilla.raw_meat_ravager": "Сырое мясо разорителя",
 
   "item.tastyvanilla.cooked_meat_bear": "Стейк из медвежатины",
@@ -229,6 +228,5 @@
   "item.tastyvanilla.cooked_meat_squid": "Жареное мясо спрута",
   "item.tastyvanilla.cooked_meat_axolotl": "Жареное мясо аксолотля",
   "item.tastyvanilla.cooked_meat_armadillo": "Жареное мясо броненосца",
-  "item.tastyvanilla.cooked_meat_nautilus": "Жареное мясо наутилуса",
   "item.tastyvanilla.cooked_meat_ravager": "Стейк из разорителя"
 }

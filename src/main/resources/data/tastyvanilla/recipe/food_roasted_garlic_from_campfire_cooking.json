@@ -3,7 +3,9 @@
   "category": "food",
   "cookingtime": 600,
   "experience": 0.35,
-  "ingredient": "tastyvanilla:garlic",
+  "ingredient": {
+    "item": "tastyvanilla:garlic"
+  },
   "result": {
     "id": "tastyvanilla:food_roasted_garlic"
   }

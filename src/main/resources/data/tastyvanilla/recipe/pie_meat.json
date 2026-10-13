@@ -2,18 +2,18 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    [
-      "minecraft:egg",
-      "minecraft:brown_egg",
-      "minecraft:blue_egg"
-    ],
-    [
-      "tastyvanilla:salt"
-    ],
-    "#c:foods/cooked_meat",
-    [
-      "minecraft:potato"
-    ]
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "tastyvanilla:salt"
+    },
+    {
+      "tag": "c:foods/cooked_meat"
+    },
+    {
+      "item": "minecraft:potato"
+    }
   ],
   "result": {
     "id": "tastyvanilla:pie_meat",

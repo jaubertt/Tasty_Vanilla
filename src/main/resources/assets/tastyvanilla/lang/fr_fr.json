@@ -210,7 +210,6 @@
   "item.tastyvanilla.raw_meat_axolotl": "Axolotl cru",
   "item.tastyvanilla.raw_meat_armadillo": "Tatou cru",
   "item.tastyvanilla.raw_meat_allay": "Ailes d'Allay",
-  "item.tastyvanilla.raw_meat_nautilus": "Nautile cru",
   "item.tastyvanilla.raw_meat_ravager": "Ravageur cru",
 
   "item.tastyvanilla.cooked_meat_bear": "Steak d'ours",
@@ -229,6 +228,5 @@
   "item.tastyvanilla.cooked_meat_squid": "Poulpe cuit",
   "item.tastyvanilla.cooked_meat_axolotl": "Axolotl cuit",
   "item.tastyvanilla.cooked_meat_armadillo": "Tatou cuit",
-  "item.tastyvanilla.cooked_meat_nautilus": "Nautile cuit",
   "item.tastyvanilla.cooked_meat_ravager": "Steak de ravageur"
 }

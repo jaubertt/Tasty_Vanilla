@@ -3,7 +3,9 @@
   "category": "food",
   "cookingtime": 200,
   "experience": 0.35,
-  "ingredient": "tastyvanilla:raw_meat_bear",
+  "ingredient": {
+    "item": "tastyvanilla:raw_meat_bear"
+  },
   "result": {
     "id": "tastyvanilla:cooked_meat_bear"
   }

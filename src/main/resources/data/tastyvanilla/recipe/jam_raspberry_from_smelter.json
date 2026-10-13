@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smoking",
   "category": "food",
-  "ingredient": [
-    "tastyvanilla:jam_raspberry_mash"
-  ],
+  "ingredient": {
+    "item": "tastyvanilla:jam_raspberry_mash"
+  },
   "result": {
     "id": "tastyvanilla:jam_raspberry"
   },

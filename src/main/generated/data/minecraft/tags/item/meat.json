@@ -15,7 +15,6 @@
     "tastyvanilla:raw_meat_squid",
     "tastyvanilla:raw_meat_axolotl",
     "tastyvanilla:raw_meat_armadillo",
-    "tastyvanilla:raw_meat_nautilus",
     "tastyvanilla:raw_meat_ravager",
     "tastyvanilla:cooked_meat_bear",
     "tastyvanilla:cooked_meat_camel",
@@ -32,7 +31,6 @@
     "tastyvanilla:cooked_meat_squid",
     "tastyvanilla:cooked_meat_axolotl",
     "tastyvanilla:cooked_meat_armadillo",
-    "tastyvanilla:cooked_meat_nautilus",
     "tastyvanilla:cooked_meat_ravager"
   ]
 }

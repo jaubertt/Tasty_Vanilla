@@ -1,20 +1,18 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "category": "misc",
-    "ingredients": [
-      [
-        "minecraft:egg",
-        "minecraft:brown_egg",
-        "minecraft:blue_egg"
-      ],
-      [
-        "tastyvanilla:onion"
-      ],
-      [
-        "tastyvanilla:flour"
-      ]
-    ],
-    "result": {
-      "id": "tastyvanilla:food_onion_ring"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "tastyvanilla:onion"
+    },
+    {
+      "item": "tastyvanilla:flour"
+    }
+  ],
+  "result": {
+    "id": "tastyvanilla:food_onion_ring"
   }
 }

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "category": "food",
-  "ingredient": [
-    "tastyvanilla:garlic"
-  ],
+  "ingredient": {
+    "item": "tastyvanilla:garlic"
+  },
   "result": {
     "id": "tastyvanilla:food_roasted_garlic"
   },

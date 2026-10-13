@@ -19,14 +19,13 @@ import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 import net.minecraft.predicate.NumberRange;
-import net.minecraft.predicate.component.ComponentPredicateTypes;
-import net.minecraft.predicate.component.ComponentsPredicate;
 import net.minecraft.predicate.entity.EntityEquipmentPredicate;
 import net.minecraft.predicate.entity.EntityFlagsPredicate;
 import net.minecraft.predicate.entity.EntityPredicate;
 import net.minecraft.predicate.item.EnchantmentPredicate;
 import net.minecraft.predicate.item.EnchantmentsPredicate;
 import net.minecraft.predicate.item.ItemPredicate;
+import net.minecraft.predicate.item.ItemSubPredicateTypes;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
@@ -67,7 +66,6 @@ public class ModLootTableModifiers {
             addMeat(key, tableBuilder, registries, EntityType.TURTLE, ModItems.RAW_MEAT_TURTLE, 1, 2);
             addMeat(key, tableBuilder, registries, EntityType.SQUID, ModItems.RAW_MEAT_SQUID, 1, 2);
             addMeat(key, tableBuilder, registries, EntityType.GLOW_SQUID, ModItems.RAW_MEAT_SQUID, 1, 2);
-            addMeat(key, tableBuilder, registries, EntityType.NAUTILUS, ModItems.RAW_MEAT_NAUTILUS, 1, 2);
             addMeat(key, tableBuilder, registries, EntityType.DOLPHIN, ModItems.RAW_MEAT_DOLPHIN, 1, 2);
             addDrop(key, tableBuilder, registries, EntityType.CAT, ModItems.RAW_MEAT_CAT, 0, 2);
             addDrop(key, tableBuilder, registries, EntityType.OCELOT, ModItems.RAW_MEAT_CAT, 0, 2);
@@ -168,7 +166,7 @@ public class ModLootTableModifiers {
     // min-max meat, cooked if the mob was on fire or killed with Fire Aspect, +0-1 per Looting level.
     private static void addMeat(RegistryKey<LootTable> key, LootTable.Builder tableBuilder, RegistryWrapper.WrapperLookup registries,
                                 EntityType<?> mob, ItemConvertible meat, float min, float max) {
-        if (!mob.getLootTableKey().map(key::equals).orElse(false)) {
+        if (!mob.getLootTableId().equals(key)) {
             return;
         }
 
@@ -184,7 +182,7 @@ public class ModLootTableModifiers {
     // (Bat Wings, Allay Wings, Cat Eye), so the game doesn't log "Couldn't smelt" when the mob burns.
     private static void addDrop(RegistryKey<LootTable> key, LootTable.Builder tableBuilder, RegistryWrapper.WrapperLookup registries,
                                 EntityType<?> mob, ItemConvertible drop, float min, float max) {
-        if (!mob.getLootTableKey().map(key::equals).orElse(false)) {
+        if (!mob.getLootTableId().equals(key)) {
             return;
         }
 
@@ -195,20 +193,18 @@ public class ModLootTableModifiers {
                         .apply(EnchantedCountIncreaseLootFunction.builder(registries, UniformLootNumberProvider.create(0.0F, 1.0F)))));
     }
 
-    // Same condition vanilla uses for cooked meat drops (copied from EntityLootTableGenerator.createSmeltLootCondition() in 1.21.11):
+    // Same condition vanilla uses for cooked meat drops (copied from EntityLootTableGenerator.createSmeltLootCondition() in 1.21.1):
     // the mob is on fire, OR the killer's main-hand item has an enchantment from #minecraft:smelts_loot (Fire Aspect).
     private static AnyOfLootCondition.Builder createSmeltLootCondition(RegistryWrapper.WrapperLookup registries) {
-        RegistryWrapper.Impl<Enchantment> enchantments = registries.getOrThrow(RegistryKeys.ENCHANTMENT);
+        RegistryWrapper.Impl<Enchantment> enchantments = registries.getWrapperOrThrow(RegistryKeys.ENCHANTMENT);
 
         return AnyOfLootCondition.builder(
-                EntityPropertiesLootCondition.builder(LootContext.EntityReference.THIS,
+                EntityPropertiesLootCondition.builder(LootContext.EntityTarget.THIS,
                         EntityPredicate.Builder.create().flags(EntityFlagsPredicate.Builder.create().onFire(true))),
-                EntityPropertiesLootCondition.builder(LootContext.EntityReference.DIRECT_ATTACKER,
+                EntityPropertiesLootCondition.builder(LootContext.EntityTarget.DIRECT_ATTACKER,
                         EntityPredicate.Builder.create().equipment(EntityEquipmentPredicate.Builder.create().mainhand(
-                                ItemPredicate.Builder.create().components(ComponentsPredicate.Builder.create()
-                                        .partial(ComponentPredicateTypes.ENCHANTMENTS, EnchantmentsPredicate.enchantments(List.of(
-                                                new EnchantmentPredicate(enchantments.getOrThrow(EnchantmentTags.SMELTS_LOOT), NumberRange.IntRange.ANY))))
-                                        .build())))));
+                                ItemPredicate.Builder.create().subPredicate(ItemSubPredicateTypes.ENCHANTMENTS, EnchantmentsPredicate.enchantments(List.of(
+                                        new EnchantmentPredicate(enchantments.getOrThrow(EnchantmentTags.SMELTS_LOOT), NumberRange.IntRange.ANY))))))));
     }
 
     // One chest entry: item, weight (how likely it is compared to the other items), min-max count.
@@ -219,7 +215,7 @@ public class ModLootTableModifiers {
     }
 
     // Adds entries to the FIRST pool of a table, which is the main pool in every vanilla chest you use.
-    // Vanilla's other pools (bundles, nautilus armor, armor trims) are left untouched.
+    // Vanilla's other pools (the shipwreck's armor trim) are left untouched.
     private static void addToMainPool(LootTable.Builder tableBuilder, LootPoolEntry.Builder<?>... entries) {
         AtomicBoolean isFirstPool = new AtomicBoolean(true);
 

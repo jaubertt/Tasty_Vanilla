@@ -2,10 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#c:buckets/milk",
-    [
-      "tastyvanilla:salt"
-    ]
+    {
+      "tag": "c:buckets/milk"
+    },
+    {
+      "item": "tastyvanilla:salt"
+    }
   ],
   "result": {
     "id": "tastyvanilla:butter",

@@ -2,21 +2,23 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "tastyvanilla:salt"
+    },
     [
-      "minecraft:egg",
-      "minecraft:brown_egg",
-      "minecraft:blue_egg"
+      {
+        "item": "minecraft:cooked_cod"
+      },
+      {
+        "item": "minecraft:cooked_salmon"
+      }
     ],
-    [
-      "tastyvanilla:salt"
-    ],
-    [
-      "minecraft:cooked_cod",
-      "minecraft:cooked_salmon"
-    ],
-    [
-      "minecraft:carrot"
-    ]
+    {
+      "item": "minecraft:carrot"
+    }
   ],
   "result": {
     "id": "tastyvanilla:pie_fish",

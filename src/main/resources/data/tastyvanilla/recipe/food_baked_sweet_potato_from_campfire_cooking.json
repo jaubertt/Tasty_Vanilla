@@ -3,7 +3,9 @@
   "category": "food",
   "cookingtime": 600,
   "experience": 0.35,
-  "ingredient": "tastyvanilla:sweet_potato",
+  "ingredient": {
+    "item": "tastyvanilla:sweet_potato"
+  },
   "result": {
     "id": "tastyvanilla:food_baked_sweet_potato"
   }

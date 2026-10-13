@@ -1,25 +1,24 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "category": "misc",
-    "ingredients": [
-      [
-        "minecraft:bowl"
-      ],
-      [
-        "tastyvanilla:lettuce"
-      ],
-      [
-        "minecraft:carrot"
-      ],
-      [
-        "tastyvanilla:tomato"
-      ]
-    ],
-    "result": {
-      "id": "tastyvanilla:food_salad",
-      "components": {
-        "minecraft:max_stack_size": 16
-
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "tastyvanilla:lettuce"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "tastyvanilla:tomato"
+    }
+  ],
+  "result": {
+    "id": "tastyvanilla:food_salad",
+    "components": {
+      "minecraft:max_stack_size": 16
     }
   }
 }

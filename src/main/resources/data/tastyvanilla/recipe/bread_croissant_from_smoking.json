@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smoking",
   "category": "food",
-  "ingredient": [
-    "tastyvanilla:dough_croissant"
-  ],
+  "ingredient": {
+    "item": "tastyvanilla:dough_croissant"
+  },
   "result": {
     "id": "tastyvanilla:bread_croissant"
   },

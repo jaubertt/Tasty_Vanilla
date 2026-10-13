@@ -2,20 +2,28 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
+    {
+      "item": "tastyvanilla:flour"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "tastyvanilla:salt"
+    },
     [
-      "tastyvanilla:flour"
-    ],
-    [
-      "minecraft:water_bucket"
-    ],
-    [
-      "tastyvanilla:salt"
-    ],
-    [
-      "minecraft:beetroot_seeds",
-      "minecraft:melon_seeds",
-      "minecraft:pumpkin_seeds",
-      "minecraft:wheat_seeds"
+      {
+        "item": "minecraft:beetroot_seeds"
+      },
+      {
+        "item": "minecraft:melon_seeds"
+      },
+      {
+        "item": "minecraft:pumpkin_seeds"
+      },
+      {
+        "item": "minecraft:wheat_seeds"
+      }
     ]
   ],
   "result": {

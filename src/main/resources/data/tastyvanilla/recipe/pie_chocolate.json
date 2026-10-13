@@ -2,20 +2,18 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    [
-      "minecraft:egg",
-      "minecraft:brown_egg",
-      "minecraft:blue_egg"
-    ],
-    [
-      "minecraft:sugar"
-    ],
-    [
-      "minecraft:cocoa_beans"
-    ],
-    [
-      "tastyvanilla:butter"
-    ]
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "tastyvanilla:butter"
+    }
   ],
   "result": {
     "id": "tastyvanilla:pie_chocolate",

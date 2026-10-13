@@ -7,9 +7,9 @@
     "###"
   ],
   "key": {
-    "#": [
-      "minecraft:sugar"
-    ]
+    "#": {
+      "item": "minecraft:sugar"
+    }
   },
   "result": {
     "id": "tastyvanilla:sugar_block",

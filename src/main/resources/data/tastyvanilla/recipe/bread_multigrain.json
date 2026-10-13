@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "category": "food",
-  "ingredient": [
-    "tastyvanilla:dough_multigrain"
-  ],
+  "ingredient": {
+    "item": "tastyvanilla:dough_multigrain"
+  },
   "result": {
     "id": "tastyvanilla:bread_multigrain"
   },

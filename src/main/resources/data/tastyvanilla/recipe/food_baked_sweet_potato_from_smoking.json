@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smoking",
   "category": "food",
-  "ingredient": [
-    "tastyvanilla:sweet_potato"
-  ],
+  "ingredient": {
+    "item": "tastyvanilla:sweet_potato"
+  },
   "result": {
     "id": "tastyvanilla:food_baked_sweet_potato"
   },

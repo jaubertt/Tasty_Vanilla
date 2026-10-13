@@ -105,16 +105,15 @@ public class ModBlocks {
 
     //--------------------------//
 
-    //Register Block Method, THE SAME AS VANILLA'S Blocks CLASS IN 1.21.11: THE BLOCK'S KEY IS MADE FROM ITS NAME
+    //Register Block Method, LIKE VANILLA'S Blocks CLASS IN 1.21.1: THE BLOCK IS REGISTERED UNDER ITS NAME
 
     private static RegistryKey<Block> keyOf(String name) {
         return RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(TastyVanilla.MOD_ID, name));
     }
 
     private static Block registerBlockWithoutBlockItem(String name, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings) {
-        RegistryKey<Block> key = keyOf(name);
-        Block block = factory.apply(settings.registryKey(key));
-        return Registry.register(Registries.BLOCK, key, block);
+        Block block = factory.apply(settings);
+        return Registry.register(Registries.BLOCK, keyOf(name), block);
     }
 
     private static Block registerBlock(String name, AbstractBlock.Settings settings) {
@@ -126,7 +125,7 @@ public class ModBlocks {
     //Register Block Item Method (block. NAME, LIKE VANILLA BLOCK ITEMS)
     private static void registerBlockItem(String name, Block block) {
         RegistryKey<Item> key = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(TastyVanilla.MOD_ID, name));
-        BlockItem blockItem = new BlockItem(block, new Item.Settings().useBlockPrefixedTranslationKey().registryKey(key));
+        BlockItem blockItem = new BlockItem(block, new Item.Settings());
         blockItem.appendBlocks(Item.BLOCK_ITEMS, blockItem);
         Registry.register(Registries.ITEM, key, blockItem);
     }

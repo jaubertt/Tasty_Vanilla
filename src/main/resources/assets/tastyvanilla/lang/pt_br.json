@@ -210,7 +210,6 @@
   "item.tastyvanilla.raw_meat_axolotl": "Axolote Cru",
   "item.tastyvanilla.raw_meat_armadillo": "Tatu Cru",
   "item.tastyvanilla.raw_meat_allay": "Asas de Sereno",
-  "item.tastyvanilla.raw_meat_nautilus": "Náutilo Cru",
   "item.tastyvanilla.raw_meat_ravager": "Devastador Cru",
 
   "item.tastyvanilla.cooked_meat_bear": "Filé de Urso",
@@ -229,6 +228,5 @@
   "item.tastyvanilla.cooked_meat_squid": "Lula Assada",
   "item.tastyvanilla.cooked_meat_axolotl": "Axolote Assado",
   "item.tastyvanilla.cooked_meat_armadillo": "Tatu Assado",
-  "item.tastyvanilla.cooked_meat_nautilus": "Náutilo Assado",
   "item.tastyvanilla.cooked_meat_ravager": "Filé de Devastador"
 }

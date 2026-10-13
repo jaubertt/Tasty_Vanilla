@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "tastyvanilla:chilli"
+    {
+      "item": "tastyvanilla:chilli"
+    }
   ],
   "result": {
     "count": 3,

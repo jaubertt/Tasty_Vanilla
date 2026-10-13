@@ -3,7 +3,9 @@
   "category": "food",
   "cookingtime": 100,
   "experience": 0.5,
-  "ingredient": "tastyvanilla:raw_meat_dolphin",
+  "ingredient": {
+    "item": "tastyvanilla:raw_meat_dolphin"
+  },
   "result": {
     "id": "tastyvanilla:cooked_meat_dolphin"
   }

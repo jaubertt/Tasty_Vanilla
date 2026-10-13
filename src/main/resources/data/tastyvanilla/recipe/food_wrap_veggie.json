@@ -1,21 +1,21 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "category": "misc",
-    "ingredients": [
-      [
-        "minecraft:carrot"
-      ],
-      [
-        "tastyvanilla:tomato"
-      ],
-      [
-        "tastyvanilla:lettuce"
-      ],
-      [
-        "tastyvanilla:bread_flatbread"
-      ]
-    ],
-    "result": {
-      "id": "tastyvanilla:food_wrap_veggie"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "tastyvanilla:tomato"
+    },
+    {
+      "item": "tastyvanilla:lettuce"
+    },
+    {
+      "item": "tastyvanilla:bread_flatbread"
+    }
+  ],
+  "result": {
+    "id": "tastyvanilla:food_wrap_veggie"
   }
 }

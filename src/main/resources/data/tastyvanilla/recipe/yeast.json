@@ -3,20 +3,38 @@
   "category": "misc",
   "ingredients": [
     [
-      "minecraft:brown_mushroom",
-      "minecraft:red_mushroom"
+      {
+        "item": "minecraft:brown_mushroom"
+      },
+      {
+        "item": "minecraft:red_mushroom"
+      }
     ],
+    {
+      "item": "minecraft:sugar"
+    },
     [
-      "minecraft:sugar"
-    ],
-    [
-      "minecraft:beetroot_seeds",
-      "minecraft:melon_seeds",
-      "minecraft:pumpkin_seeds",
-      "minecraft:wheat_seeds",
-      "tastyvanilla:tomato_seeds",
-      "tastyvanilla:lettuce_seeds",
-      "tastyvanilla:chilli_seeds"
+      {
+        "item": "minecraft:beetroot_seeds"
+      },
+      {
+        "item": "minecraft:melon_seeds"
+      },
+      {
+        "item": "minecraft:pumpkin_seeds"
+      },
+      {
+        "item": "minecraft:wheat_seeds"
+      },
+      {
+        "item": "tastyvanilla:tomato_seeds"
+      },
+      {
+        "item": "tastyvanilla:lettuce_seeds"
+      },
+      {
+        "item": "tastyvanilla:chilli_seeds"
+      }
     ]
   ],
   "result": {

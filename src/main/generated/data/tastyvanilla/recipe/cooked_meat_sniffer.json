@@ -3,7 +3,9 @@
   "category": "food",
   "cookingtime": 200,
   "experience": 1.0,
-  "ingredient": "tastyvanilla:raw_meat_sniffer",
+  "ingredient": {
+    "item": "tastyvanilla:raw_meat_sniffer"
+  },
   "result": {
     "id": "tastyvanilla:cooked_meat_sniffer"
   }

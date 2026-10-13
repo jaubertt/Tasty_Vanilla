@@ -3,7 +3,9 @@
   "category": "food",
   "cookingtime": 200,
   "experience": 0.35,
-  "ingredient": "tastyvanilla:raw_meat_camel",
+  "ingredient": {
+    "item": "tastyvanilla:raw_meat_camel"
+  },
   "result": {
     "id": "tastyvanilla:cooked_meat_camel"
   }

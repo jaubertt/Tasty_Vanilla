@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smoking",
   "category": "food",
-  "ingredient": [
-    "tastyvanilla:dough_focaccia"
-  ],
+  "ingredient": {
+    "item": "tastyvanilla:dough_focaccia"
+  },
   "result": {
     "id": "tastyvanilla:bread_focaccia"
   },

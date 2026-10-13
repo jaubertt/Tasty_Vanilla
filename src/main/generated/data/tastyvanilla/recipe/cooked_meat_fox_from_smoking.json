@@ -3,7 +3,9 @@
   "category": "food",
   "cookingtime": 100,
   "experience": 0.35,
-  "ingredient": "tastyvanilla:raw_meat_fox",
+  "ingredient": {
+    "item": "tastyvanilla:raw_meat_fox"
+  },
   "result": {
     "id": "tastyvanilla:cooked_meat_fox"
   }

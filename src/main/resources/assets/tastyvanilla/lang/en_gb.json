@@ -208,7 +208,6 @@
   "item.tastyvanilla.raw_meat_axolotl": "Raw Axolotl",
   "item.tastyvanilla.raw_meat_armadillo": "Raw Armadillo",
   "item.tastyvanilla.raw_meat_allay": "Allay Wings",
-  "item.tastyvanilla.raw_meat_nautilus": "Raw Nautilus",
   "item.tastyvanilla.raw_meat_ravager": "Raw Ravager",
 
   "item.tastyvanilla.cooked_meat_bear": "Bear Steak",
@@ -227,6 +226,5 @@
   "item.tastyvanilla.cooked_meat_squid": "Cooked Squid",
   "item.tastyvanilla.cooked_meat_axolotl": "Cooked Axolotl",
   "item.tastyvanilla.cooked_meat_armadillo": "Cooked Armadillo",
-  "item.tastyvanilla.cooked_meat_nautilus": "Cooked Nautilus",
   "item.tastyvanilla.cooked_meat_ravager": "Ravager Steak"
 }

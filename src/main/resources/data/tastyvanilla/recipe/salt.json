@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": [
-    "minecraft:calcite"
-  ],
+  "ingredient": {
+    "item": "minecraft:calcite"
+  },
   "result": {
     "id": "tastyvanilla:salt",
     "count": 6

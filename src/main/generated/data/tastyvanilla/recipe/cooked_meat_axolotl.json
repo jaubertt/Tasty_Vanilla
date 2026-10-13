@@ -3,7 +3,9 @@
   "category": "food",
   "cookingtime": 200,
   "experience": 0.7,
-  "ingredient": "tastyvanilla:raw_meat_axolotl",
+  "ingredient": {
+    "item": "tastyvanilla:raw_meat_axolotl"
+  },
   "result": {
     "id": "tastyvanilla:cooked_meat_axolotl"
   }

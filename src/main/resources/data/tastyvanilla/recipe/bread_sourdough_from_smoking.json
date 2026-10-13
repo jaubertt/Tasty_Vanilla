@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smoking",
   "category": "food",
-  "ingredient": [
-    "tastyvanilla:dough_sourdough"
-  ],
+  "ingredient": {
+    "item": "tastyvanilla:dough_sourdough"
+  },
   "result": {
     "id": "tastyvanilla:bread_sourdough"
   },

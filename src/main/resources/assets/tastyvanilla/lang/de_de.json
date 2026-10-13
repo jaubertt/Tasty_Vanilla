@@ -204,7 +204,6 @@
   "item.tastyvanilla.raw_meat_axolotl": "Roher Axolotl",
   "item.tastyvanilla.raw_meat_armadillo": "Rohes Gürteltierfleisch",
   "item.tastyvanilla.raw_meat_allay": "Hilfsgeisterflügel",
-  "item.tastyvanilla.raw_meat_nautilus": "Roher Nautilus",
   "item.tastyvanilla.raw_meat_ravager": "Rohes Verwüsterfleisch",
 
   "item.tastyvanilla.cooked_meat_bear": "Bärensteak",
@@ -223,6 +222,5 @@
   "item.tastyvanilla.cooked_meat_squid": "Gebratener Tintenfisch",
   "item.tastyvanilla.cooked_meat_axolotl": "Gebratener Axolotl",
   "item.tastyvanilla.cooked_meat_armadillo": "Gebratenes Gürteltierfleisch",
-  "item.tastyvanilla.cooked_meat_nautilus": "Gebratener Nautilus",
   "item.tastyvanilla.cooked_meat_ravager": "Verwüstersteak"
 }

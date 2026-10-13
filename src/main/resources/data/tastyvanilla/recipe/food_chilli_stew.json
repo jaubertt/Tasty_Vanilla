@@ -2,25 +2,26 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    [
-      "minecraft:bowl"
-    ],
-    "#c:foods/cooked_meat",
-    [
-      "tastyvanilla:tomato"
-    ],
-    [
-      "tastyvanilla:chilli"
-    ],
-    [
-      "tastyvanilla:salt"
-    ]
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "c:foods/cooked_meat"
+    },
+    {
+      "item": "tastyvanilla:tomato"
+    },
+    {
+      "item": "tastyvanilla:chilli"
+    },
+    {
+      "item": "tastyvanilla:salt"
+    }
   ],
   "result": {
     "id": "tastyvanilla:food_chilli_stew",
     "components": {
       "minecraft:max_stack_size": 16
-
     }
   }
 }

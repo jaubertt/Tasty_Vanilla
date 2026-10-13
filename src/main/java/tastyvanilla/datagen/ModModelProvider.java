@@ -1,10 +1,10 @@
 package tastyvanilla.datagen;
 
-import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.minecraft.client.data.BlockStateModelGenerator;
-import net.minecraft.client.data.ItemModelGenerator;
-import net.minecraft.client.data.Models;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
+import net.minecraft.data.client.BlockStateModelGenerator;
+import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.Models;
 import tastyvanilla.block.ModBlocks;
 import tastyvanilla.block.custom.*;
 import tastyvanilla.item.ModItems;
@@ -27,14 +27,14 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCrop(ModBlocks.TOMATO_CROP,TomatoCropBlock.AGE, 0,1,2,3,4,5,6,7);
 
        //BERRIES
-        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_BLACKBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_BLUEBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, BlueberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_ELDERBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, ElderberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_GOJI_BERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, GojiBerryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_GOOSEBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, GooseberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_RASPBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, RaspberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_STRAWBERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, StrawberryBushBlock.AGE, new int[]{0, 1, 2, 3});
-        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH, BlockStateModelGenerator.CrossType.NOT_TINTED, WhiteCurrantBerryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_BLACKBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED, BlackberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_BLUEBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED, BlueberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_ELDERBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED, ElderberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_GOJI_BERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED, GojiBerryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_GOOSEBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED, GooseberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_RASPBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED, RaspberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_STRAWBERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED, StrawberryBushBlock.AGE, new int[]{0, 1, 2, 3});
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH, BlockStateModelGenerator.TintType.NOT_TINTED, WhiteCurrantBerryBushBlock.AGE, new int[]{0, 1, 2, 3});
 
     }
 
@@ -106,7 +106,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_MEAT_AXOLOTL, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_MEAT_ARMADILLO, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_MEAT_ALLAY, Models.GENERATED);
-        itemModelGenerator.register(ModItems.RAW_MEAT_NAUTILUS, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_MEAT_RAVAGER, Models.GENERATED);
 
 
@@ -126,7 +125,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.COOKED_MEAT_SQUID, Models.GENERATED);
         itemModelGenerator.register(ModItems.COOKED_MEAT_AXOLOTL, Models.GENERATED);
         itemModelGenerator.register(ModItems.COOKED_MEAT_ARMADILLO, Models.GENERATED);
-        itemModelGenerator.register(ModItems.COOKED_MEAT_NAUTILUS, Models.GENERATED);
         itemModelGenerator.register(ModItems.COOKED_MEAT_RAVAGER, Models.GENERATED);
 
     }

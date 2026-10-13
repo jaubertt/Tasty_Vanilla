@@ -3,7 +3,9 @@
   "category": "food",
   "cookingtime": 200,
   "experience": 0.5,
-  "ingredient": "tastyvanilla:raw_meat_ravager",
+  "ingredient": {
+    "item": "tastyvanilla:raw_meat_ravager"
+  },
   "result": {
     "id": "tastyvanilla:cooked_meat_ravager"
   }

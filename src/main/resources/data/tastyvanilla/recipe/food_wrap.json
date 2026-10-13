@@ -2,16 +2,18 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#c:foods/cooked_meat",
-    [
-      "tastyvanilla:tomato"
-    ],
-    [
-      "tastyvanilla:lettuce"
-    ],
-    [
-      "tastyvanilla:bread_flatbread"
-    ]
+    {
+      "tag": "c:foods/cooked_meat"
+    },
+    {
+      "item": "tastyvanilla:tomato"
+    },
+    {
+      "item": "tastyvanilla:lettuce"
+    },
+    {
+      "item": "tastyvanilla:bread_flatbread"
+    }
   ],
   "result": {
     "id": "tastyvanilla:food_wrap"

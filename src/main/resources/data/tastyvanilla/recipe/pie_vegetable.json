@@ -2,24 +2,26 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "tastyvanilla:salt"
+    },
     [
-      "minecraft:egg",
-      "minecraft:brown_egg",
-      "minecraft:blue_egg"
+      {
+        "item": "minecraft:red_mushroom"
+      },
+      {
+        "item": "minecraft:brown_mushroom"
+      }
     ],
-    [
-      "tastyvanilla:salt"
-    ],
-    [
-      "minecraft:red_mushroom",
-      "minecraft:brown_mushroom"
-    ],
-    [
-      "minecraft:potato"
-    ],
-    [
-      "minecraft:carrot"
-    ]
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:carrot"
+    }
   ],
   "result": {
     "id": "tastyvanilla:pie_vegetable",

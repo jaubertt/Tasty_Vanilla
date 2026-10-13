@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "category": "food",
-  "ingredient": [
-    "tastyvanilla:dough_baguel"
-  ],
+  "ingredient": {
+    "item": "tastyvanilla:dough_baguel"
+  },
   "result": {
     "id": "tastyvanilla:bread_baguel"
   },

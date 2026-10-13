@@ -6,7 +6,9 @@ import net.minecraft.village.VillagerProfession;
 import tastyvanilla.TastyVanilla;
 import tastyvanilla.item.ModItems;
 
-// Trades are built with vanilla's own trade types, the same way vanilla's TradeOffers class does it in 1.21.11:
+import java.util.Collections;
+
+// Trades are built with vanilla's own trade types, the same way vanilla's TradeOffers class does it in 1.21.1:
 // BuyItemFactory(item, how many the villager wants for 1 emerald, max uses, xp)
 // SellItemFactory(item, price in emeralds, how many it sells, max uses, xp)
 // Both use vanilla's price multiplier of 0.05.
@@ -70,7 +72,6 @@ public class ModVillagerTrades {
 
         TradeOfferHelper.registerVillagerOffers(VillagerProfession.FISHERMAN, 5, factories -> {
             factories.add(new TradeOffers.BuyItemFactory(ModItems.RAW_MEAT_AXOLOTL, 6, 12, 30));
-            factories.add(new TradeOffers.BuyItemFactory(ModItems.RAW_MEAT_NAUTILUS, 4, 12, 30));
         });
 
         //CLERIC
@@ -84,10 +85,9 @@ public class ModVillagerTrades {
             factories.add(new TradeOffers.BuyItemFactory(ModItems.RAW_MEAT_BAT, 4, 12, 30));
         });
 
-        //WANDERING TRADER: ADDED TO VANILLA'S COMMON LIST, WHICH OFFERS 5 OF ITS TRADES
+        //WANDERING TRADER: ADDED TO VANILLA'S COMMON LIST (LEVEL 1), WHICH OFFERS 5 OF ITS TRADES
         //1 EMERALD FOR 1 ITEM, UP TO 12, LIKE VANILLA WHEAT SEEDS
-        TradeOfferHelper.registerWanderingTraderOffers(builder -> builder.addOffersToPool(
-                TradeOfferHelper.WanderingTraderOffersBuilder.SELL_COMMON_ITEMS_POOL,
+        TradeOffers.Factory[] wanderingTraderOffers = {
                 new TradeOffers.SellItemFactory(ModItems.CHILLI_SEEDS, 1, 1, 12, 1),
                 new TradeOffers.SellItemFactory(ModItems.LETTUCE_SEEDS, 1, 1, 12, 1),
                 new TradeOffers.SellItemFactory(ModItems.TOMATO_SEEDS, 1, 1, 12, 1),
@@ -103,6 +103,12 @@ public class ModVillagerTrades {
                 new TradeOffers.SellItemFactory(ModItems.BERRY_GOOSEBERRIES, 1, 1, 12, 1),
                 new TradeOffers.SellItemFactory(ModItems.BERRY_RASPBERRIES, 1, 1, 12, 1),
                 new TradeOffers.SellItemFactory(ModItems.BERRY_STRAWBERRIES, 1, 1, 12, 1),
-                new TradeOffers.SellItemFactory(ModItems.BERRY_WHITE_CURRANT_BERRIES, 1, 1, 12, 1)));
+                new TradeOffers.SellItemFactory(ModItems.BERRY_WHITE_CURRANT_BERRIES, 1, 1, 12, 1)};
+
+        TradeOfferHelper.registerWanderingTraderOffers(1, factories -> Collections.addAll(factories, wanderingTraderOffers));
+
+        //THE SAME TRADES IN THE COMMON LIST OF THE VILLAGER TRADE REBALANCE EXPERIMENT
+        TradeOfferHelper.registerRebalancedWanderingTraderOffers(builder -> builder.addOffersToPool(
+                TradeOfferHelper.WanderingTraderOffersBuilder.SELL_COMMON_ITEMS_POOL, wanderingTraderOffers));
     }
 }

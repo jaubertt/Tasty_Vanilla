@@ -105,6 +105,19 @@ public class ModCompostableItems {
 		VillagerInteractionRegistries.registerCompostable(ModItems.LETTUCE_SEEDS);
 		VillagerInteractionRegistries.registerCompostable(ModItems.TOMATO_SEEDS);
 
+		//VILLAGERS PICK THESE UP FROM THE GROUND, LIKE VANILLA CARROTS AND POTATOES
+		VillagerInteractionRegistries.registerCollectable(ModItems.CHILLI);
+		VillagerInteractionRegistries.registerCollectable(ModItems.CHILLI_SEEDS);
+		VillagerInteractionRegistries.registerCollectable(ModItems.TOMATO);
+		VillagerInteractionRegistries.registerCollectable(ModItems.TOMATO_SEEDS);
+		VillagerInteractionRegistries.registerCollectable(ModItems.LETTUCE);
+		VillagerInteractionRegistries.registerCollectable(ModItems.LETTUCE_SEEDS);
+		VillagerInteractionRegistries.registerCollectable(ModItems.CABBAGE);
+		VillagerInteractionRegistries.registerCollectable(ModItems.EGGPLANT);
+		VillagerInteractionRegistries.registerCollectable(ModItems.GARLIC);
+		VillagerInteractionRegistries.registerCollectable(ModItems.ONION);
+		VillagerInteractionRegistries.registerCollectable(ModItems.SWEET_POTATO);
+
 		//VILLAGERS EAT THESE, WORTH 1 POINT LIKE VANILLA CARROT, POTATO AND BEETROOT
 		VillagerInteractionRegistries.registerFood(ModItems.CABBAGE, 1);
 		VillagerInteractionRegistries.registerFood(ModItems.CHILLI, 1);

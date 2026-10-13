@@ -20,21 +20,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
 
         //VANILLA TAGS
-        valueLookupBuilder(ItemTags.VILLAGER_PICKS_UP)
-                .add(ModItems.CHILLI)
-                .add(ModItems.CHILLI_SEEDS)
-                .add(ModItems.TOMATO)
-                .add(ModItems.TOMATO_SEEDS)
-                .add(ModItems.LETTUCE)
-                .add(ModItems.LETTUCE_SEEDS)
-                .add(ModItems.CABBAGE)
-                .add(ModItems.EGGPLANT)
-                .add(ModItems.GARLIC)
-                .add(ModItems.ONION)
-                .add(ModItems.SWEET_POTATO);
-
-
-        valueLookupBuilder(ItemTags.VILLAGER_PLANTABLE_SEEDS)
+        getOrCreateTagBuilder(ItemTags.VILLAGER_PLANTABLE_SEEDS)
                 .add(ModItems.CHILLI_SEEDS)
                 .add(ModItems.TOMATO_SEEDS)
                 .add(ModItems.LETTUCE_SEEDS)
@@ -45,41 +31,41 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.SWEET_POTATO);
 
 
-        valueLookupBuilder(ItemTags.COW_FOOD)
+        getOrCreateTagBuilder(ItemTags.COW_FOOD)
                 .add(ModItems.LETTUCE)
 
         ;
 
-        valueLookupBuilder(ItemTags.SHEEP_FOOD)
+        getOrCreateTagBuilder(ItemTags.SHEEP_FOOD)
                 .add(ModItems.LETTUCE)
 
         ;
 
-        valueLookupBuilder(ItemTags.GOAT_FOOD)
+        getOrCreateTagBuilder(ItemTags.GOAT_FOOD)
                 .add(ModItems.LETTUCE)
 
         ;
 
-        valueLookupBuilder(ItemTags.PIG_FOOD)
+        getOrCreateTagBuilder(ItemTags.PIG_FOOD)
                 .add(ModItems.CABBAGE)
                 .add(ModItems.EGGPLANT)
                 .add(ModItems.SWEET_POTATO);
         ;
 
 
-        valueLookupBuilder(ItemTags.CHICKEN_FOOD)
+        getOrCreateTagBuilder(ItemTags.CHICKEN_FOOD)
                 .add(ModItems.CHILLI_SEEDS)
                 .add(ModItems.TOMATO_SEEDS)
                 .add(ModItems.LETTUCE_SEEDS)
         ;
 
-        valueLookupBuilder(ItemTags.PARROT_FOOD)
+        getOrCreateTagBuilder(ItemTags.PARROT_FOOD)
                 .add(ModItems.CHILLI_SEEDS)
                 .add(ModItems.TOMATO_SEEDS)
                 .add(ModItems.LETTUCE_SEEDS)
         ;
 
-        valueLookupBuilder(ItemTags.PARROT_POISONOUS_FOOD)
+        getOrCreateTagBuilder(ItemTags.PARROT_POISONOUS_FOOD)
                 .add(ModItems.COOKIE_APPLE)
                 .add(ModItems.COOKIE_CARROT)
                 .add(ModItems.COOKIE_GLOW_BERRY)
@@ -93,13 +79,13 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.COOKIE_SUGAR)
         ;
 
-        valueLookupBuilder(ItemTags.RABBIT_FOOD)
+        getOrCreateTagBuilder(ItemTags.RABBIT_FOOD)
                 .add(ModItems.TOMATO)
                 .add(ModItems.LETTUCE)
                 .add(ModItems.CABBAGE)
         ;
 
-        valueLookupBuilder(ItemTags.FOX_FOOD)
+        getOrCreateTagBuilder(ItemTags.FOX_FOOD)
                 .add(ModItems.BERRY_BLUEBERRIES)
                 .add(ModItems.BERRY_GOOSEBERRIES)
                 .add(ModItems.BERRY_BLACKBERRIES)
@@ -110,7 +96,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.BERRY_WHITE_CURRANT_BERRIES)
         ;
 
-        valueLookupBuilder(ItemTags.MEAT)
+        getOrCreateTagBuilder(ItemTags.MEAT)
                 .add(ModItems.RAW_MEAT_BEAR)
                 .add(ModItems.RAW_MEAT_CAMEL)
                 .add(ModItems.RAW_MEAT_HORSE)
@@ -126,7 +112,6 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.RAW_MEAT_SQUID)
                 .add(ModItems.RAW_MEAT_AXOLOTL)
                 .add(ModItems.RAW_MEAT_ARMADILLO)
-                .add(ModItems.RAW_MEAT_NAUTILUS)
                 .add(ModItems.RAW_MEAT_RAVAGER)
 
 
@@ -145,17 +130,16 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.COOKED_MEAT_SQUID)
                 .add(ModItems.COOKED_MEAT_AXOLOTL)
                 .add(ModItems.COOKED_MEAT_ARMADILLO)
-                .add(ModItems.COOKED_MEAT_NAUTILUS)
                 .add(ModItems.COOKED_MEAT_RAVAGER)
 
         ;
 
         //CONVENTIONAL TAGS, SHARED WITH OTHER MODS
-        valueLookupBuilder(ConventionalItemTags.MILK_BUCKETS)
+        getOrCreateTagBuilder(ConventionalItemTags.MILK_BUCKETS)
                 .add(ModItems.GOAT_MILK_BUCKET)
         ;
 
-        valueLookupBuilder(ConventionalItemTags.COOKED_MEAT_FOODS)
+        getOrCreateTagBuilder(ConventionalItemTags.COOKED_MEAT_FOODS)
                 .add(ModItems.COOKED_MEAT_BEAR)
                 .add(ModItems.COOKED_MEAT_CAMEL)
                 .add(ModItems.COOKED_MEAT_HORSE)
@@ -171,7 +155,6 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.COOKED_MEAT_SQUID)
                 .add(ModItems.COOKED_MEAT_AXOLOTL)
                 .add(ModItems.COOKED_MEAT_ARMADILLO)
-                .add(ModItems.COOKED_MEAT_NAUTILUS)
                 .add(ModItems.COOKED_MEAT_RAVAGER)
         ;
 

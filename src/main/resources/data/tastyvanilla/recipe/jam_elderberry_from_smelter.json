@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smoking",
   "category": "food",
-  "ingredient": [
-    "tastyvanilla:jam_elderberry_mash"
-  ],
+  "ingredient": {
+    "item": "tastyvanilla:jam_elderberry_mash"
+  },
   "result": {
     "id": "tastyvanilla:jam_elderberry"
   },

@@ -3,7 +3,9 @@
   "category": "food",
   "cookingtime": 600,
   "experience": 0.5,
-  "ingredient": "tastyvanilla:raw_meat_squid",
+  "ingredient": {
+    "item": "tastyvanilla:raw_meat_squid"
+  },
   "result": {
     "id": "tastyvanilla:cooked_meat_squid"
   }
