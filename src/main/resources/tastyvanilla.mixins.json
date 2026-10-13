@@ -4,7 +4,9 @@
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"GoatMixin",
-		"PlayerEntityMixin"
+		"LootPoolAccessor",
+		"VillagerAccessor",
+		"VillagerTradesAccessor"
 	],
 	"injectors": {
 		"defaultRequire": 1

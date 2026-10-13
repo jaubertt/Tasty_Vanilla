@@ -1,46 +1,46 @@
 package tastyvanilla.item.custom;
 
-import net.minecraft.advancement.criterion.Criteria;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.server.network.ServerPlayerEntity;
-import net.minecraft.sound.SoundEvent;
-import net.minecraft.sound.SoundEvents;
-import net.minecraft.stat.Stats;
-import net.minecraft.util.UseAction;
-import net.minecraft.world.World;
+import net.minecraft.advancements.CriteriaTriggers;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.stats.Stats;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.level.Level;
+import net.neoforged.neoforge.common.EffectCures;
 import tastyvanilla.item.ModItems;
 
 //JAMS AND MASHES ARE DRUNK LIKE THE VANILLA HONEY BOTTLE: THEY CURE POISON AND GIVE THE GLASS JAR BACK
 public class JamItem extends Item {
     private static final int MAX_USE_TIME = 40;
 
-    public JamItem(Item.Settings settings) {
-        super(settings);
+    public JamItem(Item.Properties properties) {
+        super(properties);
     }
 
     @Override
-    public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
-        super.finishUsing(stack, world, user);
-        if (user instanceof ServerPlayerEntity serverPlayerEntity) {
-            Criteria.CONSUME_ITEM.trigger(serverPlayerEntity, stack);
-            serverPlayerEntity.incrementStat(Stats.USED.getOrCreateStat(this));
+    public ItemStack finishUsingItem(ItemStack stack, Level level, LivingEntity user) {
+        super.finishUsingItem(stack, level, user);
+        if (user instanceof ServerPlayer serverPlayer) {
+            CriteriaTriggers.CONSUME_ITEM.trigger(serverPlayer, stack);
+            serverPlayer.awardStat(Stats.ITEM_USED.get(this));
         }
 
-        if (!world.isClient) {
-            user.removeStatusEffect(StatusEffects.POISON);
+        if (!level.isClientSide) {
+            user.removeEffectsCuredBy(EffectCures.HONEY);
         }
 
         if (stack.isEmpty()) {
             return new ItemStack(ModItems.GLASS_JAR);
         } else {
-            if (user instanceof PlayerEntity playerEntity && !playerEntity.isInCreativeMode()) {
+            if (user instanceof Player player && !player.hasInfiniteMaterials()) {
                 ItemStack itemStack = new ItemStack(ModItems.GLASS_JAR);
-                if (!playerEntity.getInventory().insertStack(itemStack)) {
-                    playerEntity.dropItem(itemStack, false);
+                if (!player.getInventory().add(itemStack)) {
+                    player.drop(itemStack, false);
                 }
             }
 
@@ -49,22 +49,22 @@ public class JamItem extends Item {
     }
 
     @Override
-    public int getMaxUseTime(ItemStack stack, LivingEntity user) {
+    public int getUseDuration(ItemStack stack, LivingEntity user) {
         return MAX_USE_TIME;
     }
 
     @Override
-    public UseAction getUseAction(ItemStack stack) {
-        return UseAction.DRINK;
+    public UseAnim getUseAnimation(ItemStack stack) {
+        return UseAnim.DRINK;
     }
 
     @Override
-    public SoundEvent getDrinkSound() {
-        return SoundEvents.ITEM_HONEY_BOTTLE_DRINK;
+    public SoundEvent getDrinkingSound() {
+        return SoundEvents.HONEY_DRINK;
     }
 
     @Override
-    public SoundEvent getEatSound() {
-        return SoundEvents.ITEM_HONEY_BOTTLE_DRINK;
+    public SoundEvent getEatingSound() {
+        return SoundEvents.HONEY_DRINK;
     }
 }

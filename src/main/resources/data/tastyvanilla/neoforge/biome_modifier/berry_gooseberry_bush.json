@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:old_growth_birch_forest"
+  ],
+  "features": "tastyvanilla:berry_gooseberry_bush_placed",
+  "step": "vegetal_decoration"
+}

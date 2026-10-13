@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:windswept_hills",
+    "minecraft:windswept_savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:wooded_badlands"
+  ],
+  "features": "tastyvanilla:berry_goji_berry_bush_placed",
+  "step": "vegetal_decoration"
+}

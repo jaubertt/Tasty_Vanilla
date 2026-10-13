@@ -1,31 +1,41 @@
 package tastyvanilla;
 
-import net.fabricmc.api.ClientModInitializer;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import tastyvanilla.block.ModBlocks;
 
-public class TastyVanillaClient implements ClientModInitializer{
-    @Override
-    public void onInitializeClient() {
+@Mod(value = TastyVanilla.MOD_ID, dist = Dist.CLIENT)
+public class TastyVanillaClient {
 
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CABBAGE_CROP, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CHILLI_CROP, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.EGGPLANT_CROP, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GARLIC_CROP, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LETTUCE_CROP, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ONION_CROP, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SWEET_POTATO_CROP, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TOMATO_CROP, RenderLayer.getCutout());
+    public TastyVanillaClient(IEventBus modBus) {
+        modBus.addListener(TastyVanillaClient::onClientSetup);
+    }
 
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BERRY_BLACKBERRY_BUSH, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BERRY_BLUEBERRY_BUSH, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BERRY_ELDERBERRY_BUSH, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BERRY_GOJI_BERRY_BUSH, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BERRY_GOOSEBERRY_BUSH, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BERRY_RASPBERRY_BUSH, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BERRY_STRAWBERRY_BUSH, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH, RenderLayer.getCutout());
+    //CROPS AND BERRY BUSHES USE THE CUTOUT LAYER, LIKE VANILLA CROPS AND THE SWEET BERRY BUSH
+    @SuppressWarnings("deprecation")
+    private static void onClientSetup(FMLClientSetupEvent event) {
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.CABBAGE_CROP, RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.CHILLI_CROP, RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.EGGPLANT_CROP, RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GARLIC_CROP, RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.LETTUCE_CROP, RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.ONION_CROP, RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SWEET_POTATO_CROP, RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.TOMATO_CROP, RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BERRY_BLACKBERRY_BUSH, RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BERRY_BLUEBERRY_BUSH, RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BERRY_ELDERBERRY_BUSH, RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BERRY_GOJI_BERRY_BUSH, RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BERRY_GOOSEBERRY_BUSH, RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BERRY_RASPBERRY_BUSH, RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BERRY_STRAWBERRY_BUSH, RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BERRY_WHITE_CURRANT_BERRY_BUSH, RenderType.cutout());
     }
 }
 
