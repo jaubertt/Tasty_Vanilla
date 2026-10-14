@@ -85,7 +85,7 @@ public class ModLootTableModifiers {
             //MOOSHROOM: NOT HERE. Its beef is replaced on purpose, so it keeps its JSON file:
             //src/main/resources/data/minecraft/loot_table/entities/mooshroom.json
 
-            //CHESTS: item, weight, min count, max count (added to the chest's main pool, like your old JSON files)
+            //CHESTS: item, weight, min count, max count (added to the chest's main pool, like the old JSON files)
             if (key.equals(LootTables.VILLAGE_BUTCHER_CHEST)) {
                 addToMainPool(tableBuilder,
                         chestItem(Items.CHICKEN, 3, 1, 3),
@@ -108,7 +108,7 @@ public class ModLootTableModifiers {
             if (key.equals(LootTables.VILLAGE_FISHER_CHEST)) {
                 addToMainPool(tableBuilder,
                         // Extra Cod and Salmon on top of vanilla's own entries (weights 2 and 1),
-                        // so the totals stay 6 and 6 like in your old JSON file.
+                        // so the totals stay 6 and 6 like in the old JSON file.
                         chestItem(Items.COD, 4, 1, 3),
                         chestItem(Items.SALMON, 5, 1, 3),
                         chestItem(ModItems.RAW_MEAT_SQUID, 6, 1, 3),
@@ -214,7 +214,7 @@ public class ModLootTableModifiers {
                 .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(min, max)));
     }
 
-    // Adds entries to the FIRST pool of a table, which is the main pool in every vanilla chest you use.
+    // Adds entries to the FIRST pool of a table, which is the main pool in every vanilla chest used here.
     // Vanilla's other pools (the shipwreck's armor trim) are left untouched.
     private static void addToMainPool(LootTable.Builder tableBuilder, LootPoolEntry.Builder<?>... entries) {
         AtomicBoolean isFirstPool = new AtomicBoolean(true);
